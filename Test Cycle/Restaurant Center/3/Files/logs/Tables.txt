@@ -1,0 +1,24 @@
+[2025-10-30 15:26:39] Go to Setup Restaurant Section - PASSED
+[2025-10-30 15:27:01] Searched for table 34 - PASSED
+[2025-10-30 15:27:01] Table clicked - PASSED
+[2025-10-30 15:27:01]  Edit table form appeared - PASSED
+[2025-10-30 15:27:12]  Table cancel34  - PASSED
+[2025-10-30 15:27:12]  Clear search table 34  - PASSED
+[2025-10-30 15:27:22]  Clicked add new table - PASSED
+[2025-10-30 15:27:27] Entered Table #/Name: TABLE 99 - PASSED
+[2025-10-30 15:27:31] Entered No. of Pax: 4 - PASSED
+[2025-10-30 15:27:37] Entered Table Floor/Area: 1st Floor - PASSED
+[2025-10-30 15:27:49] Click add/save table - PASSED
+[2025-10-30 15:27:52] New table added successfully - PASSED
+[2025-10-30 16:48:58] Go to Setup Restaurant Section - PASSED
+[2025-10-30 16:49:20] Searched for table 34 - PASSED
+[2025-10-30 16:49:20] Table clicked - PASSED
+[2025-10-30 16:49:20]  Edit table form appeared - PASSED
+[2025-10-30 16:49:30]  Table cancel34  - PASSED
+[2025-10-30 16:49:30]  Clear search table 34  - PASSED
+[2025-10-30 16:49:41]  Clicked add new table - PASSED
+[2025-10-30 16:49:45] Entered Table #/Name: TABLE 99 - PASSED
+[2025-10-30 16:49:48] Entered No. of Pax: 4 - PASSED
+[2025-10-30 16:49:53] Entered Table Floor/Area: 1st Floor - PASSED
+[2025-10-30 16:50:05] Click add/save table - PASSED
+[2025-10-30 16:50:08] New table added successfully - PASSED

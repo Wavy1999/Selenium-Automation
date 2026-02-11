@@ -1,0 +1,2583 @@
+[2025-10-27 13:52:52] Selected HQ branch option - PASSED
+[2025-10-27 13:53:07] Clicked branch confirmation button - PASSED
+[2025-10-27 13:53:52] Home Completed - PASSED
+[2025-10-27 14:01:48] Orders Completed - PASSED
+[2025-10-27 14:02:18] Orders Completed - PASSED
+[2025-10-27 14:09:42] Selected HQ branch option - PASSED
+[2025-10-27 14:09:57] Clicked branch confirmation button - PASSED
+[2025-10-27 14:10:42] Home Completed - PASSED
+[2025-10-27 14:46:28] Selected HQ branch option - PASSED
+[2025-10-27 14:46:44] Clicked branch confirmation button - PASSED
+[2025-10-27 14:47:49]  🏗️ Bookings Completed - PASSED
+[2025-10-27 14:47:56] Logout Completed - PASSED
+[2025-10-27 14:47:56] All modules has succesfully executed - PASSED
+[2025-10-27 14:48:01] Closed browser and ended session - PASSED
+[2025-10-27 15:15:10] Selected HQ branch option - PASSED
+[2025-10-27 15:15:25] Clicked branch confirmation button - PASSED
+[2025-10-27 15:16:09]  🏗️ Bookings Completed - PASSED
+[2025-10-27 15:16:21] Logout Completed - PASSED
+[2025-10-27 15:16:21] All modules has succesfully executed - PASSED
+[2025-10-27 15:16:26] Closed browser and ended session - PASSED
+[2025-10-27 15:33:49] Selected HQ branch option - PASSED
+[2025-10-27 15:34:04] Clicked branch confirmation button - PASSED
+[2025-10-27 15:35:01]  🏗️ Bookings Completed - PASSED
+[2025-10-27 15:38:37] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 15:38:42] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 15:38:47] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 15:38:52] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 15:38:57] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 15:39:20] Selected HQ branch option - PASSED
+[2025-10-27 15:39:35] Clicked branch confirmation button - PASSED
+[2025-10-27 15:40:25]  🏗️ Bookings Completed - PASSED
+[2025-10-27 15:40:45] Logout Completed - PASSED
+[2025-10-27 15:40:45] All modules has succesfully executed - PASSED
+[2025-10-27 15:40:50] Closed browser and ended session - PASSED
+[2025-10-27 15:44:04] Selected HQ branch option - PASSED
+[2025-10-27 15:44:19] Clicked branch confirmation button - PASSED
+[2025-10-27 15:44:56]  🏗️ Bookings Completed - PASSED
+[2025-10-27 15:45:02] Logout Completed - PASSED
+[2025-10-27 15:45:02] All modules has succesfully executed - PASSED
+[2025-10-27 15:45:08] Closed browser and ended session - PASSED
+[2025-10-27 15:48:00] Selected HQ branch option - PASSED
+[2025-10-27 15:48:15] Clicked branch confirmation button - PASSED
+[2025-10-27 15:49:06]  🏗️ Bookings Completed - PASSED
+[2025-10-27 15:49:27] Logout Completed - PASSED
+[2025-10-27 15:49:27] All modules has succesfully executed - PASSED
+[2025-10-27 15:49:32] Closed browser and ended session - PASSED
+[2025-10-27 16:02:44] Selected HQ branch option - PASSED
+[2025-10-27 16:03:00] Clicked branch confirmation button - PASSED
+[2025-10-27 16:03:42]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:03:49] Logout Completed - PASSED
+[2025-10-27 16:03:49] All modules has succesfully executed - PASSED
+[2025-10-27 16:03:54] Closed browser and ended session - PASSED
+[2025-10-27 16:09:35] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:09:46] Selected HQ branch option - PASSED
+[2025-10-27 16:10:02] Clicked branch confirmation button - PASSED
+[2025-10-27 16:11:04]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:11:11] Logout Completed - PASSED
+[2025-10-27 16:11:11] All modules has succesfully executed - PASSED
+[2025-10-27 16:11:16] Closed browser and ended session - PASSED
+[2025-10-27 16:15:54] Selected HQ branch option - PASSED
+[2025-10-27 16:16:09] Clicked branch confirmation button - PASSED
+[2025-10-27 16:16:36]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:16:42] Logout Completed - PASSED
+[2025-10-27 16:16:42] All modules has succesfully executed - PASSED
+[2025-10-27 16:16:48] Closed browser and ended session - PASSED
+[2025-10-27 16:17:19] Selected HQ branch option - PASSED
+[2025-10-27 16:17:34] Clicked branch confirmation button - PASSED
+[2025-10-27 16:18:20]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:18:26] Logout Completed - PASSED
+[2025-10-27 16:18:26] All modules has succesfully executed - PASSED
+[2025-10-27 16:18:31] Closed browser and ended session - PASSED
+[2025-10-27 16:23:11] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:16] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:21] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:26] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:31] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:36] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:23:57] Selected HQ branch option - PASSED
+[2025-10-27 16:24:12] Clicked branch confirmation button - PASSED
+[2025-10-27 16:24:52]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:24:58] Logout Completed - PASSED
+[2025-10-27 16:24:58] All modules has succesfully executed - PASSED
+[2025-10-27 16:25:04] Closed browser and ended session - PASSED
+[2025-10-27 16:27:14] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:19] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:24] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:29] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:34] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:39] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:44] Attempt 7 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:27:49] Attempt 8 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:07] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:12] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:17] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:22] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:27] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:32] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:37] Attempt 7 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:42] Attempt 8 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:47] Attempt 9 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:52] Attempt 10 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 16:28:52] ERROR: Failed to select a random branch option after multiple attempts
+NoneType: None
+[2025-10-27 16:29:27] ERROR: An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3132, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+[2025-10-27 16:29:27] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3132, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3132, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+[2025-10-27 16:29:27]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:29:42] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 18, in Logout
+    Nav_bar_logout = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/header/div/nav/ul/li[9]/a/span[2]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 18, in Logout
+    Nav_bar_logout = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/header/div/nav/ul/li[9]/a/span[2]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+[2025-10-27 16:29:47] Logout Completed - PASSED
+[2025-10-27 16:29:47] All modules has succesfully executed - PASSED
+[2025-10-27 16:29:52] Closed browser and ended session - PASSED
+[2025-10-27 16:38:59] Selected HQ branch option - PASSED
+[2025-10-27 16:39:14] Clicked branch confirmation button - PASSED
+[2025-10-27 16:39:45]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:39:54] Logout Completed - PASSED
+[2025-10-27 16:39:54] All modules has succesfully executed - PASSED
+[2025-10-27 16:39:59] Closed browser and ended session - PASSED
+[2025-10-27 16:46:57] Selected HQ branch option - PASSED
+[2025-10-27 16:47:13] Clicked branch confirmation button - PASSED
+[2025-10-27 16:47:46]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:48:07] Logout Completed - PASSED
+[2025-10-27 16:48:07] All modules has succesfully executed - PASSED
+[2025-10-27 16:48:12] Closed browser and ended session - PASSED
+[2025-10-27 16:55:34] Selected HQ branch option - PASSED
+[2025-10-27 16:55:49] Clicked branch confirmation button - PASSED
+[2025-10-27 16:56:40]  🏗️ Bookings Completed - PASSED
+[2025-10-27 16:57:00] Logout Completed - PASSED
+[2025-10-27 16:57:00] All modules has succesfully executed - PASSED
+[2025-10-27 16:57:05] Closed browser and ended session - PASSED
+[2025-10-27 16:59:31] Selected HQ branch option - PASSED
+[2025-10-27 16:59:46] Clicked branch confirmation button - PASSED
+[2025-10-27 17:00:17]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:00:27] Logout Completed - PASSED
+[2025-10-27 17:00:27] All modules has succesfully executed - PASSED
+[2025-10-27 17:00:32] Closed browser and ended session - PASSED
+[2025-10-27 17:01:13] Selected HQ branch option - PASSED
+[2025-10-27 17:01:28] Clicked branch confirmation button - PASSED
+[2025-10-27 17:02:00]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:02:21] Logout Completed - PASSED
+[2025-10-27 17:02:21] All modules has succesfully executed - PASSED
+[2025-10-27 17:02:26] Closed browser and ended session - PASSED
+[2025-10-27 17:08:07] Selected HQ branch option - PASSED
+[2025-10-27 17:08:22] Clicked branch confirmation button - PASSED
+[2025-10-27 17:09:30]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:09:51] Logout Completed - PASSED
+[2025-10-27 17:09:51] All modules has succesfully executed - PASSED
+[2025-10-27 17:09:56] Closed browser and ended session - PASSED
+[2025-10-27 17:10:33] Selected HQ branch option - PASSED
+[2025-10-27 17:10:48] Clicked branch confirmation button - PASSED
+[2025-10-27 17:11:43]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:11:43] All modules has succesfully executed - PASSED
+[2025-10-27 17:11:48] Closed browser and ended session - PASSED
+[2025-10-27 17:23:30] Selected HQ branch option - PASSED
+[2025-10-27 17:23:45] Clicked branch confirmation button - PASSED
+[2025-10-27 17:24:23]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:24:44] Logout Completed - PASSED
+[2025-10-27 17:24:44] All modules has succesfully executed - PASSED
+[2025-10-27 17:24:49] Closed browser and ended session - PASSED
+[2025-10-27 17:25:08] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:13] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:18] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:23] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:28] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:33] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:38] Attempt 7 to select random branch option failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x102ce80]
+	(No symbol) [0x0x104b81b]
+	(No symbol) [0x0x10b1c25]
+	(No symbol) [0x0x10cc4d9]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:43] Attempt 8 to select random branch option failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:48] Attempt 9 to select random branch option failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:53] Attempt 10 to select random branch option failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:25:53] ERROR: Failed to select a random branch option after multiple attempts
+NoneType: None
+[2025-10-27 17:25:58] ERROR: An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3127, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+[2025-10-27 17:25:58] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3127, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Setup_Restaurant\Table.py", line 22, in Tables
+    Restaurant_Home_Dashboard(driver,log_file_path)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 3127, in Restaurant_Home_Dashboard
+    Restaurant_Center = WebDriverWait(driver, 30).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103da6b]
+	(No symbol) [0x0x107b5ab]
+	(No symbol) [0x0x10ab086]
+	(No symbol) [0x0x10a667c]
+	(No symbol) [0x0x10a5bf3]
+	(No symbol) [0x0x100e72d]
+	(No symbol) [0x0x100ecae]
+	(No symbol) [0x0x100f14d]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	(No symbol) [0x0x100e3e3]
+	(No symbol) [0x0x100db60]
+	GetHandleVerifier [0x0x15ec20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+
+[2025-10-27 17:26:21] Selected HQ branch option - PASSED
+[2025-10-27 17:26:37] Clicked branch confirmation button - PASSED
+[2025-10-27 17:27:12]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:27:32] Logout Completed - PASSED
+[2025-10-27 17:27:32] All modules has succesfully executed - PASSED
+[2025-10-27 17:27:37] Closed browser and ended session - PASSED
+[2025-10-27 17:29:25] Selected HQ branch option - PASSED
+[2025-10-27 17:29:40] Clicked branch confirmation button - PASSED
+[2025-10-27 17:30:24]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:30:45] Logout Completed - PASSED
+[2025-10-27 17:30:45] All modules has succesfully executed - PASSED
+[2025-10-27 17:30:50] Closed browser and ended session - PASSED
+[2025-10-27 17:32:53] Selected HQ branch option - PASSED
+[2025-10-27 17:33:08] Clicked branch confirmation button - PASSED
+[2025-10-27 17:34:06]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:34:12] Logout Completed - PASSED
+[2025-10-27 17:34:12] All modules has succesfully executed - PASSED
+[2025-10-27 17:34:17] Closed browser and ended session - PASSED
+[2025-10-27 17:35:48] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:35:53] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:35:58] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:03] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:08] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:13] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:18] Attempt 7 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:23] Attempt 8 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:28] Attempt 9 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:34] Attempt 10 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x124fe43+66515]
+	GetHandleVerifier [0x0x124fe84+66580]
+	(No symbol) [0x0x103dc48]
+	(No symbol) [0x0x1088704]
+	(No symbol) [0x0x1088aab]
+	(No symbol) [0x0x10cf482]
+	(No symbol) [0x0x10ab214]
+	(No symbol) [0x0x10ccba7]
+	(No symbol) [0x0x10aafc6]
+	(No symbol) [0x0x107c2ca]
+	(No symbol) [0x0x107d154]
+	GetHandleVerifier [0x0x14a7353+2521315]
+	GetHandleVerifier [0x0x14a22d3+2500707]
+	GetHandleVerifier [0x0x1277c94+229924]
+	GetHandleVerifier [0x0x12681f8+165768]
+	GetHandleVerifier [0x0x126ecad+193085]
+	GetHandleVerifier [0x0x1258158+100072]
+	GetHandleVerifier [0x0x12582f0+100480]
+	GetHandleVerifier [0x0x12425aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-27 17:36:34] ERROR: Failed to select a random branch option after multiple attempts
+NoneType: None
+[2025-10-27 17:36:55] Selected HQ branch option - PASSED
+[2025-10-27 17:37:10] Clicked branch confirmation button - PASSED
+[2025-10-27 17:37:48]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:38:00] Logout Completed - PASSED
+[2025-10-27 17:38:00] All modules has succesfully executed - PASSED
+[2025-10-27 17:38:06] Closed browser and ended session - PASSED
+[2025-10-27 17:40:25] Selected HQ branch option - PASSED
+[2025-10-27 17:40:41] Clicked branch confirmation button - PASSED
+[2025-10-27 17:41:43]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:41:49] Logout Completed - PASSED
+[2025-10-27 17:41:49] All modules has succesfully executed - PASSED
+[2025-10-27 17:41:54] Closed browser and ended session - PASSED
+[2025-10-27 17:44:30] Selected HQ branch option - PASSED
+[2025-10-27 17:44:45] Clicked branch confirmation button - PASSED
+[2025-10-27 17:46:37]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:46:44] Logout Completed - PASSED
+[2025-10-27 17:46:44] All modules has succesfully executed - PASSED
+[2025-10-27 17:46:49] Closed browser and ended session - PASSED
+[2025-10-27 17:47:58] Selected HQ branch option - PASSED
+[2025-10-27 17:48:13] Clicked branch confirmation button - PASSED
+[2025-10-27 17:50:08] Selected HQ branch option - PASSED
+[2025-10-27 17:50:23] Clicked branch confirmation button - PASSED
+[2025-10-27 17:52:02]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:52:09] Logout Completed - PASSED
+[2025-10-27 17:52:09] All modules has succesfully executed - PASSED
+[2025-10-27 17:52:14] Closed browser and ended session - PASSED
+[2025-10-27 17:56:02] Selected HQ branch option - PASSED
+[2025-10-27 17:56:17] Clicked branch confirmation button - PASSED
+[2025-10-27 17:58:00]  🏗️ Bookings Completed - PASSED
+[2025-10-27 17:58:07] Logout Completed - PASSED
+[2025-10-27 17:58:07] All modules has succesfully executed - PASSED
+[2025-10-27 17:58:41] Selected HQ branch option - PASSED
+[2025-10-27 17:58:56] Clicked branch confirmation button - PASSED
+[2025-10-27 18:00:34]  🏗️ Bookings Completed - PASSED
+[2025-10-27 18:00:41] Logout Completed - PASSED
+[2025-10-27 18:00:41] All modules has succesfully executed - PASSED
+[2025-10-28 09:22:25] Selected HQ branch option - PASSED
+[2025-10-28 09:22:40] Clicked branch confirmation button - PASSED
+[2025-10-28 09:24:05]  🏗️ Bookings Completed - PASSED
+[2025-10-28 09:24:12] Logout Completed - PASSED
+[2025-10-28 09:24:12] All modules has succesfully executed - PASSED
+[2025-10-28 09:24:17] Closed browser and ended session - PASSED
+[2025-10-28 09:47:01] Selected HQ branch option - PASSED
+[2025-10-28 09:47:17] Clicked branch confirmation button - PASSED
+[2025-10-28 09:50:41] Selected HQ branch option - PASSED
+[2025-10-28 09:50:56] Clicked branch confirmation button - PASSED
+[2025-10-28 09:57:20] Selected HQ branch option - PASSED
+[2025-10-28 09:57:36] Clicked branch confirmation button - PASSED
+[2025-10-28 10:03:25] Selected HQ branch option - PASSED
+[2025-10-28 10:03:40] Clicked branch confirmation button - PASSED
+[2025-10-28 10:05:34] Selected HQ branch option - PASSED
+[2025-10-28 10:05:49] Clicked branch confirmation button - PASSED
+[2025-10-28 10:10:44]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:10:50] Logout Completed - PASSED
+[2025-10-28 10:10:50] All modules has succesfully executed - PASSED
+[2025-10-28 10:10:55] Closed browser and ended session - PASSED
+[2025-10-28 10:11:45] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:11:50] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:12:08] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:12:13] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:12:18] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:12:40] Selected HQ branch option - PASSED
+[2025-10-28 10:12:56] Clicked branch confirmation button - PASSED
+[2025-10-28 10:17:25]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:17:32] Logout Completed - PASSED
+[2025-10-28 10:17:32] All modules has succesfully executed - PASSED
+[2025-10-28 10:17:37] Closed browser and ended session - PASSED
+[2025-10-28 10:18:50] Selected HQ branch option - PASSED
+[2025-10-28 10:19:06] Clicked branch confirmation button - PASSED
+[2025-10-28 10:22:32]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:22:39] Logout Completed - PASSED
+[2025-10-28 10:22:39] All modules has succesfully executed - PASSED
+[2025-10-28 10:22:44] Closed browser and ended session - PASSED
+[2025-10-28 10:30:33] Selected HQ branch option - PASSED
+[2025-10-28 10:30:48] Clicked branch confirmation button - PASSED
+[2025-10-28 10:35:13]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:35:19] Logout Completed - PASSED
+[2025-10-28 10:35:19] All modules has succesfully executed - PASSED
+[2025-10-28 10:35:24] Closed browser and ended session - PASSED
+[2025-10-28 10:37:49] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 10:38:10] Selected HQ branch option - PASSED
+[2025-10-28 10:38:26] Clicked branch confirmation button - PASSED
+[2025-10-28 10:43:32]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:43:39] Logout Completed - PASSED
+[2025-10-28 10:43:39] All modules has succesfully executed - PASSED
+[2025-10-28 10:43:44] Closed browser and ended session - PASSED
+[2025-10-28 10:45:41] Selected HQ branch option - PASSED
+[2025-10-28 10:45:56] Clicked branch confirmation button - PASSED
+[2025-10-28 10:50:53]  🏗️ Bookings Completed - PASSED
+[2025-10-28 10:51:00] Logout Completed - PASSED
+[2025-10-28 10:51:00] All modules has succesfully executed - PASSED
+[2025-10-28 10:51:05] Closed browser and ended session - PASSED
+[2025-10-28 11:03:04] Selected HQ branch option - PASSED
+[2025-10-28 11:03:20] Clicked branch confirmation button - PASSED
+[2025-10-28 11:04:43]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:04:55] Logout Completed - PASSED
+[2025-10-28 11:04:55] All modules has succesfully executed - PASSED
+[2025-10-28 11:05:00] Closed browser and ended session - PASSED
+[2025-10-28 11:06:39] Selected HQ branch option - PASSED
+[2025-10-28 11:06:55] Clicked branch confirmation button - PASSED
+[2025-10-28 11:08:56]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:09:03] Logout Completed - PASSED
+[2025-10-28 11:09:03] All modules has succesfully executed - PASSED
+[2025-10-28 11:09:08] Closed browser and ended session - PASSED
+[2025-10-28 11:12:38] Selected HQ branch option - PASSED
+[2025-10-28 11:12:53] Clicked branch confirmation button - PASSED
+[2025-10-28 11:14:43]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:14:50] Logout Completed - PASSED
+[2025-10-28 11:14:50] All modules has succesfully executed - PASSED
+[2025-10-28 11:14:55] Closed browser and ended session - PASSED
+[2025-10-28 11:25:01] Selected HQ branch option - PASSED
+[2025-10-28 11:25:16] Clicked branch confirmation button - PASSED
+[2025-10-28 11:27:36]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:38:11] Selected HQ branch option - PASSED
+[2025-10-28 11:38:26] Clicked branch confirmation button - PASSED
+[2025-10-28 11:39:37]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:39:45] Logout Completed - PASSED
+[2025-10-28 11:39:45] All modules has succesfully executed - PASSED
+[2025-10-28 11:42:25] Selected HQ branch option - PASSED
+[2025-10-28 11:42:40] Clicked branch confirmation button - PASSED
+[2025-10-28 11:46:17]  🏗️ Bookings Completed - PASSED
+[2025-10-28 11:46:28] Logout Completed - PASSED
+[2025-10-28 11:46:28] All modules has succesfully executed - PASSED
+[2025-10-28 11:46:33] Closed browser and ended session - PASSED
+[2025-10-28 12:52:03] Selected HQ branch option - PASSED
+[2025-10-28 12:52:18] Clicked branch confirmation button - PASSED
+[2025-10-28 12:53:21] Selected HQ branch option - PASSED
+[2025-10-28 12:53:37] Clicked branch confirmation button - PASSED
+[2025-10-28 12:56:18]  🏗️ Bookings Completed - PASSED
+[2025-10-28 12:56:24] Logout Completed - PASSED
+[2025-10-28 12:56:24] All modules has succesfully executed - PASSED
+[2025-10-28 12:56:29] Closed browser and ended session - PASSED
+[2025-10-28 12:58:32] Selected HQ branch option - PASSED
+[2025-10-28 12:58:47] Clicked branch confirmation button - PASSED
+[2025-10-28 13:01:01]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:01:07] Logout Completed - PASSED
+[2025-10-28 13:01:07] All modules has succesfully executed - PASSED
+[2025-10-28 13:01:12] Closed browser and ended session - PASSED
+[2025-10-28 13:23:00] Selected HQ branch option - PASSED
+[2025-10-28 13:23:15] Clicked branch confirmation button - PASSED
+[2025-10-28 13:24:11]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:24:17] Logout Completed - PASSED
+[2025-10-28 13:24:17] All modules has succesfully executed - PASSED
+[2025-10-28 13:24:23] Closed browser and ended session - PASSED
+[2025-10-28 13:32:05] Selected HQ branch option - PASSED
+[2025-10-28 13:32:20] Clicked branch confirmation button - PASSED
+[2025-10-28 13:33:14]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:33:21] Logout Completed - PASSED
+[2025-10-28 13:33:21] All modules has succesfully executed - PASSED
+[2025-10-28 13:33:26] Closed browser and ended session - PASSED
+[2025-10-28 13:37:17] Selected HQ branch option - PASSED
+[2025-10-28 13:37:32] Clicked branch confirmation button - PASSED
+[2025-10-28 13:39:30]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:39:36] Logout Completed - PASSED
+[2025-10-28 13:39:36] All modules has succesfully executed - PASSED
+[2025-10-28 13:39:41] Closed browser and ended session - PASSED
+[2025-10-28 13:44:03] Selected HQ branch option - PASSED
+[2025-10-28 13:44:18] Clicked branch confirmation button - PASSED
+[2025-10-28 13:46:01]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:50:10]  🏗️ Bookings Completed - PASSED
+[2025-10-28 13:53:17]  🏗️ Bookings Completed - PASSED
+[2025-10-28 14:08:51] Selected HQ branch option - PASSED
+[2025-10-28 14:09:06] Clicked branch confirmation button - PASSED
+[2025-10-28 14:09:56] Selected HQ branch option - PASSED
+[2025-10-28 14:10:11] Clicked branch confirmation button - PASSED
+[2025-10-28 14:12:18] Selected HQ branch option - PASSED
+[2025-10-28 14:12:34] Clicked branch confirmation button - PASSED
+[2025-10-28 14:14:10] Selected HQ branch option - PASSED
+[2025-10-28 14:14:25] Clicked branch confirmation button - PASSED
+[2025-10-28 14:15:08] Home Completed - PASSED
+[2025-10-28 14:16:03] Orders Completed - PASSED
+[2025-10-28 14:17:08] Selected HQ branch option - PASSED
+[2025-10-28 14:17:23] Clicked branch confirmation button - PASSED
+[2025-10-28 14:17:50] Home Completed - PASSED
+[2025-10-28 14:30:45] Orders Completed - PASSED
+[2025-10-28 14:32:08] Selected HQ branch option - PASSED
+[2025-10-28 14:32:23] Clicked branch confirmation button - PASSED
+[2025-10-28 14:34:32]  🏨 Bookings Completed - PASSED
+[2025-10-28 14:36:00]  Tables Completed - PASSED
+[2025-10-28 14:40:09]  Menu Completed - PASSED
+[2025-10-28 14:43:24]   Printer Completed - PASSED
+[2025-10-28 14:43:34]   Invoice Completed - PASSED
+[2025-10-28 14:43:41] Logout Completed - PASSED
+[2025-10-28 14:43:41] All modules has succesfully executed - PASSED
+[2025-10-28 14:43:47] Closed browser and ended session - PASSED
+[2025-10-28 14:44:24] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 14:44:29] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 14:44:34] Attempt 3 to select random branch option failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xd5ce80]
+	(No symbol) [0x0xd7b81b]
+	(No symbol) [0x0xde1c25]
+	(No symbol) [0x0xdfc4d9]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 14:44:49] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 14:45:03] Selected HQ branch option - PASSED
+[2025-10-28 14:45:18] Clicked branch confirmation button - PASSED
+[2025-10-28 14:47:08] Selected HQ branch option - PASSED
+[2025-10-28 14:47:24] Clicked branch confirmation button - PASSED
+[2025-10-28 14:49:42]   Invoice Completed - PASSED
+[2025-10-28 14:49:49] Logout Completed - PASSED
+[2025-10-28 14:49:49] All modules has succesfully executed - PASSED
+[2025-10-28 14:49:54] Closed browser and ended session - PASSED
+[2025-10-28 15:00:06] Selected HQ branch option - PASSED
+[2025-10-28 15:00:46] Selected HQ branch option - PASSED
+[2025-10-28 15:01:01] Clicked branch confirmation button - PASSED
+[2025-10-28 15:04:30]  Menu Completed - PASSED
+[2025-10-28 15:07:20] Selected HQ branch option - PASSED
+[2025-10-28 15:07:35] Clicked branch confirmation button - PASSED
+[2025-10-28 15:10:03] Selected HQ branch option - PASSED
+[2025-10-28 15:10:19] Clicked branch confirmation button - PASSED
+[2025-10-28 15:13:33]  Menu Completed - PASSED
+[2025-10-28 15:13:39] Logout Completed - PASSED
+[2025-10-28 15:13:39] All modules has succesfully executed - PASSED
+[2025-10-28 15:13:45] Closed browser and ended session - PASSED
+[2025-10-28 15:14:13] Selected HQ branch option - PASSED
+[2025-10-28 15:14:28] Clicked branch confirmation button - PASSED
+[2025-10-28 15:19:22]  Menu Completed - PASSED
+[2025-10-28 15:19:29] Logout Completed - PASSED
+[2025-10-28 15:19:29] All modules has succesfully executed - PASSED
+[2025-10-28 15:19:34] Closed browser and ended session - PASSED
+[2025-10-28 15:24:07] Selected HQ branch option - PASSED
+[2025-10-28 15:24:22] Clicked branch confirmation button - PASSED
+[2025-10-28 15:29:14]  Menu Completed - PASSED
+[2025-10-28 15:29:21] Logout Completed - PASSED
+[2025-10-28 15:29:21] All modules has succesfully executed - PASSED
+[2025-10-28 15:36:30] Selected HQ branch option - PASSED
+[2025-10-28 15:36:45] Clicked branch confirmation button - PASSED
+[2025-10-28 15:40:54]  Menu Completed - PASSED
+[2025-10-28 15:41:09] Logout Completed - PASSED
+[2025-10-28 15:41:09] All modules has succesfully executed - PASSED
+[2025-10-28 15:41:14] Closed browser and ended session - PASSED
+[2025-10-28 15:43:53] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 15:43:58] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 15:44:03] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0xf7fe43+66515]
+	GetHandleVerifier [0x0xf7fe84+66580]
+	(No symbol) [0x0xd6dc48]
+	(No symbol) [0x0xdb8704]
+	(No symbol) [0x0xdb8aab]
+	(No symbol) [0x0xdff482]
+	(No symbol) [0x0xddb214]
+	(No symbol) [0x0xdfcba7]
+	(No symbol) [0x0xddafc6]
+	(No symbol) [0x0xdac2ca]
+	(No symbol) [0x0xdad154]
+	GetHandleVerifier [0x0x11d7353+2521315]
+	GetHandleVerifier [0x0x11d22d3+2500707]
+	GetHandleVerifier [0x0xfa7c94+229924]
+	GetHandleVerifier [0x0xf981f8+165768]
+	GetHandleVerifier [0x0xf9ecad+193085]
+	GetHandleVerifier [0x0xf88158+100072]
+	GetHandleVerifier [0x0xf882f0+100480]
+	GetHandleVerifier [0x0xf725aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-28 15:44:26] Selected HQ branch option - PASSED
+[2025-10-28 15:44:42] Clicked branch confirmation button - PASSED
+[2025-10-28 15:56:49] Selected HQ branch option - PASSED
+[2025-10-28 15:57:04] Clicked branch confirmation button - PASSED
+[2025-10-28 16:01:31]  Menu Completed - PASSED
+[2025-10-28 16:01:46] Logout Completed - PASSED
+[2025-10-28 16:01:46] All modules has succesfully executed - PASSED
+[2025-10-28 16:01:51] Closed browser and ended session - PASSED
+[2025-10-28 16:04:21] Selected HQ branch option - PASSED
+[2025-10-28 16:04:37] Clicked branch confirmation button - PASSED
+[2025-10-28 16:17:21] Selected HQ branch option - PASSED
+[2025-10-28 16:17:36] Clicked branch confirmation button - PASSED
+[2025-10-28 16:31:40] Selected HQ branch option - PASSED
+[2025-10-28 16:31:55] Clicked branch confirmation button - PASSED
+[2025-10-28 16:36:54] Selected HQ branch option - PASSED
+[2025-10-28 16:37:10] Clicked branch confirmation button - PASSED
+[2025-10-28 16:43:17] Selected HQ branch option - PASSED
+[2025-10-28 16:43:32] Clicked branch confirmation button - PASSED
+[2025-10-28 16:47:49]  Menu Completed - PASSED
+[2025-10-28 16:47:56] Logout Completed - PASSED
+[2025-10-28 16:47:56] All modules has succesfully executed - PASSED
+[2025-10-28 16:48:01] Closed browser and ended session - PASSED
+[2025-10-28 17:39:15] Selected HQ branch option - PASSED
+[2025-10-28 17:39:30] Clicked branch confirmation button - PASSED
+[2025-10-28 17:39:42] Logout Completed - PASSED
+[2025-10-28 17:39:42] All modules has succesfully executed - PASSED
+[2025-10-28 17:39:47] Closed browser and ended session - PASSED
+[2025-10-28 17:42:30] Selected HQ branch option - PASSED
+[2025-10-28 17:42:45] Clicked branch confirmation button - PASSED
+[2025-10-28 17:42:57] Logout Completed - PASSED
+[2025-10-28 17:42:57] All modules has succesfully executed - PASSED
+[2025-10-28 17:43:02] Closed browser and ended session - PASSED
+[2025-10-28 17:43:26] Selected HQ branch option - PASSED
+[2025-10-28 17:43:41] Clicked branch confirmation button - PASSED
+[2025-10-28 17:43:53] Logout Completed - PASSED
+[2025-10-28 17:43:53] All modules has succesfully executed - PASSED
+[2025-10-28 17:43:59] Closed browser and ended session - PASSED
+[2025-10-29 09:16:44] Selected HQ branch option - PASSED
+[2025-10-29 09:24:42] Setup completed successfully - PASSED
+[2025-10-29 09:24:43] Login successful with s1 - PASSED
+[2025-10-29 09:24:53] Selected HQ branch option - PASSED
+[2025-10-29 09:25:08] Clicked branch confirmation button - PASSED
+[2025-10-29 09:25:11] Branch selection completed - PASSED
+[2025-10-29 09:25:51] Home - PASSED (Duration: 39.29s) - PASSED
+[2025-10-29 09:37:35] Orders - PASSED (Duration: 704.36s) - PASSED
+[2025-10-29 09:37:35] ERROR: Manage Orders - FAILED: 'module' object is not callable
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\Resto_Admin.py", line 203, in run_restaurant_center_tests
+    lambda d: d.execute_script('return document.readyState') == 'complete'
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+[2025-10-29 09:37:35] Screenshot saved: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\..\..\Files\screenshots\Admin\Manage_Orders_failed_20251029_093735.png - FAILED
+[2025-10-29 09:38:19] ERROR: Error clicking gridcell: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Restaurant_Center\Booking\Bookings.py", line 128, in Bookings
+    day_element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(day_cell))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-10-29 09:39:07] Bookings - PASSED (Duration: 91.28s) - PASSED
+[2025-10-29 09:40:37] Setup Restaurant (Tables) - PASSED (Duration: 90.01s) - PASSED
+[2025-10-29 09:44:36] Menu - PASSED (Duration: 239.66s) - PASSED
+[2025-10-29 09:44:41] Logout completed - PASSED
+[2025-10-29 09:44:41] 
+Test Summary - Total: 6, Passed: 5, Failed: 1, Skipped: 0 - FAILED
+[2025-10-29 09:44:41] All automation completed in 20m 3s - PASSED
+[2025-10-29 09:44:46] Browser closed and session ended - PASSED
+[2025-10-29 12:01:28] Setup completed successfully - PASSED
+[2025-10-29 12:01:29] Login successful with s1 - PASSED
+[2025-10-29 12:01:40] Selected HQ branch option - PASSED
+[2025-10-29 12:01:55] Clicked branch confirmation button - PASSED
+[2025-10-29 12:01:58] Branch selection completed - PASSED
+[2025-10-29 12:02:37] Home - PASSED (Duration: 39.02s) - PASSED
+[2025-10-29 12:10:35] Orders - PASSED (Duration: 478.11s) - PASSED
+[2025-10-29 12:11:33] Manage Orders - PASSED (Duration: 57.75s) - PASSED
+[2025-10-29 12:13:12] Bookings - PASSED (Duration: 99.00s) - PASSED
+[2025-10-29 12:14:42] Setup Restaurant (Tables) - PASSED (Duration: 89.33s) - PASSED
+[2025-10-29 12:18:42] Menu - PASSED (Duration: 240.61s) - PASSED
+[2025-10-29 12:21:52] Printer Settings - PASSED (Duration: 189.85s) - PASSED
+[2025-10-29 12:24:04] Invoice Settings - PASSED (Duration: 132.07s) - PASSED
+[2025-10-29 12:24:09] Logout completed - PASSED
+[2025-10-29 12:24:09] 
+Test Summary - Total: 8, Passed: 8, Failed: 0, Skipped: 0 - FAILED
+[2025-10-29 12:24:09] All automation completed in 22m 45s - PASSED
+[2025-10-29 12:24:14] Browser closed and session ended - PASSED
+[2025-10-29 12:51:52] Setup completed successfully - PASSED
+[2025-10-29 12:51:52] ERROR: Login failed: 'Login'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\Resto_Admin.py", line 133, in login
+    username, password = login_s1(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 27, in login_s1
+    log_file_path = MODULE_PATHS['Login']['log']
+                    ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'Login'
+[2025-10-29 12:51:52] ERROR: Critical error: 'RestaurantAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\Resto_Admin.py", line 133, in login
+    username, password = login_s1(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 27, in login_s1
+    log_file_path = MODULE_PATHS['Login']['log']
+                    ~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'Login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\Resto_Admin.py", line 318, in run
+    username, password = self.login(login_type)
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\Resto_Admin.py", line 146, in login
+    self.capture_screenshot("login_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RestaurantAutomation' object has no attribute 'capture_screenshot'
+[2025-10-29 12:51:57] Browser closed and session ended - PASSED
+[2025-10-29 12:53:30] Setup completed successfully - PASSED
+[2025-10-29 12:53:30] Login successful with s1 - PASSED
+[2025-10-29 12:53:41] Selected HQ branch option - PASSED
+[2025-10-29 12:53:56] Clicked branch confirmation button - PASSED
+[2025-10-29 12:53:59] Branch selection completed - PASSED
+[2025-10-29 12:54:38] Home - PASSED (Duration: 38.57s) - PASSED
+[2025-10-29 13:02:35] Orders - PASSED (Duration: 477.28s) - PASSED
+[2025-10-29 13:03:12] Automation interrupted by user - PASSED
+[2025-10-29 13:03:31] Browser closed and session ended - PASSED
+[2025-10-29 13:06:30] Setup completed successfully - PASSED
+[2025-10-29 13:06:30] Login successful with s1 - PASSED
+[2025-10-29 13:06:41] Selected HQ branch option - PASSED
+[2025-10-29 13:06:57] Clicked branch confirmation button - PASSED
+[2025-10-29 13:07:00] Branch selection completed - PASSED
+[2025-10-29 13:07:39] Home - PASSED (Duration: 39.34s) - PASSED
+[2025-10-29 13:15:41] Orders - PASSED (Duration: 481.47s) - PASSED
+[2025-10-29 13:16:02] Automation interrupted by user - PASSED
+[2025-10-29 13:16:21] Browser closed and session ended - PASSED
+[2025-10-29 13:24:43] Setup completed successfully - PASSED
+[2025-10-29 13:24:43] Login successful with s1 - PASSED
+[2025-10-29 13:24:54] Selected HQ branch option - PASSED
+[2025-10-29 13:25:10] Clicked branch confirmation button - PASSED
+[2025-10-29 13:25:13] Branch selection completed - PASSED
+[2025-10-29 13:25:51] Home - PASSED (Duration: 38.38s) - PASSED
+[2025-10-29 13:33:33] Orders - PASSED (Duration: 462.18s) - PASSED
+[2025-10-29 13:33:58] Automation interrupted by user - PASSED
+[2025-10-29 13:34:18] Browser closed and session ended - PASSED
+[2025-10-29 13:38:06] Setup completed successfully - PASSED
+[2025-10-29 13:38:07] Login successful with s1 - PASSED
+[2025-10-29 13:38:19] Selected HQ branch option - PASSED
+[2025-10-29 13:38:35] Clicked branch confirmation button - PASSED
+[2025-10-29 13:38:38] Branch selection completed - PASSED
+[2025-10-29 13:39:11] Home - PASSED (Duration: 33.66s) - PASSED
+[2025-10-29 13:47:31] Orders - PASSED (Duration: 499.68s) - PASSED
+[2025-10-29 13:47:49] Automation interrupted by user - PASSED
+[2025-10-29 13:48:09] Browser closed and session ended - PASSED
+[2025-10-29 13:52:25] Setup completed successfully - PASSED
+[2025-10-29 13:52:25] Login successful with s1 - PASSED
+[2025-10-29 13:52:37] Selected HQ branch option - PASSED
+[2025-10-29 13:52:52] Clicked branch confirmation button - PASSED
+[2025-10-29 13:52:55] Branch selection completed - PASSED
+[2025-10-29 13:53:35] Home - PASSED (Duration: 40.48s) - PASSED
+[2025-10-29 14:05:16] Orders - PASSED (Duration: 700.50s) - PASSED
+[2025-10-29 14:05:46] Manage Orders - PASSED (Duration: 29.98s) - PASSED
+[2025-10-29 14:07:20] Bookings - PASSED (Duration: 94.00s) - PASSED
+[2025-10-29 14:08:49] Setup Restaurant (Tables) - PASSED (Duration: 88.65s) - PASSED
+[2025-10-29 14:12:53] Menu - PASSED (Duration: 244.69s) - PASSED
+[2025-10-29 14:16:04] Printer Settings - PASSED (Duration: 190.68s) - PASSED
+[2025-10-29 14:18:02] Invoice Settings - PASSED (Duration: 118.43s) - PASSED
+[2025-10-29 14:18:02] 
+Test Summary - Total: 8, Passed: 8, Failed: 0, Skipped: 0 - FAILED
+[2025-10-29 14:18:02] All automation completed in 25m 42s - PASSED
+[2025-10-29 14:18:08] Browser closed and session ended - PASSED
+[2025-10-29 14:40:36] Setup completed successfully - PASSED
+[2025-10-29 14:40:38] Login successful with s1 - PASSED
+[2025-10-29 14:40:41] Automation interrupted by user - PASSED
+[2025-10-29 14:41:16] Browser closed and session ended - PASSED
+[2025-10-29 15:03:01] Selected HQ branch option - PASSED
+[2025-10-29 15:03:16] Clicked branch confirmation button - PASSED
+[2025-10-29 15:03:28] Logout Completed - PASSED
+[2025-10-29 15:03:28] All modules has succesfully executed - PASSED
+[2025-10-29 15:03:33] Closed browser and ended session - PASSED
+[2025-10-29 15:03:55] Selected HQ branch option - PASSED
+[2025-10-29 15:04:11] Clicked branch confirmation button - PASSED
+[2025-10-29 15:04:23] Logout Completed - PASSED
+[2025-10-29 15:04:23] All modules has succesfully executed - PASSED
+[2025-10-29 15:04:28] Closed browser and ended session - PASSED
+[2025-10-29 15:04:46] Setup completed successfully - PASSED
+[2025-10-29 15:04:47] Login successful with s1 - PASSED
+[2025-10-29 15:04:58] Selected HQ branch option - PASSED
+[2025-10-29 15:05:13] Clicked branch confirmation button - PASSED
+[2025-10-29 15:05:16] Branch selection completed - PASSED
+[2025-10-29 15:05:48] Home - PASSED (Duration: 32.02s) - PASSED
+[2025-10-29 15:07:10] Orders - PASSED (Duration: 82.27s) - PASSED
+[2025-10-29 15:07:30] Automation interrupted by user - PASSED
+[2025-10-29 15:07:50] Browser closed and session ended - PASSED
+[2025-10-29 15:09:28] Setup completed successfully - PASSED
+[2025-10-29 15:09:29] Login successful with s1 - PASSED
+[2025-10-29 15:09:40] Selected HQ branch option - PASSED
+[2025-10-29 15:09:55] Clicked branch confirmation button - PASSED
+[2025-10-29 15:09:58] Branch selection completed - PASSED
+[2025-10-29 15:10:29] Home - PASSED (Duration: 30.82s) - PASSED
+[2025-10-29 15:18:45] Orders - PASSED (Duration: 495.48s) - PASSED
+[2025-10-29 15:19:10] Automation interrupted by user - PASSED
+[2025-10-29 15:19:29] Browser closed and session ended - PASSED
+[2025-10-29 15:22:58] Setup completed successfully - PASSED
+[2025-10-29 15:22:58] Login successful with s1 - PASSED
+[2025-10-29 15:23:11] Selected HQ branch option - PASSED
+[2025-10-29 15:23:26] Clicked branch confirmation button - PASSED
+[2025-10-29 15:23:29] Branch selection completed - PASSED
+[2025-10-29 15:24:11] Home - PASSED (Duration: 42.04s) - PASSED
+[2025-10-29 15:36:11] Orders - PASSED (Duration: 719.75s) - PASSED
+[2025-10-29 15:36:40] Manage Orders - PASSED (Duration: 29.77s) - PASSED
+[2025-10-29 15:38:13] Bookings - PASSED (Duration: 92.30s) - PASSED
+[2025-10-29 15:39:33] Setup Restaurant (Tables) - PASSED (Duration: 79.80s) - PASSED
+[2025-10-29 15:43:16] Menu - PASSED (Duration: 222.97s) - PASSED
+[2025-10-29 15:43:36] Automation interrupted by user - PASSED
+[2025-10-29 15:43:56] Browser closed and session ended - PASSED
+[2025-10-29 15:57:52] Setup completed successfully - PASSED
+[2025-10-29 15:57:53] Login successful with s1 - PASSED
+[2025-10-29 15:58:04] Selected HQ branch option - PASSED
+[2025-10-29 15:58:20] Clicked branch confirmation button - PASSED
+[2025-10-29 15:58:26] Branch selection completed - PASSED
+[2025-10-29 15:59:06] Home - PASSED (Duration: 39.23s) - PASSED
+[2025-10-29 16:10:45] Orders - PASSED (Duration: 699.47s) - PASSED
+[2025-10-29 16:11:15] Manage Orders - PASSED (Duration: 29.73s) - PASSED
+[2025-10-29 16:12:48] Bookings - PASSED (Duration: 91.70s) - PASSED
+[2025-10-29 16:14:07] Setup Restaurant (Tables) - PASSED (Duration: 79.05s) - PASSED
+[2025-10-29 16:18:01] Menu - PASSED (Duration: 234.07s) - PASSED
+[2025-10-29 16:21:09] Printer Settings - PASSED (Duration: 186.86s) - PASSED
+[2025-10-29 16:21:39] Invoice Settings - PASSED (Duration: 30.15s) - PASSED
+[2025-10-29 16:21:44] Logout completed - PASSED
+[2025-10-29 16:21:44] 
+Test Summary - Total: 8, Passed: 8, Failed: 0, Skipped: 0 - FAILED
+[2025-10-29 16:21:44] All automation completed in 23m 58s - PASSED
+[2025-10-29 16:21:50] Browser closed and session ended - PASSED
+[2025-10-29 16:38:51] Setup completed successfully - PASSED
+[2025-10-29 16:38:52] Login successful with s1 - PASSED
+[2025-10-29 16:39:02] Selected HQ branch option - PASSED
+[2025-10-29 16:39:17] Clicked branch confirmation button - PASSED
+[2025-10-29 16:39:23] Branch selection completed - PASSED
+[2025-10-29 16:39:50] Home - PASSED (Duration: 26.11s) - PASSED
+[2025-10-29 16:51:16] Orders - PASSED (Duration: 686.02s) - PASSED
+[2025-10-29 16:51:46] Manage Orders - PASSED (Duration: 29.63s) - PASSED
+[2025-10-29 16:53:25] Bookings - PASSED (Duration: 98.62s) - PASSED
+[2025-10-29 16:54:45] Setup Restaurant (Tables) - PASSED (Duration: 79.41s) - PASSED
+[2025-10-29 16:58:41] Menu - PASSED (Duration: 235.86s) - PASSED
+[2025-10-29 17:02:06] Printer Settings - PASSED (Duration: 204.93s) - PASSED
+[2025-10-29 17:02:37] Invoice Settings - PASSED (Duration: 30.09s) - PASSED
+[2025-10-29 17:02:42] Logout completed - PASSED
+[2025-10-29 17:02:42] 
+Test Summary - Total: 8, Passed: 8, Failed: 0, Skipped: 0 - FAILED
+[2025-10-29 17:02:42] All automation completed in 23m 58s - PASSED
+[2025-10-29 17:02:49] Browser closed and session ended - PASSED

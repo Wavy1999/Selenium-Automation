@@ -1,0 +1,21 @@
+[2026-02-10 12:57:43] Clicked Seller Center - PASSED
+[2026-02-10 12:57:43] Clicked Product Management - PASSED
+[2026-02-10 12:57:59] Clicked Create New Product - PASSED
+[2026-02-10 12:58:04] Create New Product page loaded successfully - PASSED
+[2026-02-10 12:58:09] Entered Product Name: NovaFlow - PASSED
+[2026-02-10 12:58:13] Entered SKU: ECH-1038 - PASSED
+[2026-02-10 12:58:15] Entered Units of Measure: pc - PASSED
+[2026-02-10 12:58:23] Entered Menu Description: Graphics tablet for digital art - PASSED
+[2026-02-10 12:58:25] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-02-10 12:58:26] Entered Stock Quantity: 100 - PASSED
+[2026-02-10 12:58:29] Selected Predefined Tags: BRAND - PASSED
+[2026-02-10 12:58:32] Entered Menu Value: 8701 - PASSED
+[2026-02-10 12:58:36] Entered Unit Price: 8701 - PASSED
+[2026-02-10 12:58:38] Selected Product Category: Electronics and Accessories - PASSED
+[2026-02-10 12:58:40] Selected Product Category: Electronics and Accessories - PASSED
+[2026-02-10 12:58:42] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-02-10 12:58:48] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2026-02-10 12:58:50] Clicked Save Button - PASSED
+[2026-02-10 12:58:51] Added New Product  - PASSED
+[2026-02-10 12:58:56] Clicked Confirm OK - PASSED
+[2026-02-10 12:58:56] Clicked Confirm Success - PASSED

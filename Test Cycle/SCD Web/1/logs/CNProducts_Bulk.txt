@@ -1,0 +1,61 @@
+[2025-11-07 10:34:59] Clicked Seller Center - PASSED
+[2025-11-07 10:34:59] Clicked Product Management - PASSED
+[2025-11-07 10:35:18] Clicked Create New Product(Bulk) - PASSED
+[2025-11-07 10:35:23] Create New Product(Bulk) page loaded successfully - PASSED
+[2025-11-07 10:35:23] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 49, in Bulk
+    log_action("Selected Warehouse: Main Warehouse", log_file_path=log_file_path)
+TypeError: select_data() got an unexpected keyword argument 'log_file_path'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 49, in Bulk
+    log_action("Selected Warehouse: Main Warehouse", log_file_path=log_file_path)
+TypeError: select_data() got an unexpected keyword argument 'log_file_path'
+[2025-11-07 10:35:23] ERROR: Create New Product - Bulk - FAILED: select_data() got an unexpected keyword argument 'log_file_path'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 228, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 49, in Bulk
+    log_action("Selected Warehouse: Main Warehouse", log_file_path=log_file_path)
+TypeError: select_data() got an unexpected keyword argument 'log_file_path'
+[2025-11-07 10:35:23] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 228, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 49, in Bulk
+    log_action("Selected Warehouse: Main Warehouse", log_file_path=log_file_path)
+TypeError: select_data() got an unexpected keyword argument 'log_file_path'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 355, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 251, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-07 10:49:42] Clicked Seller Center - PASSED
+[2025-11-07 10:49:42] Clicked Product Management - PASSED
+[2025-11-07 10:49:54] Clicked Create New Product(Bulk) - PASSED
+[2025-11-07 10:50:00] Create New Product(Bulk) page loaded successfully - PASSED
+[2025-11-07 10:50:10] Selected Warehouse: Main Warehouse - PASSED
+[2025-11-07 10:50:12] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2025-11-07 10:50:12] Uploaded Excel file for Bulk Product Upload - PASSED
+[2025-11-07 10:50:17] Clicked Upload button for Bulk Product Upload - PASSED
+[2025-11-07 10:54:33] Clicked Seller Center - PASSED
+[2025-11-07 10:54:34] Clicked Product Management - PASSED
+[2025-11-07 10:54:47] Clicked Create New Product(Bulk) - PASSED
+[2025-11-07 10:54:52] Create New Product(Bulk) page loaded successfully - PASSED
+[2025-11-07 10:55:02] Selected Warehouse: Main Warehouse - PASSED
+[2025-11-07 10:55:02] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2025-11-07 10:55:02] Uploaded Excel file for Bulk Product Upload - PASSED
+[2025-11-07 10:55:07] Clicked Upload button for Bulk Product Upload - PASSED
+[2025-11-07 11:00:22] Clicked Seller Center - PASSED
+[2025-11-07 11:00:22] Clicked Product Management - PASSED
+[2025-11-07 11:00:39] Clicked Create New Product(Bulk) - PASSED
+[2025-11-07 11:00:44] Create New Product(Bulk) page loaded successfully - PASSED
+[2025-11-07 11:00:47] Selected Warehouse: Main Warehouse - PASSED
+[2025-11-07 11:00:47] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2025-11-07 11:00:47] Uploaded Excel file for Bulk Product Upload - PASSED
+[2025-11-07 11:01:15] Clicked Upload button for Bulk Product Upload - PASSED
+[2025-11-07 11:01:15] Bulk Product Upload processed successfully - PASSED

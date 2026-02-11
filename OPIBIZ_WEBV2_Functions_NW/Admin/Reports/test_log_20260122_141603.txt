@@ -1,0 +1,40 @@
+[2026-01-22 14:16:11] Setup completed - Version: 1.2.2.R0001B, Browser: Chrome v143.0.7499.194, Tester: Christian - PASSED
+[2026-01-22 14:16:11] Starting login test... - PASSED
+[2026-01-22 14:16:12] Login successful with s1 - PASSED
+[2026-01-22 14:16:13] Starting branch selection... - PASSED
+[2026-01-22 14:16:43] Branch selection completed - PASSED
+[2026-01-22 14:16:51] Starting Main Dashboard test... - PASSED
+[2026-01-22 14:19:15] Main Dashboard - PASSED (Duration: 144.82s) - PASSED
+[2026-01-22 14:19:16] Starting Seller Dashboard test... - PASSED
+[2026-01-22 14:20:48] Seller Dashboard - PASSED (Duration: 92.45s) - PASSED
+[2026-01-22 14:20:49] Starting Create Order View Only test... - PASSED
+[2026-01-22 14:21:10] Create Order View Only - PASSED (Duration: 20.82s) - PASSED
+[2026-01-22 14:21:10] Starting Create Single Order test... - PASSED
+[2026-01-22 14:24:25] Create Single Order - PASSED (Duration: 195.18s) - PASSED
+[2026-01-22 14:24:26] Starting Manage Order test... - PASSED
+[2026-01-22 14:24:57] Starting Generate QR test... - PASSED
+[2026-01-22 14:25:14] Starting Create New Product test... - PASSED
+[2026-01-22 14:25:14] Starting Manage Product test... - PASSED
+[2026-01-22 14:25:14] Starting Create New Product - Bulk test... - PASSED
+[2026-01-22 14:25:14] Starting Inventory Management test... - PASSED
+[2026-01-22 14:25:14] Starting Booking and Appointments test... - PASSED
+[2026-01-22 14:25:15] Starting Create Service Order test... - PASSED
+[2026-01-22 14:25:15] Starting Create Service Order View Only test... - PASSED
+[2026-01-22 14:25:15] Starting Manage Service Order test... - PASSED
+[2026-01-22 14:25:15] Starting Create New Service test... - PASSED
+[2026-01-22 14:25:15] Starting Manage Service test... - PASSED
+[2026-01-22 14:25:15] Starting Create Service Bulk test... - PASSED
+[2026-01-22 14:25:16] Starting Cash Management test... - PASSED
+[2026-01-22 14:25:16] Starting Branches test... - PASSED
+[2026-01-22 14:25:16] Starting Warehouse test... - PASSED
+[2026-01-22 14:25:16] Starting Add New Employee test... - PASSED
+[2026-01-22 14:25:16] Starting Employee List test... - PASSED
+[2026-01-22 14:25:16] Starting Add New Client test... - PASSED
+[2026-01-22 14:25:16] Starting Client List test... - PASSED
+[2026-01-22 14:25:17] Starting To Another OmniPay Account test... - PASSED
+[2026-01-22 14:25:17] Starting To Another Bank test... - PASSED
+[2026-01-22 14:25:17] Starting Request Telegraphic Transfer test... - PASSED
+[2026-01-22 14:25:17] Starting My Profile test... - PASSED
+[2026-01-22 14:25:17] Starting Audit Logs test... - PASSED
+[2026-01-22 14:25:17] Starting logout... - PASSED
+[2026-01-22 14:25:22] Browser closed and session ended - PASSED

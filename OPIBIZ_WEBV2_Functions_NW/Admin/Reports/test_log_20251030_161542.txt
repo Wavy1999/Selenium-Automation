@@ -1,0 +1,53 @@
+[2025-10-30 16:15:42] Automation has started... - PASSED
+[2025-10-30 16:15:42] Login Credentials: - PASSED
+[2025-10-30 16:15:55] Selecting branch and terminal... - PASSED
+[2025-10-30 16:16:00] Attempt 1 to select random branch option failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe0ce80]
+	(No symbol) [0x0xe2b81b]
+	(No symbol) [0x0xe91c25]
+	(No symbol) [0x0xeac4d9]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:16:05] Attempt 2 to select random branch option failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1da6b]
+	(No symbol) [0x0xe5b5ab]
+	(No symbol) [0x0xe8b086]
+	(No symbol) [0x0xe8667c]
+	(No symbol) [0x0xe85bf3]
+	(No symbol) [0x0xdee72d]
+	(No symbol) [0x0xdeecae]
+	(No symbol) [0x0xdef14d]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	(No symbol) [0x0xdee3e3]
+	(No symbol) [0x0xdedb60]
+	GetHandleVerifier [0x0x13cc20f+3852191]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED

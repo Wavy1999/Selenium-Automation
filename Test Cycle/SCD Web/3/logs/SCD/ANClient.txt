@@ -1,0 +1,13 @@
+[2025-12-03 16:44:32] Client Details Page - PASSED
+[2025-12-03 16:44:35] Selected prefix from Excel: MRS - PASSED
+[2025-12-03 16:44:36] Client type dropdown is present - PASSED
+[2025-12-03 16:44:38] Selected Prefix from Excel: MRS - PASSED
+[2025-12-03 16:44:39] Entered first name: Carla - PASSED
+[2025-12-03 16:44:42] Entered last name: Lopez - PASSED
+[2025-12-03 16:44:46] Entered company name: Horizon Logistics - PASSED
+[2025-12-03 16:44:50] Entered mobile number: 639182345670 - PASSED
+[2025-12-03 16:44:56] Entered email address: carlalopez@horizonlog.com - PASSED
+[2025-12-03 16:44:59] Clicked save new client button - PASSED
+[2025-12-03 16:45:01] Clicked confirmation button after saving client - PASSED
+[2025-12-03 16:45:53] Clicked Success button after saving client - PASSED
+[2025-12-03 16:45:53] Client list displayed and scrolled into view - PASSED

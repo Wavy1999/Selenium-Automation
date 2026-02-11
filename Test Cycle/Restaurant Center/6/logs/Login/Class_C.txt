@@ -1,0 +1,153 @@
+[2025-11-10 09:36:40] Setup completed successfully - PASSED
+[2025-11-10 09:36:40] Enter username [Class_C] - PASSED
+[2025-11-10 09:36:40] Enter password [Class_C] - PASSED
+[2025-11-10 09:36:40] Click submit [Class_C] - PASSED
+[2025-11-10 09:36:40] Login successful with class_c - PASSED
+[2025-11-10 09:36:54] Selected HQ branch option - PASSED
+[2025-11-10 09:37:10] Clicked branch confirmation button - PASSED
+[2025-11-10 09:37:13] Branch selection completed - PASSED
+[2025-11-10 09:39:33] Main Dashboard - PASSED (139.78s) - PASSED
+[2025-11-10 09:41:04] Seller Center Dashboard - PASSED (91.21s) - PASSED
+[2025-11-10 09:41:23] Create Order View Only - PASSED (19.64s) - PASSED
+[2025-11-10 09:44:23] Create Single Order - PASSED (179.54s) - PASSED
+[2025-11-10 09:44:53] ERROR: Manage Order - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 239, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\MOrder.py", line 42, in MOrder
+    Order_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[.//span[contains(text(), 'Order Management')]]")))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-10 09:45:24] Generate QR - PASSED (30.48s) - PASSED
+[2025-11-10 09:47:02] Create New Product - PASSED (97.84s) - PASSED
+[2025-11-10 09:49:17] Manage Product - PASSED (135.11s) - PASSED
+[2025-11-10 09:49:53] ERROR: Critical error in Create New Product Bulk: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 35, in Bulk
+    Create_Bulk = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/BatchProduct') and .//span[contains(text(), 'Create New Products (Bulk)')]]")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11258d3
+	0x1125914
+	0xf3e76d
+	0xf8a09d
+	0xf8a47b
+	0xfd1802
+	0xfac9b4
+	0xfceea6
+	0xfac766
+	0xf7dac0
+	0xf7ede4
+	0x13a7974
+	0x13a2bea
+	0x114e5c4
+	0x113dd38
+	0x1144d9d
+	0x112dee8
+	0x112e0ac
+	0x1117d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 35, in Bulk
+    Create_Bulk = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/BatchProduct') and .//span[contains(text(), 'Create New Products (Bulk)')]]")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11258d3
+	0x1125914
+	0xf3e76d
+	0xf8a09d
+	0xf8a47b
+	0xfd1802
+	0xfac9b4
+	0xfceea6
+	0xfac766
+	0xf7dac0
+	0xf7ede4
+	0x13a7974
+	0x13a2bea
+	0x114e5c4
+	0x113dd38
+	0x1144d9d
+	0x112dee8
+	0x112e0ac
+	0x1117d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-10 09:49:53] ERROR: Create New Product - Bulk - FAILED: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11258d3
+	0x1125914
+	0xf3e76d
+	0xf8a09d
+	0xf8a47b
+	0xfd1802
+	0xfac9b4
+	0xfceea6
+	0xfac766
+	0xf7dac0
+	0xf7ede4
+	0x13a7974
+	0x13a2bea
+	0x114e5c4
+	0x113dd38
+	0x1144d9d
+	0x112dee8
+	0x112e0ac
+	0x1117d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 239, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProducts_Bulk.py", line 35, in Bulk
+    Create_Bulk = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/BatchProduct') and .//span[contains(text(), 'Create New Products (Bulk)')]]")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11258d3
+	0x1125914
+	0xf3e76d
+	0xf8a09d
+	0xf8a47b
+	0xfd1802
+	0xfac9b4
+	0xfceea6
+	0xfac766
+	0xf7dac0
+	0xf7ede4
+	0x13a7974
+	0x13a2bea
+	0x114e5c4
+	0x113dd38
+	0x1144d9d
+	0x112dee8
+	0x112e0ac
+	0x1117d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-10 09:50:48] Inventory Management - PASSED (54.74s) - PASSED
+[2025-11-10 09:50:48] Logout completed - PASSED
+[2025-11-10 09:50:48] Automation completed in 14m 32s - PASSED
+[2025-11-10 09:50:53] Browser closed - PASSED

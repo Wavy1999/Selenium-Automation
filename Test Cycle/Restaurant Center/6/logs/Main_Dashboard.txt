@@ -1,0 +1,52 @@
+[2025-11-10 09:37:16] Main Dashboard loaded successfully - PASSED
+[2025-11-10 09:37:46] New orders/Service Orders count: 339 - PASSED
+[2025-11-10 09:37:46] Orders/Service Orders for Processing count: 28 - PASSED
+[2025-11-10 09:37:46] Current Balance: ₱
+0.00 - PASSED
+[2025-11-10 09:37:46] Available Balance: ₱
+0.00 - PASSED
+[2025-11-10 09:38:01] Clicked Settle Available Balance - PASSED
+[2025-11-10 09:38:01] Back to Main Dashboard - PASSED
+[2025-11-10 09:38:01] Clicked Generate QR - PASSED
+[2025-11-10 09:38:12] Back to Main Dashboard - PASSED
+[2025-11-10 09:38:12] Latest Orders Table - Row 1: 1 | 11/6/2025 4:21:33 PM | BNW-ORD-042133803-746 | ACTIVE | UNPAID | DR KATE CRUZ | ₱2,323.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:12] Latest Orders Table - Row 2: 2 | 11/5/2025 2:18:27 PM | BNW-ORD-021827634-530 | ACTIVE | PAID | Guest | ₱179.20 | ₱179.20 - PASSED
+[2025-11-10 09:38:12] Latest Orders Table - Row 3: 3 | 11/5/2025 2:02:42 PM | BNW-ORD-020242064-763 | NEW | UNPAID | Guest | ₱179.20 | ₱0.00 - PASSED
+[2025-11-10 09:38:12] Latest Orders Table - Row 4: 4 | 11/5/2025 1:34:16 PM | BNW-ORD-013416042-299 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 5: 5 | 11/5/2025 1:22:16 PM | BNW-ORD-012216261-846 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 6: 6 | 11/5/2025 1:11:18 PM | BNW-ORD-011118017-838 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 7: 7 | 11/5/2025 1:00:26 PM | BNW-ORD-010026381-130 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 8: 8 | 11/5/2025 12:50:22 PM | BNW-ORD-125022384-668 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 9: 9 | 11/5/2025 12:40:14 PM | BNW-ORD-124014114-222 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Latest Orders Table - Row 10: 10 | 11/5/2025 12:14:52 PM | BNW-ORD-121452747-560 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:13] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 09:38:13] Latest Orders Table displayed successfully - PASSED
+[2025-11-10 09:38:18] Clicked Create Order - PASSED
+[2025-11-10 09:38:28] Back to Main Dashboard - PASSED
+[2025-11-10 09:38:28] Latest Service Orders Table - Row 1: 1 | 10/30/2025 3:56:18 PM | BNW-ORD-035618907-192 | ACTIVE | UNPAID | Guest | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 2: 2 | 10/27/2025 4:13:06 PM | BNW-SRV-041306808-767 | ACTIVE | UNPAID | MR PIATTOS PIATTOS | ₱1,200.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 3: 3 | 10/27/2025 4:12:51 PM | BNW-SRV-041251728-190 | ACTIVE | UNPAID | MR JOHN SANTOS | ₱1,310.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 4: 4 | 10/27/2025 10:18:16 AM | BNW-SRV-101816570-893 | ACTIVE | UNPAID | MR PIATTOS PIATTOS | ₱784.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 5: 5 | 10/27/2025 10:14:50 AM | BNW-SRV-101450101-861 | NEW | UNPAID | MR EDWARD CULLEN | ₱75.04 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 6: 6 | 10/14/2025 10:35:57 AM | BNW-SRV-103557021-303 | ACTIVE | UNPAID | DR KATE CRUZ | ₱576.80 | ₱0.00 - PASSED
+[2025-11-10 09:38:29] Latest Service Orders Table - Row 7: 7 | 10/14/2025 9:36:18 AM | BNW-ORD-093618137-040 | ACTIVE | UNPAID | Guest | ₱50.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:30] Latest Service Orders Table - Row 8: 8 | 10/14/2025 9:16:15 AM | BNW-ORD-091615944-143 | ACTIVE | UNPAID | Guest | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:30] Latest Service Orders Table - Row 9: 9 | 10/13/2025 4:52:19 PM | BNW-SRV-045219262-804 | ACTIVE | UNPAID | DR KATE CRUZ | ₱1,456.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:30] Latest Service Orders Table - Row 10: 10 | 10/13/2025 4:52:02 PM | BNW-SRV-045202333-501 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱1,310.00 | ₱0.00 - PASSED
+[2025-11-10 09:38:30] Table has 10 valid rows (Latest Service Orders Table) - PASSED
+[2025-11-10 09:38:30] Latest Service Orders Table displayed successfully - PASSED
+[2025-11-10 09:38:34] Clicked Create Order - PASSED
+[2025-11-10 09:38:45] Back to Main Dashboard - PASSED
+[2025-11-10 09:38:47] Clicked Create Booking - PASSED
+[2025-11-10 09:38:57] Back to Main Dashboard - PASSED
+[2025-11-10 09:38:57] Inventory section viewed successfully - PASSED
+[2025-11-10 09:39:04] Clicked Add New Product - PASSED
+[2025-11-10 09:39:14] Back to Main Dashboard - PASSED
+[2025-11-10 09:39:22] Clicked Inventory Update - PASSED
+[2025-11-10 09:39:32] Back to Main Dashboard - PASSED
+[2025-11-10 09:39:32] Inventory History - Row 1: 1 | RESTOCK REAL-TI | 6/23/2025 6:10:20 PM | IN | 2 | ML | RECEIVED SUPPLY | 123 | remarksqe | completed - PASSED
+[2025-11-10 09:39:32] Inventory History - Row 2: 2 | ADJUSTMENT | 9/9/2025 4:31:01 PM | OUT | 0 | ML | RETRIEVED ITEM( | N/A | test | completed - PASSED
+[2025-11-10 09:39:32] Inventory History - Row 3: 3 | START INVENTORY | 4/22/2025 3:18:42 PM | IN | 5 | ML | SET INVENTORY | N/A | Test | completed - PASSED
+[2025-11-10 09:39:32] Inventory History - Row 4: 4 | START INVENTORY | 3/28/2025 4:58:29 PM | IN | 5 | BOX OF 1 | SET INVENTORY | N/A | Test | completed - PASSED
+[2025-11-10 09:39:33] Inventory History - Row 5: 5 | RESTOCK REAL-TI | 9/18/2025 9:37:30 AM | IN | 10 | ML | RECEIVED SUPPLY | 123456 | test | completed - PASSED
+[2025-11-10 09:39:33] Table has 5 valid rows (Inventory History) - PASSED

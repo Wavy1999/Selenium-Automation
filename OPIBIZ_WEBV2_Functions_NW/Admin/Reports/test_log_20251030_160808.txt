@@ -1,0 +1,281 @@
+[2025-10-30 16:08:08] Automation has started... - PASSED
+[2025-10-30 16:08:08] Login Credentials: - PASSED
+[2025-10-30 16:08:09] Login completed with user: maryjhoan.farol - PASSED
+[2025-10-30 16:08:09] 🏢 Selecting branch and terminal... - PASSED
+[2025-10-30 16:08:14] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:19] Attempt 2 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:24] Attempt 3 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:29] Attempt 4 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:35] Attempt 5 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:40] Attempt 6 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:45] Attempt 7 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:50] Attempt 8 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:08:55] Attempt 9 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:09:00] Attempt 10 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 16:09:01] Branch and terminal selection successful - PASSED
+[2025-10-30 16:09:01] 🏠 Starting Home test... - PASSED
+[2025-10-30 16:09:23] Home test completed successfully - PASSED
+[2025-10-30 16:09:23] 🛒 Starting Orders test... - PASSED
+[2025-10-30 16:09:23] Orders test completed successfully - PASSED
+[2025-10-30 16:09:23] 🛒 Starting Manage Orders test... - PASSED
+[2025-10-30 16:09:24] 📅 Starting Bookings test... - PASSED
+[2025-10-30 16:09:24] 🍽️ Starting Tables setup... - PASSED
+[2025-10-30 16:09:25] Tables setup completed - PASSED
+[2025-10-30 16:09:25] 🍽️ Starting Menu setup... - PASSED
+[2025-10-30 16:09:25] Menu setup completed - PASSED
+[2025-10-30 16:09:25] 🍽️ Starting Printer setup... - PASSED
+[2025-10-30 16:09:25] Printer setup completed - PASSED
+[2025-10-30 16:09:25] 🍽️ Starting Invoice setup... - PASSED
+[2025-10-30 16:09:25] Invoice setup completed - PASSED
+[2025-10-30 16:09:25] 🚪 Starting logout... - PASSED
+[2025-10-30 16:09:25] Logout successful - PASSED

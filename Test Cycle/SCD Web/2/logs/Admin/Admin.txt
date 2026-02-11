@@ -1,0 +1,38 @@
+[2025-12-02 16:56:02] Setup completed - Version: 1.2.1.R0004B, Browser: Chrome v142.0.7444.176, Tester: Christian - PASSED
+[2025-12-02 16:56:03] Login successful with s1 - PASSED
+[2025-12-02 16:56:16] Selected HQ branch option - PASSED
+[2025-12-02 16:56:32] Clicked branch confirmation button - PASSED
+[2025-12-02 16:56:35] Branch selection completed - PASSED
+[2025-12-02 16:59:05] Main Dashboard - PASSED (Duration: 150.10s) - PASSED
+[2025-12-02 17:00:37] Seller Center Dashboard - PASSED (Duration: 91.96s) - PASSED
+[2025-12-02 17:00:58] Create Order View Only - PASSED (Duration: 20.85s) - PASSED
+[2025-12-02 17:04:10] Create Single Order - PASSED (Duration: 192.75s) - PASSED
+[2025-12-02 17:06:15] Manage Order - PASSED (Duration: 124.31s) - PASSED
+[2025-12-02 17:06:34] Generate QR - PASSED (Duration: 19.55s) - PASSED
+[2025-12-02 17:07:52] Create New Product - PASSED (Duration: 77.74s) - PASSED
+[2025-12-02 17:11:23] Manage Product - PASSED (Duration: 211.30s) - PASSED
+[2025-12-02 17:12:05] Create New Product - Bulk - PASSED (Duration: 41.40s) - PASSED
+[2025-12-02 17:13:27] Inventory Management - PASSED (Duration: 82.20s) - PASSED
+[2025-12-02 17:14:54] Booking and Appointments - PASSED (Duration: 86.78s) - PASSED
+[2025-12-02 17:15:00] Create Service Order View Only - PASSED (Duration: 6.82s) - PASSED
+[2025-12-02 17:18:44] Create Service Order - PASSED (Duration: 223.72s) - PASSED
+[2025-12-02 17:20:50] Manage Service Order - PASSED (Duration: 125.71s) - PASSED
+[2025-12-02 17:21:08] Create New Service - PASSED (Duration: 18.11s) - PASSED
+[2025-12-02 17:24:43] Manage Service - PASSED (Duration: 215.45s) - PASSED
+[2025-12-02 17:24:55] Create Service Bulk - PASSED (Duration: 11.77s) - PASSED
+[2025-12-02 17:25:35] Cash Management - PASSED (Duration: 39.51s) - PASSED
+[2025-12-02 17:25:38] Branches - PASSED (Duration: 3.15s) - PASSED
+[2025-12-02 17:26:19] Warehouse - PASSED (Duration: 40.82s) - PASSED
+[2025-12-02 17:26:55] Added New Employee - PASSED (Duration: 36.18s) - PASSED
+[2025-12-02 17:27:47] Employee List - PASSED (Duration: 52.41s) - PASSED
+[2025-12-02 17:29:06] Add New Client - PASSED (Duration: 78.90s) - PASSED
+[2025-12-02 17:32:13] Client List - PASSED (Duration: 186.86s) - PASSED
+[2025-12-02 17:32:21] To Another OmniPay Account - PASSED (Duration: 8.22s) - PASSED
+[2025-12-02 17:32:26] To Another Bank - PASSED (Duration: 4.68s) - PASSED
+[2025-12-02 17:32:31] Request Telegraphic Transfer - PASSED (Duration: 4.89s) - PASSED
+[2025-12-02 17:32:39] My Profile - PASSED (Duration: 7.79s) - PASSED
+[2025-12-02 17:32:56] Audit Logs - PASSED (Duration: 17.52s) - PASSED
+[2025-12-02 17:33:31] Logout completed - PASSED
+[2025-12-02 17:33:31] Test Summary - Tester: Christian, Browser: Chrome v142.0.7444.176, Total: 29, Passed: 29, Failed: 0, Skipped: 0 - FAILED
+[2025-12-02 17:33:31] All automation completed in 37m 34s - PASSED
+[2025-12-02 17:33:37] Browser closed and session ended - PASSED

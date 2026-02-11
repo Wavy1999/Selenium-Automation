@@ -1,0 +1,4 @@
+[2025-12-02 17:06:15] Clicked 'Order Management' breadcrumb - PASSED
+[2025-12-02 17:06:19] Clicked Generate QR - PASSED
+[2025-12-02 17:06:24] Generate QR Page loaded successfully - PASSED
+[2025-12-02 17:06:24] Clicked Custom QR - PASSED

@@ -1,0 +1,76 @@
+[INFO] Cleared folder: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\screenshots
+
+===========================================================================
+[INFO] Cleared folder: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\screenshots
+INTERNALERROR> Traceback (most recent call last):
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\_pytest\main.py", line 287, in wrap_session
+INTERNALERROR>     config.hook.pytest_sessionstart(session=session)
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+INTERNALERROR>     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+INTERNALERROR>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+INTERNALERROR>     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+INTERNALERROR>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pluggy\_callers.py", line 167, in _multicall
+INTERNALERROR>     raise exception
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pluggy\_callers.py", line 139, in _multicall
+INTERNALERROR>     teardown.throw(exception)
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\_pytest\logging.py", line 780, in pytest_sessionstart
+INTERNALERROR>     return (yield)
+INTERNALERROR>             ^^^^^
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+INTERNALERROR>     res = hook_impl.function(*args)
+INTERNALERROR>           ^^^^^^^^^^^^^^^^^^^^^^^^^
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\conftest.py", line 220, in pytest_sessionstart
+INTERNALERROR>     print("\U0001f3af PYTEST AUTOMATION FRAMEWORK INITIALIZED")
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+INTERNALERROR>     self.__convertor.write(text)
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+INTERNALERROR>     self.write_and_convert(text)
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+INTERNALERROR>     self.write_plain_text(text, cursor, len(text))
+INTERNALERROR>   File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+INTERNALERROR>     self.wrapped.write(text[start:end])
+INTERNALERROR>   File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+INTERNALERROR>     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+INTERNALERROR>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INTERNALERROR> UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3af' in position 0: character maps to <undefined>
+============================= test session starts =============================
+platform win32 -- Python 3.12.6, pytest-8.4.2, pluggy-1.6.0 -- D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.6', 'Platform': 'Windows-11-10.0.26100-SP0', 'Packages': {'pytest': '8.4.2', 'pluggy': '1.6.0'}, 'Plugins': {'allure-pytest': '2.15.0', 'bdd': '8.1.0', 'html': '4.0.2', 'metadata': '3.1.1', 'order': '1.3.0', 'ordering': '0.6', 'rerunfailures': '16.0.1', 'xdist': '3.8.0', 'seleniumbase': '4.41.11'}}
+rootdir: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI
+configfile: pytest.ini
+plugins: allure-pytest-2.15.0, bdd-8.1.0, html-4.0.2, metadata-3.1.1, order-1.3.0, ordering-0.6, rerunfailures-16.0.1, xdist-3.8.0, seleniumbase-4.41.11
+collecting ... collected 0 items
+
+- Generated html report: file:///D:/Bastion/SQA_QualityEnterprise/SoftwareTesting/Projects/Common/Automation/OPI/Reports/test_report_~0%2C8datetime%3A~8%2C6.html -
+============================ no tests ran in 0.01s ============================
+ERROR: file or directory not found: OPIBIZ_WEBV2_Functions_NW\Admin\test_orders.py
+
+============================= test session starts =============================
+platform win32 -- Python 3.12.6, pytest-8.4.2, pluggy-1.6.0 -- D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.6', 'Platform': 'Windows-11-10.0.26100-SP0', 'Packages': {'pytest': '8.4.2', 'pluggy': '1.6.0'}, 'Plugins': {'allure-pytest': '2.15.0', 'bdd': '8.1.0', 'html': '4.0.2', 'metadata': '3.1.1', 'order': '1.3.0', 'ordering': '0.6', 'rerunfailures': '16.0.1', 'xdist': '3.8.0', 'seleniumbase': '4.41.11'}}
+rootdir: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI
+configfile: pytest.ini
+plugins: allure-pytest-2.15.0, bdd-8.1.0, html-4.0.2, metadata-3.1.1, order-1.3.0, ordering-0.6, rerunfailures-16.0.1, xdist-3.8.0, seleniumbase-4.41.11
+collecting ... collected 0 items
+
+- Generated html report: file:///D:/Bastion/SQA_QualityEnterprise/SoftwareTesting/Projects/Common/Automation/OPI/Reports/test_report_~0%2C8datetime%3A~8%2C6.html -
+============================ no tests ran in 0.02s ============================
+ERROR: file or directory not found: OPIBIZ_WEBV2_Functions_NW\Admin\test_bookings.py
+
+============================= test session starts =============================
+platform win32 -- Python 3.12.6, pytest-8.4.2, pluggy-1.6.0 -- D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.6', 'Platform': 'Windows-11-10.0.26100-SP0', 'Packages': {'pytest': '8.4.2', 'pluggy': '1.6.0'}, 'Plugins': {'allure-pytest': '2.15.0', 'bdd': '8.1.0', 'html': '4.0.2', 'metadata': '3.1.1', 'order': '1.3.0', 'ordering': '0.6', 'rerunfailures': '16.0.1', 'xdist': '3.8.0', 'seleniumbase': '4.41.11'}}
+rootdir: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI
+configfile: pytest.ini
+plugins: allure-pytest-2.15.0, bdd-8.1.0, html-4.0.2, metadata-3.1.1, order-1.3.0, ordering-0.6, rerunfailures-16.0.1, xdist-3.8.0, seleniumbase-4.41.11
+collecting ... collected 0 items
+
+- Generated html report: file:///D:/Bastion/SQA_QualityEnterprise/SoftwareTesting/Projects/Common/Automation/OPI/Reports/test_report_~0%2C8datetime%3A~8%2C6.html -
+============================ no tests ran in 0.02s ============================
+ERROR: file or directory not found: OPIBIZ_WEBV2_Functions_NW\Admin\test_setup_restaurant.py
+

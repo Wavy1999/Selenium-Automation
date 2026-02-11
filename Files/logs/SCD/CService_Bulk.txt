@@ -1,0 +1,3 @@
+[2026-02-10 13:16:09] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Service_Batch_Upload.xlsx - PASSED
+[2026-02-10 13:16:09] Uploaded Excel file for Bulk Product Upload - PASSED
+[2026-02-10 13:16:20] Clicked Upload button for Bulk Product Upload - PASSED

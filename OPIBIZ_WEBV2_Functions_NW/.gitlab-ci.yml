@@ -1,0 +1,33 @@
+stages:
+  - test
+
+variables:
+  PYTHON_VERSION: "3.10"
+  DISPLAY: ":99"  # for Chrome headless
+
+test_automation:
+  stage: test
+  image: python:${PYTHON_VERSION}
+  services:
+    - name: selenium/standalone-chrome:latest
+      alias: selenium
+  before_script:
+    - apt-get update -y
+    - apt-get install -y unzip wget xvfb
+    - pip install -r requirements.txt
+    - echo "✅ Environment setup complete."
+  script:
+    - echo "🚀 Starting Selenium automation tests..."
+    - pytest tests/ --disable-warnings --maxfail=1 --alluredir=reports/allure-results
+    - echo "✅ Tests finished, generating report..."
+    - wget https://github.com/allure-framework/allure2/releases/latest/download/allure-commandline.zip
+    - unzip allure-commandline.zip -d /opt/allure
+    - /opt/allure/bin/allure generate reports/allure-results -o reports/allure-report --clean
+  artifacts:
+    when: always
+    paths:
+      - reports/
+    expire_in: 1 week
+  only:
+    - main
+    - merge_requests

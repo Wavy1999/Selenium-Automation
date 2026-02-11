@@ -1,0 +1,126 @@
+[2025-10-27 14:47:49] Clicked Logout on navbar - PASSED
+[2025-10-27 14:47:49] Confirm Logout - PASSED
+[2025-10-27 15:16:09] Clicked Logout on navbar - PASSED
+[2025-10-27 15:16:15] Confirm Logout - PASSED
+[2025-10-27 15:35:01] Clicked Logout on navbar - PASSED
+[2025-10-27 15:40:25] Clicked Logout on navbar - PASSED
+[2025-10-27 15:44:56] Clicked Logout on navbar - PASSED
+[2025-10-27 15:44:56] Confirm Logout - PASSED
+[2025-10-27 15:49:06] Clicked Logout on navbar - PASSED
+[2025-10-27 16:03:42] Clicked Logout on navbar - PASSED
+[2025-10-27 16:03:43] Confirm Logout - PASSED
+[2025-10-27 16:11:04] Clicked Logout on navbar - PASSED
+[2025-10-27 16:11:06] Confirm Logout - PASSED
+[2025-10-27 16:16:36] Clicked Logout on navbar - PASSED
+[2025-10-27 16:16:36] Confirm Logout - PASSED
+[2025-10-27 16:18:20] Clicked Logout on navbar - PASSED
+[2025-10-27 16:18:20] Confirm Logout - PASSED
+[2025-10-27 16:24:52] Clicked Logout on navbar - PASSED
+[2025-10-27 16:24:52] Confirm Logout - PASSED
+[2025-10-27 16:39:45] Clicked Logout on navbar - PASSED
+[2025-10-27 16:39:48] Confirm Logout - PASSED
+[2025-10-27 16:47:46] Clicked Logout on navbar - PASSED
+[2025-10-27 16:56:40] Clicked Logout on navbar - PASSED
+[2025-10-27 17:00:18] Clicked Logout on navbar - PASSED
+[2025-10-27 17:00:21] Confirm Logout - PASSED
+[2025-10-27 17:02:00] Clicked Logout on navbar - PASSED
+[2025-10-27 17:09:30] Clicked Logout on navbar - PASSED
+[2025-10-27 17:24:23] Clicked Logout on navbar - PASSED
+[2025-10-27 17:27:12] Clicked Logout on navbar - PASSED
+[2025-10-27 17:30:24] Clicked Logout on navbar - PASSED
+[2025-10-27 17:34:06] Clicked Logout on navbar - PASSED
+[2025-10-27 17:34:07] Confirm Logout - PASSED
+[2025-10-27 17:37:48] Clicked Logout on navbar - PASSED
+[2025-10-27 17:37:55] Confirm Logout - PASSED
+[2025-10-27 17:41:43] Clicked Logout on navbar - PASSED
+[2025-10-27 17:41:43] Confirm Logout - PASSED
+[2025-10-27 17:46:37] Clicked Logout on navbar - PASSED
+[2025-10-27 17:46:38] Confirm Logout - PASSED
+[2025-10-27 17:52:02] Clicked Logout on navbar - PASSED
+[2025-10-27 17:52:02] Confirm Logout - PASSED
+[2025-10-27 17:58:01] Clicked Logout on navbar - PASSED
+[2025-10-27 17:58:01] Confirm Logout - PASSED
+[2025-10-27 18:00:34] Clicked Logout on navbar - PASSED
+[2025-10-27 18:00:34] Confirm Logout - PASSED
+[2025-10-28 09:24:05] Clicked Logout on navbar - PASSED
+[2025-10-28 09:24:06] Confirm Logout - PASSED
+[2025-10-28 10:10:44] Clicked Logout on navbar - PASSED
+[2025-10-28 10:10:45] Confirm Logout - PASSED
+[2025-10-28 10:17:25] Clicked Logout on navbar - PASSED
+[2025-10-28 10:17:25] Confirm Logout - PASSED
+[2025-10-28 10:22:32] Clicked Logout on navbar - PASSED
+[2025-10-28 10:22:32] Confirm Logout - PASSED
+[2025-10-28 10:35:13] Clicked Logout on navbar - PASSED
+[2025-10-28 10:35:13] Confirm Logout - PASSED
+[2025-10-28 10:43:32] Clicked Logout on navbar - PASSED
+[2025-10-28 10:43:32] Confirm Logout - PASSED
+[2025-10-28 10:50:53] Clicked Logout on navbar - PASSED
+[2025-10-28 10:50:53] Confirm Logout - PASSED
+[2025-10-28 11:04:44] Clicked Logout on navbar - PASSED
+[2025-10-28 11:04:49] Confirm Logout - PASSED
+[2025-10-28 11:08:56] Clicked Logout on navbar - PASSED
+[2025-10-28 11:08:56] Confirm Logout - PASSED
+[2025-10-28 11:14:44] Clicked Logout on navbar - PASSED
+[2025-10-28 11:14:44] Confirm Logout - PASSED
+[2025-10-28 11:27:36] Clicked Logout on navbar - PASSED
+[2025-10-28 11:27:36] Confirm Logout - PASSED
+[2025-10-28 11:39:37] Clicked Logout on navbar - PASSED
+[2025-10-28 11:39:38] Confirm Logout - PASSED
+[2025-10-28 11:46:17] Clicked Logout on navbar - PASSED
+[2025-10-28 11:46:22] Confirm Logout - PASSED
+[2025-10-28 12:56:18] Clicked Logout on navbar - PASSED
+[2025-10-28 12:56:18] Confirm Logout - PASSED
+[2025-10-28 13:01:01] Clicked Logout on navbar - PASSED
+[2025-10-28 13:01:01] Confirm Logout - PASSED
+[2025-10-28 13:24:11] Clicked Logout on navbar - PASSED
+[2025-10-28 13:24:11] Confirm Logout - PASSED
+[2025-10-28 13:33:15] Clicked Logout on navbar - PASSED
+[2025-10-28 13:33:15] Confirm Logout - PASSED
+[2025-10-28 13:39:30] Clicked Logout on navbar - PASSED
+[2025-10-28 13:39:30] Confirm Logout - PASSED
+[2025-10-28 14:43:35] Clicked Logout on navbar - PASSED
+[2025-10-28 14:43:36] Confirm Logout - PASSED
+[2025-10-28 14:49:42] Clicked Logout on navbar - PASSED
+[2025-10-28 14:49:42] Confirm Logout - PASSED
+[2025-10-28 15:04:30] Clicked Logout on navbar - PASSED
+[2025-10-28 15:04:30] Confirm Logout - PASSED
+[2025-10-28 15:13:33] Clicked Logout on navbar - PASSED
+[2025-10-28 15:13:33] Confirm Logout - PASSED
+[2025-10-28 15:19:23] Clicked Logout on navbar - PASSED
+[2025-10-28 15:19:23] Confirm Logout - PASSED
+[2025-10-28 15:29:15] Clicked Logout on navbar - PASSED
+[2025-10-28 15:29:15] Confirm Logout - PASSED
+[2025-10-28 15:40:54] Clicked Logout on navbar - PASSED
+[2025-10-28 15:41:04] Confirm Logout - PASSED
+[2025-10-28 16:01:32] Clicked Logout on navbar - PASSED
+[2025-10-28 16:01:41] Confirm Logout - PASSED
+[2025-10-28 16:47:50] Clicked Logout on navbar - PASSED
+[2025-10-28 16:47:50] Confirm Logout - PASSED
+[2025-10-28 17:39:35] Clicked Logout on navbar - PASSED
+[2025-10-28 17:39:36] Confirm Logout - PASSED
+[2025-10-28 17:42:51] Clicked Logout on navbar - PASSED
+[2025-10-28 17:42:51] Confirm Logout - PASSED
+[2025-10-28 17:43:47] Clicked Logout on navbar - PASSED
+[2025-10-28 17:43:48] Confirm Logout - PASSED
+[2025-10-29 09:44:36] Clicked Logout on navbar - PASSED
+[2025-10-29 09:44:37] Confirm Logout - PASSED
+[2025-10-29 12:24:04] Clicked Logout on navbar - PASSED
+[2025-10-29 12:24:04] Confirm Logout - PASSED
+[2025-10-29 15:03:21] Clicked Logout on navbar - PASSED
+[2025-10-29 15:03:23] Confirm Logout - PASSED
+[2025-10-29 15:04:16] Clicked Logout on navbar - PASSED
+[2025-10-29 15:04:17] Confirm Logout - PASSED
+[2025-10-29 16:21:39] Clicked Logout on navbar - PASSED
+[2025-10-29 16:21:39] Confirm Logout - PASSED
+[2025-10-29 17:02:37] Clicked Logout on navbar - PASSED
+[2025-10-29 17:02:37] Confirm Logout - PASSED
+[2025-10-30 08:59:47] Clicked Logout on navbar - PASSED
+[2025-10-30 08:59:47] Confirm Logout - PASSED
+[2025-10-30 12:40:34] Clicked Logout on navbar - PASSED
+[2025-10-30 12:40:34] Confirm Logout - PASSED
+[2025-10-30 13:15:03] Clicked Logout on navbar - PASSED
+[2025-10-30 13:15:03] Confirm Logout - PASSED
+[2025-10-30 14:19:22] Clicked Logout on navbar - PASSED
+[2025-10-30 14:19:23] Confirm Logout - PASSED
+[2025-10-30 14:52:07] Clicked Logout on navbar - PASSED
+[2025-10-30 14:52:07] Confirm Logout - PASSED

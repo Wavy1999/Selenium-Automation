@@ -1,0 +1,21 @@
+[2026-02-10 12:46:04] Clicked Seller Center - PASSED
+[2026-02-10 12:46:19] ERROR: Element not found or interaction failed:
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Create_Order\COrder_View.py", line 50, in COrderview
+    create_order = wait.until(
+                   ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Create_Order\COrder_View.py", line 50, in COrderview
+    create_order = wait.until(
+                   ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-02-10 12:51:30] Clicked Seller Center - PASSED
+[2026-02-10 12:51:35] Clicked Create Order - PASSED
+[2026-02-10 12:51:35] Create Order page loaded - PASSED

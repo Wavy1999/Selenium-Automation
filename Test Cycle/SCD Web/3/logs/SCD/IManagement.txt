@@ -1,0 +1,18 @@
+[2025-12-03 16:28:57] Clicked Seller Center - PASSED
+[2025-12-03 16:29:10] Clicked Inventory Management - PASSED
+[2025-12-03 16:29:11] Clicked Add Inventory button - PASSED
+[2025-12-03 16:29:11] Add Inventory modal displayed - PASSED
+[2025-12-03 16:29:11] Searching for product: NanoTech - PASSED
+[2025-12-03 16:29:35] Selected Product: NanoTech - PASSED
+[2025-12-03 16:29:35] Entered Quantity: 50 - PASSED
+[2025-12-03 16:29:37] Entered Reference Number: REF12345 - PASSED
+[2025-12-03 16:29:39] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-03 16:29:41] Entered Remarks - PASSED
+[2025-12-03 16:29:44] Clicked Add button to submit inventory addition - PASSED
+Clicked 'Update Quantity' in modal
+[2025-12-03 16:29:55] Clicked Update Quantity - PASSED
+[2025-12-03 16:30:02] Entered Reason: Retrieved Item(s) - PASSED
+[2025-12-03 16:30:05] Entered Remarks - PASSED
+[2025-12-03 16:30:07] Clicked Confirmation - PASSED
+[2025-12-03 16:30:09] Clicked Ok - PASSED
+[2025-12-03 16:30:09] Clicked Inventory button - PASSED

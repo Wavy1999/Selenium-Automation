@@ -1,0 +1,25 @@
+[2025-11-03 10:36:24] Automation has started... - PASSED
+[2025-11-03 10:36:24] Login Credentials: - PASSED
+[2025-11-03 10:36:25] Login completed with user: jennifer.velasco - PASSED
+[2025-11-03 10:36:25] Selecting branch and terminal... - PASSED
+[2025-11-03 10:36:36] Selected HQ branch option - PASSED
+[2025-11-03 10:36:51] Clicked branch confirmation button - PASSED
+[2025-11-03 10:36:57] Branch and terminal selection successful - PASSED
+[2025-11-03 10:36:57] Starting Home test... - PASSED
+[2025-11-03 10:37:35] Home test completed successfully - PASSED
+[2025-11-03 10:37:35] Starting Orders test... - PASSED
+[2025-11-03 10:50:09] Orders test completed successfully - PASSED
+[2025-11-03 10:50:09] Starting Manage Orders test... - PASSED
+[2025-11-03 10:51:23] Manage Orders test completed successfully - PASSED
+[2025-11-03 10:51:23] Starting Bookings test... - PASSED
+[2025-11-03 10:53:17] Bookings test completed successfully - PASSED
+[2025-11-03 10:53:18] Starting Tables setup... - PASSED
+[2025-11-03 10:54:38] Tables setup completed - PASSED
+[2025-11-03 10:54:38] Starting Menu setup... - PASSED
+[2025-11-03 10:58:31] Menu setup completed - PASSED
+[2025-11-03 10:58:31] Starting Printer setup... - PASSED
+[2025-11-03 11:02:01] Printer setup completed - PASSED
+[2025-11-03 11:02:01] Starting Invoice setup... - PASSED
+[2025-11-03 11:04:24] Invoice setup completed - PASSED
+[2025-11-03 11:04:24] Starting logout... - PASSED
+[2025-11-03 11:04:27] Logout successful - PASSED

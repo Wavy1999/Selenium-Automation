@@ -1,0 +1,49 @@
+[2026-02-10 13:06:12] Clicked Service_Order_Management - PASSED
+[2026-02-10 13:06:14] Clicked Create Service Center - PASSED
+[2026-02-10 13:06:16] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2026-02-10 13:06:16] Create Order page loaded - PASSED
+[2026-02-10 13:06:17] Click Search Button - PASSED
+[2026-02-10 13:06:17] Search specific client - PASSED
+[2026-02-10 13:06:20] Closse search - PASSED
+[2026-02-10 13:06:22] Click Checkout as guest option - PASSED
+[2026-02-10 13:06:25] Entered first name: Sanji - PASSED
+[2026-02-10 13:06:29] Entered middle name: Test - PASSED
+[2026-02-10 13:06:33] Entered last name: Vinsmoke - PASSED
+[2026-02-10 13:06:37] Entered Company Name: Straw Hat Inc. - PASSED
+[2026-02-10 13:06:42] Entered mobile number: +63 944 456 7890 - PASSED
+[2026-02-10 13:06:49] Entered email: sanji@strawhatpirates.com - PASSED
+[2026-02-10 13:06:53] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2026-02-10 13:06:59] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2026-02-10 13:07:01] Selected Country: PHILIPPINES - PASSED
+[2026-02-10 13:07:04] Selected Province: BOHOL - PASSED
+[2026-02-10 13:07:06] Selected City/Municipality: ANDA - PASSED
+[2026-02-10 13:07:08] Selected Barangay: CASICA - PASSED
+[2026-02-10 13:07:13] Entered Postal Code: 4028 - PASSED
+[2026-02-10 13:07:18] Entered Order Notes: Breeze - PASSED
+[2026-02-10 13:07:20] Clicked to select item in purchase order - PASSED
+[2026-02-10 13:07:23] Selected Product: Aromatherapy - PASSED
+[2026-02-10 13:07:25] Clicked on service dropdown item: Aromatherapy - PASSED
+[2026-02-10 13:07:36] service confirmed: Aromatherapy - PASSED
+[2026-02-10 13:07:46] Confirmed selected service - PASSED
+[2026-02-10 13:07:56] Entered service quantity - PASSED
+[2026-02-10 13:08:00] Due Date is datetime object: 05/05/2026 - PASSED
+[2026-02-10 13:08:01] Clicked date field to activate datepicker - PASSED
+[2026-02-10 13:08:02] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2026-02-10 13:08:04]  Verified date in field: 05/05/2026 - PASSED
+[2026-02-10 13:08:11] Click Add Item - PASSED
+[2026-02-10 13:08:13] Remove Item field loaded - PASSED
+[2026-02-10 13:08:34] Removed empty row: service='', qty='' - PASSED
+[2026-02-10 13:08:48] Click Apply Price Adjustment - PASSED
+[2026-02-10 13:08:50] Inputted Amount - PASSED
+[2026-02-10 13:08:53] Selected: Increase Subtotal - PASSED
+[2026-02-10 13:08:55] Click Apply - PASSED
+[2026-02-10 13:09:05] Click Apply Shipping Fee - PASSED
+[2026-02-10 13:09:07] Wait for the modal to be visible - PASSED
+[2026-02-10 13:09:07] Inputted Amount - PASSED
+[2026-02-10 13:09:12] Click Apply - PASSED
+[2026-02-10 13:09:22] Clicked Apply Tax - PASSED
+[2026-02-10 13:09:32] Selected Tax Type: VAT - PASSED
+[2026-02-10 13:09:34] Click Apply - PASSED
+[2026-02-10 13:09:34] Check Grand Total - PASSED
+[2026-02-10 13:09:45] Submit Service Order - PASSED
+[2026-02-10 13:09:57] Service Order Submitted Successfully - PASSED

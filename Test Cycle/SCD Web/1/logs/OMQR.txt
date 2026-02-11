@@ -1,0 +1,94 @@
+[2025-11-06 10:06:40] Main Dashboard loaded successfully - PASSED
+[2025-11-06 10:07:10] Clicked Seller Center - PASSED
+[2025-11-06 10:07:20] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-06 10:10:32] Main Dashboard loaded successfully - PASSED
+[2025-11-06 10:11:02] Clicked Seller Center - PASSED
+[2025-11-06 10:11:02] Clicked Order Management - PASSED
+[2025-11-06 10:11:04] Clicked Generate QR - PASSED
+[2025-11-06 10:11:19] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-06 10:14:00] Main Dashboard loaded successfully - PASSED
+[2025-11-06 10:14:30] Clicked Seller Center - PASSED
+[2025-11-06 10:14:31] Clicked Order Management - PASSED
+[2025-11-06 10:14:31] Clicked Generate QR - PASSED
+[2025-11-06 10:14:47] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-06 10:16:27] Main Dashboard loaded successfully - PASSED
+[2025-11-06 10:16:57] Clicked Seller Center - PASSED
+[2025-11-06 10:16:58] Clicked Order Management - PASSED
+[2025-11-06 10:16:58] Clicked Generate QR - PASSED
+[2025-11-06 10:17:03] Generate QR Page loaded successfully - PASSED
+[2025-11-06 10:17:03] Clicked Custom QR - PASSED

@@ -1,0 +1,49 @@
+[2025-12-02 17:00:58] Clicked Order Management - PASSED
+[2025-12-02 17:01:03] Clicked Create Single Order - PASSED
+[2025-12-02 17:01:13] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-12-02 17:01:13] Create Order page loaded - PASSED
+[2025-12-02 17:01:13] Click Search Button - PASSED
+[2025-12-02 17:01:14] Search specific client - PASSED
+[2025-12-02 17:01:16] Closse search - PASSED
+[2025-12-02 17:01:18] Click Checkout as guest option - PASSED
+[2025-12-02 17:01:22] Entered first name: Roronoa - PASSED
+[2025-12-02 17:01:25] Entered middle name: Test - PASSED
+[2025-12-02 17:01:29] Entered last name: Zoro - PASSED
+[2025-12-02 17:01:34] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-12-02 17:01:39] Entered mobile number: +63 922 234 5678 - PASSED
+[2025-12-02 17:01:45] Entered email: zoro@strawhatpirates.com - PASSED
+[2025-12-02 17:01:50] Entered House/Floor/Unit No.: 4556 Ayala - PASSED
+[2025-12-02 17:01:55] Entered Block/Building/Street: Legaspi Village - PASSED
+[2025-12-02 17:01:57] Selected Country: PHILIPPINES - PASSED
+[2025-12-02 17:02:00] Selected Province: BATAAN - PASSED
+[2025-12-02 17:02:02] Selected City/Municipality: ABUCAY - PASSED
+[2025-12-02 17:02:04] Selected Barangay: BANGKAL - PASSED
+[2025-12-02 17:02:09] Entered Postal Code: 4026 - PASSED
+[2025-12-02 17:02:13] Entered Order Notes: Booze - PASSED
+[2025-12-02 17:02:16] Clicked to select item in purchase order - PASSED
+[2025-12-02 17:02:18] Selected Product: NeuroLink - PASSED
+[2025-12-02 17:02:30] Clicked on product dropdown item: NeuroLink - PASSED
+[2025-12-02 17:02:41] Product confirmed: NeuroLink - PASSED
+[2025-12-02 17:02:46] Confirmed selected product - PASSED
+[2025-12-02 17:02:57] Entered product quantity - PASSED
+[2025-12-02 17:02:59] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-12-02 17:03:00] Clicked date field to activate datepicker - PASSED
+[2025-12-02 17:03:01] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-12-02 17:03:03] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-12-02 17:03:05] Click Add Item - PASSED
+[2025-12-02 17:03:15] Remove Item field loaded - PASSED
+[2025-12-02 17:03:37] Removed empty row: item='', qty='' - PASSED
+[2025-12-02 17:03:48] Click Apply Price Adjustment - PASSED
+[2025-12-02 17:03:49] Inputted Amount - PASSED
+[2025-12-02 17:03:49] Selected: Increase Subtotal - PASSED
+[2025-12-02 17:03:49] Click Apply - PASSED
+[2025-12-02 17:03:49] Click Apply Shipping Fee - PASSED
+[2025-12-02 17:03:49] Inputted Amount - PASSED
+[2025-12-02 17:03:49] Click Apply - PASSED
+[2025-12-02 17:03:49] Clicked Apply Tax - PASSED
+[2025-12-02 17:03:50] Selected Tax Type: VAT - PASSED
+[2025-12-02 17:03:50] Inputted Amount - PASSED
+[2025-12-02 17:03:50] Click Apply - PASSED
+[2025-12-02 17:03:50] Check Grand Total - PASSED
+[2025-12-02 17:04:00] Submit Service Order - PASSED
+[2025-12-02 17:04:10] Service Order Submitted Successfully - PASSED

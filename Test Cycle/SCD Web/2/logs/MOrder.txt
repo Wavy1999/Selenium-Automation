@@ -1,0 +1,36 @@
+[2025-12-02 17:04:11] Clicked Manage Order - PASSED
+[2025-12-02 17:04:16] 'Manage Orders' element is visible - PASSED
+[2025-12-02 17:04:36] Searching for service: NeuroLink - PASSED
+[2025-12-02 17:04:59] Searched for service: UNPAID - PASSED
+[2025-12-02 17:04:59] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-12-02 17:04:59] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-12-02 17:04:59] Applied Date Range filter - PASSED
+[2025-12-02 17:04:59] Checked first order row - PASSED
+[2025-12-02 17:05:00] Viewed Order Profile - PASSED
+[2025-12-02 17:05:01] Opened Update Contact & Shipping - PASSED
+[2025-12-02 17:05:06] Modal loaded - PASSED
+[2025-12-02 17:05:06] Updated mobileNumber: +63 933 345 6789 - PASSED
+[2025-12-02 17:05:08] Updated HouseNumber: Hidalgo - PASSED
+[2025-12-02 17:05:10] Updated Street: Quiapo Village - PASSED
+[2025-12-02 17:05:12] Updated PostCode: 1001 - PASSED
+[2025-12-02 17:05:15] Selected CountryCode: PHILIPPINES - PASSED
+[2025-12-02 17:05:17] Selected Province: BATANGAS - PASSED
+[2025-12-02 17:05:19] Selected City: TANAUAN - PASSED
+[2025-12-02 17:05:22] Selected Barangay: BALELE - PASSED
+[2025-12-02 17:05:24] Clicked Save Changes - PASSED
+[2025-12-02 17:05:26] Confirmed Changes - PASSED
+[2025-12-02 17:05:26] Clicked OK - PASSED
+[2025-12-02 17:05:27] Navigated to Manage Order page - PASSED
+[2025-12-02 17:05:33] Clicked Receive Payment - PASSED
+[2025-12-02 17:05:36] Payment table found - PASSED
+[2025-12-02 17:05:36] Extracted price: ₱13 - PASSED
+[2025-12-02 17:05:36] Entered payment amount: 13 - PASSED
+[2025-12-02 17:05:36] Clicked Submit Payment - PASSED
+[2025-12-02 17:05:37] Payment completed successfully - PASSED
+[2025-12-02 17:05:37] Payment confirmation modal appeared - PASSED
+[2025-12-02 17:05:40] Payment Confirmation Text: You're about to receive a payment of ₱13 for Order No. BNW-ORD-050305149-792 via CASH.
+Would you like to continue? - PASSED
+[2025-12-02 17:05:40] Clicked Yes on confirmation modal - PASSED
+[2025-12-02 17:05:46] Navigated to Manage Order - PASSED
+[2025-12-02 17:06:04] Clicked Create New Order - PASSED
+[2025-12-02 17:06:15] Navigated to Manage Order - PASSED

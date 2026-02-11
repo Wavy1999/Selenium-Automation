@@ -1,0 +1,31 @@
+[2025-10-30 14:50:02] Clicked Restaurant Center - PASSED
+[2025-10-30 14:50:02] Restaurant Home Dashboard - PASSED
+[2025-10-30 14:50:03] Go to Setup Restaurant Section - PASSED
+[2025-10-30 14:50:13] Go to Invoice Settings - PASSED
+[2025-10-30 14:50:21] Set Service Charge to 10% - PASSED
+[2025-10-30 14:50:21] QA-SCDWEB-PB47-S1: to Save service charge successfully - PASSED
+[2025-10-30 14:50:21] Save Price Adjustment - PASSED
+[2025-10-30 14:50:26] Confirm Price Adjustment - PASSED
+[2025-10-30 14:50:34] Go Back to Setup Restaurant Section - PASSED
+[2025-10-30 14:50:44] Go to Invoice Settings - PASSED
+[2025-10-30 14:50:48] Set Service Charge to 10.5% - PASSED
+[2025-10-30 14:50:58] QA-SCDWEB-PB47-S2: Decimal service charge accepted - PASSED
+[2025-10-30 14:50:58] Save Price Adjustment - PASSED
+[2025-10-30 14:51:03] Confirm Price Adjustment - PASSED
+[2025-10-30 14:51:09] Go Back to Setup Restaurant Section - PASSED
+[2025-10-30 14:51:19] Go to Invoice Settings - PASSED
+[2025-10-30 14:51:23] Set Service Charge to 0% - PASSED
+[2025-10-30 14:51:33] QA-SCDWEB-PB47-S3: Zero percent service charge - PASSED
+[2025-10-30 14:51:33] Save Price Adjustment - PASSED
+[2025-10-30 14:51:38] Confirm Price Adjustment - PASSED
+[2025-10-30 14:51:45] Go Back to Setup Restaurant Section - PASSED
+[2025-10-30 14:51:55] Go to Invoice Settings - PASSED
+[2025-10-30 14:52:00] Set Service Charge to empty - PASSED
+[2025-10-30 14:52:02] No validation class found for empty Service Charge field. - PASSED
+[2025-10-30 14:52:03] Saved screenshot: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Files\screenshots\Invoice_Settings\set_service_charge_empty.png - PASSED
+[2025-10-30 14:52:03] QA-SCDWEB-PB47-S4: Validation for missing Service Charge value. - PASSED
+[2025-10-30 14:52:04] Set Service Charge to invalid input 'abc' - PASSED
+[2025-10-30 14:52:06] Field shows invalid state (red border detected). - PASSED
+[2025-10-30 14:52:06] Validation message displayed correctly: 'Service Charge must be a valid number' - PASSED
+[2025-10-30 14:52:06] Saved screenshot: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Files\screenshots\Invoice_Settings\set_service_charge_invalid.png - PASSED
+[2025-10-30 14:52:06] QA-SCDWEB-PB47-S5: Validation for invalid Service Charge input completed. - PASSED

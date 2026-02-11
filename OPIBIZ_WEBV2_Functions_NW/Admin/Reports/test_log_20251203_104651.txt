@@ -1,0 +1,64 @@
+[2025-12-03 10:46:51] Automation has started... - PASSED
+[2025-12-03 10:46:51] Login Credentials: - PASSED
+[2025-12-03 10:46:53] Login completed with user: C.r001.OBiz.masteradmin - PASSED
+[2025-12-03 10:46:53] Selecting branch and terminal... - PASSED
+[2025-12-03 10:47:29] Branch and terminal selection successful - PASSED
+[2025-12-03 10:47:29] Starting Main Dashboard test... - PASSED
+[2025-12-03 10:49:49] Main Dashboard test completed successfully - PASSED
+[2025-12-03 10:49:49] Starting Seller Dashboard test... - PASSED
+[2025-12-03 10:51:22] Seller Dashboard test completed successfully - PASSED
+[2025-12-03 10:51:22] Starting Create Order View test... - PASSED
+[2025-12-03 10:51:43] Create Order View test completed successfully - PASSED
+[2025-12-03 10:51:43] Starting Create Order test... - PASSED
+[2025-12-03 10:55:18] Create Order test completed successfully - PASSED
+[2025-12-03 10:55:18] Starting Manage Order test... - PASSED
+[2025-12-03 10:57:21] Manage Order test completed successfully - PASSED
+[2025-12-03 10:57:21] Starting Order QR test... - PASSED
+[2025-12-03 10:57:40] Order QR test completed successfully - PASSED
+[2025-12-03 10:57:40] Starting Create New Product test... - PASSED
+[2025-12-03 10:58:56] Create New Product test completed successfully - PASSED
+[2025-12-03 10:58:56] Starting Manage Product test... - PASSED
+[2025-12-03 11:02:24] Manage Product test completed successfully - PASSED
+[2025-12-03 11:02:24] Starting Create Products Bulk test... - PASSED
+[2025-12-03 11:03:53] Create Products Bulk test completed successfully - PASSED
+[2025-12-03 11:03:53] Starting Inventory Management test... - PASSED
+[2025-12-03 11:05:05] Inventory Management test completed successfully - PASSED
+[2025-12-03 11:05:05] Starting Bookings test... - PASSED
+[2025-12-03 11:06:34] Bookings test completed successfully - PASSED
+[2025-12-03 11:06:34] Starting Create Service Order View test... - PASSED
+[2025-12-03 11:06:40] Create Service Order View test completed successfully - PASSED
+[2025-12-03 11:06:40] Starting Create Service Order test... - PASSED
+[2025-12-03 11:10:28] Create Service Order test completed successfully - PASSED
+[2025-12-03 11:10:29] Starting Manage Service Order test... - PASSED
+[2025-12-03 11:12:37] Manage Service Order test completed successfully - PASSED
+[2025-12-03 11:12:37] Starting Create New Service test... - PASSED
+[2025-12-03 11:12:56] Create New Service test completed successfully - PASSED
+[2025-12-03 11:12:56] Starting Manage Service test... - PASSED
+[2025-12-03 11:16:28] Manage Service test completed successfully - PASSED
+[2025-12-03 11:16:28] Starting Create Service Bulk test... - PASSED
+[2025-12-03 11:16:42] Create Service Bulk test completed successfully - PASSED
+[2025-12-03 11:16:42] Starting Cash Management test... - PASSED
+[2025-12-03 11:17:57] Cash Management test completed successfully - PASSED
+[2025-12-03 11:17:57] Starting Branches test... - PASSED
+[2025-12-03 11:18:16] Branches test completed successfully - PASSED
+[2025-12-03 11:18:17] Starting Warehouse test... - PASSED
+[2025-12-03 11:18:17] Starting Add New Employee test... - PASSED
+[2025-12-03 11:19:01] Add New Employee test completed successfully - PASSED
+[2025-12-03 11:19:02] Starting Employee List test... - PASSED
+[2025-12-03 11:19:54] Employee List test completed successfully - PASSED
+[2025-12-03 11:19:54] Starting Add New Client test... - PASSED
+[2025-12-03 11:21:16] Add New Client test completed successfully - PASSED
+[2025-12-03 11:21:16] Starting Client List test... - PASSED
+[2025-12-03 11:24:28] Client List test completed successfully - PASSED
+[2025-12-03 11:24:28] Starting OmniPay Account test... - PASSED
+[2025-12-03 11:24:35] OmniPay Account test completed successfully - PASSED
+[2025-12-03 11:24:35] Starting Another Bank test... - PASSED
+[2025-12-03 11:24:39] Another Bank test completed successfully - PASSED
+[2025-12-03 11:24:40] Starting Telegraphic Transfer test... - PASSED
+[2025-12-03 11:24:44] Telegraphic Transfer test completed successfully - PASSED
+[2025-12-03 11:24:44] Starting My Profile test... - PASSED
+[2025-12-03 11:24:51] My Profile test completed successfully - PASSED
+[2025-12-03 11:24:51] Starting Audit Logs test... - PASSED
+[2025-12-03 11:25:06] Audit Logs test completed successfully - PASSED
+[2025-12-03 11:25:06] Starting logout... - PASSED
+[2025-12-03 11:25:41] Logout successful - PASSED

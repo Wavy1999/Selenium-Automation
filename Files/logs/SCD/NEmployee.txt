@@ -1,0 +1,15 @@
+[2026-02-10 13:18:32] Container add employee is now visible - PASSED
+[2026-02-10 13:18:37] Entered first name: Nami - PASSED
+[2026-02-10 13:18:38] Entered middle name: Cat - PASSED
+[2026-02-10 13:18:40] Entered last name: Burglar - PASSED
+[2026-02-10 13:18:43] Entered birthday: 07/03/1999 - PASSED
+[2026-02-10 13:18:43] Selected civil status: Single - PASSED
+[2026-02-10 13:18:43] Selected citizenship: Foreign - PASSED
+[2026-02-10 13:18:47] Entered TIN: 456-123-789 - PASSED
+[2026-02-10 13:18:48] Entered dependencies: 3 - PASSED
+[2026-02-10 13:18:50] Entered mobile number: 9281234567 - PASSED
+[2026-02-10 13:18:55] Entered email: nami@strawhatpirates.com - PASSED
+[2026-02-10 13:18:57] Uploaded image: <function upload_image_by_name at 0x00000264A108C040> - PASSED
+[2026-02-10 13:19:01] Save New Employee button: - PASSED
+[2026-02-10 13:19:02] Confirmation, are you sure want to create new employee: - PASSED
+[2026-02-10 13:19:04] Success: - PASSED

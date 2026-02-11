@@ -1,0 +1,37 @@
+[2026-02-10 12:54:57] Clicked Manage Order - PASSED
+[2026-02-10 12:55:03] 'Manage Orders' element is visible - PASSED
+[2026-02-10 12:55:23] Searching for service: Syntrix - PASSED
+[2026-02-10 12:55:46] Searched for service: UNPAID - PASSED
+[2026-02-10 12:55:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-02-10 12:55:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-02-10 12:55:47] Applied Date Range filter - PASSED
+[2026-02-10 12:55:47] Checked first order row - PASSED
+[2026-02-10 12:55:48] Viewed Order Profile - PASSED
+[2026-02-10 12:55:48] Opened Update Contact & Shipping - PASSED
+[2026-02-10 12:55:53] Modal loaded - PASSED
+[2026-02-10 12:55:53] Updated mobileNumber: +63 933 345 6789 - PASSED
+[2026-02-10 12:55:56] Updated HouseNumber: Hidalgo - PASSED
+[2026-02-10 12:55:58] Updated Street: Quiapo Village - PASSED
+[2026-02-10 12:56:00] Updated PostCode: 1001 - PASSED
+[2026-02-10 12:56:02] Selected CountryCode: PHILIPPINES - PASSED
+[2026-02-10 12:56:05] Selected Province: BATANGAS - PASSED
+[2026-02-10 12:56:07] Selected City: TANAUAN - PASSED
+[2026-02-10 12:56:09] Selected Barangay: BALELE - PASSED
+[2026-02-10 12:56:11] Clicked Save Changes - PASSED
+[2026-02-10 12:56:14] Confirmed Changes - PASSED
+[2026-02-10 12:56:14] Clicked OK - PASSED
+[2026-02-10 12:56:14] Navigated to Manage Order page - PASSED
+[2026-02-10 12:56:36] Manage Order page loaded - PASSED
+[2026-02-10 12:56:40] Clicked Receive Payment - PASSED
+[2026-02-10 12:56:43] Payment table found - PASSED
+[2026-02-10 12:56:43] Extracted price: ₱4 - PASSED
+[2026-02-10 12:56:44] Entered payment amount: 4 - PASSED
+[2026-02-10 12:56:44] Clicked Submit Payment - PASSED
+[2026-02-10 12:56:44] Payment completed successfully - PASSED
+[2026-02-10 12:56:44] Payment confirmation modal appeared - PASSED
+[2026-02-10 12:56:47] Payment Confirmation Text: You're about to receive a payment of ₱4 for Order No. BNW-ORD-125345990-774 via CASH.
+Would you like to continue? - PASSED
+[2026-02-10 12:56:47] Clicked Yes on confirmation modal - PASSED
+[2026-02-10 12:56:53] Navigated to Manage Order - PASSED
+[2026-02-10 12:57:12] Clicked Create New Order - PASSED
+[2026-02-10 12:57:23] Navigated to Manage Order - PASSED

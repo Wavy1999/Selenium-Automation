@@ -1,0 +1,3380 @@
+[2025-11-04 17:26:42] Clicked Order Management - PASSED
+[2025-11-04 17:26:47] Clicked Create Single Order - PASSED
+[2025-11-04 17:26:56] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-04 17:26:57] Create Order page loaded - PASSED
+[2025-11-04 17:26:57] Click Search Button - PASSED
+[2025-11-04 17:26:58] Search specific client - PASSED
+[2025-11-04 17:27:00] Closse search - PASSED
+[2025-11-04 17:27:02] Click Checkout as guest option - PASSED
+[2025-11-04 17:27:04] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 79, in COrder
+    if isinstance(due_date, datetime):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 79, in COrder
+    if isinstance(due_date, datetime):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union
+[2025-11-04 17:27:19] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+[2025-11-04 17:33:19] Clicked Order Management - PASSED
+[2025-11-04 17:33:25] Clicked Create Single Order - PASSED
+[2025-11-04 17:33:34] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-04 17:33:34] Create Order page loaded - PASSED
+[2025-11-04 17:33:34] Click Search Button - PASSED
+[2025-11-04 17:33:35] Search specific client - PASSED
+[2025-11-04 17:33:37] Closse search - PASSED
+[2025-11-04 17:33:39] Click Checkout as guest option - PASSED
+[2025-11-04 17:33:43] Entered first name: Monkey - PASSED
+[2025-11-04 17:33:47] Entered middle name: Dragon - PASSED
+[2025-11-04 17:33:51] Entered last name:  Luffy - PASSED
+[2025-11-04 17:33:56] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-04 17:34:02] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-11-04 17:34:09] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-11-04 17:34:13] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-04 17:34:20] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-04 17:34:22] Selected Country: PHILIPPINES - PASSED
+[2025-11-04 17:34:25] Selected Province: ABRA - PASSED
+[2025-11-04 17:34:27] Selected City/Municipality: BUCAY - PASSED
+[2025-11-04 17:34:29] Selected Barangay: CALAO - PASSED
+[2025-11-04 17:34:34] Entered Postal Code: 4025 - PASSED
+[2025-11-04 17:34:38] Entered Order Notes: Meat - PASSED
+[2025-11-04 17:34:41] Clicked to select item in purchase order - PASSED
+[2025-11-04 17:34:43] Selected Product: BP Glasses - PASSED
+[2025-11-04 17:34:56] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 237, in COrder
+    product_confirm = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="SERVICES_productServiceCatalogModal"]/div/div/div[3]/button[2]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 237, in COrder
+    product_confirm = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="SERVICES_productServiceCatalogModal"]/div/div/div[3]/button[2]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-04 17:35:11] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+[2025-11-04 17:43:11] Clicked Order Management - PASSED
+[2025-11-04 17:43:16] Clicked Create Single Order - PASSED
+[2025-11-04 17:43:25] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-04 17:43:25] Create Order page loaded - PASSED
+[2025-11-04 17:43:26] Click Search Button - PASSED
+[2025-11-04 17:43:26] Search specific client - PASSED
+[2025-11-04 17:43:28] Closse search - PASSED
+[2025-11-04 17:43:31] Click Checkout as guest option - PASSED
+[2025-11-04 17:43:35] Entered first name: Nico - PASSED
+[2025-11-04 17:43:38] Entered middle name: Test - PASSED
+[2025-11-04 17:43:42] Entered last name: Robin - PASSED
+[2025-11-04 17:43:48] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-04 17:43:53] Entered mobile number: +63 955 567 8901 - PASSED
+[2025-11-04 17:44:00] Entered email: robin@strawhatpirates.com - PASSED
+[2025-11-04 17:44:05] Entered House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-04 17:44:11] Entered Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-04 17:44:13] Selected Country: PHILIPPINES - PASSED
+[2025-11-04 17:44:15] Selected Province: IFUGAO - PASSED
+[2025-11-04 17:44:18] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-04 17:44:20] Selected Barangay: AWAYAN - PASSED
+[2025-11-04 17:44:25] Entered Postal Code: 4029 - PASSED
+[2025-11-04 17:44:29] Entered Order Notes: Yami - PASSED
+[2025-11-04 17:44:32] Clicked to select item in purchase order - PASSED
+[2025-11-04 17:44:35] Selected Product: BP Gloves - PASSED
+[2025-11-04 17:44:47] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 237, in COrder
+    product_confirm = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="SERVICES_productServiceCatalogModal"]/div/div/div[3]/button[2]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 237, in COrder
+    product_confirm = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="SERVICES_productServiceCatalogModal"]/div/div/div[3]/button[2]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-04 17:45:03] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+[2025-11-04 17:52:05] Clicked Order Management - PASSED
+[2025-11-04 17:52:10] Clicked Create Single Order - PASSED
+[2025-11-04 17:52:20] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-04 17:52:20] Create Order page loaded - PASSED
+[2025-11-04 17:52:20] Click Search Button - PASSED
+[2025-11-04 17:52:21] Search specific client - PASSED
+[2025-11-04 17:52:23] Closse search - PASSED
+[2025-11-04 17:52:25] Click Checkout as guest option - PASSED
+[2025-11-04 17:52:29] Entered first name: Sanji - PASSED
+[2025-11-04 17:52:33] Entered middle name: Test - PASSED
+[2025-11-04 17:52:37] Entered last name: Vinsmoke - PASSED
+[2025-11-04 17:52:42] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-04 17:52:47] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-04 17:52:54] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-04 17:52:59] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-04 17:53:05] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-04 17:53:07] Selected Country: PHILIPPINES - PASSED
+[2025-11-04 17:53:10] Selected Province: BOHOL - PASSED
+[2025-11-04 17:53:12] Selected City/Municipality: ANDA - PASSED
+[2025-11-04 17:53:14] Selected Barangay: CASICA - PASSED
+[2025-11-04 17:53:19] Entered Postal Code: 4028 - PASSED
+[2025-11-04 17:53:24] Entered Order Notes: Breeze - PASSED
+[2025-11-04 17:53:26] Clicked to select item in purchase order - PASSED
+[2025-11-04 17:53:30] Selected Product: BP Gloves - PASSED
+[2025-11-04 17:53:32] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 239, in COrder
+    log_action(f"Confirm Service: {client['Service']}", log_file_path=log_file_path)
+                                   ~~~~~~^^^^^^^^^^^
+KeyError: 'Service'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 239, in COrder
+    log_action(f"Confirm Service: {client['Service']}", log_file_path=log_file_path)
+                                   ~~~~~~^^^^^^^^^^^
+KeyError: 'Service'
+[2025-11-04 17:53:48] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x2e58c3
+	0x2e5904
+	0xfe76d
+	0x14a09d
+	0x14a47b
+	0x191802
+	0x16c9b4
+	0x18eea6
+	0x16c766
+	0x13dac0
+	0x13ede4
+	0x567974
+	0x562bea
+	0x30e5b4
+	0x2fdd28
+	0x304d8d
+	0x2eded8
+	0x2ee09c
+	0x2d7d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+	0
+
+[2025-11-05 09:17:49] Clicked Order Management - PASSED
+[2025-11-05 09:17:54] Clicked Create Single Order - PASSED
+[2025-11-05 09:18:04] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 09:18:04] Create Order page loaded - PASSED
+[2025-11-05 09:18:04] Click Search Button - PASSED
+[2025-11-05 09:18:04] Search specific client - PASSED
+[2025-11-05 09:18:06] Closse search - PASSED
+[2025-11-05 09:18:08] Click Checkout as guest option - PASSED
+[2025-11-05 09:18:13] Entered first name: Monkey - PASSED
+[2025-11-05 09:18:16] Entered middle name: Dragon - PASSED
+[2025-11-05 09:18:20] Entered last name:  Luffy - PASSED
+[2025-11-05 09:18:25] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 09:18:31] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-11-05 09:18:38] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-11-05 09:18:42] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 09:18:50] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 09:18:53] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 09:18:55] Selected Province: ABRA - PASSED
+[2025-11-05 09:18:57] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 09:19:00] Selected Barangay: CALAO - PASSED
+[2025-11-05 09:19:04] Entered Postal Code: 4025 - PASSED
+[2025-11-05 09:19:10] Entered Order Notes: Meat - PASSED
+[2025-11-05 09:19:12] Clicked to select item in purchase order - PASSED
+[2025-11-05 09:19:15] Selected Product: BP Gloves - PASSED
+[2025-11-05 09:19:28] Error selecting product: Message: 
+ - FAILED
+[2025-11-05 09:19:38] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 249, in COrder
+    product_quantity.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae5bb
+	0xbf17ec
+	0xc1c96c
+	0xbef854
+	0xc1cb24
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 249, in COrder
+    product_quantity.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae5bb
+	0xbf17ec
+	0xc1c96c
+	0xbef854
+	0xc1cb24
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:19:54] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:28:33] Clicked Order Management - PASSED
+[2025-11-05 09:28:38] Clicked Create Single Order - PASSED
+[2025-11-05 09:28:48] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 09:28:48] Create Order page loaded - PASSED
+[2025-11-05 09:28:48] Click Search Button - PASSED
+[2025-11-05 09:28:49] Search specific client - PASSED
+[2025-11-05 09:28:51] Closse search - PASSED
+[2025-11-05 09:28:53] Click Checkout as guest option - PASSED
+[2025-11-05 09:28:57] Entered first name: Nami - PASSED
+[2025-11-05 09:29:00] Entered middle name: Cat - PASSED
+[2025-11-05 09:29:04] Entered last name: Burglar - PASSED
+[2025-11-05 09:29:09] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 09:29:15] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 09:29:22] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 09:29:26] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 09:29:31] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 09:29:33] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 09:29:35] Selected Province: BATANGAS - PASSED
+[2025-11-05 09:29:38] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 09:29:40] Selected Barangay: BALELE - PASSED
+[2025-11-05 09:29:45] Entered Postal Code: 4027 - PASSED
+[2025-11-05 09:29:49] Entered Order Notes: Gold - PASSED
+[2025-11-05 09:29:51] Clicked to select item in purchase order - PASSED
+[2025-11-05 09:29:54] Selected Product: BP Gloves - PASSED
+[2025-11-05 09:30:06] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 09:30:07] Product confirmed: BP Gloves - PASSED
+[2025-11-05 09:30:17] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 248, in COrder
+    product_quantity.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae5bb
+	0xbf17ec
+	0xc1c96c
+	0xbef854
+	0xc1cb24
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 248, in COrder
+    product_quantity.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae5bb
+	0xbf17ec
+	0xc1c96c
+	0xbef854
+	0xc1cb24
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:30:33] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:39:36] Clicked Order Management - PASSED
+[2025-11-05 09:39:41] Clicked Create Single Order - PASSED
+[2025-11-05 09:39:50] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 09:39:50] Create Order page loaded - PASSED
+[2025-11-05 09:39:50] Click Search Button - PASSED
+[2025-11-05 09:39:51] Search specific client - PASSED
+[2025-11-05 09:39:53] Closse search - PASSED
+[2025-11-05 09:39:55] Click Checkout as guest option - PASSED
+[2025-11-05 09:39:59] Entered first name: Nico - PASSED
+[2025-11-05 09:40:02] Entered middle name: Test - PASSED
+[2025-11-05 09:40:06] Entered last name: Robin - PASSED
+[2025-11-05 09:40:11] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 09:40:17] Entered mobile number: +63 955 567 8901 - PASSED
+[2025-11-05 09:40:24] Entered email: robin@strawhatpirates.com - PASSED
+[2025-11-05 09:40:29] Entered House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 09:40:35] Entered Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 09:40:37] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 09:40:39] Selected Province: IFUGAO - PASSED
+[2025-11-05 09:40:42] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 09:40:44] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 09:40:49] Entered Postal Code: 4029 - PASSED
+[2025-11-05 09:40:52] Entered Order Notes: Yami - PASSED
+[2025-11-05 09:40:55] Clicked to select item in purchase order - PASSED
+[2025-11-05 09:40:58] Selected Product: BP Gloves - PASSED
+[2025-11-05 09:41:09] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 09:41:10] Product confirmed: BP Gloves - PASSED
+[2025-11-05 09:41:11] Confirmed selected product - PASSED
+[2025-11-05 09:41:22] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 249, in COrder
+    element.send_keys(2)
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'element' where it is not associated with a value
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 249, in COrder
+    element.send_keys(2)
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'element' where it is not associated with a value
+[2025-11-05 09:41:37] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:48:15] Clicked Order Management - PASSED
+[2025-11-05 09:48:20] Clicked Create Single Order - PASSED
+[2025-11-05 09:48:29] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 09:48:29] Create Order page loaded - PASSED
+[2025-11-05 09:48:29] Click Search Button - PASSED
+[2025-11-05 09:48:30] Search specific client - PASSED
+[2025-11-05 09:48:32] Closse search - PASSED
+[2025-11-05 09:48:34] Click Checkout as guest option - PASSED
+[2025-11-05 09:48:38] Entered first name: Nami - PASSED
+[2025-11-05 09:48:41] Entered middle name: Cat - PASSED
+[2025-11-05 09:48:45] Entered last name: Burglar - PASSED
+[2025-11-05 09:48:51] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 09:48:56] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 09:49:02] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 09:49:06] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 09:49:11] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 09:49:13] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 09:49:16] Selected Province: BATANGAS - PASSED
+[2025-11-05 09:49:18] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 09:49:20] Selected Barangay: BALELE - PASSED
+[2025-11-05 09:49:25] Entered Postal Code: 4027 - PASSED
+[2025-11-05 09:49:29] Entered Order Notes: Gold - PASSED
+[2025-11-05 09:49:32] Clicked to select item in purchase order - PASSED
+[2025-11-05 09:49:35] Selected Product: BP Gloves - PASSED
+[2025-11-05 09:49:46] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 09:49:48] Product confirmed: BP Gloves - PASSED
+[2025-11-05 09:49:49] Confirmed selected product - PASSED
+[2025-11-05 09:49:59] Entered product quantity - PASSED
+[2025-11-05 09:49:59] Click Add Item - PASSED
+[2025-11-05 09:50:10] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 258, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 258, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 09:50:25] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:14:45] Clicked Order Management - PASSED
+[2025-11-05 10:14:50] Clicked Create Single Order - PASSED
+[2025-11-05 10:15:00] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 10:15:00] Create Order page loaded - PASSED
+[2025-11-05 10:15:00] Click Search Button - PASSED
+[2025-11-05 10:15:01] Search specific client - PASSED
+[2025-11-05 10:15:03] Closse search - PASSED
+[2025-11-05 10:15:05] Click Checkout as guest option - PASSED
+[2025-11-05 10:15:07] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 10:15:09] Entered first name: Nami - PASSED
+[2025-11-05 10:15:12] Entered middle name: Cat - PASSED
+[2025-11-05 10:15:17] Entered last name: Burglar - PASSED
+[2025-11-05 10:15:22] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 10:15:27] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 10:15:34] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 10:15:38] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 10:15:43] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 10:15:45] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 10:15:47] Selected Province: BATANGAS - PASSED
+[2025-11-05 10:15:50] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 10:15:52] Selected Barangay: BALELE - PASSED
+[2025-11-05 10:15:56] Entered Postal Code: 4027 - PASSED
+[2025-11-05 10:16:01] Entered Order Notes: Gold - PASSED
+[2025-11-05 10:16:03] Clicked to select item in purchase order - PASSED
+[2025-11-05 10:16:06] Selected Product: BP Gloves - PASSED
+[2025-11-05 10:16:17] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 10:16:19] Product confirmed: BP Gloves - PASSED
+[2025-11-05 10:16:20] Confirmed selected product - PASSED
+[2025-11-05 10:16:30] Entered product quantity - PASSED
+[2025-11-05 10:16:30] Click Add Item - PASSED
+[2025-11-05 10:16:41] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 264, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 264, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:16:56] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:29:18] Clicked Order Management - PASSED
+[2025-11-05 10:29:23] Clicked Create Single Order - PASSED
+[2025-11-05 10:29:33] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 10:29:33] Create Order page loaded - PASSED
+[2025-11-05 10:29:33] Click Search Button - PASSED
+[2025-11-05 10:29:34] Search specific client - PASSED
+[2025-11-05 10:29:36] Closse search - PASSED
+[2025-11-05 10:29:38] Click Checkout as guest option - PASSED
+[2025-11-05 10:29:40] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 10:29:42] Entered first name: Nico - PASSED
+[2025-11-05 10:29:45] Entered middle name: Test - PASSED
+[2025-11-05 10:29:49] Entered last name: Robin - PASSED
+[2025-11-05 10:29:54] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 10:29:59] Entered mobile number: +63 955 567 8901 - PASSED
+[2025-11-05 10:30:06] Entered email: robin@strawhatpirates.com - PASSED
+[2025-11-05 10:30:10] Entered House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 10:30:15] Entered Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 10:30:18] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 10:30:20] Selected Province: IFUGAO - PASSED
+[2025-11-05 10:30:22] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 10:30:25] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 10:30:29] Entered Postal Code: 4029 - PASSED
+[2025-11-05 10:30:33] Entered Order Notes: Yami - PASSED
+[2025-11-05 10:30:35] Clicked to select item in purchase order - PASSED
+[2025-11-05 10:30:38] Selected Product: BP Gloves - PASSED
+[2025-11-05 10:30:49] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 10:30:50] Product confirmed: BP Gloves - PASSED
+[2025-11-05 10:30:52] Confirmed selected product - PASSED
+[2025-11-05 10:31:02] Entered product quantity - PASSED
+[2025-11-05 10:31:02] Click Add Item - PASSED
+[2025-11-05 10:31:13] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 280, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 280, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:31:28] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:44:57] Clicked Order Management - PASSED
+[2025-11-05 10:45:02] Clicked Create Single Order - PASSED
+[2025-11-05 10:45:12] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 10:45:12] Create Order page loaded - PASSED
+[2025-11-05 10:45:12] Click Search Button - PASSED
+[2025-11-05 10:45:13] Search specific client - PASSED
+[2025-11-05 10:45:15] Closse search - PASSED
+[2025-11-05 10:45:17] Click Checkout as guest option - PASSED
+[2025-11-05 10:45:21] Entered first name: Sanji - PASSED
+[2025-11-05 10:45:24] Entered middle name: Test - PASSED
+[2025-11-05 10:45:28] Entered last name: Vinsmoke - PASSED
+[2025-11-05 10:45:33] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 10:45:38] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-05 10:45:45] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-05 10:45:49] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 10:45:54] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 10:45:57] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 10:45:59] Selected Province: BOHOL - PASSED
+[2025-11-05 10:46:01] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 10:46:04] Selected Barangay: CASICA - PASSED
+[2025-11-05 10:46:08] Entered Postal Code: 4028 - PASSED
+[2025-11-05 10:46:13] Entered Order Notes: Breeze - PASSED
+[2025-11-05 10:46:15] Clicked to select item in purchase order - PASSED
+[2025-11-05 10:46:18] Selected Product: BP Gloves - PASSED
+[2025-11-05 10:46:30] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 10:46:31] Product confirmed: BP Gloves - PASSED
+[2025-11-05 10:46:34] Confirmed selected product - PASSED
+[2025-11-05 10:46:45] Entered product quantity - PASSED
+[2025-11-05 10:46:47] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 208, in COrder
+    scroll_top = driver.find_element(...)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 402, in execute
+    data = utils.dump_json(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\utils.py", line 23, in dump_json
+    return json.dumps(json_struct)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ellipsis is not JSON serializable
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 208, in COrder
+    scroll_top = driver.find_element(...)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 402, in execute
+    data = utils.dump_json(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\utils.py", line 23, in dump_json
+    return json.dumps(json_struct)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ellipsis is not JSON serializable
+[2025-11-05 10:47:03] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:55:46] Clicked Order Management - PASSED
+[2025-11-05 10:55:51] Clicked Create Single Order - PASSED
+[2025-11-05 10:56:00] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 10:56:00] Create Order page loaded - PASSED
+[2025-11-05 10:56:00] Click Search Button - PASSED
+[2025-11-05 10:56:01] Search specific client - PASSED
+[2025-11-05 10:56:03] Closse search - PASSED
+[2025-11-05 10:56:05] Click Checkout as guest option - PASSED
+[2025-11-05 10:56:09] Entered first name: Nami - PASSED
+[2025-11-05 10:56:13] Entered middle name: Cat - PASSED
+[2025-11-05 10:56:17] Entered last name: Burglar - PASSED
+[2025-11-05 10:56:22] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 10:56:28] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 10:56:35] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 10:56:39] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 10:56:44] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 10:56:46] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 10:56:49] Selected Province: BATANGAS - PASSED
+[2025-11-05 10:56:51] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 10:56:53] Selected Barangay: BALELE - PASSED
+[2025-11-05 10:56:58] Entered Postal Code: 4027 - PASSED
+[2025-11-05 10:57:03] Entered Order Notes: Gold - PASSED
+[2025-11-05 10:57:05] Clicked to select item in purchase order - PASSED
+[2025-11-05 10:57:08] Selected Product: BP Gloves - PASSED
+[2025-11-05 10:57:20] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 10:57:21] Product confirmed: BP Gloves - PASSED
+[2025-11-05 10:57:22] Confirmed selected product - PASSED
+[2025-11-05 10:57:33] Entered product quantity - PASSED
+[2025-11-05 10:57:35] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 10:57:35] Click Add Item - PASSED
+[2025-11-05 10:57:45] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 286, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 286, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 10:58:01] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:08:29] Clicked Order Management - PASSED
+[2025-11-05 11:08:34] Clicked Create Single Order - PASSED
+[2025-11-05 11:08:44] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 11:08:44] Create Order page loaded - PASSED
+[2025-11-05 11:08:44] Click Search Button - PASSED
+[2025-11-05 11:08:45] Search specific client - PASSED
+[2025-11-05 11:08:47] Closse search - PASSED
+[2025-11-05 11:08:49] Click Checkout as guest option - PASSED
+[2025-11-05 11:08:53] Entered first name: Monkey - PASSED
+[2025-11-05 11:08:57] Entered middle name: Dragon - PASSED
+[2025-11-05 11:09:01] Entered last name:  Luffy - PASSED
+[2025-11-05 11:09:06] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 11:09:11] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-11-05 11:09:18] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-11-05 11:09:22] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 11:09:29] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 11:09:31] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 11:09:34] Selected Province: ABRA - PASSED
+[2025-11-05 11:09:36] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 11:09:38] Selected Barangay: CALAO - PASSED
+[2025-11-05 11:09:42] Entered Postal Code: 4025 - PASSED
+[2025-11-05 11:09:47] Entered Order Notes: Meat - PASSED
+[2025-11-05 11:09:49] Clicked to select item in purchase order - PASSED
+[2025-11-05 11:09:52] Selected Product: BP Gloves - PASSED
+[2025-11-05 11:10:04] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 11:10:05] Product confirmed: BP Gloves - PASSED
+[2025-11-05 11:10:06] Confirmed selected product - PASSED
+[2025-11-05 11:10:16] Entered product quantity - PASSED
+[2025-11-05 11:10:18] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 11:10:18] Click Add Item - PASSED
+[2025-11-05 11:10:29] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 335, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 335, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:10:44] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:29:59] Clicked Order Management - PASSED
+[2025-11-05 11:30:05] Clicked Create Single Order - PASSED
+[2025-11-05 11:30:14] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 11:30:14] Create Order page loaded - PASSED
+[2025-11-05 11:30:14] Click Search Button - PASSED
+[2025-11-05 11:30:15] Search specific client - PASSED
+[2025-11-05 11:30:17] Closse search - PASSED
+[2025-11-05 11:30:19] Click Checkout as guest option - PASSED
+[2025-11-05 11:30:23] Entered first name: Nami - PASSED
+[2025-11-05 11:30:26] Entered middle name: Cat - PASSED
+[2025-11-05 11:30:31] Entered last name: Burglar - PASSED
+[2025-11-05 11:30:36] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 11:30:42] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 11:30:48] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 11:30:52] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 11:30:57] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 11:31:00] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 11:31:02] Selected Province: BATANGAS - PASSED
+[2025-11-05 11:31:04] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 11:31:07] Selected Barangay: BALELE - PASSED
+[2025-11-05 11:31:11] Entered Postal Code: 4027 - PASSED
+[2025-11-05 11:31:16] Entered Order Notes: Gold - PASSED
+[2025-11-05 11:31:18] Clicked to select item in purchase order - PASSED
+[2025-11-05 11:31:21] Selected Product: BP Gloves - PASSED
+[2025-11-05 11:31:33] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 11:31:34] Product confirmed: BP Gloves - PASSED
+[2025-11-05 11:31:44] Confirmed selected product - PASSED
+[2025-11-05 11:31:55] Entered product quantity - PASSED
+[2025-11-05 11:31:57] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 11:31:57] Click Add Item - PASSED
+[2025-11-05 11:32:07] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 319, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 319, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:32:23] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:41:03] Clicked Order Management - PASSED
+[2025-11-05 11:41:09] Clicked Create Single Order - PASSED
+[2025-11-05 11:41:18] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 11:41:18] Create Order page loaded - PASSED
+[2025-11-05 11:41:18] Click Search Button - PASSED
+[2025-11-05 11:41:19] Search specific client - PASSED
+[2025-11-05 11:41:21] Closse search - PASSED
+[2025-11-05 11:41:23] Click Checkout as guest option - PASSED
+[2025-11-05 11:41:28] Entered first name: Roronoa - PASSED
+[2025-11-05 11:41:31] Entered middle name: Test - PASSED
+[2025-11-05 11:41:34] Entered last name: Zoro - PASSED
+[2025-11-05 11:41:40] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 11:41:45] Entered mobile number: +63 922 234 5678 - PASSED
+[2025-11-05 11:41:52] Entered email: zoro@strawhatpirates.com - PASSED
+[2025-11-05 11:41:57] Entered House/Floor/Unit No.: 4556 Ayala - PASSED
+[2025-11-05 11:42:03] Entered Block/Building/Street: Legaspi Village - PASSED
+[2025-11-05 11:42:05] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 11:42:07] Selected Province: BATAAN - PASSED
+[2025-11-05 11:42:10] Selected City/Municipality: ABUCAY - PASSED
+[2025-11-05 11:42:12] Selected Barangay: BANGKAL - PASSED
+[2025-11-05 11:42:17] Entered Postal Code: 4026 - PASSED
+[2025-11-05 11:42:21] Entered Order Notes: Booze - PASSED
+[2025-11-05 11:42:24] Clicked to select item in purchase order - PASSED
+[2025-11-05 11:42:27] Selected Product: BP Gloves - PASSED
+[2025-11-05 11:42:38] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 11:42:40] Product confirmed: BP Gloves - PASSED
+[2025-11-05 11:42:50] Confirmed selected product - PASSED
+[2025-11-05 11:43:00] Entered product quantity - PASSED
+[2025-11-05 11:43:02] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 11:43:03] Clicked date field to activate datepicker - PASSED
+[2025-11-05 11:43:04] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 11:43:06] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 11:43:09] Click Add Item - PASSED
+[2025-11-05 11:43:19] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 318, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 318, in COrder
+    remove_item = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="serviceItems"]/div[2]/div/div[2]/div[1]/button')))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 11:43:34] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 12:00:23] Clicked Order Management - PASSED
+[2025-11-05 12:00:28] Clicked Create Single Order - PASSED
+[2025-11-05 12:00:39] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 12:00:39] Create Order page loaded - PASSED
+[2025-11-05 12:00:39] Click Search Button - PASSED
+[2025-11-05 12:00:40] Search specific client - PASSED
+[2025-11-05 12:00:42] Closse search - PASSED
+[2025-11-05 12:00:44] Click Checkout as guest option - PASSED
+[2025-11-05 12:00:48] Entered first name: Nico - PASSED
+[2025-11-05 12:00:51] Entered middle name: Test - PASSED
+[2025-11-05 12:00:55] Entered last name: Robin - PASSED
+[2025-11-05 12:01:00] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 12:01:06] Entered mobile number: +63 955 567 8901 - PASSED
+[2025-11-05 12:01:13] Entered email: robin@strawhatpirates.com - PASSED
+[2025-11-05 12:01:17] Entered House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 12:01:23] Entered Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 12:01:25] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 12:01:27] Selected Province: IFUGAO - PASSED
+[2025-11-05 12:01:29] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 12:01:32] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 12:01:36] Entered Postal Code: 4029 - PASSED
+[2025-11-05 12:01:41] Entered Order Notes: Yami - PASSED
+[2025-11-05 12:01:43] Clicked to select item in purchase order - PASSED
+[2025-11-05 12:01:46] Selected Product: BP Gloves - PASSED
+[2025-11-05 12:01:58] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 12:01:59] Product confirmed: BP Gloves - PASSED
+[2025-11-05 12:02:09] Confirmed selected product - PASSED
+[2025-11-05 12:02:20] Entered product quantity - PASSED
+[2025-11-05 12:02:22] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 12:02:23] Clicked date field to activate datepicker - PASSED
+[2025-11-05 12:02:24] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 12:02:26] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 12:02:48] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 314, in COrder
+    add_item_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Add Item')]")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 314, in COrder
+    add_item_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Add Item')]")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 12:03:04] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 12:12:46] Clicked Order Management - PASSED
+[2025-11-05 12:12:52] Clicked Create Single Order - PASSED
+[2025-11-05 12:13:01] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 12:13:01] Create Order page loaded - PASSED
+[2025-11-05 12:13:01] Click Search Button - PASSED
+[2025-11-05 12:13:02] Search specific client - PASSED
+[2025-11-05 12:13:04] Closse search - PASSED
+[2025-11-05 12:13:06] Click Checkout as guest option - PASSED
+[2025-11-05 12:13:10] Entered first name: Sanji - PASSED
+[2025-11-05 12:13:14] Entered middle name: Test - PASSED
+[2025-11-05 12:13:18] Entered last name: Vinsmoke - PASSED
+[2025-11-05 12:13:23] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 12:13:29] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-05 12:13:36] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-05 12:13:41] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 12:13:47] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 12:13:49] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 12:13:52] Selected Province: BOHOL - PASSED
+[2025-11-05 12:13:54] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 12:13:56] Selected Barangay: CASICA - PASSED
+[2025-11-05 12:14:01] Entered Postal Code: 4028 - PASSED
+[2025-11-05 12:14:06] Entered Order Notes: Breeze - PASSED
+[2025-11-05 12:14:08] Clicked to select item in purchase order - PASSED
+[2025-11-05 12:14:11] Selected Product: BP Gloves - PASSED
+[2025-11-05 12:14:22] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 12:14:23] Product confirmed: BP Gloves - PASSED
+[2025-11-05 12:14:34] Confirmed selected product - PASSED
+[2025-11-05 12:14:44] Entered product quantity - PASSED
+[2025-11-05 12:14:46] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 12:14:47] Clicked date field to activate datepicker - PASSED
+[2025-11-05 12:14:48] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 12:14:50] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 12:14:52] Click Add Item - PASSED
+[2025-11-05 12:15:13] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 321, in COrder
+    remove_item = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 321, in COrder
+    remove_item = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 12:15:29] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 12:38:10] Clicked Order Management - PASSED
+[2025-11-05 12:38:15] Clicked Create Single Order - PASSED
+[2025-11-05 12:38:25] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 12:38:25] Create Order page loaded - PASSED
+[2025-11-05 12:38:25] Click Search Button - PASSED
+[2025-11-05 12:38:26] Search specific client - PASSED
+[2025-11-05 12:38:28] Closse search - PASSED
+[2025-11-05 12:38:30] Click Checkout as guest option - PASSED
+[2025-11-05 12:38:34] Entered first name: Roronoa - PASSED
+[2025-11-05 12:38:38] Entered middle name: Test - PASSED
+[2025-11-05 12:38:41] Entered last name: Zoro - PASSED
+[2025-11-05 12:38:46] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 12:38:52] Entered mobile number: +63 922 234 5678 - PASSED
+[2025-11-05 12:38:58] Entered email: zoro@strawhatpirates.com - PASSED
+[2025-11-05 12:39:03] Entered House/Floor/Unit No.: 4556 Ayala - PASSED
+[2025-11-05 12:39:08] Entered Block/Building/Street: Legaspi Village - PASSED
+[2025-11-05 12:39:11] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 12:39:13] Selected Province: BATAAN - PASSED
+[2025-11-05 12:39:15] Selected City/Municipality: ABUCAY - PASSED
+[2025-11-05 12:39:18] Selected Barangay: BANGKAL - PASSED
+[2025-11-05 12:39:22] Entered Postal Code: 4026 - PASSED
+[2025-11-05 12:39:27] Entered Order Notes: Booze - PASSED
+[2025-11-05 12:39:29] Clicked to select item in purchase order - PASSED
+[2025-11-05 12:39:32] Selected Product: BP Gloves - PASSED
+[2025-11-05 12:39:44] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 12:39:45] Product confirmed: BP Gloves - PASSED
+[2025-11-05 12:39:55] Confirmed selected product - PASSED
+[2025-11-05 12:40:05] Entered product quantity - PASSED
+[2025-11-05 12:40:07] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 12:40:08] Clicked date field to activate datepicker - PASSED
+[2025-11-05 12:40:09] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 12:40:11] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 12:40:14] Click Add Item - PASSED
+[2025-11-05 12:40:34] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 321, in COrder
+    remove_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-gray.remove-btn")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 321, in COrder
+    remove_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-gray.remove-btn")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 12:40:49] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 12:48:16] Clicked Order Management - PASSED
+[2025-11-05 12:48:21] Clicked Create Single Order - PASSED
+[2025-11-05 12:48:31] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 12:48:31] Create Order page loaded - PASSED
+[2025-11-05 12:48:31] Click Search Button - PASSED
+[2025-11-05 12:48:32] Search specific client - PASSED
+[2025-11-05 12:48:34] Closse search - PASSED
+[2025-11-05 12:48:36] Click Checkout as guest option - PASSED
+[2025-11-05 12:48:41] Entered first name: Roronoa - PASSED
+[2025-11-05 12:48:45] Entered middle name: Test - PASSED
+[2025-11-05 12:48:48] Entered last name: Zoro - PASSED
+[2025-11-05 12:48:53] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 12:48:59] Entered mobile number: +63 922 234 5678 - PASSED
+[2025-11-05 12:49:05] Entered email: zoro@strawhatpirates.com - PASSED
+[2025-11-05 12:49:10] Entered House/Floor/Unit No.: 4556 Ayala - PASSED
+[2025-11-05 12:49:16] Entered Block/Building/Street: Legaspi Village - PASSED
+[2025-11-05 12:49:18] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 12:49:21] Selected Province: BATAAN - PASSED
+[2025-11-05 12:49:23] Selected City/Municipality: ABUCAY - PASSED
+[2025-11-05 12:49:25] Selected Barangay: BANGKAL - PASSED
+[2025-11-05 12:49:30] Entered Postal Code: 4026 - PASSED
+[2025-11-05 12:49:35] Entered Order Notes: Booze - PASSED
+[2025-11-05 12:49:37] Clicked to select item in purchase order - PASSED
+[2025-11-05 12:49:40] Selected Product: BP Gloves - PASSED
+[2025-11-05 12:49:52] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 12:49:53] Product confirmed: BP Gloves - PASSED
+[2025-11-05 12:50:03] Confirmed selected product - PASSED
+[2025-11-05 12:50:13] Entered product quantity - PASSED
+[2025-11-05 12:50:15] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 12:50:17] Clicked date field to activate datepicker - PASSED
+[2025-11-05 12:50:18] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 12:50:20] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 12:50:22] Click Add Item - PASSED
+[2025-11-05 12:51:02] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 322, in COrder
+    remove_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-gray.remove-btn")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 322, in COrder
+    remove_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-gray.remove-btn")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 12:51:18] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 12:58:23] Clicked Order Management - PASSED
+[2025-11-05 12:58:29] Clicked Create Single Order - PASSED
+[2025-11-05 12:58:38] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 12:58:38] Create Order page loaded - PASSED
+[2025-11-05 12:58:38] Click Search Button - PASSED
+[2025-11-05 12:58:39] Search specific client - PASSED
+[2025-11-05 12:58:41] Closse search - PASSED
+[2025-11-05 12:58:43] Click Checkout as guest option - PASSED
+[2025-11-05 12:58:47] Entered first name: Nami - PASSED
+[2025-11-05 12:58:50] Entered middle name: Cat - PASSED
+[2025-11-05 12:58:55] Entered last name: Burglar - PASSED
+[2025-11-05 12:59:00] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 12:59:05] Entered mobile number: +63 933 345 6789 - PASSED
+[2025-11-05 12:59:11] Entered email: nami@strawhatpirates.com - PASSED
+[2025-11-05 12:59:15] Entered House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 12:59:20] Entered Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 12:59:23] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 12:59:25] Selected Province: BATANGAS - PASSED
+[2025-11-05 12:59:27] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 12:59:30] Selected Barangay: BALELE - PASSED
+[2025-11-05 12:59:34] Entered Postal Code: 4027 - PASSED
+[2025-11-05 12:59:39] Entered Order Notes: Gold - PASSED
+[2025-11-05 12:59:41] Clicked to select item in purchase order - PASSED
+[2025-11-05 12:59:44] Selected Product: BP Gloves - PASSED
+[2025-11-05 12:59:56] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 12:59:57] Product confirmed: BP Gloves - PASSED
+[2025-11-05 13:00:07] Confirmed selected product - PASSED
+[2025-11-05 13:00:17] Entered product quantity - PASSED
+[2025-11-05 13:00:20] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 13:00:21] Clicked date field to activate datepicker - PASSED
+[2025-11-05 13:00:22] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 13:00:24] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 13:00:26] Click Add Item - PASSED
+[2025-11-05 13:00:56] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 322, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 322, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 13:01:12] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 13:09:12] Clicked Order Management - PASSED
+[2025-11-05 13:09:17] Clicked Create Single Order - PASSED
+[2025-11-05 13:09:26] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 13:09:27] Create Order page loaded - PASSED
+[2025-11-05 13:09:27] Click Search Button - PASSED
+[2025-11-05 13:09:28] Search specific client - PASSED
+[2025-11-05 13:09:30] Closse search - PASSED
+[2025-11-05 13:09:32] Click Checkout as guest option - PASSED
+[2025-11-05 13:09:35] Entered first name: Sanji - PASSED
+[2025-11-05 13:09:39] Entered middle name: Test - PASSED
+[2025-11-05 13:09:43] Entered last name: Vinsmoke - PASSED
+[2025-11-05 13:09:48] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 13:09:54] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-05 13:10:01] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-05 13:10:05] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 13:10:12] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 13:10:14] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 13:10:16] Selected Province: BOHOL - PASSED
+[2025-11-05 13:10:19] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 13:10:21] Selected Barangay: CASICA - PASSED
+[2025-11-05 13:10:26] Entered Postal Code: 4028 - PASSED
+[2025-11-05 13:10:31] Entered Order Notes: Breeze - PASSED
+[2025-11-05 13:10:33] Clicked to select item in purchase order - PASSED
+[2025-11-05 13:10:36] Selected Product: BP Gloves - PASSED
+[2025-11-05 13:10:47] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 13:10:49] Product confirmed: BP Gloves - PASSED
+[2025-11-05 13:10:59] Confirmed selected product - PASSED
+[2025-11-05 13:11:09] Entered product quantity - PASSED
+[2025-11-05 13:11:11] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 13:11:12] Clicked date field to activate datepicker - PASSED
+[2025-11-05 13:11:13] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 13:11:15] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 13:11:18] Click Add Item - PASSED
+[2025-11-05 13:11:58] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 328, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 328, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 13:12:14] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 13:20:11] Clicked Order Management - PASSED
+[2025-11-05 13:20:16] Clicked Create Single Order - PASSED
+[2025-11-05 13:20:25] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 13:20:26] Create Order page loaded - PASSED
+[2025-11-05 13:20:26] Click Search Button - PASSED
+[2025-11-05 13:20:27] Search specific client - PASSED
+[2025-11-05 13:20:29] Closse search - PASSED
+[2025-11-05 13:20:31] Click Checkout as guest option - PASSED
+[2025-11-05 13:20:34] Entered first name: Nico - PASSED
+[2025-11-05 13:20:38] Entered middle name: Test - PASSED
+[2025-11-05 13:20:42] Entered last name: Robin - PASSED
+[2025-11-05 13:20:47] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 13:20:53] Entered mobile number: +63 955 567 8901 - PASSED
+[2025-11-05 13:21:00] Entered email: robin@strawhatpirates.com - PASSED
+[2025-11-05 13:21:04] Entered House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 13:21:10] Entered Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 13:21:12] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 13:21:15] Selected Province: IFUGAO - PASSED
+[2025-11-05 13:21:17] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 13:21:19] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 13:21:24] Entered Postal Code: 4029 - PASSED
+[2025-11-05 13:21:29] Entered Order Notes: Yami - PASSED
+[2025-11-05 13:21:31] Clicked to select item in purchase order - PASSED
+[2025-11-05 13:21:34] Selected Product: BP Gloves - PASSED
+[2025-11-05 13:21:45] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 13:21:47] Product confirmed: BP Gloves - PASSED
+[2025-11-05 13:21:57] Confirmed selected product - PASSED
+[2025-11-05 13:22:07] Entered product quantity - PASSED
+[2025-11-05 13:22:09] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 13:22:10] Clicked date field to activate datepicker - PASSED
+[2025-11-05 13:22:11] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 13:22:13] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 13:22:16] Click Add Item - PASSED
+[2025-11-05 13:22:16] Add Item field prompt appeared - PASSED
+[2025-11-05 13:22:26] Remove Item field loaded - PASSED
+[2025-11-05 13:22:46] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 329, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 329, in COrder
+    remove_btn =  WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.remove-btn")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 13:23:02] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 13:32:11] Clicked Order Management - PASSED
+[2025-11-05 13:32:17] Clicked Create Single Order - PASSED
+[2025-11-05 13:32:26] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 13:32:26] Create Order page loaded - PASSED
+[2025-11-05 13:32:26] Click Search Button - PASSED
+[2025-11-05 13:32:27] Search specific client - PASSED
+[2025-11-05 13:32:29] Closse search - PASSED
+[2025-11-05 13:32:31] Click Checkout as guest option - PASSED
+[2025-11-05 13:32:35] Entered first name: Sanji - PASSED
+[2025-11-05 13:32:39] Entered middle name: Test - PASSED
+[2025-11-05 13:32:43] Entered last name: Vinsmoke - PASSED
+[2025-11-05 13:32:48] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 13:32:53] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-05 13:33:00] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-05 13:33:04] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 13:33:10] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 13:33:12] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 13:33:14] Selected Province: BOHOL - PASSED
+[2025-11-05 13:33:17] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 13:33:19] Selected Barangay: CASICA - PASSED
+[2025-11-05 13:33:24] Entered Postal Code: 4028 - PASSED
+[2025-11-05 13:33:28] Entered Order Notes: Breeze - PASSED
+[2025-11-05 13:33:31] Clicked to select item in purchase order - PASSED
+[2025-11-05 13:33:34] Selected Product: BP Gloves - PASSED
+[2025-11-05 13:33:45] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 13:33:46] Product confirmed: BP Gloves - PASSED
+[2025-11-05 13:33:57] Confirmed selected product - PASSED
+[2025-11-05 13:34:07] Entered product quantity - PASSED
+[2025-11-05 13:34:09] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 13:34:10] Clicked date field to activate datepicker - PASSED
+[2025-11-05 13:34:11] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 13:34:13] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 13:34:16] Click Add Item - PASSED
+[2025-11-05 13:34:26] Remove Item field loaded - PASSED
+[2025-11-05 13:34:27] Click Remove Item - PASSED
+[2025-11-05 13:34:37] Click Apply Price Adjustment - PASSED
+[2025-11-05 13:34:37] Inputted Amount - PASSED
+[2025-11-05 13:34:38] Selected random option from adjustmentType - PASSED
+[2025-11-05 13:34:38] Select Random Adjustment Type - PASSED
+[2025-11-05 13:34:48] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 357, in COrder
+    apply_btn = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 357, in COrder
+    apply_btn = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 13:35:03] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 14:00:37] Clicked Order Management - PASSED
+[2025-11-05 14:00:42] Clicked Create Single Order - PASSED
+[2025-11-05 14:00:52] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 14:00:52] Create Order page loaded - PASSED
+[2025-11-05 14:00:52] Click Search Button - PASSED
+[2025-11-05 14:00:53] Search specific client - PASSED
+[2025-11-05 14:00:55] Closse search - PASSED
+[2025-11-05 14:00:57] Click Checkout as guest option - PASSED
+[2025-11-05 14:01:00] Entered first name: Sanji - PASSED
+[2025-11-05 14:01:04] Entered middle name: Test - PASSED
+[2025-11-05 14:01:08] Entered last name: Vinsmoke - PASSED
+[2025-11-05 14:01:13] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 14:01:19] Entered mobile number: +63 944 456 7890 - PASSED
+[2025-11-05 14:01:25] Entered email: sanji@strawhatpirates.com - PASSED
+[2025-11-05 14:01:30] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 14:01:36] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 14:01:38] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 14:01:40] Selected Province: BOHOL - PASSED
+[2025-11-05 14:01:43] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 14:01:45] Selected Barangay: CASICA - PASSED
+[2025-11-05 14:01:50] Entered Postal Code: 4028 - PASSED
+[2025-11-05 14:01:55] Entered Order Notes: Breeze - PASSED
+[2025-11-05 14:01:57] Clicked to select item in purchase order - PASSED
+[2025-11-05 14:02:00] Selected Product: BP Gloves - PASSED
+[2025-11-05 14:02:11] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 14:02:12] Product confirmed: BP Gloves - PASSED
+[2025-11-05 14:02:23] Confirmed selected product - PASSED
+[2025-11-05 14:02:33] Entered product quantity - PASSED
+[2025-11-05 14:02:35] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 14:02:36] Clicked date field to activate datepicker - PASSED
+[2025-11-05 14:02:37] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 14:02:39] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 14:02:42] Click Add Item - PASSED
+[2025-11-05 14:02:52] Remove Item field loaded - PASSED
+[2025-11-05 14:02:53] Click Remove Item - PASSED
+[2025-11-05 14:03:03] Click Apply Price Adjustment - PASSED
+[2025-11-05 14:03:03] Inputted Amount - PASSED
+[2025-11-05 14:03:04] Selected: Increase Subtotal - PASSED
+[2025-11-05 14:03:04] Click Apply - PASSED
+[2025-11-05 14:03:04] Click Apply Shipping Fee - PASSED
+[2025-11-05 14:03:04] Inputted Amount - PASSED
+[2025-11-05 14:03:04] Click Apply - PASSED
+[2025-11-05 14:03:04] Clicked Apply Tax - PASSED
+[2025-11-05 14:03:04] Selected Tax Type:                 VAT
+                Custom
+             - PASSED
+[2025-11-05 14:03:04] Inputted Amount - PASSED
+[2025-11-05 14:03:04] Click Apply - PASSED
+[2025-11-05 14:03:04] Check Grand Total - PASSED
+[2025-11-05 14:03:14] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 401, in COrder
+    client_prod_tab = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="flexSwitchCheckDefault"]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Order_Management\COrder.py", line 401, in COrder
+    client_prod_tab = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="flexSwitchCheckDefault"]')))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-05 14:03:30] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 24, in Logout
+    Logout_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[4]/div/div[6]/button[1]")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-05 14:16:12] Clicked Order Management - PASSED
+[2025-11-05 14:16:18] Clicked Create Single Order - PASSED
+[2025-11-05 14:16:27] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-05 14:16:27] Create Order page loaded - PASSED
+[2025-11-05 14:16:27] Click Search Button - PASSED
+[2025-11-05 14:16:28] Search specific client - PASSED
+[2025-11-05 14:16:30] Closse search - PASSED
+[2025-11-05 14:16:32] Click Checkout as guest option - PASSED
+[2025-11-05 14:16:36] Entered first name: Monkey - PASSED
+[2025-11-05 14:16:40] Entered middle name: Dragon - PASSED
+[2025-11-05 14:16:44] Entered last name:  Luffy - PASSED
+[2025-11-05 14:16:49] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-05 14:16:55] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-11-05 14:17:01] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-11-05 14:17:05] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 14:17:13] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 14:17:15] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 14:17:17] Selected Province: ABRA - PASSED
+[2025-11-05 14:17:20] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 14:17:22] Selected Barangay: CALAO - PASSED
+[2025-11-05 14:17:26] Entered Postal Code: 4025 - PASSED
+[2025-11-05 14:17:31] Entered Order Notes: Meat - PASSED
+[2025-11-05 14:17:33] Clicked to select item in purchase order - PASSED
+[2025-11-05 14:17:36] Selected Product: BP Gloves - PASSED
+[2025-11-05 14:17:47] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-05 14:17:58] Product confirmed: BP Gloves - PASSED
+[2025-11-05 14:18:08] Confirmed selected product - PASSED
+[2025-11-05 14:18:19] Entered product quantity - PASSED
+[2025-11-05 14:18:21] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-05 14:18:22] Clicked date field to activate datepicker - PASSED
+[2025-11-05 14:18:23] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-05 14:18:25] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-05 14:18:27] Click Add Item - PASSED
+[2025-11-05 14:18:37] Remove Item field loaded - PASSED
+[2025-11-05 14:18:39] Click Remove Item - PASSED
+[2025-11-05 14:18:49] Click Apply Price Adjustment - PASSED
+[2025-11-05 14:18:49] Inputted Amount - PASSED
+[2025-11-05 14:18:49] Selected: Increase Subtotal - PASSED
+[2025-11-05 14:18:49] Click Apply - PASSED
+[2025-11-05 14:18:49] Click Apply Shipping Fee - PASSED
+[2025-11-05 14:18:49] Inputted Amount - PASSED
+[2025-11-05 14:18:50] Click Apply - PASSED
+[2025-11-05 14:18:50] Clicked Apply Tax - PASSED
+[2025-11-05 14:18:50] Selected Tax Type:                 VAT
+                Custom
+             - PASSED
+[2025-11-05 14:18:50] Inputted Amount - PASSED
+[2025-11-05 14:18:50] Click Apply - PASSED
+[2025-11-05 14:18:50] Check Grand Total - PASSED
+[2025-11-05 14:19:00] Submit Service Order - PASSED
+[2025-11-05 14:19:10] Service Order Submitted Successfully - PASSED
+[2025-11-05 14:49:15] Clicked Seller Center - PASSED
+[2025-11-05 14:49:26] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 14:51:00] Clicked Seller Center - PASSED
+[2025-11-05 14:51:11] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 14:52:53] Main Dashboard loaded successfully - PASSED
+[2025-11-05 14:53:23] Clicked Seller Center - PASSED
+[2025-11-05 14:53:33] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 14:59:06] Main Dashboard loaded successfully - PASSED
+[2025-11-05 14:59:36] Clicked Seller Center - PASSED
+[2025-11-05 14:59:37] Clicked Order Management - PASSED
+[2025-11-05 14:59:38] Clicked Manage Order - PASSED
+[2025-11-05 14:59:44] Searched: Unpaid - PASSED
+[2025-11-05 14:59:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 14:59:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 14:59:46] Applied Date Range filter - PASSED
+[2025-11-05 14:59:55] Viewed Order Profile - PASSED
+[2025-11-05 15:00:10] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:11:52] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:12:22] Clicked Seller Center - PASSED
+[2025-11-05 15:12:23] Clicked Order Management - PASSED
+[2025-11-05 15:12:24] Clicked Manage Order - PASSED
+[2025-11-05 15:12:30] Searched: Unpaid - PASSED
+[2025-11-05 15:12:32] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:12:32] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:12:32] Applied Date Range filter - PASSED
+[2025-11-05 15:12:43] Viewed Order Profile - PASSED
+[2025-11-05 15:12:59] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED

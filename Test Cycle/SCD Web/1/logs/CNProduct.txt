@@ -1,0 +1,863 @@
+[2025-11-06 12:57:24] Clicked Seller Center - PASSED
+[2025-11-06 12:57:24] Clicked Product Management - PASSED
+[2025-11-06 12:58:00] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 41, in CNProduct
+    Create_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/ProductManagement/NewProduct?type=add' and .//span[text()='Create New Product']]")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 41, in CNProduct
+    Create_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/ProductManagement/NewProduct?type=add' and .//span[text()='Create New Product']]")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 12:58:00] ERROR: Create New Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 41, in CNProduct
+    Create_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/ProductManagement/NewProduct?type=add' and .//span[text()='Create New Product']]")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 12:58:00] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 41, in CNProduct
+    Create_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/ProductManagement/NewProduct?type=add' and .//span[text()='Create New Product']]")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:00:26] Clicked Seller Center - PASSED
+[2025-11-06 13:00:26] Clicked Product Management - PASSED
+[2025-11-06 13:00:46] Clicked Create New Product - PASSED
+[2025-11-06 13:00:52] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:00:57] Entered Product Name: Quantara - PASSED
+[2025-11-06 13:01:01] Entered SKU: QTR-7007 - PASSED
+[2025-11-06 13:01:03] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 70, in CNProduct
+    uom = driver.find_element(By.ID, "Product.InventoryInfo.UnitOfMeasure")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.UnitOfMeasure"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 70, in CNProduct
+    uom = driver.find_element(By.ID, "Product.InventoryInfo.UnitOfMeasure")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.UnitOfMeasure"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:01:03] ERROR: Create New Product - FAILED: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.UnitOfMeasure"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 70, in CNProduct
+    uom = driver.find_element(By.ID, "Product.InventoryInfo.UnitOfMeasure")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.UnitOfMeasure"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:01:03] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 70, in CNProduct
+    uom = driver.find_element(By.ID, "Product.InventoryInfo.UnitOfMeasure")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.UnitOfMeasure"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:05:21] Clicked Seller Center - PASSED
+[2025-11-06 13:05:21] Clicked Product Management - PASSED
+[2025-11-06 13:06:03] Clicked Create New Product - PASSED
+[2025-11-06 13:06:08] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:06:13] Entered Product Name: Voltura - PASSED
+[2025-11-06 13:06:18] Entered SKU: VLT-1001 - PASSED
+[2025-11-06 13:06:20] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:06:29] Entered Menu Description: Portable power bank, fast-charging design - PASSED
+[2025-11-06 13:06:31] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:06:31] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 86, in CNProduct
+    stock_quantity = driver.find_element(By.ID, "Product.InventoryInfo.StockQuantity")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.StockQuantity"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 86, in CNProduct
+    stock_quantity = driver.find_element(By.ID, "Product.InventoryInfo.StockQuantity")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.StockQuantity"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:06:31] ERROR: Create New Product - FAILED: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.StockQuantity"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 86, in CNProduct
+    stock_quantity = driver.find_element(By.ID, "Product.InventoryInfo.StockQuantity")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.StockQuantity"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:06:31] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 86, in CNProduct
+    stock_quantity = driver.find_element(By.ID, "Product.InventoryInfo.StockQuantity")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="Product.InventoryInfo.StockQuantity"]"}
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee76d
+	0xa3a09d
+	0xa3a47b
+	0xa81802
+	0xa5c9b4
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:08:30] Clicked Seller Center - PASSED
+[2025-11-06 13:08:30] Clicked Product Management - PASSED
+[2025-11-06 13:08:51] Clicked Create New Product - PASSED
+[2025-11-06 13:08:56] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:09:01] Entered Product Name: PulseOne - PASSED
+[2025-11-06 13:09:05] Entered SKU: PLS-8008 - PASSED
+[2025-11-06 13:09:08] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:09:16] Entered Menu Description: Fitness smartwatch with heart-rate monitor - PASSED
+[2025-11-06 13:09:18] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:09:20] Entered Stock Quantity: 100 - PASSED
+[2025-11-06 13:09:23] Entered Unit Price: 5499 - PASSED
+[2025-11-06 13:09:25] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 101, in CNProduct
+    menu_category.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=142.0.7444.59)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee5bb
+	0xa317ec
+	0xa5c96c
+	0xa2f854
+	0xa5cb24
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 101, in CNProduct
+    menu_category.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=142.0.7444.59)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee5bb
+	0xa317ec
+	0xa5c96c
+	0xa2f854
+	0xa5cb24
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:09:26] ERROR: Create New Product - FAILED: Message: invalid element state
+  (Session info: chrome=142.0.7444.59)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee5bb
+	0xa317ec
+	0xa5c96c
+	0xa2f854
+	0xa5cb24
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 101, in CNProduct
+    menu_category.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=142.0.7444.59)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee5bb
+	0xa317ec
+	0xa5c96c
+	0xa2f854
+	0xa5cb24
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-06 13:09:26] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 101, in CNProduct
+    menu_category.clear()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=142.0.7444.59)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbd58d3
+	0xbd5914
+	0x9ee5bb
+	0xa317ec
+	0xa5c96c
+	0xa2f854
+	0xa5cb24
+	0xa7eea6
+	0xa5c766
+	0xa2dac0
+	0xa2ede4
+	0xe57974
+	0xe52bea
+	0xbfe5c4
+	0xbedd38
+	0xbf4d9d
+	0xbddee8
+	0xbde0ac
+	0xbc7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:23:50] Clicked Seller Center - PASSED
+[2025-11-06 13:23:51] Clicked Product Management - PASSED
+[2025-11-06 13:24:14] Clicked Create New Product - PASSED
+[2025-11-06 13:24:19] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:24:24] Entered Product Name: Coreon - PASSED
+[2025-11-06 13:24:27] Entered SKU: CRN-6006 - PASSED
+[2025-11-06 13:24:30] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:24:38] Entered Menu Description: High-performance CPU cooling system - PASSED
+[2025-11-06 13:24:40] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:24:41] Entered Stock Quantity: 100 - PASSED
+[2025-11-06 13:24:43] Selected Predefined Tags: BRAND - PASSED
+[2025-11-06 13:24:47] Entered Menu Value: 3999 - PASSED
+[2025-11-06 13:24:50] Entered Unit Price: 3999 - PASSED
+[2025-11-06 13:24:52] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:24:54] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:24:57] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-11-06 13:25:02] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\s-l1200.jpg - PASSED
+[2025-11-06 13:25:35] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:25:35] ERROR: Create New Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:25:35] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:28:04] Clicked Seller Center - PASSED
+[2025-11-06 13:28:04] Clicked Product Management - PASSED
+[2025-11-06 13:28:35] Clicked Create New Product - PASSED
+[2025-11-06 13:28:40] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:28:45] Entered Product Name: NeuroLink - PASSED
+[2025-11-06 13:28:49] Entered SKU: NRL-2002 - PASSED
+[2025-11-06 13:28:51] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:28:59] Entered Menu Description: smart, connected device feel - PASSED
+[2025-11-06 13:29:01] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:29:02] Entered Stock Quantity: 100 - PASSED
+[2025-11-06 13:29:04] Selected Predefined Tags: BRAND - PASSED
+[2025-11-06 13:29:08] Entered Menu Value: 4899 - PASSED
+[2025-11-06 13:29:12] Entered Unit Price: 4899 - PASSED
+[2025-11-06 13:29:14] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:29:16] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:29:18] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-11-06 13:29:24] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2025-11-06 13:29:56] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:29:56] ERROR: Create New Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:29:56] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:32:26] Clicked Seller Center - PASSED
+[2025-11-06 13:32:27] Clicked Product Management - PASSED
+[2025-11-06 13:32:35] Clicked Create New Product - PASSED
+[2025-11-06 13:32:40] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:32:45] Entered Product Name: PulseOne - PASSED
+[2025-11-06 13:32:49] Entered SKU: PLS-8008 - PASSED
+[2025-11-06 13:32:51] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:33:00] Entered Menu Description: Fitness smartwatch with heart-rate monitor - PASSED
+[2025-11-06 13:33:03] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:33:04] Entered Stock Quantity: 100 - PASSED
+[2025-11-06 13:33:06] Selected Predefined Tags: BRAND - PASSED
+[2025-11-06 13:33:10] Entered Menu Value: 5499 - PASSED
+[2025-11-06 13:33:13] Entered Unit Price: 5499 - PASSED
+[2025-11-06 13:33:15] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:33:18] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:33:20] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-11-06 13:33:25] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (1).jpg - PASSED
+[2025-11-06 13:33:57] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:33:58] ERROR: Create New Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2025-11-06 13:33:58] ERROR: Critical error: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 224, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Product_Management\CNProduct.py", line 132, in CNProduct
+    WebDriverWait(driver, 30).until(EC.visibility_of_all_elements_located((By.ID, 'nav-setup-menu')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 351, in run
+    self.run_scdweb_tests()
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 247, in run_scdweb_tests
+    self.capture_screenshot(f"{name.replace(' ', '_')}_failed")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SCDWebAutomation' object has no attribute 'capture_screenshot'
+[2025-11-06 13:35:51] Clicked Seller Center - PASSED
+[2025-11-06 13:35:52] Clicked Product Management - PASSED
+[2025-11-06 13:36:19] Clicked Create New Product - PASSED
+[2025-11-06 13:36:24] Create New Product page loaded successfully - PASSED
+[2025-11-06 13:36:30] Entered Product Name: Lumitech - PASSED
+[2025-11-06 13:36:34] Entered SKU: LMT-5005 - PASSED
+[2025-11-06 13:36:36] Entered Units of Measure: pc - PASSED
+[2025-11-06 13:36:44] Entered Menu Description: Smart LED lamp with app control - PASSED
+[2025-11-06 13:36:46] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-06 13:36:47] Entered Stock Quantity: 100 - PASSED
+[2025-11-06 13:36:49] Selected Predefined Tags: BRAND - PASSED
+[2025-11-06 13:36:53] Entered Menu Value: 2299 - PASSED
+[2025-11-06 13:36:57] Entered Unit Price: 2299 - PASSED
+[2025-11-06 13:36:59] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:37:01] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-06 13:37:03] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-11-06 13:37:09] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\80516-17957413.jpg - PASSED
+[2025-11-06 13:37:11] Clicked Save Button - PASSED
+[2025-11-06 13:37:11] Added New Product  - PASSED
+[2025-11-06 13:37:17] Clicked Confirm OK - PASSED
+[2025-11-06 13:37:32] Clicked Confirm Success - PASSED

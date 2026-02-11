@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Selenium Test",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "Dashboard",
+      "args": [
+        "-v",
+        "-s",
+        "./testing",
+        "-p",
+        "*test.py"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "console": "integratedTerminal"
+    }
+  ]
+}

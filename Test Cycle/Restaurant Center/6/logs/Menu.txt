@@ -1,0 +1,54 @@
+[2025-11-10 12:13:18] Go to Menu Tab - PASSED
+[2025-11-10 12:13:26] Search Menu:Beef Katsudon - PASSED
+[2025-11-10 12:13:27]  Selected 'ACTIVE' menu status. - PASSED
+[2025-11-10 12:13:41] Search Menu:Chocolate Ice cream - PASSED
+[2025-11-10 12:13:42]  Selected 'INACTIVE' menu status. - PASSED
+[2025-11-10 12:14:02] Clicked view menu - PASSED
+[2025-11-10 12:14:12] Back to Manage Menu - PASSED
+[2025-11-10 12:14:33] Clicked Update Menu - PASSED
+[2025-11-10 12:14:34] Entered Unit Price: 500 - PASSED
+[2025-11-10 12:14:37] Save Menu Item - PASSED
+[2025-11-10 12:14:57] Update Item Successfully - PASSED
+[2025-11-10 12:15:27] Modal appeared after update menu - PASSED
+[2025-11-10 12:15:27] Clicked Add New Menu - PASSED
+[2025-11-10 12:15:41] Entered Menu Name: Fresh Orange Juice - PASSED
+[2025-11-10 12:15:45] Entered SKU: D000001 - PASSED
+[2025-11-10 12:15:49] Entered Units of Measure: Glass - PASSED
+[2025-11-10 12:15:57] Entered Menu Description: 100% freshly squeezed orange juice - PASSED
+[2025-11-10 12:16:00] Entered Unit Price: 4.0 - PASSED
+[2025-11-10 12:16:05] Entered Menu Value: RESTAURANT - PASSED
+[2025-11-10 12:16:09] Entered Menu Tags: Fresh - PASSED
+[2025-11-10 12:16:11] Selected Menu Category: Drinks - PASSED
+[2025-11-10 12:16:13] Selected Menu Sub-Category: Non-Alcoholic - PASSED
+[2025-11-10 12:16:19] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Restaurant\3.jpg - PASSED
+[2025-11-10 12:16:23] Added New Menu  - PASSED
+[2025-11-10 12:16:49] Clicked Confirm Success - PASSED
+[2025-11-10 12:16:49] QA-SCDWEB-PB46-S1:Add new menu successfully  - PASSED
+[2025-11-10 12:16:54] Back to Manage Menu - PASSED
+[2025-11-10 13:34:20] Go to Menu Tab - PASSED
+[2025-11-10 13:34:29] Search Menu:Beef Katsudon - PASSED
+[2025-11-10 13:34:29]  Selected 'ACTIVE' menu status. - PASSED
+[2025-11-10 13:34:43] Search Menu:Chocolate Ice cream - PASSED
+[2025-11-10 13:34:43]  Selected 'INACTIVE' menu status. - PASSED
+[2025-11-10 13:35:04] Clicked view menu - PASSED
+[2025-11-10 13:35:14] Back to Manage Menu - PASSED
+[2025-11-10 13:35:34] Clicked Update Menu - PASSED
+[2025-11-10 13:35:36] Entered Unit Price: 500 - PASSED
+[2025-11-10 13:35:38] Save Menu Item - PASSED
+[2025-11-10 13:35:59] Update Item Successfully - PASSED
+[2025-11-10 13:36:29] Modal appeared after update menu - PASSED
+[2025-11-10 13:36:29] Clicked Add New Menu - PASSED
+[2025-11-10 13:36:43] Entered Menu Name: Sparkling Mineral Water - PASSED
+[2025-11-10 13:36:47] Entered SKU: D000004 - PASSED
+[2025-11-10 13:36:52] Entered Units of Measure: Bottle (330ml) - PASSED
+[2025-11-10 13:37:01] Entered Menu Description: Refreshing naturally carbonated mineral water - PASSED
+[2025-11-10 13:37:05] Entered Unit Price: 2.5 - PASSED
+[2025-11-10 13:37:09] Entered Menu Value: RESTAURANT - PASSED
+[2025-11-10 13:37:12] Entered Menu Tags: Water - PASSED
+[2025-11-10 13:37:15] Selected Menu Category: Drinks - PASSED
+[2025-11-10 13:37:17] Selected Menu Sub-Category: Non-Alcoholic - PASSED
+[2025-11-10 13:37:22] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Restaurant\9.jpg - PASSED
+[2025-11-10 13:37:27] Added New Menu  - PASSED
+[2025-11-10 13:37:52] Clicked Confirm Success - PASSED
+[2025-11-10 13:37:52] QA-SCDWEB-PB46-S1:Add new menu successfully  - PASSED
+[2025-11-10 13:37:57] Back to Manage Menu - PASSED

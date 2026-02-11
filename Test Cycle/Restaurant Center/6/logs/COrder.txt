@@ -1,0 +1,51 @@
+[2025-11-10 09:41:24] Clicked Order Management - PASSED
+[2025-11-10 09:41:29] Clicked Create Single Order - PASSED
+[2025-11-10 09:41:38] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-11-10 09:41:38] Create Order page loaded - PASSED
+[2025-11-10 09:41:38] Click Search Button - PASSED
+[2025-11-10 09:41:39] Search specific client - PASSED
+[2025-11-10 09:41:41] Closse search - PASSED
+[2025-11-10 09:41:43] Click Checkout as guest option - PASSED
+[2025-11-10 09:41:47] Entered first name: Monkey - PASSED
+[2025-11-10 09:41:51] Entered middle name: Dragon - PASSED
+[2025-11-10 09:41:55] Entered last name:  Luffy - PASSED
+[2025-11-10 09:42:00] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-11-10 09:42:05] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-11-10 09:42:12] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-11-10 09:42:16] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-10 09:42:24] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-10 09:42:26] Selected Country: PHILIPPINES - PASSED
+[2025-11-10 09:42:29] Selected Province: ABRA - PASSED
+[2025-11-10 09:42:31] Selected City/Municipality: BUCAY - PASSED
+[2025-11-10 09:42:33] Selected Barangay: CALAO - PASSED
+[2025-11-10 09:42:38] Entered Postal Code: 4025 - PASSED
+[2025-11-10 09:42:42] Entered Order Notes: Meat - PASSED
+[2025-11-10 09:42:44] Clicked to select item in purchase order - PASSED
+[2025-11-10 09:42:47] Selected Product: BP Gloves - PASSED
+[2025-11-10 09:42:58] Clicked on product dropdown item: BP Gloves - PASSED
+[2025-11-10 09:43:09] Product confirmed: BP Gloves - PASSED
+[2025-11-10 09:43:19] Confirmed selected product - PASSED
+[2025-11-10 09:43:30] Entered product quantity - PASSED
+[2025-11-10 09:43:32] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-11-10 09:43:33] Clicked date field to activate datepicker - PASSED
+[2025-11-10 09:43:34] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-11-10 09:43:36] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-11-10 09:43:38] Click Add Item - PASSED
+[2025-11-10 09:43:48] Remove Item field loaded - PASSED
+[2025-11-10 09:43:49] Click Remove Item - PASSED
+[2025-11-10 09:44:00] Click Apply Price Adjustment - PASSED
+[2025-11-10 09:44:00] Inputted Amount - PASSED
+[2025-11-10 09:44:00] Selected: Increase Subtotal - PASSED
+[2025-11-10 09:44:00] Click Apply - PASSED
+[2025-11-10 09:44:00] Click Apply Shipping Fee - PASSED
+[2025-11-10 09:44:00] Inputted Amount - PASSED
+[2025-11-10 09:44:01] Click Apply - PASSED
+[2025-11-10 09:44:01] Clicked Apply Tax - PASSED
+[2025-11-10 09:44:01] Selected Tax Type:                 VAT
+                Custom
+             - PASSED
+[2025-11-10 09:44:01] Inputted Amount - PASSED
+[2025-11-10 09:44:01] Click Apply - PASSED
+[2025-11-10 09:44:01] Check Grand Total - PASSED
+[2025-11-10 09:44:12] Submit Service Order - PASSED
+[2025-11-10 09:44:23] Service Order Submitted Successfully - PASSED

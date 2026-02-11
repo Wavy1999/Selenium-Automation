@@ -1,0 +1,49 @@
+[2025-11-10 09:47:02] Clicked Seller Center - PASSED
+[2025-11-10 09:47:02] Clicked Product Management - PASSED
+[2025-11-10 09:47:11] Clicked Create New Product - PASSED
+[2025-11-10 09:47:17] Searching for product: PulseOne - PASSED
+[2025-11-10 09:47:19] Searched for product: PulseOne - PASSED
+[2025-11-10 09:47:22] Selected first product checkbox - PASSED
+[2025-11-10 09:47:35] Clicked first Edit button - PASSED
+[2025-11-10 09:47:37] Entered Menu Value: 2699 - PASSED
+[2025-11-10 09:47:42] Clicked Save Button - PASSED
+[2025-11-10 09:47:42] Added New Product  - PASSED
+[2025-11-10 09:47:47] Clicked Confirm OK - PASSED
+[2025-11-10 09:47:56] Clicked Manage Product button - PASSED
+[2025-11-10 09:47:59] Searched for product: PulseOne - PASSED
+[2025-11-10 09:48:02] Selected first product checkbox - PASSED
+[2025-11-10 09:48:19] Clicked first View button in Manage Product table - PASSED
+[2025-11-10 09:48:19] Clicked Back button - PASSED
+[2025-11-10 09:48:19] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (2).jpg - PASSED
+[2025-11-10 09:48:19] Uploaded photo - PASSED
+[2025-11-10 09:48:19] Upload Images Successfully appeared - PASSED
+[2025-11-10 09:48:26] Clicked Upload Again to close the modal - PASSED
+[2025-11-10 09:48:28] Searched for product: PulseOne - PASSED
+[2025-11-10 09:48:31] Selected first product checkbox - PASSED
+[2025-11-10 09:48:32] Clicked first Adjust Price icon - PASSED
+[2025-11-10 09:48:32] Selected Option 1: Run a Special Promotion - PASSED
+[2025-11-10 09:48:32]  Adjust Price modal displayed successfully. - PASSED
+[2025-11-10 09:48:34] Entered Promo Price: 2699 - PASSED
+[2025-11-10 09:48:35] 📅 Clicked date in calendar: November 11, 2025 - PASSED
+[2025-11-10 09:48:35] ✅ Set 'PriceAdjustments[0].EffectiveFr' to November 11, 2025 09:48 AM - PASSED
+[2025-11-10 09:48:35] Set Start Date for Promotion - PASSED
+[2025-11-10 09:48:35] Set Start Date for Promotion - PASSED
+[2025-11-10 09:48:37] 📅 Clicked date in calendar: November 12, 2025 - PASSED
+[2025-11-10 09:48:37] ✅ Set 'PriceAdjustments[0].EffectiveTo' to November 12, 2025 09:48 AM - PASSED
+[2025-11-10 09:48:37] Set End Date for Promotion - PASSED
+[2025-11-10 09:48:37] Set End Date for Promotion - PASSED
+[2025-11-10 09:48:37]  Set Post Promo Price: 2299.0 - PASSED
+[2025-11-10 09:48:37] Set Post Promo Price - PASSED
+[2025-11-10 09:48:38]  Clicked 'Save Price Adjustment' button - PASSED
+[2025-11-10 09:48:38]  Clicked 'Yes' on confirmation  - PASSED
+[2025-11-10 09:48:52]  Confirmation  closed successfully - PASSED
+[2025-11-10 09:49:08]  Clicked 'OK' on success message  - PASSED
+[2025-11-10 09:49:08] Clicked Back to Options button - PASSED
+[2025-11-10 09:49:09]  Promo options are now visible again - PASSED
+[2025-11-10 09:49:09] Selected Option 2: Adjust Unit Price - PASSED
+[2025-11-10 09:49:12] Entered New Unit Price: 2699 - PASSED
+[2025-11-10 09:49:12] Set Future Start Date for Price Adjustment - PASSED
+[2025-11-10 09:49:12]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2025-11-10 09:49:12]  Clicked 'Yes' on confirmation  - PASSED
+[2025-11-10 09:49:15]  Clicked 'OK' on success message  - PASSED
+[2025-11-10 09:49:17] Closed Price Management modal - PASSED

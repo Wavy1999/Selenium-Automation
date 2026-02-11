@@ -1,0 +1,229 @@
+[2025-11-03 10:37:42] Clicked Restaurant Center - PASSED
+[2025-11-03 10:37:42] Restaurant Home Dashboard - PASSED
+[2025-11-03 10:37:42] Go to Orders Section - PASSED
+[2025-11-03 10:37:53] Click menu tab without selecting table - PASSED
+[2025-11-03 10:38:03] Click OK - PASSED
+[2025-11-03 10:38:03] Click ordering - PASSED
+[2025-11-03 10:38:09] Click payment - PASSED
+[2025-11-03 10:38:12] QA-SCDWEB-PB42-S2: No tables for selected status - PASSED
+[2025-11-03 10:38:12] Click paid - PASSED
+[2025-11-03 10:38:15] Click unoccupied - PASSED
+[2025-11-03 10:38:21] QA-SCDWEB-PB42-S1: Filter tables by status legend - PASSED
+[2025-11-03 10:38:21] QA-SCDWEB-PB44-S8: Logout/login persistence of table colors - PASSED
+[2025-11-03 10:38:21] Click reset view - PASSED
+[2025-11-03 10:38:26] QA-SCDWEB-PB42-S3: Reset table filters - PASSED
+[2025-11-03 10:38:34] Selected Gray Table 34 for additional order - PASSED
+[2025-11-03 10:38:39] QA-SCDWEB-PB42-S4: Start new order on unoccupied table 34 - PASSED
+[2025-11-03 10:38:50] QA-SCDWEB-PB42-S4:Start new order on unoccupied table - PASSED
+[2025-11-03 10:38:50] Check if order details is exist - PASSED
+[2025-11-03 10:38:50] QA-SCDWEB-PB43-S1:Redirect user to Menu when starting new order - PASSED
+[2025-11-03 10:38:50] Click appetizers - PASSED
+[2025-11-03 10:38:55] Click mains - PASSED
+[2025-11-03 10:39:00] Select mains - PASSED
+[2025-11-03 10:39:05] QA-SCDWEB-PB43-S2:Update Menu context without reload - PASSED
+[2025-11-03 10:39:06] Click desserts - PASSED
+[2025-11-03 10:39:11] Select desserts - PASSED
+[2025-11-03 10:39:17] QA-SCDWEB-PB43-S5: Exclude inactive menu items - PASSED
+[2025-11-03 10:39:18] Click sides - PASSED
+[2025-11-03 10:39:23] Select sides - PASSED
+[2025-11-03 10:39:28] Check if drinks is exist - PASSED
+[2025-11-03 10:39:33] Check if alcoholic exist - PASSED
+[2025-11-03 10:39:39] Check if non alcoholic exist - PASSED
+[2025-11-03 10:39:44] Check if bar is exist - PASSED
+[2025-11-03 10:39:49] Select bar - PASSED
+[2025-11-03 10:39:54] QA-SCDWEB-PB43-S6: Add item to order summary - PASSED
+[2025-11-03 10:39:54] Check if bar item added in order details - PASSED
+[2025-11-03 10:39:55] Check if order details is exist - PASSED
+[2025-11-03 10:40:05]  QA-SCDWEB-PB43-S8: Modify order summary quantity  - PASSED
+[2025-11-03 10:40:10]  QA-SCDWEB-PB43-S9: Remove item from order summary  - PASSED
+[2025-11-03 10:40:15] Click send order - PASSED
+[2025-11-03 10:40:20] QA-SCDWEB-PB43-S11: Initial send order successfully - PASSED
+[2025-11-03 10:40:21] Click OK - PASSED
+[2025-11-03 10:40:31] Success message - PASSED
+[2025-11-03 10:40:41] Go back to tables - PASSED
+[2025-11-03 10:40:41] Waiting for blue table 34 to appear... - PASSED
+[2025-11-03 10:40:42] Selected Blue Table 34 for additional order - PASSED
+[2025-11-03 10:40:43] QA-SCDWEB-PB42-S6: Additional order on occupied table 34 - PASSED
+[2025-11-03 10:40:53] Click food menu (Additional Order) - PASSED
+[2025-11-03 10:40:54] Select mains (Additional Order) - PASSED
+[2025-11-03 10:40:59] Check if drinks is exist - PASSED
+[2025-11-03 10:41:04]  Selected drinks <selenium.webdriver.remote.webelement.WebElement (session="60da24906a386f8598fac12888b59e68", element="f.31BB35B93786B14C777B9F76D41137C8.d.B076B271C3BF3E954AB793A2957FC394.e.1792")>  - PASSED
+[2025-11-03 10:41:09]  QA-SCDWEB-PB43-S17: Lock sequences after sending - PASSED
+[2025-11-03 10:41:09] Click send order - PASSED
+[2025-11-03 10:41:09] QA-SCDWEB-PB43-S12:Incremental send for newly added items - PASSED
+[2025-11-03 10:41:09] QA-SCDWEB-PB43-S13:Incremental send for newly added drinks - PASSED
+[2025-11-03 10:41:13] Click OK - PASSED
+[2025-11-03 10:41:13] Successfully Printed the Kitchen and Waiter Copy - PASSED
+[2025-11-03 10:41:13] Order Table Dashboard: - PASSED
+[2025-11-03 10:41:13] Click kitchen tab - PASSED
+[2025-11-03 10:41:23] QA-SCDWEB-PB44-S1:Display ordering tables in Kitchen tab - PASSED
+[2025-11-03 10:41:31] QA-SCDWEB-PB44-S2:Show table as Green when no pending orders - PASSED
+[2025-11-03 10:41:34] QA-SCDWEB-PB44-S3:Show table as Blue for new or additional orders - PASSED
+[2025-11-03 10:41:37] QA-SCDWEB-PB44-S4:Show table as Red for next batch requested - PASSED
+[2025-11-03 10:41:37] QA-SCDWEB-PB44-S6:Tooltip consistency per color - PASSED
+[2025-11-03 10:41:40] Selected Active (Green) Table 34 - PASSED
+[2025-11-03 10:41:50] Click billing tab - PASSED
+[2025-11-03 10:41:50] Click ordering(Billing) - PASSED
+[2025-11-03 10:41:56] QA-SCDWEB-PB45-S1: Display only Ordering and For Payment tables - PASSED
+[2025-11-03 10:41:56] Click payment(Billing) - PASSED
+[2025-11-03 10:42:01] QA-SCDWEB-PB45-S2: Apply filter by table status - PASSED
+[2025-11-03 10:42:01] QA-SCDWEB-PB42-S17:Apply multiple filters sequentially - PASSED
+[2025-11-03 10:42:01] Click reset view - PASSED
+[2025-11-03 10:42:06] QA-SCDWEB-PB42-S18:Reset after multiple filter changes - PASSED
+[2025-11-03 10:42:07] Search table 34 - PASSED
+[2025-11-03 10:42:11] Billing completed for Table 34 (Billing ID: 34) - PASSED
+[2025-11-03 10:42:11]  QA-SCDWEB-PB45-S4: Display table card details - PASSED
+[2025-11-03 10:42:24] QA-SCDWEB-PB45-S5: Expand and collapse order summary - PASSED
+[2025-11-03 10:42:30] Collapsed closed orders - PASSED
+[2025-11-03 10:42:30] QA-SCDWEB-PB45-S7: Show 12% VAT section - PASSED
+[2025-11-03 10:42:35] QA-SCDWEB-PB45-S8: Bill Out available only for Ordering tables - PASSED
+[2025-11-03 10:42:41] QA-SCDWEB-PB45-S9: Bill Out modal displays computation breakdown - PASSED
+[2025-11-03 10:42:57] Click Paynow. - PASSED
+[2025-11-03 10:42:57]  QA-SCDWEB-PB45-S10:Pay Now modal opens for For Payment tables  - PASSED
+[2025-11-03 10:43:03]  QA-SCDWEB-PB45-S10:Pay Now modal opens for For Payment tables  - PASSED
+[2025-11-03 10:43:09]  Input 1st amount - PASSED
+[2025-11-03 10:43:11] Updated bill - PASSED
+[2025-11-03 10:43:17]  QA-SCDWEB-PB45-S10:Pay Now modal opens for For Payment tables  - PASSED
+[2025-11-03 10:43:23]  Input 2nd amount - PASSED
+[2025-11-03 10:43:30] Updated bill - PASSED
+[2025-11-03 10:43:40]  QA-SCDWEB-PB45-S11:Add multiple discounts as separate line items  - PASSED
+[2025-11-03 10:43:40]  QA-SCDWEB-PB45-S12: Delete an adjustment line item  - PASSED
+[2025-11-03 10:43:45]  Remove discount  - PASSED
+[2025-11-03 10:43:47]  Remove discount successfully  - PASSED
+[2025-11-03 10:43:52]  QA-SCDWEB-PB45-S12:Delete an adjustment line item  - PASSED
+[2025-11-03 10:43:52] Clicked Reprint Billout - PASSED
+[2025-11-03 10:44:03] Closed Reprint Billout - PASSED
+[2025-11-03 10:44:08] Closed PayNow modal - PASSED
+[2025-11-03 10:44:11] Attempting to click View Adjustments - PASSED
+[2025-11-03 10:44:12] Found 86 elements with ID 'viewAdjustments' - PASSED
+[2025-11-03 10:44:12] Found visible element at index 27 - PASSED
+[2025-11-03 10:44:13] Clicked View Adjustments - PASSED
+[2025-11-03 10:44:14] expand_adjustments completed successfully - PASSED
+[2025-11-03 10:44:19] QA-SCDWEB-PB45-S6: Expand and collapse adjustment summary  - PASSED
+[2025-11-03 10:44:29] Clicked PayNow to reopen - PASSED
+[2025-11-03 10:44:30] Select QRPH - PASSED
+[2025-11-03 10:44:35] Clicked Paynow - PASSED
+[2025-11-03 10:44:40]  Confirm Payment  - PASSED
+[2025-11-03 10:45:07]  Wait for QR  - PASSED
+[2025-11-03 10:45:12] QA-SCDWEB-PB42-S13:View QR PH code for payment - PASSED
+[2025-11-03 10:45:12] Click Check Payment - PASSED
+[2025-11-03 10:45:12] Modal unpaid shown: - PASSED
+[2025-11-03 10:45:14] Click Ok (This order still unpaid): - PASSED
+[2025-11-03 10:45:14] QA-SCDWEB-PB45-S16:QR PH payment unpaid - PASSED
+[2025-11-03 10:45:14]  Close QR Modal: - PASSED
+[2025-11-03 10:45:14]  Wait for billing tables to load  - PASSED
+[2025-11-03 10:45:14] Search table 34 - PASSED
+[2025-11-03 10:45:14]  Redirect to table section - PASSED
+[2025-11-03 10:45:25] Selected Gray Table 35 - PASSED
+[2025-11-03 10:45:25] QA-SCDWEB-PB42-S4: Start new order on unoccupied table 35 - PASSED
+[2025-11-03 10:45:25] QA-SCDWEB-PB42-S4:Start new order on unoccupied table - PASSED
+[2025-11-03 10:45:26] Check if order details is exist - PASSED
+[2025-11-03 10:45:26] Click Food Section - PASSED
+[2025-11-03 10:45:26] Click appetizers - PASSED
+[2025-11-03 10:45:27] Click mains - PASSED
+[2025-11-03 10:45:28] Select mains - PASSED
+[2025-11-03 10:45:28]  QA-SCDWEB-PB42-S10: Next serving notification  - PASSED
+[2025-11-03 10:45:28] Click send order - PASSED
+[2025-11-03 10:45:28]  QA-SCDWEB-PB43-S16: Prevent empty serving sequence  - PASSED
+[2025-11-03 10:45:29] Click OK - PASSED
+[2025-11-03 10:45:29] Click desserts - PASSED
+[2025-11-03 10:45:30] Select desserts - PASSED
+[2025-11-03 10:45:30] Click send order - PASSED
+[2025-11-03 10:45:31] Click OK - PASSED
+[2025-11-03 10:45:34] Success message - PASSED
+[2025-11-03 10:45:34] Go back to tables - PASSED
+[2025-11-03 10:45:35] Looking for blue table 35 to add next serving... - PASSED
+[2025-11-03 10:45:38] Selected Blue Table 35 for next serving - PASSED
+[2025-11-03 10:45:38]  Click Next serving:  - PASSED
+[2025-11-03 10:45:39] Click OK - PASSED
+[2025-11-03 10:45:39] Click kitchen tab - PASSED
+[2025-11-03 10:45:45] Selected Next Serving (Red) Table 35 - PASSED
+[2025-11-03 10:45:45]  Redirect to table section - PASSED
+[2025-11-03 10:45:45] Waiting for blue table 35 to appear... - PASSED
+[2025-11-03 10:45:48] Selected Blue Table 35 - Screenshot captured - PASSED
+[2025-11-03 10:45:52] Confirmed table cancellation - PASSED
+[2025-11-03 10:45:53] Cancelled table 35 - PASSED
+[2025-11-03 10:45:53] QA-SCDWEB-PB42-S11:Cancel table - PASSED
+[2025-11-03 10:45:54] Click OK - PASSED
+[2025-11-03 10:45:54] Entered cancellation reason - PASSED
+[2025-11-03 10:46:08] Selected Gray Table 36 - PASSED
+[2025-11-03 10:46:11] Check if order details is exist - PASSED
+[2025-11-03 10:46:11] Go to appetizers tab - PASSED
+[2025-11-03 10:46:12] Click mains - PASSED
+[2025-11-03 10:46:13] Select mains - PASSED
+[2025-11-03 10:46:13] Click desserts - PASSED
+[2025-11-03 10:46:13] Select desserts - PASSED
+[2025-11-03 10:46:13] Click sides - PASSED
+[2025-11-03 10:46:14] Select sides - PASSED
+[2025-11-03 10:46:15] Check if drinks is exist - PASSED
+[2025-11-03 10:46:15] Check if alcoholic exist - PASSED
+[2025-11-03 10:46:15] Check if non alcoholic exist - PASSED
+[2025-11-03 10:46:15] Check if bar is exist - PASSED
+[2025-11-03 10:46:16] Select bar - PASSED
+[2025-11-03 10:46:17] Check if bar item added in order details - PASSED
+[2025-11-03 10:46:17] Check if order details is exist - PASSED
+[2025-11-03 10:46:18]  Increase Order:  - PASSED
+[2025-11-03 10:46:18]  Decrease Order:  - PASSED
+[2025-11-03 10:46:18] Click send order - PASSED
+[2025-11-03 10:46:19] Click OK - PASSED
+[2025-11-03 10:46:25] Success message - PASSED
+[2025-11-03 10:46:25] Go back to tables - PASSED
+[2025-11-03 10:46:25] Waiting for blue table 36 to appear... - PASSED
+[2025-11-03 10:46:28] Selected Blue Table 36 for additional order - PASSED
+[2025-11-03 10:46:34] Click food menu (Additional Order) - PASSED
+[2025-11-03 10:46:39] Select mains (Additional Order_36) - PASSED
+[2025-11-03 10:46:39] Check if drinks is exist - PASSED
+[2025-11-03 10:46:39]  Selected drinks <selenium.webdriver.remote.webelement.WebElement (session="60da24906a386f8598fac12888b59e68", element="f.31BB35B93786B14C777B9F76D41137C8.d.B076B271C3BF3E954AB793A2957FC394.e.1792")>  - PASSED
+[2025-11-03 10:46:40] Click send order - PASSED
+[2025-11-03 10:46:55] Click OK - PASSED
+[2025-11-03 10:46:55] Successfully Printed the Kitchen and Waiter Copy - PASSED
+[2025-11-03 10:46:55] Order Table Dashboard: - PASSED
+[2025-11-03 10:46:55] Click kitchen tab - PASSED
+[2025-11-03 10:47:03] Selected Active (Green) Table 36 - PASSED
+[2025-11-03 10:47:03] Click billing tab - PASSED
+[2025-11-03 10:47:08] Search table 36 - PASSED
+[2025-11-03 10:47:18] Billing completed for Table 36 (Billing ID: 36) - PASSED
+[2025-11-03 10:47:18] Extracted Order Number:  - PASSED
+[2025-11-03 10:47:18] Verify Billing Details - PASSED
+[2025-11-03 10:47:25] Click View Orders - PASSED
+[2025-11-03 10:47:27] Collapsed closed orders - PASSED
+[2025-11-03 10:47:49] Click Paynow. - PASSED
+[2025-11-03 10:48:01]  Input 1st amount - PASSED
+[2025-11-03 10:48:03] Updated bill - PASSED
+[2025-11-03 10:48:05]  QA-SCDWEB-PB45-S10:Pay Now modal opens for For Payment tables  - PASSED
+[2025-11-03 10:48:05]  Input 2nd amount - PASSED
+[2025-11-03 10:48:27] Cycled through all discount options - PASSED
+[2025-11-03 10:48:34] Updated bill - PASSED
+[2025-11-03 10:48:34] Clicked Reprint Billout - PASSED
+[2025-11-03 10:48:40] Closed Reprint Billout - PASSED
+[2025-11-03 10:48:45] Closed PayNow modal - PASSED
+[2025-11-03 10:48:50] Attempting to click View Adjustments - PASSED
+[2025-11-03 10:48:51] Found 87 elements with ID 'viewAdjustments' - PASSED
+[2025-11-03 10:48:51] Found visible element at index 28 - PASSED
+[2025-11-03 10:48:52] Clicked View Adjustments - PASSED
+[2025-11-03 10:48:53] expand_adjustments completed successfully - PASSED
+[2025-11-03 10:48:58] QA-SCDWEB-PB45-S6: Expand and collapse adjustment summary  - PASSED
+[2025-11-03 10:49:09] Clicked PayNow to reopen - PASSED
+[2025-11-03 10:49:09] Select Other Method - PASSED
+[2025-11-03 10:49:10] Clicked Paynow - PASSED
+[2025-11-03 10:49:15]  Confirm Payment  - PASSED
+[2025-11-03 10:49:26]  Wait for QR  - PASSED
+[2025-11-03 10:49:26]  Cash mode of payment - PASSED
+[2025-11-03 10:49:29] Handle Payment Method: - PASSED
+[2025-11-03 10:49:29]  QA-SCDWEB-PB45-S13: Validation of mandatory fields for card payments  - PASSED
+[2025-11-03 10:49:29]  QA-SCDWEB-PB45-S14: Validation of mandatory fields for bank transfer  - PASSED
+[2025-11-03 10:49:29]  QA-SCDWEB-PB45-S15: QR PH payment success  - PASSED
+[2025-11-03 10:49:29]  Wait for billing tables to load  - PASSED
+[2025-11-03 10:49:44] Click OK - PASSED
+[2025-11-03 10:49:44]  Wait for billing tables to load  - PASSED
+[2025-11-03 10:49:45] Search table 36 - PASSED
+[2025-11-03 10:49:45] PB-45 BDD Scenario 18: Successful payment removes table from Billing - PASSED
+[2025-11-03 10:49:45]  Redirect to table section - PASSED
+[2025-11-03 10:49:45]  Redirect to table section - PASSED
+[2025-11-03 10:49:45] Waiting for Greeb table 36 to appear... - PASSED
+[2025-11-03 10:49:48] Selected Blue Table 36 for additional order - PASSED
+[2025-11-03 10:49:48] Clicked Close Table button - PASSED
+[2025-11-03 10:49:48] Close table confirmation modal appeared - PASSED
+[2025-11-03 10:49:53] Confirmed close table - PASSED
+[2025-11-03 10:50:09] Click OK button - PASSED
+[2025-11-03 10:50:09] QA-SCDWEB-PB42-S8: Close paid table - PASSED

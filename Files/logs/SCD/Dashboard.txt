@@ -1,0 +1,100 @@
+[2026-02-10 12:42:01] Main Dashboard loaded successfully - PASSED
+[2026-02-10 12:42:31] New orders/Service Orders count: 437 - PASSED
+[2026-02-10 12:42:31] Orders/Service Orders for Processing count: 282 - PASSED
+[2026-02-10 12:42:32] Current Balance: ₱500.00 - PASSED
+[2026-02-10 12:42:32] Available Balance: ₱0.00 - PASSED
+[2026-02-10 12:42:42] Clicked Settle Available Balance - PASSED
+[2026-02-10 12:42:43] Back to Main Dashboard - PASSED
+[2026-02-10 12:42:44] Clicked Generate QR - PASSED
+[2026-02-10 12:42:54] Back to Main Dashboard - PASSED
+[2026-02-10 12:42:54] Latest Orders Table - Row 1: 1 | 2/10/2026 12:15:58 PM | BNW-ORD-121558883-430 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:42:54] Latest Orders Table - Row 2: 2 | 2/10/2026 12:07:34 PM | BNW-ORD-120734453-719 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 3: 3 | 2/10/2026 11:17:38 AM | BNW-ORD-111738733-799 | ACTIVE | PARTIAL | Guest | ₱10,830.40 | ₱10.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 4: 4 | 2/10/2026 10:40:19 AM | BNW-ORD-104019673-917 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 5: 5 | 2/10/2026 10:32:07 AM | BNW-ORD-103207049-690 | ACTIVE | PARTIAL | Guest | ₱13,867.84 | ₱13.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 6: 6 | 2/10/2026 10:05:51 AM | BNW-ORD-100551861-853 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 7: 7 | 2/10/2026 9:55:43 AM | BNW-ORD-095543282-788 | NEW | UNPAID | Guest | ₱4,264.96 | ₱0.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 8: 8 | 2/10/2026 9:35:51 AM | BNW-ORD-093551787-212 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:42:55] Latest Orders Table - Row 9: 9 | 2/9/2026 4:50:06 PM | BNW-ORD-045006671-952 | ACTIVE | PAID | MR EDWARD CULLEN | ₱100.00 | ₱100.00 - PASSED
+[2026-02-10 12:42:56] Latest Orders Table - Row 10: 10 | 2/9/2026 4:22:30 PM | BNW-ORD-042230257-744 | ACTIVE | UNPAID | Guest | ₱100.00 | ₱0.00 - PASSED
+[2026-02-10 12:42:56] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2026-02-10 12:42:56] Latest Orders Table displayed successfully - PASSED
+[2026-02-10 12:43:01] Clicked Create Order - PASSED
+[2026-02-10 12:43:11] Back to Main Dashboard - PASSED
+[2026-02-10 12:43:12] Latest Service Orders Table - Row 1: 1 | 2/10/2026 12:38:19 PM | BNW-ORD-123819388-799 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:12] Latest Service Orders Table - Row 2: 2 | 2/10/2026 12:29:27 PM | BNW-SRV-122927963-541 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:43:12] Latest Service Orders Table - Row 3: 3 | 2/10/2026 12:22:10 PM | BNW-SRV-122210298-054 | ACTIVE | PAID | Guest | ₱13.44 | ₱13.44 - PASSED
+[2026-02-10 12:43:12] Latest Service Orders Table - Row 4: 4 | 2/10/2026 11:44:53 AM | BNW-ORD-114453189-933 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:12] Latest Service Orders Table - Row 5: 5 | 2/10/2026 11:32:01 AM | BNW-SRV-113201317-374 | NEW | UNPAID | Guest | ₱12.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table - Row 6: 6 | 2/10/2026 11:02:10 AM | BNW-ORD-110210342-178 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table - Row 7: 7 | 2/10/2026 10:54:08 AM | BNW-SRV-105408101-747 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table - Row 8: 8 | 2/10/2026 10:46:56 AM | BNW-SRV-104656760-063 | ACTIVE | PAID | Guest | ₱13.44 | ₱13.44 - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table - Row 9: 9 | 2/9/2026 4:58:37 PM | BNW-SRV-045837025-464 | ACTIVE | UNPAID | MR JOHN SANTOS | ₱400.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table - Row 10: 10 | 2/6/2026 5:53:14 PM | BNW-ORD-055314872-406 | ACTIVE | UNPAID | Guest | ₱1.00 | ₱0.00 - PASSED
+[2026-02-10 12:43:13] Table has 10 valid rows (Latest Service Orders Table) - PASSED
+[2026-02-10 12:43:13] Latest Service Orders Table displayed successfully - PASSED
+[2026-02-10 12:43:19] Clicked Create Order - PASSED
+[2026-02-10 12:43:29] Back to Main Dashboard - PASSED
+[2026-02-10 12:43:33] Clicked Create Booking - PASSED
+[2026-02-10 12:43:43] Back to Main Dashboard - PASSED
+[2026-02-10 12:43:43] Inventory section viewed successfully - PASSED
+[2026-02-10 12:43:54] Clicked Add New Product - PASSED
+[2026-02-10 12:44:04] Back to Main Dashboard - PASSED
+[2026-02-10 12:44:20] Clicked Inventory Update - PASSED
+[2026-02-10 12:44:30] Back to Main Dashboard - PASSED
+[2026-02-10 12:44:30] Inventory History - Row 1: 1 | RESTOCK REAL-TI | 6/23/2025 6:10:20 PM | IN | 2 | ML | RECEIVED SUPPLY | 123 | remarksqe | completed - PASSED
+[2026-02-10 12:44:30] Inventory History - Row 2: 2 | ADJUSTMENT | 9/9/2025 4:31:01 PM | OUT | 0 | ML | RETRIEVED ITEM( | N/A | test | completed - PASSED
+[2026-02-10 12:44:30] Inventory History - Row 3: 3 | ADJUSTMENT | 11/17/2025 1:06:36 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:44:31] Inventory History - Row 4: 4 | ADJUSTMENT | 11/26/2025 1:22:53 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:44:31] Inventory History - Row 5: 5 | ADJUSTMENT | 12/1/2025 2:42:16 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:44:31] Table has 5 valid rows (Inventory History) - PASSED
+[2026-02-10 12:47:19] Main Dashboard loaded successfully - PASSED
+[2026-02-10 12:47:49] New orders/Service Orders count: 437 - PASSED
+[2026-02-10 12:47:49] Orders/Service Orders for Processing count: 282 - PASSED
+[2026-02-10 12:47:49] Current Balance: ₱500.00 - PASSED
+[2026-02-10 12:47:49] Available Balance: ₱0.00 - PASSED
+[2026-02-10 12:48:00] Clicked Settle Available Balance - PASSED
+[2026-02-10 12:48:00] Back to Main Dashboard - PASSED
+[2026-02-10 12:48:01] Clicked Generate QR - PASSED
+[2026-02-10 12:48:11] Back to Main Dashboard - PASSED
+[2026-02-10 12:48:12] Latest Orders Table - Row 1: 1 | 2/10/2026 12:15:58 PM | BNW-ORD-121558883-430 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:48:12] Latest Orders Table - Row 2: 2 | 2/10/2026 12:07:34 PM | BNW-ORD-120734453-719 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:48:12] Latest Orders Table - Row 3: 3 | 2/10/2026 11:17:38 AM | BNW-ORD-111738733-799 | ACTIVE | PARTIAL | Guest | ₱10,830.40 | ₱10.00 - PASSED
+[2026-02-10 12:48:12] Latest Orders Table - Row 4: 4 | 2/10/2026 10:40:19 AM | BNW-ORD-104019673-917 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 5: 5 | 2/10/2026 10:32:07 AM | BNW-ORD-103207049-690 | ACTIVE | PARTIAL | Guest | ₱13,867.84 | ₱13.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 6: 6 | 2/10/2026 10:05:51 AM | BNW-ORD-100551861-853 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 7: 7 | 2/10/2026 9:55:43 AM | BNW-ORD-095543282-788 | NEW | UNPAID | Guest | ₱4,264.96 | ₱0.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 8: 8 | 2/10/2026 9:35:51 AM | BNW-ORD-093551787-212 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 9: 9 | 2/9/2026 4:50:06 PM | BNW-ORD-045006671-952 | ACTIVE | PAID | MR EDWARD CULLEN | ₱100.00 | ₱100.00 - PASSED
+[2026-02-10 12:48:13] Latest Orders Table - Row 10: 10 | 2/9/2026 4:22:30 PM | BNW-ORD-042230257-744 | ACTIVE | UNPAID | Guest | ₱100.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:13] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2026-02-10 12:48:13] Latest Orders Table displayed successfully - PASSED
+[2026-02-10 12:48:19] Clicked Create Order - PASSED
+[2026-02-10 12:48:30] Back to Main Dashboard - PASSED
+[2026-02-10 12:48:30] Latest Service Orders Table - Row 1: 1 | 2/10/2026 12:38:19 PM | BNW-ORD-123819388-799 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:30] Latest Service Orders Table - Row 2: 2 | 2/10/2026 12:29:27 PM | BNW-SRV-122927963-541 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:48:30] Latest Service Orders Table - Row 3: 3 | 2/10/2026 12:22:10 PM | BNW-SRV-122210298-054 | ACTIVE | PAID | Guest | ₱13.44 | ₱13.44 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 4: 4 | 2/10/2026 11:44:53 AM | BNW-ORD-114453189-933 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 5: 5 | 2/10/2026 11:32:01 AM | BNW-SRV-113201317-374 | NEW | UNPAID | Guest | ₱12.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 6: 6 | 2/10/2026 11:02:10 AM | BNW-ORD-110210342-178 | ACTIVE | UNPAID | Guest | ₱5.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 7: 7 | 2/10/2026 10:54:08 AM | BNW-SRV-105408101-747 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 8: 8 | 2/10/2026 10:46:56 AM | BNW-SRV-104656760-063 | ACTIVE | PAID | Guest | ₱13.44 | ₱13.44 - PASSED
+[2026-02-10 12:48:31] Latest Service Orders Table - Row 9: 9 | 2/9/2026 4:58:37 PM | BNW-SRV-045837025-464 | ACTIVE | UNPAID | MR JOHN SANTOS | ₱400.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:32] Latest Service Orders Table - Row 10: 10 | 2/6/2026 5:53:14 PM | BNW-ORD-055314872-406 | ACTIVE | UNPAID | Guest | ₱1.00 | ₱0.00 - PASSED
+[2026-02-10 12:48:32] Table has 10 valid rows (Latest Service Orders Table) - PASSED
+[2026-02-10 12:48:32] Latest Service Orders Table displayed successfully - PASSED
+[2026-02-10 12:48:37] Clicked Create Order - PASSED
+[2026-02-10 12:48:48] Back to Main Dashboard - PASSED
+[2026-02-10 12:48:51] Clicked Create Booking - PASSED
+[2026-02-10 12:49:01] Back to Main Dashboard - PASSED
+[2026-02-10 12:49:01] Inventory section viewed successfully - PASSED
+[2026-02-10 12:49:13] Clicked Add New Product - PASSED
+[2026-02-10 12:49:23] Back to Main Dashboard - PASSED
+[2026-02-10 12:49:44] Clicked Inventory Update - PASSED
+[2026-02-10 12:49:54] Back to Main Dashboard - PASSED
+[2026-02-10 12:49:54] Inventory History - Row 1: 1 | RESTOCK REAL-TI | 6/23/2025 6:10:20 PM | IN | 2 | ML | RECEIVED SUPPLY | 123 | remarksqe | completed - PASSED
+[2026-02-10 12:49:54] Inventory History - Row 2: 2 | ADJUSTMENT | 9/9/2025 4:31:01 PM | OUT | 0 | ML | RETRIEVED ITEM( | N/A | test | completed - PASSED
+[2026-02-10 12:49:54] Inventory History - Row 3: 3 | ADJUSTMENT | 11/17/2025 1:06:36 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:49:55] Inventory History - Row 4: 4 | ADJUSTMENT | 11/26/2025 1:22:53 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:49:55] Inventory History - Row 5: 5 | ADJUSTMENT | 12/1/2025 2:42:16 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-02-10 12:49:55] Table has 5 valid rows (Inventory History) - PASSED

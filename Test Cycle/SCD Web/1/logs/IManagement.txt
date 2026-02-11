@@ -1,0 +1,2814 @@
+[2025-11-07 11:35:05] Clicked Seller Center - PASSED
+[2025-11-07 11:35:12] Clicked Inventory Management - PASSED
+[2025-11-07 11:35:27] Select Main Warehouse - PASSED
+[2025-11-07 13:21:12] Clicked Seller Center - PASSED
+[2025-11-07 13:21:30] Clicked Inventory Management - PASSED
+[2025-11-07 13:23:10] Clicked Seller Center - PASSED
+[2025-11-07 13:23:17] Clicked Inventory Management - PASSED
+[2025-11-07 14:35:39] Clicked Seller Center - PASSED
+[2025-11-07 14:35:46] Clicked Inventory Management - PASSED
+[2025-11-07 14:49:43] Clicked Seller Center - PASSED
+[2025-11-07 14:49:51] Clicked Inventory Management - PASSED
+[2025-11-07 15:28:36] Clicked Seller Center - PASSED
+[2025-11-07 15:28:50] Clicked Inventory Management - PASSED
+[2025-11-07 15:28:50] Clicked Add Inventory button - PASSED
+[2025-11-07 15:28:50] Add Inventory modal displayed - PASSED
+[2025-11-07 15:29:00] Selected Product: Lumitech - PASSED
+[2025-11-07 15:29:01] Entered Quantity: 50 - PASSED
+[2025-11-07 15:29:01] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:29:11] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 15:29:11] Entered Remarks - PASSED
+[2025-11-07 15:29:11] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 15:29:11] ERROR: An error occurred: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+[2025-11-07 15:29:11] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+[2025-11-07 15:41:21] Clicked Seller Center - PASSED
+[2025-11-07 15:41:27] Clicked Inventory Management - PASSED
+[2025-11-07 15:41:28] Clicked Add Inventory button - PASSED
+[2025-11-07 15:41:28] Add Inventory modal displayed - PASSED
+[2025-11-07 15:41:39] Selected Product: Lumitech - PASSED
+[2025-11-07 15:41:39] Entered Quantity: 50 - PASSED
+[2025-11-07 15:41:40] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:41:47] Failed to select 'MAIN WAREHOUSE' from 'product-select': Message: No option found with text: MAIN WAREHOUSE; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+ - FAILED
+[2025-11-07 15:41:47] ERROR: An error occurred: Message: No option found with text: MAIN WAREHOUSE; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "product-select", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 770, in select_data_by_text
+    raise NoSuchElementException(f"No option found with text: {option_text_or_value}")
+selenium.common.exceptions.NoSuchElementException: Message: No option found with text: MAIN WAREHOUSE; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+[2025-11-07 15:41:47] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "product-select", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 770, in select_data_by_text
+    raise NoSuchElementException(f"No option found with text: {option_text_or_value}")
+selenium.common.exceptions.NoSuchElementException: Message: No option found with text: MAIN WAREHOUSE; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "product-select", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 770, in select_data_by_text
+    raise NoSuchElementException(f"No option found with text: {option_text_or_value}")
+selenium.common.exceptions.NoSuchElementException: Message: No option found with text: MAIN WAREHOUSE; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+[2025-11-07 15:45:14] Clicked Seller Center - PASSED
+[2025-11-07 15:45:27] Clicked Inventory Management - PASSED
+[2025-11-07 15:45:27] Clicked Add Inventory button - PASSED
+[2025-11-07 15:45:28] Add Inventory modal displayed - PASSED
+[2025-11-07 15:45:40] Selected Product: Lumitech - PASSED
+[2025-11-07 15:45:40] Entered Quantity: 50 - PASSED
+[2025-11-07 15:45:41] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:45:56] Failed to select 'MAIN WAREHOUSE' from 'warehouse-selec': Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-07 15:45:56] ERROR: An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "warehouse-selec", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 745, in select_data_by_text
+    select_element = wait.until(
+                     ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:45:56] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "warehouse-selec", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 745, in select_data_by_text
+    select_element = wait.until(
+                     ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 68, in Inventory_Management
+    branch = select_data_by_text(log_file_path, wait, "warehouse-selec", "MAIN WAREHOUSE", by="text")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 745, in select_data_by_text
+    select_element = wait.until(
+                     ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:49:05] Clicked Seller Center - PASSED
+[2025-11-07 15:49:36] Clicked Inventory Management - PASSED
+[2025-11-07 15:49:36] Clicked Add Inventory button - PASSED
+[2025-11-07 15:49:36] Add Inventory modal displayed - PASSED
+[2025-11-07 15:49:47] Selected Product: Lumitech - PASSED
+[2025-11-07 15:49:48] Entered Quantity: 50 - PASSED
+[2025-11-07 15:49:48] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:49:48] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 15:49:48] Entered Remarks - PASSED
+[2025-11-07 15:49:48] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 15:49:48] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:49:48] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 85, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:52:17] Clicked Seller Center - PASSED
+[2025-11-07 15:52:32] Clicked Inventory Management - PASSED
+[2025-11-07 15:52:32] Clicked Add Inventory button - PASSED
+[2025-11-07 15:52:32] Add Inventory modal displayed - PASSED
+[2025-11-07 15:52:43] Selected Product: Lumitech - PASSED
+[2025-11-07 15:52:43] Entered Quantity: 50 - PASSED
+[2025-11-07 15:52:45] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:52:48] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 15:52:50] Entered Remarks - PASSED
+[2025-11-07 15:52:52] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 15:53:02] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:53:02] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:57:32] Clicked Seller Center - PASSED
+[2025-11-07 15:57:39] Clicked Inventory Management - PASSED
+[2025-11-07 15:57:40] Clicked Add Inventory button - PASSED
+[2025-11-07 15:57:40] Add Inventory modal displayed - PASSED
+[2025-11-07 15:57:52] Selected Product: Lumitech - PASSED
+[2025-11-07 15:57:52] Entered Quantity: 50 - PASSED
+[2025-11-07 15:57:54] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 15:57:57] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 15:57:59] Entered Remarks - PASSED
+[2025-11-07 15:58:01] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 15:58:11] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 15:58:11] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:02:23] Clicked Seller Center - PASSED
+[2025-11-07 16:02:35] Clicked Inventory Management - PASSED
+[2025-11-07 16:02:36] Clicked Add Inventory button - PASSED
+[2025-11-07 16:02:36] Add Inventory modal displayed - PASSED
+[2025-11-07 16:02:47] Selected Product: Lumitech - PASSED
+[2025-11-07 16:02:47] Entered Quantity: 50 - PASSED
+[2025-11-07 16:02:49] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:02:52] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:02:54] Entered Remarks - PASSED
+[2025-11-07 16:02:56] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:03:06] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:03:06] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:08:31] Clicked Seller Center - PASSED
+[2025-11-07 16:09:05] Clicked Inventory Management - PASSED
+[2025-11-07 16:09:05] Clicked Add Inventory button - PASSED
+[2025-11-07 16:09:05] Add Inventory modal displayed - PASSED
+[2025-11-07 16:09:24] Selected Product: Lumitech - PASSED
+[2025-11-07 16:09:24] Entered Quantity: 50 - PASSED
+[2025-11-07 16:09:26] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:09:28] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:09:30] Entered Remarks - PASSED
+[2025-11-07 16:09:33] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:09:43] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:09:43] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:13:43] Clicked Seller Center - PASSED
+[2025-11-07 16:14:05] Clicked Inventory Management - PASSED
+[2025-11-07 16:14:05] Clicked Add Inventory button - PASSED
+[2025-11-07 16:14:05] Add Inventory modal displayed - PASSED
+[2025-11-07 16:14:16] Selected Product: Lumitech - PASSED
+[2025-11-07 16:14:16] Entered Quantity: 50 - PASSED
+[2025-11-07 16:14:18] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:14:20] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:14:23] Entered Remarks - PASSED
+[2025-11-07 16:14:25] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:14:35] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:14:35] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:16:12] Clicked Seller Center - PASSED
+[2025-11-07 16:16:19] Clicked Inventory Management - PASSED
+[2025-11-07 16:16:19] Clicked Add Inventory button - PASSED
+[2025-11-07 16:16:19] Add Inventory modal displayed - PASSED
+[2025-11-07 16:16:30] Selected Product: Lumitech - PASSED
+[2025-11-07 16:16:30] Entered Quantity: 50 - PASSED
+[2025-11-07 16:16:32] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:16:34] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:16:36] Entered Remarks - PASSED
+[2025-11-07 16:16:38] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:16:48] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:16:48] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 90, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:24:38] Clicked Seller Center - PASSED
+[2025-11-07 16:24:45] Clicked Inventory Management - PASSED
+[2025-11-07 16:24:45] Clicked Add Inventory button - PASSED
+[2025-11-07 16:24:45] Add Inventory modal displayed - PASSED
+[2025-11-07 16:24:59] Selected Product: Lumitech - PASSED
+[2025-11-07 16:24:59] Entered Quantity: 50 - PASSED
+[2025-11-07 16:25:01] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:25:03] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:25:05] Entered Remarks - PASSED
+[2025-11-07 16:25:08] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:25:18] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:25:18] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:27:17] Clicked Seller Center - PASSED
+[2025-11-07 16:27:24] Clicked Inventory Management - PASSED
+[2025-11-07 16:27:25] Clicked Add Inventory button - PASSED
+[2025-11-07 16:27:25] Add Inventory modal displayed - PASSED
+[2025-11-07 16:27:37] Selected Product: Lumitech - PASSED
+[2025-11-07 16:27:37] Entered Quantity: 50 - PASSED
+[2025-11-07 16:27:39] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:27:41] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:27:43] Entered Remarks - PASSED
+[2025-11-07 16:27:46] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:27:56] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:27:56] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:30:17] Clicked Seller Center - PASSED
+[2025-11-07 16:30:24] Clicked Inventory Management - PASSED
+[2025-11-07 16:30:25] Clicked Add Inventory button - PASSED
+[2025-11-07 16:30:25] Add Inventory modal displayed - PASSED
+[2025-11-07 16:30:37] Selected Product: Lumitech - PASSED
+[2025-11-07 16:30:37] Entered Quantity: 50 - PASSED
+[2025-11-07 16:30:39] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:30:42] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:30:44] Entered Remarks - PASSED
+[2025-11-07 16:30:46] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:30:56] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:30:56] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:33:12] Clicked Seller Center - PASSED
+[2025-11-07 16:33:19] Clicked Inventory Management - PASSED
+[2025-11-07 16:33:19] Clicked Add Inventory button - PASSED
+[2025-11-07 16:33:19] Add Inventory modal displayed - PASSED
+[2025-11-07 16:33:32] Selected Product: Lumitech - PASSED
+[2025-11-07 16:33:32] Entered Quantity: 50 - PASSED
+[2025-11-07 16:33:34] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:33:36] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:33:38] Entered Remarks - PASSED
+[2025-11-07 16:33:40] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:33:50] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:33:50] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:39:57] Clicked Seller Center - PASSED
+[2025-11-07 16:40:04] Clicked Inventory Management - PASSED
+[2025-11-07 16:40:04] Clicked Add Inventory button - PASSED
+[2025-11-07 16:40:04] Add Inventory modal displayed - PASSED
+[2025-11-07 16:40:15] Selected Product: Lumitech - PASSED
+[2025-11-07 16:40:15] Entered Quantity: 50 - PASSED
+[2025-11-07 16:40:17] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:40:19] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:40:22] Entered Remarks - PASSED
+[2025-11-07 16:40:24] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:40:34] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:40:34] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:44:31] Clicked Seller Center - PASSED
+[2025-11-07 16:44:38] Clicked Inventory Management - PASSED
+[2025-11-07 16:44:38] Clicked Add Inventory button - PASSED
+[2025-11-07 16:44:38] Add Inventory modal displayed - PASSED
+[2025-11-07 16:44:51] Selected Product: Lumitech - PASSED
+[2025-11-07 16:44:51] Entered Quantity: 50 - PASSED
+[2025-11-07 16:44:53] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:44:55] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:44:57] Entered Remarks - PASSED
+[2025-11-07 16:44:59] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:45:09] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:45:09] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 91, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:47:49] Clicked Seller Center - PASSED
+[2025-11-07 16:47:56] Clicked Inventory Management - PASSED
+[2025-11-07 16:47:56] Clicked Add Inventory button - PASSED
+[2025-11-07 16:47:56] Add Inventory modal displayed - PASSED
+[2025-11-07 16:48:10] Selected Product: Lumitech - PASSED
+[2025-11-07 16:48:10] Entered Quantity: 50 - PASSED
+[2025-11-07 16:48:12] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:48:14] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:48:16] Entered Remarks - PASSED
+[2025-11-07 16:48:19] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:48:29] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:48:29] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:50:30] Clicked Seller Center - PASSED
+[2025-11-07 16:50:37] Clicked Inventory Management - PASSED
+[2025-11-07 16:50:38] Clicked Add Inventory button - PASSED
+[2025-11-07 16:50:38] Add Inventory modal displayed - PASSED
+[2025-11-07 16:50:50] Selected Product: Lumitech - PASSED
+[2025-11-07 16:50:50] Entered Quantity: 50 - PASSED
+[2025-11-07 16:50:53] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:50:55] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:50:57] Entered Remarks - PASSED
+[2025-11-07 16:50:59] Clicked Add button to submit inventory addition - PASSED
+[2025-11-07 16:51:09] ERROR: An error occurred: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:51:09] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Seller_Center\Inventory_Management\IManagement.py", line 92, in Inventory_Management
+    log_action(f"{product.text} added in warehouse", log_file_path=log_file_path)
+                  ^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 110, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa154cc
+	0xa17884
+	0xa17918
+	0xa54dfe
+	0xa7c96c
+	0xa4f854
+	0xa7cb24
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+
+[2025-11-07 16:56:54] Clicked Seller Center - PASSED
+[2025-11-07 16:57:01] Clicked Inventory Management - PASSED
+[2025-11-07 16:57:02] Clicked Add Inventory button - PASSED
+[2025-11-07 16:57:02] Add Inventory modal displayed - PASSED
+[2025-11-07 16:57:14] Selected Product: Lumitech - PASSED
+[2025-11-07 16:57:14] Entered Quantity: 50 - PASSED
+[2025-11-07 16:57:16] Entered Reference Number: REF12345 - PASSED
+[2025-11-07 16:57:18] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-07 16:57:21] Entered Remarks - PASSED
+[2025-11-07 16:57:23] Clicked Add button to submit inventory addition - PASSED
+Clicked 'Update Quantity' in modal
+[2025-11-07 16:57:34] Clicked Update Quantity - PASSED
+[2025-11-07 16:57:41] Entered Reason: Retrieved Item(s) - PASSED
+[2025-11-07 16:57:44] Entered Remarks - PASSED
+[2025-11-07 16:57:46] Clicked Confirmation - PASSED

@@ -1,0 +1,49 @@
+[2025-12-03 16:15:51] Clicked Seller Center - PASSED
+[2025-12-03 16:15:58] Clicked Seller Center Dashboard - PASSED
+[2025-12-03 16:16:08] Seller Dashboard loaded successfully - PASSED
+[2025-12-03 16:16:08] Invoiced Amount panel found - PASSED
+[2025-12-03 16:16:18] Orders for Processing: 120 - PASSED
+[2025-12-03 16:16:18] Unpaid Orders: 324 - PASSED
+[2025-12-03 16:16:18] Total Completed Sales: ₱ 0.00 - PASSED
+[2025-12-03 16:16:18] Cash Collection Balance: Current Balance: ₱0.00 - PASSED
+[2025-12-03 16:16:18] Available Balance: Available Balance: ₱0.00 - PASSED
+[2025-12-03 16:16:19] Clicked Settle Available Balance button - PASSED
+[2025-12-03 16:16:19] Settle Available Balance modal opened - PASSED
+[2025-12-03 16:16:30] Clicked Back to Seller Dashboard button - PASSED
+[2025-12-03 16:16:33] Clicked View All Orders button - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 1: 1 | 12/3/2025 3:40:19 PM | BNW-ORD-034019749-847 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 2: 2 | 12/3/2025 3:32:40 PM | BNW-ORD-033240635-003 | ACTIVE | PARTIAL | Guest | ₱5,387.20 | ₱5.00 - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 3: 3 | 12/3/2025 2:10:50 PM | BNW-ORD-021050506-231 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 4: 4 | 12/3/2025 2:03:17 PM | BNW-ORD-020317799-468 | ACTIVE | PARTIAL | Guest | ₱2,968.00 | ₱2.00 - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 5: 5 | 12/3/2025 1:31:11 PM | BNW-ORD-013111542-879 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2025-12-03 16:16:36] Latest Orders Table - Row 6: 6 | 12/3/2025 1:23:23 PM | BNW-ORD-012323564-464 | ACTIVE | PARTIAL | Guest | ₱10,830.40 | ₱10.00 - PASSED
+[2025-12-03 16:16:37] Latest Orders Table - Row 7: 7 | 12/3/2025 1:07:15 PM | BNW-ORD-010715912-403 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2025-12-03 16:16:37] Latest Orders Table - Row 8: 8 | 12/3/2025 12:59:55 PM | BNW-ORD-125955543-626 | ACTIVE | PARTIAL | Guest | ₱10,830.40 | ₱10.00 - PASSED
+[2025-12-03 16:16:37] Latest Orders Table - Row 9: 9 | 12/3/2025 11:58:48 AM | BNW-ORD-115848237-488 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2025-12-03 16:16:37] Latest Orders Table - Row 10: 10 | 12/3/2025 11:52:57 AM | BNW-ORD-115257875-316 | ACTIVE | UNPAID | Guest | ₱13,867.84 | ₱0.00 - PASSED
+[2025-12-03 16:16:37] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-12-03 16:16:37] Latest Orders Table displayed successfully - PASSED
+[2025-12-03 16:16:37] Clicked Back to Seller Dashboard from Orders Table - PASSED
+[2025-12-03 16:16:37] Clicked Eye Icon to view Order Details - PASSED
+[2025-12-03 16:16:48] Clicked View All Payments button - PASSED
+[2025-12-03 16:16:51] Latest Payment Table - Row 1: 1 | 12/3/2025 11:11:55 AM | BNW-SRV-110842669-215 | ACTIVE | PAID | Guest | ₱13.44 - PASSED
+[2025-12-03 16:16:51] Latest Payment Table - Row 2: 2 | 12/3/2025 10:56:45 AM | BNW-ORD-105412542-422 | ACTIVE | PARTIAL | Guest | ₱2.00 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 3: 3 | 12/3/2025 3:49:46 AM | BNW-SRV-034634892-213 | ACTIVE | PAID | Guest | ₱13.44 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 4: 4 | 12/3/2025 3:35:15 AM | BNW-ORD-033240635-003 | ACTIVE | PARTIAL | Guest | ₱5.00 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 5: 5 | 12/3/2025 2:20:16 AM | BNW-SRV-021703621-738 | ACTIVE | PAID | Guest | ₱13.44 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 6: 6 | 12/3/2025 2:06:06 AM | BNW-ORD-020317799-468 | ACTIVE | PARTIAL | Guest | ₱2.00 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 7: 7 | 12/3/2025 1:40:27 AM | BNW-SRV-013716667-579 | ACTIVE | PAID | Guest | ₱13.44 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 8: 8 | 12/3/2025 1:25:59 AM | BNW-ORD-012323564-464 | ACTIVE | PARTIAL | Guest | ₱10.00 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 9: 9 | 12/3/2025 1:02:27 AM | BNW-ORD-125955543-626 | ACTIVE | PARTIAL | Guest | ₱10.00 - PASSED
+[2025-12-03 16:16:52] Latest Payment Table - Row 10: 10 | 12/2/2025 11:55:15 AM | BNW-SRV-115203113-970 | ACTIVE | PAID | Guest | ₱13.44 - PASSED
+[2025-12-03 16:16:52] Table has 10 valid rows (Latest Payment Table) - PASSED
+[2025-12-03 16:16:52] Latest Payments Table displayed successfully - PASSED
+[2025-12-03 16:16:52] Clicked Back to Seller Dashboard from Payments Table - PASSED
+[2025-12-03 16:16:52] Clicked Eye Icon to view Payment Details - PASSED
+[2025-12-03 16:17:04] Clicked Generate QR button - PASSED
+[2025-12-03 16:17:04] Generate QR page loaded - PASSED
+[2025-12-03 16:17:14] Clicked Back to Seller Dashboard from Generate QR page - PASSED
+[2025-12-03 16:17:23] Clicked Create Order button - PASSED
+[2025-12-03 16:17:23] Create Order page loaded - PASSED
+[2025-12-03 16:17:26] Clicked Back to Seller Dashboard from Create Order page - PASSED
+[2025-12-03 16:17:28] === Seller Dashboard Test Completed Successfully === - PASSED

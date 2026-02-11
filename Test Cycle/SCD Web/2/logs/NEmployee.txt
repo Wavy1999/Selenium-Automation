@@ -1,0 +1,15 @@
+[2025-12-02 17:26:24] Container add employee is now visible - PASSED
+[2025-12-02 17:26:29] Entered first name: Monkey - PASSED
+[2025-12-02 17:26:30] Entered middle name: Dragon - PASSED
+[2025-12-02 17:26:33] Entered last name:  Luffy - PASSED
+[2025-12-02 17:26:35] Entered birthday: 05/05/1999 - PASSED
+[2025-12-02 17:26:35] Selected civil status: Single - PASSED
+[2025-12-02 17:26:35] Selected citizenship: Foreign - PASSED
+[2025-12-02 17:26:38] Entered TIN: 123-456-789 - PASSED
+[2025-12-02 17:26:40] Entered dependencies: 1 - PASSED
+[2025-12-02 17:26:42] Entered mobile number: 9171234567 - PASSED
+[2025-12-02 17:26:46] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-12-02 17:26:48] Uploaded image: <function upload_image_by_name at 0x000001C5F2AAE2A0> - PASSED
+[2025-12-02 17:26:53] Save New Employee button: - PASSED
+[2025-12-02 17:26:53] Confirmation, are you sure want to create new employee: - PASSED
+[2025-12-02 17:26:55] Success: - PASSED

@@ -1,0 +1,63 @@
+[2026-02-10 13:12:49] Clicked Manage Services - PASSED
+[2026-02-10 13:12:52] Searching for service: Software Maintenance - PASSED
+[2026-02-10 13:12:58] Searched for service: Software Maintenance - PASSED
+[2026-02-10 13:12:58] Selected service checkbox - PASSED
+[2026-02-10 13:13:03] Clicked View Service - PASSED
+[2026-02-10 13:13:09] Clicked Manage Product button - PASSED
+[2026-02-10 13:13:14] Clicked Update Service - PASSED
+[2026-02-10 13:13:17] Selected Location by typing & Enter: MAIN WAREHOUSE - PASSED
+[2026-02-10 13:13:19] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-02-10 13:13:19] Clicked Save Button - PASSED
+[2026-02-10 13:13:20] Clicked Confirm OK - PASSED
+[2026-02-10 13:13:43] Clicked Manage Service button - PASSED
+[2026-02-10 13:13:48] Searched for product: Software Maintenance - PASSED
+[2026-02-10 13:13:51] Selected service checkbox2 - PASSED
+[2026-02-10 13:13:51] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Service Media\Data Analysis.jpg - PASSED
+[2026-02-10 13:13:51] Uploaded photo - PASSED
+[2026-02-10 13:13:51] Upload Images Successfully appeared - PASSED
+[2026-02-10 13:13:59] Clicked Upload Again to close the modal - PASSED
+[2026-02-10 13:14:08] Searched for product: Software Maintenance - PASSED
+[2026-02-10 13:14:12] Selected service checkbox3 - PASSED
+[2026-02-10 13:14:12] Clicked first Adjust Price icon - PASSED
+[2026-02-10 13:14:12] Selected Option 1: Run a Special Promotion - PASSED
+[2026-02-10 13:14:13]  Adjust Price modal displayed successfully. - PASSED
+[2026-02-10 13:14:19] Entered Promo Price: 5562 - PASSED
+[2026-02-10 13:14:20] 📅 Clicked date in calendar: February 11, 2026 - PASSED
+[2026-02-10 13:14:20]  Set 'PriceAdjustments[0].EffectiveFr' to 02/11/2026 13:14:19 - PASSED
+[2026-02-10 13:14:21] Set Start Date for Promotion - PASSED
+[2026-02-10 13:14:36]  Could not interact with calendar: Message: 
+ - PASSED
+[2026-02-10 13:14:36]  Set 'PriceAdjustments[0].EffectiveTo' to 02/12/2026 13:14:21 - PASSED
+[2026-02-10 13:14:37] Set End Date for Promotion - PASSED
+[2026-02-10 13:14:37]  Set Post Promo Price: 2299.0 - PASSED
+[2026-02-10 13:14:37] Set Post Promo Price - PASSED
+[2026-02-10 13:14:38]  Clicked 'Save Price Adjustment' button - PASSED
+[2026-02-10 13:14:39]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-10 13:14:42]  Clicked 'OK' on success message  - PASSED
+[2026-02-10 13:14:47]  Confirmation  closed successfully - PASSED
+[2026-02-10 13:14:47] Clicked Back to Options button - PASSED
+[2026-02-10 13:14:47]  Promo options are now visible again - PASSED
+[2026-02-10 13:14:49] Selected Option 2: Adjust Unit Price - PASSED
+[2026-02-10 13:14:56] Entered New Unit Price: 5562 - PASSED
+[2026-02-10 13:14:56] Set Future Start Date for Price Adjustment - PASSED
+[2026-02-10 13:14:57]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2026-02-10 13:14:57]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-10 13:14:59]  Clicked 'OK' on success message  - PASSED
+[2026-02-10 13:15:02] Closed Price Management modal - PASSED
+[2026-02-10 13:15:17] Searched for service: Software Maintenance - PASSED
+[2026-02-10 13:15:21] Selected service checkbox4 - PASSED
+[2026-02-10 13:15:21] Clicked Create Bulk Feature button - PASSED
+[2026-02-10 13:15:23] Client selection successful - PASSED
+[2026-02-10 13:15:25] Address selection successful - PASSED
+[2026-02-10 13:15:36] Order Adjustment loaded successfully - PASSED
+[2026-02-10 13:15:36] Entered Shipping Amount: 150 - PASSED
+[2026-02-10 13:15:39] Filled order row with adjustment, shipping, and tax details - PASSED
+[2026-02-10 13:15:41] Clicked Finalize Bulk Feature button - PASSED
+[2026-02-10 13:15:53] Table is diplay - PASSED
+[2026-02-10 13:15:54] Clicked Export Button - PASSED
+[2026-02-10 13:15:56] Stored original window handle - PASSED
+[2026-02-10 13:15:56] Clicked Payment Link Button - PASSED
+[2026-02-10 13:16:01] New window opened for payment link - PASSED
+[2026-02-10 13:16:01] Switched to new payment window - PASSED
+[2026-02-10 13:16:06] Closed new payment window after 5 seconds - PASSED
+[2026-02-10 13:16:06] Switched back to original window - PASSED

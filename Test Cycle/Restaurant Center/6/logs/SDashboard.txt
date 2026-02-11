@@ -1,0 +1,49 @@
+[2025-11-10 09:39:33] Clicked Seller Center - PASSED
+[2025-11-10 09:39:34] Clicked Seller Center Dashboard - PASSED
+[2025-11-10 09:39:44] Seller Dashboard loaded successfully - PASSED
+[2025-11-10 09:39:44] Invoiced Amount panel found - PASSED
+[2025-11-10 09:39:54] Orders for Processing: 21 - PASSED
+[2025-11-10 09:39:54] Unpaid Orders: 272 - PASSED
+[2025-11-10 09:39:54] Total Completed Sales: ₱ 0.00 - PASSED
+[2025-11-10 09:39:54] Cash Collection Balance: Current Balance: ₱0.00 - PASSED
+[2025-11-10 09:39:54] Available Balance: Available Balance: ₱0.00 - PASSED
+[2025-11-10 09:39:56] Clicked Settle Available Balance button - PASSED
+[2025-11-10 09:39:56] Settle Available Balance modal opened - PASSED
+[2025-11-10 09:40:06] Clicked Back to Seller Dashboard button - PASSED
+[2025-11-10 09:40:09] Clicked View All Orders button - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 1: 1 | 11/6/2025 4:21:33 PM | BNW-ORD-042133803-746 | ACTIVE | UNPAID | DR KATE CRUZ | ₱2,323.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 2: 2 | 11/5/2025 2:18:27 PM | BNW-ORD-021827634-530 | ACTIVE | PAID | Guest | ₱179.20 | ₱179.20 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 3: 3 | 11/5/2025 2:02:42 PM | BNW-ORD-020242064-763 | NEW | UNPAID | Guest | ₱179.20 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 4: 4 | 11/5/2025 1:34:16 PM | BNW-ORD-013416042-299 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 5: 5 | 11/5/2025 1:22:16 PM | BNW-ORD-012216261-846 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 6: 6 | 11/5/2025 1:11:18 PM | BNW-ORD-011118017-838 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 7: 7 | 11/5/2025 1:00:26 PM | BNW-ORD-010026381-130 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 8: 8 | 11/5/2025 12:50:22 PM | BNW-ORD-125022384-668 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 9: 9 | 11/5/2025 12:40:14 PM | BNW-ORD-124014114-222 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Latest Orders Table - Row 10: 10 | 11/5/2025 12:14:52 PM | BNW-ORD-121452747-560 | NEW | UNPAID | Guest | ₱150.00 | ₱0.00 - PASSED
+[2025-11-10 09:40:13] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 09:40:13] Latest Orders Table displayed successfully - PASSED
+[2025-11-10 09:40:13] Clicked Back to Seller Dashboard from Orders Table - PASSED
+[2025-11-10 09:40:13] Clicked Eye Icon to view Order Details - PASSED
+[2025-11-10 09:40:25] Clicked View All Payments button - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 1: 1 | 11/6/2025 9:34:16 AM | BNW-ORD-021827634-530 | ACTIVE | PAID | Guest | ₱179.20 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 2: 2 | 10/28/2025 9:56:01 AM | BNW-ORD-035640508-838 | ACTIVE | PARTIAL | DR KATE CRUZ | ₱10.00 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 3: 3 | 10/13/2025 4:44:28 AM | BNW-SRV-042837513-654 | COLLECTED | PARTIAL | MR PIATTOS PIATTOS | ₱200.00 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 4: 4 | 10/13/2025 3:08:42 AM | BNW-ORD-025503211-315 | ACTIVE | PARTIAL | DR KATE CRUZ | ₱34.40 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 5: 5 | 10/13/2025 2:50:08 AM | BNW-SRV-024728917-480 | PACKED | PARTIAL | MR JOHN SANTOS | ₱12.00 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 6: 6 | 10/13/2025 2:23:44 AM | BNW-ORD-021710744-319 | PACKED | PARTIAL | Guest | ₱10.00 - PASSED
+[2025-11-10 09:40:28] Latest Payment Table - Row 7: 7 | 9/9/2025 11:38:25 AM | BNW-ORD-012404996-496 | CANCELLED | PAID | MR JOHN SANTOS | ₱300.00 - PASSED
+[2025-11-10 09:40:29] Latest Payment Table - Row 8: 8 | 9/8/2025 4:20:22 AM | BNW-ORD-012930112-962 | SHIPPED | PARTIAL | MR JOHN SANTOS | ₱1.00 - PASSED
+[2025-11-10 09:40:29] Latest Payment Table - Row 9: 9 | 9/8/2025 4:19:35 AM | BNW-ORD-012930112-962 | SHIPPED | PARTIAL | MR JOHN SANTOS | ₱1.00 - PASSED
+[2025-11-10 09:40:29] Latest Payment Table - Row 10: 10 | 9/8/2025 4:19:19 AM | BNW-ORD-012930112-962 | SHIPPED | PARTIAL | MR JOHN SANTOS | ₱1.00 - PASSED
+[2025-11-10 09:40:29] Table has 10 valid rows (Latest Payment Table) - PASSED
+[2025-11-10 09:40:29] Latest Payments Table displayed successfully - PASSED
+[2025-11-10 09:40:29] Clicked Back to Seller Dashboard from Payments Table - PASSED
+[2025-11-10 09:40:29] Clicked Eye Icon to view Payment Details - PASSED
+[2025-11-10 09:40:41] Clicked Generate QR button - PASSED
+[2025-11-10 09:40:41] Generate QR page loaded - PASSED
+[2025-11-10 09:40:51] Clicked Back to Seller Dashboard from Generate QR page - PASSED
+[2025-11-10 09:40:58] Clicked Create Order button - PASSED
+[2025-11-10 09:40:59] Create Order page loaded - PASSED
+[2025-11-10 09:41:02] Clicked Back to Seller Dashboard from Create Order page - PASSED
+[2025-11-10 09:41:04] === Seller Dashboard Test Completed Successfully === - PASSED

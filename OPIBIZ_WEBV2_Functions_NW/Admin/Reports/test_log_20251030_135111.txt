@@ -1,0 +1,51 @@
+[2025-10-30 13:51:11] Automation has started... - PASSED
+[2025-10-30 13:51:11] Login Credentials: - PASSED
+[2025-10-30 13:51:12] Login completed with user: jennifer.velasco - PASSED
+[2025-10-30 13:51:13] 🏢 Selecting branch and terminal... - PASSED
+[2025-10-30 13:51:18] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 13:51:30] Selected HQ branch option - PASSED
+[2025-10-30 13:51:46] Clicked branch confirmation button - PASSED
+[2025-10-30 13:51:52] Branch and terminal selection successful - PASSED
+[2025-10-30 13:51:52] 🏠 Starting Home test... - PASSED
+[2025-10-30 13:52:52] Home test completed successfully - PASSED
+[2025-10-30 13:52:52] 🛒 Starting Orders test... - PASSED
+[2025-10-30 14:04:41] Orders test completed successfully - PASSED
+[2025-10-30 14:04:42] 🛒 Starting Manage Orders test... - PASSED
+[2025-10-30 14:07:40] Manage Orders test completed successfully - PASSED
+[2025-10-30 14:07:40] 📅 Starting Bookings test... - PASSED
+[2025-10-30 14:08:18] Bookings test completed successfully - PASSED
+[2025-10-30 14:08:19] 🍽️ Starting Tables setup... - PASSED
+[2025-10-30 14:09:38] Tables setup completed - PASSED
+[2025-10-30 14:09:39] 🍽️ Starting Menu setup... - PASSED
+[2025-10-30 14:13:37] Menu setup completed - PASSED
+[2025-10-30 14:13:37] 🍽️ Starting Printer setup... - PASSED
+[2025-10-30 14:17:06] Printer setup completed - PASSED
+[2025-10-30 14:17:07] 🍽️ Starting Invoice setup... - PASSED
+[2025-10-30 14:19:22] Invoice setup completed - PASSED
+[2025-10-30 14:19:22] 🚪 Starting logout... - PASSED
+[2025-10-30 14:19:24] Logout successful - PASSED

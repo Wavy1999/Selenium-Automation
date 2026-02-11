@@ -1,0 +1,13 @@
+[2025-12-02 17:20:52] Entered Service Name: Website Development - PASSED
+[2025-12-02 17:20:53] Entered SKU: WD0010 - PASSED
+[2025-12-02 17:20:54] Entered Units of Measure: Project - PASSED
+[2025-12-02 17:20:55] Entered Service Description: Custom website development with responsive design - PASSED
+[2025-12-02 17:21:00] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-02 17:21:00] Entered Unit Price: 1500.0 - PASSED
+[2025-12-02 17:21:01] Entered Service Tags: ('web,development,design',) - PASSED
+[2025-12-02 17:21:02] Entered Service Value: ('1500.0',) - PASSED
+[2025-12-02 17:21:04] Entered Service Sub-Category: Web Services - PASSED
+[2025-12-02 17:21:05] upload_image_service: uploaded D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\2.jpg - PASSED
+[2025-12-02 17:21:05] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\2.jpg - PASSED
+[2025-12-02 17:21:06] Clicked Save Service - PASSED
+[2025-12-02 17:21:08] Confirmed Service Creation - PASSED

@@ -1,0 +1,1039 @@
+[2025-11-05 15:16:12] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:16:42] Clicked Seller Center - PASSED
+[2025-11-05 15:16:43] Clicked Order Management - PASSED
+[2025-11-05 15:16:44] Clicked Manage Order - PASSED
+[2025-11-05 15:16:50] Searched: Unpaid - PASSED
+[2025-11-05 15:16:52] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:16:52] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:16:53] Applied Date Range filter - PASSED
+[2025-11-05 15:17:03] An error occurred: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbc0b81
+	0xbbfc50
+	0xbb5f99
+	0xbb6081
+	0xbb433c
+	0xbb7b24
+	0xc3fe64
+	0xc1c96c
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:21:52] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:22:23] Clicked Seller Center - PASSED
+[2025-11-05 15:22:23] Clicked Order Management - PASSED
+[2025-11-05 15:22:24] Clicked Manage Order - PASSED
+[2025-11-05 15:22:30] Searched: Unpaid - PASSED
+[2025-11-05 15:22:32] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:22:32] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:22:32] Applied Date Range filter - PASSED
+[2025-11-05 15:22:47] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:23:36] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:24:06] Clicked Seller Center - PASSED
+[2025-11-05 15:24:07] Clicked Order Management - PASSED
+[2025-11-05 15:24:08] Clicked Manage Order - PASSED
+[2025-11-05 15:24:14] Searched: Unpaid - PASSED
+[2025-11-05 15:24:16] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:24:16] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:24:16] Applied Date Range filter - PASSED
+[2025-11-05 15:24:19] An error occurred: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbc0b81
+	0xbbfc50
+	0xbb5f99
+	0xbb6081
+	0xbb433c
+	0xbb7b24
+	0xc3fe64
+	0xc1c96c
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:26:06] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:26:36] Clicked Seller Center - PASSED
+[2025-11-05 15:26:37] Clicked Order Management - PASSED
+[2025-11-05 15:26:38] Clicked Manage Order - PASSED
+[2025-11-05 15:26:44] Searched: Unpaid - PASSED
+[2025-11-05 15:26:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:26:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:26:46] Applied Date Range filter - PASSED
+[2025-11-05 15:26:48] An error occurred: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbc0b81
+	0xbbfc50
+	0xbb5f99
+	0xbb6081
+	0xbb433c
+	0xbb7b24
+	0xc3fe64
+	0xc1c96c
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:31:39] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:32:09] Clicked Seller Center - PASSED
+[2025-11-05 15:32:10] Clicked Order Management - PASSED
+[2025-11-05 15:32:11] Clicked Manage Order - PASSED
+[2025-11-05 15:32:17] Searched: Unpaid - PASSED
+[2025-11-05 15:32:19] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:32:20] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:32:20] Applied Date Range filter - PASSED
+[2025-11-05 15:32:21] Clicked Order Profile button - PASSED
+[2025-11-05 15:32:21] An error occurred: Message: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbc0b81
+	0xbbfc50
+	0xbb5f99
+	0xbb6081
+	0xbb433c
+	0xbb7b24
+	0xc3fe64
+	0xc1c96c
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:34:20] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:34:50] Clicked Seller Center - PASSED
+[2025-11-05 15:34:51] Clicked Order Management - PASSED
+[2025-11-05 15:34:52] Clicked Manage Order - PASSED
+[2025-11-05 15:34:58] Searched: Unpaid - PASSED
+[2025-11-05 15:35:00] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:35:00] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:35:01] Applied Date Range filter - PASSED
+[2025-11-05 15:35:01] Viewed Order Profile - PASSED
+[2025-11-05 15:35:02] Opened Update Contact & Shipping - PASSED
+[2025-11-05 15:35:07] Modal loaded - PASSED
+[2025-11-05 15:35:07] Updated Mobile No.: +63 955 567 8901 - PASSED
+[2025-11-05 15:35:09] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 15:35:10] Selected Province: IFUGAO - PASSED
+[2025-11-05 15:35:11] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 15:35:13] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 15:35:14] Updated House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 15:35:15] Updated Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 15:35:16] Updated Postal Code: 4023 - PASSED
+[2025-11-05 15:35:21] Clicked Save Changes - PASSED
+[2025-11-05 15:35:23] Confirmed Changes - PASSED
+[2025-11-05 15:35:29] Clicked OK - PASSED
+[2025-11-05 15:35:29] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:35:30] Clicked Receive Payment - PASSED
+[2025-11-05 15:41:06] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:41:36] Clicked Seller Center - PASSED
+[2025-11-05 15:41:37] Clicked Order Management - PASSED
+[2025-11-05 15:41:38] Clicked Manage Order - PASSED
+[2025-11-05 15:41:44] Searched: Unpaid - PASSED
+[2025-11-05 15:41:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:41:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:41:47] Applied Date Range filter - PASSED
+[2025-11-05 15:41:47] Viewed Order Profile - PASSED
+[2025-11-05 15:41:48] Opened Update Contact & Shipping - PASSED
+[2025-11-05 15:41:53] Modal loaded - PASSED
+[2025-11-05 15:41:53] Updated Mobile No.: +63 912 345 6789 - PASSED
+[2025-11-05 15:41:55] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 15:41:56] Selected Province: ABRA - PASSED
+[2025-11-05 15:41:57] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 15:41:59] Selected Barangay: CALAO - PASSED
+[2025-11-05 15:42:00] Updated House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 15:42:01] Updated Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 15:42:02] Updated Postal Code: 1105 - PASSED
+[2025-11-05 15:42:07] Clicked Save Changes - PASSED
+[2025-11-05 15:42:09] Confirmed Changes - PASSED
+[2025-11-05 15:42:15] Clicked OK - PASSED
+[2025-11-05 15:42:17] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:42:18] Clicked Receive Payment - PASSED
+[2025-11-05 15:47:36] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:48:06] Clicked Seller Center - PASSED
+[2025-11-05 15:48:07] Clicked Order Management - PASSED
+[2025-11-05 15:48:08] Clicked Manage Order - PASSED
+[2025-11-05 15:48:14] Searched: Unpaid - PASSED
+[2025-11-05 15:48:17] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:48:17] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:48:17] Applied Date Range filter - PASSED
+[2025-11-05 15:48:18] Viewed Order Profile - PASSED
+[2025-11-05 15:48:18] Opened Update Contact & Shipping - PASSED
+[2025-11-05 15:48:23] Modal loaded - PASSED
+[2025-11-05 15:48:24] Updated Mobile No.: +63 955 567 8901 - PASSED
+[2025-11-05 15:48:25] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 15:48:26] Selected Province: IFUGAO - PASSED
+[2025-11-05 15:48:27] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 15:48:29] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 15:48:30] Updated House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 15:48:31] Updated Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 15:48:32] Updated Postal Code: 4023 - PASSED
+[2025-11-05 15:48:37] Clicked Save Changes - PASSED
+[2025-11-05 15:48:39] Confirmed Changes - PASSED
+[2025-11-05 15:48:45] Clicked OK - PASSED
+[2025-11-05 15:48:47] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:48:50] Clicked Receive Payment - PASSED
+[2025-11-05 15:48:56] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:49:11] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:51:35] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:52:05] Clicked Seller Center - PASSED
+[2025-11-05 15:52:06] Clicked Order Management - PASSED
+[2025-11-05 15:52:07] Clicked Manage Order - PASSED
+[2025-11-05 15:52:13] Searched: Unpaid - PASSED
+[2025-11-05 15:52:15] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:52:15] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:52:15] Applied Date Range filter - PASSED
+[2025-11-05 15:52:16] Viewed Order Profile - PASSED
+[2025-11-05 15:52:17] Opened Update Contact & Shipping - PASSED
+[2025-11-05 15:52:22] Modal loaded - PASSED
+[2025-11-05 15:52:22] Updated Mobile No.: +63 912 345 6789 - PASSED
+[2025-11-05 15:52:25] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 15:52:29] Selected Province: ABRA - PASSED
+[2025-11-05 15:52:32] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 15:52:35] Selected Barangay: CALAO - PASSED
+[2025-11-05 15:52:38] Updated House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 15:52:41] Updated Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 15:52:45] Updated Postal Code: 1105 - PASSED
+[2025-11-05 15:52:48] Clicked Save Changes - PASSED
+[2025-11-05 15:52:50] Confirmed Changes - PASSED
+[2025-11-05 15:52:53] Clicked OK - PASSED
+[2025-11-05 15:52:55] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:53:08] Clicked Receive Payment - PASSED
+[2025-11-05 15:53:19] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:53:44] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 15:58:01] Main Dashboard loaded successfully - PASSED
+[2025-11-05 15:58:32] Clicked Seller Center - PASSED
+[2025-11-05 15:58:32] Clicked Order Management - PASSED
+[2025-11-05 15:58:34] Clicked Manage Order - PASSED
+[2025-11-05 15:58:40] Searched: Unpaid - PASSED
+[2025-11-05 15:58:42] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 15:58:42] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 15:58:42] Applied Date Range filter - PASSED
+[2025-11-05 15:58:43] Viewed Order Profile - PASSED
+[2025-11-05 15:58:44] Opened Update Contact & Shipping - PASSED
+[2025-11-05 15:58:49] Modal loaded - PASSED
+[2025-11-05 15:58:49] Updated Mobile No.: +63 955 567 8901 - PASSED
+[2025-11-05 15:58:52] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 15:58:56] Selected Province: IFUGAO - PASSED
+[2025-11-05 15:58:59] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 15:59:02] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 15:59:05] Updated House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 15:59:09] Updated Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 15:59:12] Updated Postal Code: 4023 - PASSED
+[2025-11-05 15:59:15] Clicked Save Changes - PASSED
+[2025-11-05 15:59:17] Confirmed Changes - PASSED
+[2025-11-05 15:59:21] Clicked OK - PASSED
+[2025-11-05 15:59:23] Dismissed Chrome autofill popup - PASSED
+[2025-11-05 15:59:23] Navigated back to Manage Order page - PASSED
+[2025-11-05 15:59:37] Clicked Receive Payment - PASSED
+[2025-11-05 15:59:47] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:03:03] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:03:33] Clicked Seller Center - PASSED
+[2025-11-05 16:03:34] Clicked Order Management - PASSED
+[2025-11-05 16:03:35] Clicked Manage Order - PASSED
+[2025-11-05 16:03:41] Searched: Unpaid - PASSED
+[2025-11-05 16:03:43] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:03:43] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:03:43] Applied Date Range filter - PASSED
+[2025-11-05 16:03:44] Viewed Order Profile - PASSED
+[2025-11-05 16:03:45] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:03:50] Modal loaded - PASSED
+[2025-11-05 16:03:50] Updated Mobile No.: +63 944 456 7890 - PASSED
+[2025-11-05 16:03:53] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:03:57] Selected Province: BOHOL - PASSED
+[2025-11-05 16:04:00] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 16:04:03] Selected Barangay: CASICA - PASSED
+[2025-11-05 16:04:06] Updated House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 16:04:10] Updated Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 16:04:13] Updated Postal Code: 1550 - PASSED
+[2025-11-05 16:04:16] Clicked Save Changes - PASSED
+[2025-11-05 16:04:18] Confirmed Changes - PASSED
+[2025-11-05 16:04:22] Clicked OK - PASSED
+[2025-11-05 16:04:24] Dismissed Chrome autofill popup - PASSED
+[2025-11-05 16:04:24] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:04:55] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:15:41] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:16:11] Clicked Seller Center - PASSED
+[2025-11-05 16:16:11] Clicked Order Management - PASSED
+[2025-11-05 16:16:13] Clicked Manage Order - PASSED
+[2025-11-05 16:16:19] Searched: Unpaid - PASSED
+[2025-11-05 16:16:21] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:16:21] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:16:21] Applied Date Range filter - PASSED
+[2025-11-05 16:16:22] Viewed Order Profile - PASSED
+[2025-11-05 16:16:23] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:16:28] Modal loaded - PASSED
+[2025-11-05 16:16:28] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 16:16:31] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:16:35] Selected Province: BATANGAS - PASSED
+[2025-11-05 16:16:38] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 16:16:41] Selected Barangay: BALELE - PASSED
+[2025-11-05 16:16:44] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 16:16:47] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 16:16:50] Updated Postal Code: 1001 - PASSED
+[2025-11-05 16:16:54] Clicked Save Changes - PASSED
+[2025-11-05 16:16:56] Confirmed Changes - PASSED
+[2025-11-05 16:16:59] Clicked OK - PASSED
+[2025-11-05 16:17:02] Dismissed Chrome autofill popup - PASSED
+[2025-11-05 16:17:02] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:17:32] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:24:13] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:24:43] Clicked Seller Center - PASSED
+[2025-11-05 16:24:43] Clicked Order Management - PASSED
+[2025-11-05 16:24:44] Clicked Manage Order - PASSED
+[2025-11-05 16:24:50] Searched: Unpaid - PASSED
+[2025-11-05 16:24:52] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:24:52] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:24:53] Applied Date Range filter - PASSED
+[2025-11-05 16:24:54] Viewed Order Profile - PASSED
+[2025-11-05 16:24:54] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:24:59] Modal loaded - PASSED
+[2025-11-05 16:25:00] Updated Mobile No.: +63 955 567 8901 - PASSED
+[2025-11-05 16:25:03] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:25:06] Selected Province: IFUGAO - PASSED
+[2025-11-05 16:25:10] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 16:25:13] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 16:25:16] Updated House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 16:25:19] Updated Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 16:25:22] Updated Postal Code: 4023 - PASSED
+[2025-11-05 16:25:25] Clicked Save Changes - PASSED
+[2025-11-05 16:25:27] Confirmed Changes - PASSED
+[2025-11-05 16:25:31] Clicked OK - PASSED
+[2025-11-05 16:25:33] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:25:55] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:31:01] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:31:31] Clicked Seller Center - PASSED
+[2025-11-05 16:31:31] Clicked Order Management - PASSED
+[2025-11-05 16:31:32] Clicked Manage Order - PASSED
+[2025-11-05 16:31:38] Searched: Unpaid - PASSED
+[2025-11-05 16:31:41] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:31:41] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:31:41] Applied Date Range filter - PASSED
+[2025-11-05 16:31:42] Viewed Order Profile - PASSED
+[2025-11-05 16:31:42] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:31:48] Modal loaded - PASSED
+[2025-11-05 16:31:48] Updated Mobile No.: +63 944 456 7890 - PASSED
+[2025-11-05 16:31:51] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:31:54] Selected Province: BOHOL - PASSED
+[2025-11-05 16:31:58] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 16:32:01] Selected Barangay: CASICA - PASSED
+[2025-11-05 16:32:04] Updated House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 16:32:07] Updated Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 16:32:10] Updated Postal Code: 1550 - PASSED
+[2025-11-05 16:32:13] Clicked Save Changes - PASSED
+[2025-11-05 16:32:15] Confirmed Changes - PASSED
+[2025-11-05 16:32:19] Clicked OK - PASSED
+[2025-11-05 16:32:21] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:32:51] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:35:41] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:36:12] Clicked Seller Center - PASSED
+[2025-11-05 16:36:12] Clicked Order Management - PASSED
+[2025-11-05 16:36:14] Clicked Manage Order - PASSED
+[2025-11-05 16:36:20] Searched: Unpaid - PASSED
+[2025-11-05 16:36:23] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:36:23] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:36:23] Applied Date Range filter - PASSED
+[2025-11-05 16:36:24] Viewed Order Profile - PASSED
+[2025-11-05 16:36:24] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:36:30] Modal loaded - PASSED
+[2025-11-05 16:36:30] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 16:36:33] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:36:36] Selected Province: BATANGAS - PASSED
+[2025-11-05 16:36:40] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 16:36:43] Selected Barangay: BALELE - PASSED
+[2025-11-05 16:36:46] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 16:36:49] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 16:36:52] Updated Postal Code: 1001 - PASSED
+[2025-11-05 16:36:56] Clicked Save Changes - PASSED
+[2025-11-05 16:36:58] Confirmed Changes - PASSED
+[2025-11-05 16:37:01] Clicked OK - PASSED
+[2025-11-05 16:37:03] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:37:33] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:43:41] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:44:11] Clicked Seller Center - PASSED
+[2025-11-05 16:44:12] Clicked Order Management - PASSED
+[2025-11-05 16:44:13] Clicked Manage Order - PASSED
+[2025-11-05 16:44:19] Searched: Unpaid - PASSED
+[2025-11-05 16:44:22] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:44:22] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:44:22] Applied Date Range filter - PASSED
+[2025-11-05 16:44:23] Viewed Order Profile - PASSED
+[2025-11-05 16:44:24] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:44:29] Modal loaded - PASSED
+[2025-11-05 16:44:29] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 16:44:32] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:44:36] Selected Province: BATANGAS - PASSED
+[2025-11-05 16:44:39] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 16:44:42] Selected Barangay: BALELE - PASSED
+[2025-11-05 16:44:45] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 16:44:48] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 16:44:51] Updated Postal Code: 1001 - PASSED
+[2025-11-05 16:44:55] Clicked Save Changes - PASSED
+[2025-11-05 16:44:57] Confirmed Changes - PASSED
+[2025-11-05 16:45:00] Clicked OK - PASSED
+[2025-11-05 16:45:02] Navigated back to Manage Order page - PASSED
+[2025-11-05 16:45:35] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 16:51:51] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:52:21] Clicked Seller Center - PASSED
+[2025-11-05 16:52:21] Clicked Order Management - PASSED
+[2025-11-05 16:52:23] Clicked Manage Order - PASSED
+[2025-11-05 16:52:28] Searched: Unpaid - PASSED
+[2025-11-05 16:52:31] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:52:31] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:52:31] Applied Date Range filter - PASSED
+[2025-11-05 16:52:32] Viewed Order Profile - PASSED
+[2025-11-05 16:52:33] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:52:38] Modal loaded - PASSED
+[2025-11-05 16:52:38] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 16:52:41] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:52:44] Selected Province: BATANGAS - PASSED
+[2025-11-05 16:52:48] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 16:52:51] Selected Barangay: BALELE - PASSED
+[2025-11-05 16:52:54] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 16:52:57] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 16:53:00] Updated Postal Code: 1001 - PASSED
+[2025-11-05 16:53:04] Clicked Save Changes - PASSED
+[2025-11-05 16:53:05] Confirmed Changes - PASSED
+[2025-11-05 16:53:09] Clicked OK - PASSED
+[2025-11-05 16:53:11] Navigated to Manage Order page directly - PASSED
+[2025-11-05 16:53:26] Clicked Receive Payment - PASSED
+[2025-11-05 16:55:42] Main Dashboard loaded successfully - PASSED
+[2025-11-05 16:56:12] Clicked Seller Center - PASSED
+[2025-11-05 16:56:13] Clicked Order Management - PASSED
+[2025-11-05 16:56:14] Clicked Manage Order - PASSED
+[2025-11-05 16:56:20] Searched: Unpaid - PASSED
+[2025-11-05 16:56:22] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 16:56:22] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 16:56:22] Applied Date Range filter - PASSED
+[2025-11-05 16:56:23] Viewed Order Profile - PASSED
+[2025-11-05 16:56:24] Opened Update Contact & Shipping - PASSED
+[2025-11-05 16:56:29] Modal loaded - PASSED
+[2025-11-05 16:56:29] Updated Mobile No.: +63 922 234 5678 - PASSED
+[2025-11-05 16:56:33] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 16:56:36] Selected Province: BATAAN - PASSED
+[2025-11-05 16:56:39] Selected City/Municipality: ABUCAY - PASSED
+[2025-11-05 16:56:42] Selected Barangay: BANGKAL - PASSED
+[2025-11-05 16:56:45] Updated House/Floor/Unit No.: 4556 Ayala - PASSED
+[2025-11-05 16:56:49] Updated Block/Building/Street: Legaspi Village - PASSED
+[2025-11-05 16:56:52] Updated Postal Code: 1226 - PASSED
+[2025-11-05 16:56:55] Clicked Save Changes - PASSED
+[2025-11-05 16:56:57] Confirmed Changes - PASSED
+[2025-11-05 16:57:00] Clicked OK - PASSED
+[2025-11-05 16:57:03] Navigated to Manage Order page - PASSED
+[2025-11-05 16:57:08] Clicked Receive Payment - PASSED
+[2025-11-05 16:57:15] Navigated to Manage Order - PASSED
+[2025-11-05 16:57:20] Clicked Create New Order - PASSED
+[2025-11-05 17:04:39] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:05:09] Clicked Seller Center - PASSED
+[2025-11-05 17:05:10] Clicked Order Management - PASSED
+[2025-11-05 17:05:11] Clicked Manage Order - PASSED
+[2025-11-05 17:05:17] Searched: Unpaid - PASSED
+[2025-11-05 17:05:19] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:05:19] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:05:19] Applied Date Range filter - PASSED
+[2025-11-05 17:05:20] Viewed Order Profile - PASSED
+[2025-11-05 17:05:21] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:05:26] Modal loaded - PASSED
+[2025-11-05 17:05:26] Updated Mobile No.: +63 912 345 6789 - PASSED
+[2025-11-05 17:05:29] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:05:33] Selected Province: ABRA - PASSED
+[2025-11-05 17:05:36] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 17:05:39] Selected Barangay: CALAO - PASSED
+[2025-11-05 17:05:42] Updated House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 17:05:45] Updated Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 17:05:48] Updated Postal Code: 1105 - PASSED
+[2025-11-05 17:05:52] Clicked Save Changes - PASSED
+[2025-11-05 17:05:56] Confirmed Changes - PASSED
+[2025-11-05 17:06:00] Clicked OK - PASSED
+[2025-11-05 17:06:02] Navigated to Manage Order page - PASSED
+[2025-11-05 17:06:13] Clicked Receive Payment - PASSED
+[2025-11-05 17:06:19] Extracted price: 0.00 - PASSED
+[2025-11-05 17:06:19] Entered payment amount: 0.00 - PASSED
+[2025-11-05 17:06:21] Clicked Submit Payment - PASSED
+[2025-11-05 17:06:23] Navigated to Manage Order - PASSED
+[2025-11-05 17:06:27] Clicked Create New Order - PASSED
+[2025-11-05 17:10:29] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:10:59] Clicked Seller Center - PASSED
+[2025-11-05 17:11:00] Clicked Order Management - PASSED
+[2025-11-05 17:11:01] Clicked Manage Order - PASSED
+[2025-11-05 17:11:07] Searched: Unpaid - PASSED
+[2025-11-05 17:11:09] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:11:09] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:11:10] Applied Date Range filter - PASSED
+[2025-11-05 17:11:10] Viewed Order Profile - PASSED
+[2025-11-05 17:11:11] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:11:16] Modal loaded - PASSED
+[2025-11-05 17:11:17] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 17:11:20] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:11:23] Selected Province: BATANGAS - PASSED
+[2025-11-05 17:11:26] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 17:11:30] Selected Barangay: BALELE - PASSED
+[2025-11-05 17:11:33] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 17:11:36] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 17:11:39] Updated Postal Code: 1001 - PASSED
+[2025-11-05 17:11:42] Clicked Save Changes - PASSED
+[2025-11-05 17:11:44] Confirmed Changes - PASSED
+[2025-11-05 17:11:48] Clicked OK - PASSED
+[2025-11-05 17:11:50] Navigated to Manage Order page - PASSED
+[2025-11-05 17:11:59] Clicked Receive Payment - PASSED
+[2025-11-05 17:12:05] Extracted price: 0.00 - PASSED
+[2025-11-05 17:12:05] Entered payment amount: 0.00 - PASSED
+[2025-11-05 17:12:07] Clicked Submit Payment - PASSED
+[2025-11-05 17:12:09] Navigated to Manage Order - PASSED
+[2025-11-05 17:12:14] Clicked Create New Order - PASSED
+[2025-11-05 17:18:17] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:18:47] Clicked Seller Center - PASSED
+[2025-11-05 17:18:48] Clicked Order Management - PASSED
+[2025-11-05 17:18:49] Clicked Manage Order - PASSED
+[2025-11-05 17:18:55] Searched: Unpaid - PASSED
+[2025-11-05 17:18:57] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:18:57] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:18:57] Applied Date Range filter - PASSED
+[2025-11-05 17:18:58] Viewed Order Profile - PASSED
+[2025-11-05 17:18:59] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:19:04] Modal loaded - PASSED
+[2025-11-05 17:19:04] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 17:19:07] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:19:11] Selected Province: BATANGAS - PASSED
+[2025-11-05 17:19:14] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 17:19:17] Selected Barangay: BALELE - PASSED
+[2025-11-05 17:19:20] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 17:19:23] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 17:19:27] Updated Postal Code: 1001 - PASSED
+[2025-11-05 17:19:30] Clicked Save Changes - PASSED
+[2025-11-05 17:19:32] Confirmed Changes - PASSED
+[2025-11-05 17:19:35] Clicked OK - PASSED
+[2025-11-05 17:19:38] Navigated to Manage Order page - PASSED
+[2025-11-05 17:19:45] Clicked Receive Payment - PASSED
+[2025-11-05 17:19:51] An error occurred: list indices must be integers or slices, not float - FAILED
+[2025-11-05 17:31:16] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:31:46] Clicked Seller Center - PASSED
+[2025-11-05 17:31:47] Clicked Order Management - PASSED
+[2025-11-05 17:31:48] Clicked Manage Order - PASSED
+[2025-11-05 17:31:54] Searched: Unpaid - PASSED
+[2025-11-05 17:31:56] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:31:56] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:31:56] Applied Date Range filter - PASSED
+[2025-11-05 17:31:57] Viewed Order Profile - PASSED
+[2025-11-05 17:31:58] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:32:03] Modal loaded - PASSED
+[2025-11-05 17:32:03] Updated Mobile No.: +63 944 456 7890 - PASSED
+[2025-11-05 17:32:07] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:32:10] Selected Province: BOHOL - PASSED
+[2025-11-05 17:32:13] Selected City/Municipality: ANDA - PASSED
+[2025-11-05 17:32:16] Selected Barangay: CASICA - PASSED
+[2025-11-05 17:32:20] Updated House/Floor/Unit No.: 12EDSA ST - PASSED
+[2025-11-05 17:32:23] Updated Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2025-11-05 17:32:26] Updated Postal Code: 1550 - PASSED
+[2025-11-05 17:32:29] Clicked Save Changes - PASSED
+[2025-11-05 17:32:31] Confirmed Changes - PASSED
+[2025-11-05 17:32:35] Clicked OK - PASSED
+[2025-11-05 17:32:37] Navigated to Manage Order page - PASSED
+[2025-11-05 17:32:42] Clicked Receive Payment - PASSED
+[2025-11-05 17:32:48] Full price text extracted: '₱ 0.00' - PASSED
+[2025-11-05 17:32:48] Extracted numeric price: 0.00 - PASSED
+[2025-11-05 17:32:49] Entered payment amount: 0.00 - PASSED
+[2025-11-05 17:32:49] Input field now contains: 0.00 - PASSED
+[2025-11-05 17:32:50] Clicked Submit Payment - PASSED
+[2025-11-05 17:32:55] Clicked Submit Payment - PASSED
+[2025-11-05 17:32:57] Navigated to Manage Order - PASSED
+[2025-11-05 17:33:04] Clicked Create New Order - PASSED
+[2025-11-05 17:36:46] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:37:16] Clicked Seller Center - PASSED
+[2025-11-05 17:37:16] Clicked Order Management - PASSED
+[2025-11-05 17:37:18] Clicked Manage Order - PASSED
+[2025-11-05 17:37:23] Searched: Unpaid - PASSED
+[2025-11-05 17:37:26] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:37:26] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:37:26] Applied Date Range filter - PASSED
+[2025-11-05 17:37:27] Viewed Order Profile - PASSED
+[2025-11-05 17:37:28] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:37:33] Modal loaded - PASSED
+[2025-11-05 17:37:33] Updated Mobile No.: +63 955 567 8901 - PASSED
+[2025-11-05 17:37:36] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:37:39] Selected Province: IFUGAO - PASSED
+[2025-11-05 17:37:43] Selected City/Municipality: AGUINALDO - PASSED
+[2025-11-05 17:37:46] Selected Barangay: AWAYAN - PASSED
+[2025-11-05 17:37:49] Updated House/Floor/Unit No.: Unit 306 - PASSED
+[2025-11-05 17:37:52] Updated Block/Building/Street: Pacita Subdivision - PASSED
+[2025-11-05 17:37:55] Updated Postal Code: 4023 - PASSED
+[2025-11-05 17:37:58] Clicked Save Changes - PASSED
+[2025-11-05 17:38:00] Confirmed Changes - PASSED
+[2025-11-05 17:38:04] Clicked OK - PASSED
+[2025-11-05 17:38:07] Navigated to Manage Order page - PASSED
+[2025-11-05 17:38:12] Clicked Receive Payment - PASSED
+[2025-11-05 17:38:18] Grand Total text: '₱ 0.00' - PASSED
+[2025-11-05 17:38:18] Extracted price: 0.00 - PASSED
+[2025-11-05 17:38:18] ERROR: Grand Total is 0.00 - FAILED
+[2025-11-05 17:38:18] An error occurred: Grand Total is 0.00 - FAILED
+[2025-11-05 17:42:07] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:42:37] Clicked Seller Center - PASSED
+[2025-11-05 17:42:37] Clicked Order Management - PASSED
+[2025-11-05 17:42:38] Clicked Manage Order - PASSED
+[2025-11-05 17:42:44] Searched: Unpaid - PASSED
+[2025-11-05 17:42:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:42:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:42:46] Applied Date Range filter - PASSED
+[2025-11-05 17:43:02] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-05 17:44:56] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:46:02] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:46:32] Clicked Seller Center - PASSED
+[2025-11-05 17:46:33] Clicked Order Management - PASSED
+[2025-11-05 17:46:34] Clicked Manage Order - PASSED
+[2025-11-05 17:46:40] Searched: Unpaid - PASSED
+[2025-11-05 17:46:42] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:46:42] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:46:42] Applied Date Range filter - PASSED
+[2025-11-05 17:46:43] Viewed Order Profile - PASSED
+[2025-11-05 17:46:44] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:46:49] Modal loaded - PASSED
+[2025-11-05 17:46:49] Updated Mobile No.: +63 933 345 6789 - PASSED
+[2025-11-05 17:46:52] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:46:56] Selected Province: BATANGAS - PASSED
+[2025-11-05 17:46:59] Selected City/Municipality: TANAUAN - PASSED
+[2025-11-05 17:47:02] Selected Barangay: BALELE - PASSED
+[2025-11-05 17:47:05] Updated House/Floor/Unit No.: Hidalgo - PASSED
+[2025-11-05 17:47:08] Updated Block/Building/Street: Quiapo Village - PASSED
+[2025-11-05 17:47:11] Updated Postal Code: 1001 - PASSED
+[2025-11-05 17:47:15] Clicked Save Changes - PASSED
+[2025-11-05 17:47:17] Confirmed Changes - PASSED
+[2025-11-05 17:47:20] Clicked OK - PASSED
+[2025-11-05 17:47:23] Navigated to Manage Order page - PASSED
+[2025-11-05 17:47:28] Clicked Receive Payment - PASSED
+[2025-11-05 17:47:37] Waiting for Grand Total to update from 0.00... - PASSED
+[2025-11-05 17:48:07] WARNING: Grand Total still 0.00 after waiting - PASSED
+[2025-11-05 17:48:08] Grand Total text: '₱ 0.00' - PASSED
+[2025-11-05 17:48:08] ERROR: Grand Total is still 0.00! - FAILED
+[2025-11-05 17:48:08] grandTotal element exists in page - PASSED
+[2025-11-05 17:48:08] An error occurred: Grand Total is 0.00 - order may not have loaded - FAILED
+[2025-11-05 17:51:03] Main Dashboard loaded successfully - PASSED
+[2025-11-05 17:51:33] Clicked Seller Center - PASSED
+[2025-11-05 17:51:33] Clicked Order Management - PASSED
+[2025-11-05 17:51:35] Clicked Manage Order - PASSED
+[2025-11-05 17:51:41] Searched: Unpaid - PASSED
+[2025-11-05 17:51:43] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-05 17:51:43] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-05 17:51:43] Applied Date Range filter - PASSED
+[2025-11-05 17:51:44] Viewed Order Profile - PASSED
+[2025-11-05 17:51:45] Opened Update Contact & Shipping - PASSED
+[2025-11-05 17:51:50] Modal loaded - PASSED
+[2025-11-05 17:51:50] Updated Mobile No.: +63 912 345 6789 - PASSED
+[2025-11-05 17:51:53] Selected Country: PHILIPPINES - PASSED
+[2025-11-05 17:51:56] Selected Province: ABRA - PASSED
+[2025-11-05 17:52:00] Selected City/Municipality: BUCAY - PASSED
+[2025-11-05 17:52:03] Selected Barangay: CALAO - PASSED
+[2025-11-05 17:52:06] Updated House/Floor/Unit No.: Unit 305 - PASSED
+[2025-11-05 17:52:09] Updated Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-05 17:52:13] Updated Postal Code: 1105 - PASSED
+[2025-11-05 17:52:16] Clicked Save Changes - PASSED
+[2025-11-05 17:52:18] Confirmed Changes - PASSED
+[2025-11-05 17:52:21] Clicked OK - PASSED
+[2025-11-05 17:52:24] Navigated to Manage Order page - PASSED
+[2025-11-05 17:52:29] Clicked Receive Payment - PASSED
+[2025-11-05 17:52:53] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xd958c3
+	0xd95904
+	0xbae76d
+	0xbfa09d
+	0xbfa47b
+	0xc41802
+	0xc1c9b4
+	0xc3eea6
+	0xc1c766
+	0xbedac0
+	0xbeede4
+	0x1017974
+	0x1012bea
+	0xdbe5b4
+	0xdadd28
+	0xdb4d8d
+	0xd9ded8
+	0xd9e09c
+	0xd87d1a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-06 09:25:53] Main Dashboard loaded successfully - PASSED
+[2025-11-06 09:26:23] Clicked Seller Center - PASSED
+[2025-11-06 09:26:24] Clicked Order Management - PASSED
+[2025-11-06 09:26:25] Clicked Manage Order - PASSED
+[2025-11-06 09:26:31] Searched: Unpaid - PASSED
+[2025-11-06 09:26:33] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-06 09:26:33] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-06 09:26:33] Applied Date Range filter - PASSED
+[2025-11-06 09:26:33] Checked first order row - PASSED
+[2025-11-06 09:26:35] Viewed Order Profile - PASSED
+[2025-11-06 09:26:35] Opened Update Contact & Shipping - PASSED
+[2025-11-06 09:26:40] Modal loaded - PASSED
+[2025-11-06 09:26:40] Updated mobileNumber: +63 912 345 6789 - PASSED
+[2025-11-06 09:26:42] Updated HouseNumber: Unit 305 - PASSED
+[2025-11-06 09:26:44] Updated Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-11-06 09:26:47] Updated PostCode: 1105 - PASSED
+[2025-11-06 09:26:49] Selected CountryCode: PHILIPPINES - PASSED
+[2025-11-06 09:26:51] Selected Province: ABRA - PASSED
+[2025-11-06 09:26:53] Selected City: BUCAY - PASSED
+[2025-11-06 09:26:55] Selected Barangay: CALAO - PASSED
+[2025-11-06 09:26:58] Clicked Save Changes - PASSED
+[2025-11-06 09:27:00] Confirmed Changes - PASSED
+[2025-11-06 09:27:00] Clicked OK - PASSED
+[2025-11-06 09:27:01] Navigated to Manage Order page - PASSED
+[2025-11-06 09:27:09] Clicked Receive Payment - PASSED
+[2025-11-06 09:27:12] Payment table found - PASSED
+[2025-11-06 09:27:12] Extracted price: ₱179.20 - PASSED
+[2025-11-06 09:27:12] Entered payment amount: 179.20 - PASSED
+[2025-11-06 09:27:12] Clicked Submit Payment - PASSED
+[2025-11-06 09:27:13] Payment completed successfully - PASSED
+[2025-11-06 09:27:13] Navigated to Manage Order - PASSED
+[2025-11-06 09:27:18] Clicked Create New Order - PASSED
+[2025-11-06 09:32:58] Main Dashboard loaded successfully - PASSED
+[2025-11-06 09:33:29] Clicked Seller Center - PASSED
+[2025-11-06 09:33:29] Clicked Order Management - PASSED
+[2025-11-06 09:33:31] Clicked Manage Order - PASSED
+[2025-11-06 09:33:37] Searched: Unpaid - PASSED
+[2025-11-06 09:33:39] Selected 'All Orders' from Payment Status filter - PASSED
+[2025-11-06 09:33:39] Selected 'All Orders' from Service Order Status filter - PASSED
+[2025-11-06 09:33:39] Applied Date Range filter - PASSED
+[2025-11-06 09:33:40] Checked first order row - PASSED
+[2025-11-06 09:33:40] Viewed Order Profile - PASSED
+[2025-11-06 09:33:41] Opened Update Contact & Shipping - PASSED
+[2025-11-06 09:33:46] Modal loaded - PASSED
+[2025-11-06 09:33:46] Updated mobileNumber: +63 944 456 7890 - PASSED
+[2025-11-06 09:33:48] Updated HouseNumber: 12EDSA ST - PASSED
+[2025-11-06 09:33:50] Updated Street: Wack-Wack Greenhills - PASSED
+[2025-11-06 09:33:52] Updated PostCode: 1550 - PASSED
+[2025-11-06 09:33:55] Selected CountryCode: PHILIPPINES - PASSED
+[2025-11-06 09:33:57] Selected Province: BOHOL - PASSED
+[2025-11-06 09:33:59] Selected City: ANDA - PASSED
+[2025-11-06 09:34:01] Selected Barangay: CASICA - PASSED
+[2025-11-06 09:34:04] Clicked Save Changes - PASSED
+[2025-11-06 09:34:05] Confirmed Changes - PASSED
+[2025-11-06 09:34:06] Clicked OK - PASSED
+[2025-11-06 09:34:07] Navigated to Manage Order page - PASSED
+[2025-11-06 09:34:09] Clicked Receive Payment - PASSED
+[2025-11-06 09:34:13] Payment table found - PASSED
+[2025-11-06 09:34:13] Extracted price: ₱179.20 - PASSED
+[2025-11-06 09:34:13] Entered payment amount: 179.20 - PASSED
+[2025-11-06 09:34:13] Clicked Submit Payment - PASSED
+[2025-11-06 09:34:13] Payment completed successfully - PASSED
+[2025-11-06 09:34:13] Payment confirmation modal appeared - PASSED
+[2025-11-06 09:34:16] Payment Confirmation Text: You're about to receive a payment of ₱179.20 for Order No. BNW-ORD-021827634-530 via CASH.
+Would you like to continue? - PASSED
+[2025-11-06 09:34:16] Clicked Yes on confirmation modal - PASSED
+[2025-11-06 09:34:22] Navigated to Manage Order - PASSED
+[2025-11-06 09:34:27] Clicked Create New Order - PASSED

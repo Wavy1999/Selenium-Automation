@@ -1,0 +1,21 @@
+[2025-12-03 16:23:30] Clicked Seller Center - PASSED
+[2025-12-03 16:23:31] Clicked Product Management - PASSED
+[2025-12-03 16:23:47] Clicked Create New Product - PASSED
+[2025-12-03 16:23:53] Create New Product page loaded successfully - PASSED
+[2025-12-03 16:23:58] Entered Product Name: NanoTech - PASSED
+[2025-12-03 16:24:02] Entered SKU: AER-1042 - PASSED
+[2025-12-03 16:24:04] Entered Units of Measure: pc - PASSED
+[2025-12-03 16:24:12] Entered Menu Description: LED strip lights with app control - PASSED
+[2025-12-03 16:24:14] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-03 16:24:15] Entered Stock Quantity: 100 - PASSED
+[2025-12-03 16:24:17] Selected Predefined Tags: BRAND - PASSED
+[2025-12-03 16:24:21] Entered Menu Value: 2815 - PASSED
+[2025-12-03 16:24:24] Entered Unit Price: 2815 - PASSED
+[2025-12-03 16:24:26] Selected Product Category: Electronics and Accessories - PASSED
+[2025-12-03 16:24:29] Selected Product Category: Electronics and Accessories - PASSED
+[2025-12-03 16:24:31] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-12-03 16:24:36] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2025-12-03 16:24:39] Clicked Save Button - PASSED
+[2025-12-03 16:24:39] Added New Product  - PASSED
+[2025-12-03 16:24:44] Clicked Confirm OK - PASSED
+[2025-12-03 16:24:45] Clicked Confirm Success - PASSED

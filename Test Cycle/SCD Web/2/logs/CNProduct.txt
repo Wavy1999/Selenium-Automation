@@ -1,0 +1,21 @@
+[2025-12-02 17:06:34] Clicked Seller Center - PASSED
+[2025-12-02 17:06:35] Clicked Product Management - PASSED
+[2025-12-02 17:06:50] Clicked Create New Product - PASSED
+[2025-12-02 17:06:56] Create New Product page loaded successfully - PASSED
+[2025-12-02 17:07:01] Entered Product Name: NovaSense - PASSED
+[2025-12-02 17:07:05] Entered SKU: CHR-1102 - PASSED
+[2025-12-02 17:07:07] Entered Units of Measure: pc - PASSED
+[2025-12-02 17:07:14] Entered Menu Description: Smart fitness tracker with GPS - PASSED
+[2025-12-02 17:07:17] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-02 17:07:18] Entered Stock Quantity: 100 - PASSED
+[2025-12-02 17:07:20] Selected Predefined Tags: BRAND - PASSED
+[2025-12-02 17:07:23] Entered Menu Value: 1149 - PASSED
+[2025-12-02 17:07:27] Entered Unit Price: 1149 - PASSED
+[2025-12-02 17:07:29] Selected Product Category: Electronics and Accessories - PASSED
+[2025-12-02 17:07:31] Selected Product Category: Electronics and Accessories - PASSED
+[2025-12-02 17:07:33] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-12-02 17:07:39] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (1).jpg - PASSED
+[2025-12-02 17:07:41] Clicked Save Button - PASSED
+[2025-12-02 17:07:41] Added New Product  - PASSED
+[2025-12-02 17:07:47] Clicked Confirm OK - PASSED
+[2025-12-02 17:07:47] Clicked Confirm Success - PASSED

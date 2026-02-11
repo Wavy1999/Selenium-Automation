@@ -1,0 +1,17 @@
+[2025-12-03 16:42:24] Navigated directly to Warehouse - PASSED
+[2025-12-03 16:42:24] Clicked Add New Warehouse button - PASSED
+[2025-12-03 16:42:29] Entered Warehouse Name: Warehouse_7 - PASSED
+[2025-12-03 16:42:31] Entered Contact Person: Contact_7 - PASSED
+[2025-12-03 16:42:33] Entered Contact No.: 9109966791 - PASSED
+[2025-12-03 16:42:36] Entered Location Name: Location_7 - PASSED
+[2025-12-03 16:42:38] Entered House/Floor/Unit No.: Unit 10 - PASSED
+[2025-12-03 16:42:41] Entered Street: Blk 19 St 38 - PASSED
+[2025-12-03 16:42:41] Selected Country: Philippines - PASSED
+[2025-12-03 16:42:44] Selected Province: Cebu - PASSED
+[2025-12-03 16:42:46] Selected City/Municipality: Lapu-Lapu - PASSED
+[2025-12-03 16:42:48] Selected Barangay: Gun-ob - PASSED
+[2025-12-03 16:42:52] Entered Postal Code: 5604 - PASSED
+[2025-12-03 16:42:54] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\4.jpg - PASSED
+[2025-12-03 16:42:57] Clicked Add New Warehouse button - PASSED
+[2025-12-03 16:42:59] Clicked SweetAlert Confirm button - PASSED
+[2025-12-03 16:43:01] Warehouse has been createed sucessfully - PASSED

@@ -1,0 +1,49 @@
+[2025-12-03 16:17:49] Clicked Order Management - PASSED
+[2025-12-03 16:17:54] Clicked Create Single Order - PASSED
+[2025-12-03 16:18:05] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2025-12-03 16:18:05] Create Order page loaded - PASSED
+[2025-12-03 16:18:05] Click Search Button - PASSED
+[2025-12-03 16:18:06] Search specific client - PASSED
+[2025-12-03 16:18:08] Closse search - PASSED
+[2025-12-03 16:18:10] Click Checkout as guest option - PASSED
+[2025-12-03 16:18:14] Entered first name: Monkey - PASSED
+[2025-12-03 16:18:17] Entered middle name: Dragon - PASSED
+[2025-12-03 16:18:21] Entered last name:  Luffy - PASSED
+[2025-12-03 16:18:26] Entered Company Name: Straw Hat Inc. - PASSED
+[2025-12-03 16:18:31] Entered mobile number: +63 912 345 6789 - PASSED
+[2025-12-03 16:18:38] Entered email: luffy@strawhatpirates.com - PASSED
+[2025-12-03 16:18:42] Entered House/Floor/Unit No.: Unit 305 - PASSED
+[2025-12-03 16:18:49] Entered Block/Building/Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2025-12-03 16:18:51] Selected Country: PHILIPPINES - PASSED
+[2025-12-03 16:18:53] Selected Province: ABRA - PASSED
+[2025-12-03 16:18:55] Selected City/Municipality: BUCAY - PASSED
+[2025-12-03 16:18:58] Selected Barangay: CALAO - PASSED
+[2025-12-03 16:19:02] Entered Postal Code: 4025 - PASSED
+[2025-12-03 16:19:07] Entered Order Notes: Meat - PASSED
+[2025-12-03 16:19:09] Clicked to select item in purchase order - PASSED
+[2025-12-03 16:19:12] Selected Product: Voltura - PASSED
+[2025-12-03 16:19:23] Clicked on product dropdown item: Voltura - PASSED
+[2025-12-03 16:19:34] Product confirmed: Voltura - PASSED
+[2025-12-03 16:19:39] Confirmed selected product - PASSED
+[2025-12-03 16:19:50] Entered product quantity - PASSED
+[2025-12-03 16:19:52] Due Date is datetime object: 05/05/2026 - PASSED
+[2025-12-03 16:19:53] Clicked date field to activate datepicker - PASSED
+[2025-12-03 16:19:54] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2025-12-03 16:19:56] ✓ Verified date in field: 05/05/2026 - PASSED
+[2025-12-03 16:19:58] Click Add Item - PASSED
+[2025-12-03 16:20:08] Remove Item field loaded - PASSED
+[2025-12-03 16:20:30] Removed empty row: item='', qty='' - PASSED
+[2025-12-03 16:20:41] Click Apply Price Adjustment - PASSED
+[2025-12-03 16:20:42] Inputted Amount - PASSED
+[2025-12-03 16:20:42] Selected: Increase Subtotal - PASSED
+[2025-12-03 16:20:42] Click Apply - PASSED
+[2025-12-03 16:20:42] Click Apply Shipping Fee - PASSED
+[2025-12-03 16:20:42] Inputted Amount - PASSED
+[2025-12-03 16:20:42] Click Apply - PASSED
+[2025-12-03 16:20:42] Clicked Apply Tax - PASSED
+[2025-12-03 16:20:43] Selected Tax Type: VAT - PASSED
+[2025-12-03 16:20:43] Inputted Amount - PASSED
+[2025-12-03 16:20:43] Click Apply - PASSED
+[2025-12-03 16:20:43] Check Grand Total - PASSED
+[2025-12-03 16:20:53] Submit Service Order - PASSED
+[2025-12-03 16:21:03] Service Order Submitted Successfully - PASSED

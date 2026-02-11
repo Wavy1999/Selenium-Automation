@@ -1,0 +1,13 @@
+[2025-12-02 17:27:48] Client Details Page - PASSED
+[2025-12-02 17:27:51] Selected prefix from Excel: MRS - PASSED
+[2025-12-02 17:27:52] Client type dropdown is present - PASSED
+[2025-12-02 17:27:54] Selected Prefix from Excel: MRS - PASSED
+[2025-12-02 17:27:56] Entered first name: Grace - PASSED
+[2025-12-02 17:27:59] Entered last name: Almeida - PASSED
+[2025-12-02 17:28:04] Entered company name: Almeida Enterprises - PASSED
+[2025-12-02 17:28:08] Entered mobile number: 639182345674 - PASSED
+[2025-12-02 17:28:14] Entered email address: gracealmeida@almeidaent.com - PASSED
+[2025-12-02 17:28:17] Clicked save new client button - PASSED
+[2025-12-02 17:28:19] Clicked confirmation button after saving client - PASSED
+[2025-12-02 17:29:04] Clicked Success button after saving client - PASSED
+[2025-12-02 17:29:04] Client list displayed and scrolled into view - PASSED

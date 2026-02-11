@@ -1,0 +1,51 @@
+[2026-01-22 10:07:51] Setup completed - Version: 1.2.2.R0001B, Browser: Chrome v143.0.7499.194, Tester: Christian - PASSED
+[2026-01-22 10:07:51] Starting login test... - PASSED
+[2026-01-22 10:07:53] Login successful with s1 - PASSED
+[2026-01-22 10:07:54] Starting branch selection... - PASSED
+[2026-01-22 10:08:25] Branch selection completed - PASSED
+[2026-01-22 10:08:29] Starting Main Dashboard test... - PASSED
+[2026-01-22 10:11:14] Main Dashboard - PASSED (Duration: 165.68s) - PASSED
+[2026-01-22 10:11:15] Starting Seller Dashboard test... - PASSED
+[2026-01-22 10:12:47] Seller Dashboard - PASSED (Duration: 91.92s) - PASSED
+[2026-01-22 10:12:47] Starting Create Order View Only test... - PASSED
+[2026-01-22 10:13:09] Create Order View Only - PASSED (Duration: 22.00s) - PASSED
+[2026-01-22 10:13:10] Starting Create Single Order test... - PASSED
+[2026-01-22 10:16:24] Create Single Order - PASSED (Duration: 194.00s) - PASSED
+[2026-01-22 10:16:24] Starting Manage Order test... - PASSED
+[2026-01-22 10:18:32] Manage Order - PASSED (Duration: 127.73s) - PASSED
+[2026-01-22 10:18:33] Starting Generate QR test... - PASSED
+[2026-01-22 10:18:52] Generate QR - PASSED (Duration: 19.09s) - PASSED
+[2026-01-22 10:18:52] Starting Create New Product test... - PASSED
+[2026-01-22 10:20:12] Create New Product - PASSED (Duration: 79.35s) - PASSED
+[2026-01-22 10:20:12] Starting Manage Product test... - PASSED
+[2026-01-22 10:21:27] Starting Create New Product - Bulk test... - PASSED
+[2026-01-22 10:22:02] Create New Product - Bulk - PASSED (Duration: 35.19s) - PASSED
+[2026-01-22 10:22:03] Starting Inventory Management test... - PASSED
+[2026-01-22 10:23:19] Inventory Management - PASSED (Duration: 75.98s) - PASSED
+[2026-01-22 10:23:19] Starting Booking and Appointments test... - PASSED
+[2026-01-22 10:24:47] Booking and Appointments - PASSED (Duration: 88.01s) - PASSED
+[2026-01-22 10:24:48] Starting Create Service Order test... - PASSED
+[2026-01-22 10:24:54] Create Service Order - PASSED (Duration: 5.98s) - PASSED
+[2026-01-22 10:24:54] Starting Create Service Order View Only test... - PASSED
+[2026-01-22 10:28:42] Create Service Order View Only - PASSED (Duration: 227.74s) - PASSED
+[2026-01-22 10:28:42] Starting Manage Service Order test... - PASSED
+[2026-01-22 10:29:55] Starting Create New Service test... - PASSED
+[2026-01-22 10:30:12] Create New Service - PASSED (Duration: 17.70s) - PASSED
+[2026-01-22 10:30:13] Starting Manage Service test... - PASSED
+[2026-01-22 10:33:52] Manage Service - PASSED (Duration: 218.85s) - PASSED
+[2026-01-22 10:33:52] Starting Create Service Bulk test... - PASSED
+[2026-01-22 10:34:06] Create Service Bulk - PASSED (Duration: 13.81s) - PASSED
+[2026-01-22 10:34:07] Starting Cash Management test... - PASSED
+[2026-01-22 10:34:57] Cash Management - PASSED (Duration: 50.43s) - PASSED
+[2026-01-22 10:34:58] Starting Branches test... - PASSED
+[2026-01-22 10:35:08] Branches - PASSED (Duration: 10.34s) - PASSED
+[2026-01-22 10:35:08] Starting Warehouse test... - PASSED
+[2026-01-22 10:35:48] Warehouse - PASSED (Duration: 39.99s) - PASSED
+[2026-01-22 10:35:49] Starting Add New Employee test... - PASSED
+[2026-01-22 10:36:31] Add New Employee - PASSED (Duration: 42.35s) - PASSED
+[2026-01-22 10:36:32] Starting Employee List test... - PASSED
+[2026-01-22 10:37:25] Employee List - PASSED (Duration: 53.55s) - PASSED
+[2026-01-22 10:37:26] Starting Add New Client test... - PASSED
+[2026-01-22 10:38:02] Add New Client - PASSED (Duration: 36.05s) - PASSED
+[2026-01-22 10:38:02] Starting Client List test... - PASSED
+[2026-01-22 10:38:31] Browser closed and session ended - PASSED

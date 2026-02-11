@@ -1,0 +1,49 @@
+[2026-02-10 12:51:36] Clicked Order Management - PASSED
+[2026-02-10 12:51:41] Clicked Create Single Order - PASSED
+[2026-02-10 12:51:51] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2026-02-10 12:51:51] Create Order page loaded - PASSED
+[2026-02-10 12:51:52] Click Search Button - PASSED
+[2026-02-10 12:51:52] Search specific client - PASSED
+[2026-02-10 12:51:55] Closse search - PASSED
+[2026-02-10 12:51:57] Click Checkout as guest option - PASSED
+[2026-02-10 12:52:00] Entered first name: Sanji - PASSED
+[2026-02-10 12:52:04] Entered middle name: Test - PASSED
+[2026-02-10 12:52:08] Entered last name: Vinsmoke - PASSED
+[2026-02-10 12:52:13] Entered Company Name: Straw Hat Inc. - PASSED
+[2026-02-10 12:52:19] Entered mobile number: +63 944 456 7890 - PASSED
+[2026-02-10 12:52:25] Entered email: sanji@strawhatpirates.com - PASSED
+[2026-02-10 12:52:29] Entered House/Floor/Unit No.: 12EDSA ST - PASSED
+[2026-02-10 12:52:35] Entered Block/Building/Street: Wack-Wack Greenhills - PASSED
+[2026-02-10 12:52:37] Selected Country: PHILIPPINES - PASSED
+[2026-02-10 12:52:40] Selected Province: BOHOL - PASSED
+[2026-02-10 12:52:42] Selected City/Municipality: ANDA - PASSED
+[2026-02-10 12:52:44] Selected Barangay: CASICA - PASSED
+[2026-02-10 12:52:49] Entered Postal Code: 4028 - PASSED
+[2026-02-10 12:52:54] Entered Order Notes: Breeze - PASSED
+[2026-02-10 12:52:56] Clicked to select item in purchase order - PASSED
+[2026-02-10 12:52:59] Selected Product: Syntrix - PASSED
+[2026-02-10 12:53:10] Clicked on product dropdown item: Syntrix - PASSED
+[2026-02-10 12:53:21] Product confirmed: Syntrix - PASSED
+[2026-02-10 12:53:27] Confirmed selected product - PASSED
+[2026-02-10 12:53:37] Entered product quantity - PASSED
+[2026-02-10 12:53:39] Due Date is datetime object: 05/05/2026 - PASSED
+[2026-02-10 12:53:40] Clicked date field to activate datepicker - PASSED
+[2026-02-10 12:53:41] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2026-02-10 12:53:43] ✓ Verified date in field: 05/05/2026 - PASSED
+[2026-02-10 12:53:46] Click Add Item - PASSED
+[2026-02-10 12:53:56] Remove Item field loaded - PASSED
+[2026-02-10 12:54:17] Removed empty row: item='', qty='' - PASSED
+[2026-02-10 12:54:29] Click Apply Price Adjustment - PASSED
+[2026-02-10 12:54:29] Inputted Amount - PASSED
+[2026-02-10 12:54:30] Selected: Increase Subtotal - PASSED
+[2026-02-10 12:54:30] Click Apply - PASSED
+[2026-02-10 12:54:30] Click Apply Shipping Fee - PASSED
+[2026-02-10 12:54:30] Inputted Amount - PASSED
+[2026-02-10 12:54:30] Click Apply - PASSED
+[2026-02-10 12:54:30] Clicked Apply Tax - PASSED
+[2026-02-10 12:54:31] Selected Tax Type: VAT - PASSED
+[2026-02-10 12:54:31] Inputted Amount - PASSED
+[2026-02-10 12:54:31] Click Apply - PASSED
+[2026-02-10 12:54:31] Check Grand Total - PASSED
+[2026-02-10 12:54:41] Submit Service Order - PASSED
+[2026-02-10 12:54:51] Service Order Submitted Successfully - PASSED

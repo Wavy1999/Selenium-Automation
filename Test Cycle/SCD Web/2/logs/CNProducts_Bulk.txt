@@ -1,0 +1,9 @@
+[2025-12-02 17:11:23] Clicked Seller Center - PASSED
+[2025-12-02 17:11:23] Clicked Product Management - PASSED
+[2025-12-02 17:11:30] Clicked Create New Product(Bulk) - PASSED
+[2025-12-02 17:11:36] Create New Product(Bulk) page loaded successfully - PASSED
+[2025-12-02 17:11:38] Selected Warehouse: Main Warehouse - PASSED
+[2025-12-02 17:11:38] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2025-12-02 17:11:38] Uploaded Excel file for Bulk Product Upload - PASSED
+[2025-12-02 17:12:04] Clicked Upload button for Bulk Product Upload - PASSED
+[2025-12-02 17:12:04] Bulk Product Upload processed successfully - PASSED

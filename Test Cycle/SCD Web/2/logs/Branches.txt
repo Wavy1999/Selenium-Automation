@@ -1,0 +1,2 @@
+[2025-12-02 17:25:35] Direct navigation to: http://vm-app-dev01:9001/ShopManagement - PASSED
+[2025-12-02 17:25:38] Branches container visible - PASSED

@@ -1,0 +1,50 @@
+[2025-11-10 12:09:51] Clicked Restaurant Center - PASSED
+[2025-11-10 12:09:51] Restaurant Home Dashboard - PASSED
+[2025-11-10 12:09:51] Go to Booking Section - PASSED
+[2025-11-10 12:09:55] Click Day View - PASSED
+[2025-11-10 12:09:58] Click Week View Section - PASSED
+[2025-11-10 12:10:01] Click Month View Section - PASSED
+[2025-11-10 12:10:05] Click Year View Section - PASSED
+[2025-11-10 12:10:09] Click Legend Booked - PASSED
+[2025-11-10 12:10:11] Click Legend Cancelled - PASSED
+[2025-11-10 12:10:13] Click Legend Completed - PASSED
+[2025-11-10 12:10:16] Click Legend Show All - PASSED
+[2025-11-10 12:10:18] Return to Day View for booking - PASSED
+[2025-11-10 12:10:21] Retrieved 43 days from the booking calendar - PASSED
+[2025-11-10 12:10:21] Searching for today's date: 2025-11-10 - PASSED
+[2025-11-10 12:10:54] Clicked on today's date: 2025-11-10 - PASSED
+[2025-11-10 12:10:56] Clicked the pop-up/modal trigger button - PASSED
+[2025-11-10 12:10:58] Restaurant appointment modal opened - PASSED
+[2025-11-10 12:11:03] Entered Customer Name: Test Customer - PASSED
+[2025-11-10 12:11:24] Selected Table #: TABLE 1 4 PAX CAPACITY - PASSED
+[2025-11-10 12:11:25] Entered No. of Pax: 4 - PASSED
+[2025-11-10 12:11:33] Entered Notes: Customer requested a window seat. - PASSED
+[2025-11-10 12:11:34] Clicked Submit appointment button - PASSED
+[2025-11-10 12:11:36] Clicked Confirm appointment button - PASSED
+[2025-11-10 12:11:46] Fantastic! Your appointment has been successfully created. - PASSED
+[2025-11-10 12:11:46] Appointment booking process completed successfully - PASSED
+[2025-11-10 13:30:55] Clicked Restaurant Center - PASSED
+[2025-11-10 13:30:56] Restaurant Home Dashboard - PASSED
+[2025-11-10 13:30:56] Go to Booking Section - PASSED
+[2025-11-10 13:30:59] Click Day View - PASSED
+[2025-11-10 13:31:02] Click Week View Section - PASSED
+[2025-11-10 13:31:06] Click Month View Section - PASSED
+[2025-11-10 13:31:09] Click Year View Section - PASSED
+[2025-11-10 13:31:13] Click Legend Booked - PASSED
+[2025-11-10 13:31:15] Click Legend Cancelled - PASSED
+[2025-11-10 13:31:17] Click Legend Completed - PASSED
+[2025-11-10 13:31:20] Click Legend Show All - PASSED
+[2025-11-10 13:31:22] Return to Day View for booking - PASSED
+[2025-11-10 13:31:25] Retrieved 43 days from the booking calendar - PASSED
+[2025-11-10 13:31:25] Searching for today's date: 2025-11-10 - PASSED
+[2025-11-10 13:31:58] Clicked on today's date: 2025-11-10 - PASSED
+[2025-11-10 13:32:00] Clicked the pop-up/modal trigger button - PASSED
+[2025-11-10 13:32:02] Restaurant appointment modal opened - PASSED
+[2025-11-10 13:32:07] Entered Customer Name: Test Customer - PASSED
+[2025-11-10 13:32:28] Selected Table #: TABLE 1 4 PAX CAPACITY - PASSED
+[2025-11-10 13:32:29] Entered No. of Pax: 4 - PASSED
+[2025-11-10 13:32:37] Entered Notes: Customer requested a window seat. - PASSED
+[2025-11-10 13:32:38] Clicked Submit appointment button - PASSED
+[2025-11-10 13:32:40] Clicked Confirm appointment button - PASSED
+[2025-11-10 13:32:49] Fantastic! Your appointment has been successfully created. - PASSED
+[2025-11-10 13:32:49] Appointment booking process completed successfully - PASSED

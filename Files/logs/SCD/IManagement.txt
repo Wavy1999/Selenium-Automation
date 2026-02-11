@@ -1,0 +1,188 @@
+[2026-02-10 13:03:18] Clicked Seller Center - PASSED
+[2026-02-10 13:03:49] ERROR: An error occurred: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Inventory_Management\IManagement.py", line 49, in Inventory_Management
+    Inventory_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[contains(@href, '/SellerCenter/InventoryManagement') and .//span[contains(text(), 'Inventory Management')]]")))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-02-10 13:03:49] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Inventory_Management\IManagement.py", line 49, in Inventory_Management
+    Inventory_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[contains(@href, '/SellerCenter/InventoryManagement') and .//span[contains(text(), 'Inventory Management')]]")))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Inventory_Management\IManagement.py", line 49, in Inventory_Management
+    Inventory_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[contains(@href, '/SellerCenter/InventoryManagement') and .//span[contains(text(), 'Inventory Management')]]")))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-02-10 13:17:12] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Cash_Management\Cash_management.py", line 98, in CashManagement
+    To_Another_Bank = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-transfer-type='bank' and contains(normalize-space(text()), 'To Another Bank')]")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9c5093
+	0x9c50d4
+	0x7bb490
+	0x8058da
+	0x805b7b
+	0x847b42
+	0x828204
+	0x845341
+	0x827f56
+	0x7f96c9
+	0x7fa484
+	0xc17e34
+	0xc130c9
+	0xc30add
+	0x9ddb38
+	0x9e58ad
+	0x9cd848
+	0x9cda12
+	0x9b75fa
+	0x76055d49
+	0x76ffd5db
+	0x76ffd561
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Cash_Management\Cash_management.py", line 98, in CashManagement
+    To_Another_Bank = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-transfer-type='bank' and contains(normalize-space(text()), 'To Another Bank')]")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9c5093
+	0x9c50d4
+	0x7bb490
+	0x8058da
+	0x805b7b
+	0x847b42
+	0x828204
+	0x845341
+	0x827f56
+	0x7f96c9
+	0x7fa484
+	0xc17e34
+	0xc130c9
+	0xc30add
+	0x9ddb38
+	0x9e58ad
+	0x9cd848
+	0x9cda12
+	0x9b75fa
+	0x76055d49
+	0x76ffd5db
+	0x76ffd561
+
+[2026-02-10 13:18:28] ERROR: Navigation timeout: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9c5093
+	0x9c50d4
+	0x7bb490
+	0x8058da
+	0x805b7b
+	0x847b42
+	0x828204
+	0x845341
+	0x827f56
+	0x7f96c9
+	0x7fa484
+	0xc17e34
+	0xc130c9
+	0xc30add
+	0x9ddb38
+	0x9e58ad
+	0x9cd848
+	0x9cda12
+	0x9b75fa
+	0x76055d49
+	0x76ffd5db
+	0x76ffd561
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Shop_Management\Bulk_WHouse.py", line 136, in _navigate_to_bulk_upload
+    warehouses_submenu = wait.until(
+                         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9c5093
+	0x9c50d4
+	0x7bb490
+	0x8058da
+	0x805b7b
+	0x847b42
+	0x828204
+	0x845341
+	0x827f56
+	0x7f96c9
+	0x7fa484
+	0xc17e34
+	0xc130c9
+	0xc30add
+	0x9ddb38
+	0x9e58ad
+	0x9cd848
+	0x9cda12
+	0x9b75fa
+	0x76055d49
+	0x76ffd5db
+	0x76ffd561
+
+[2026-02-10 13:20:33] ERROR: Success confirmation message not found
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Employee_Management\NEmployee_Bulk.py", line 78, in Bulk_Employee
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//h1[contains(text(),'Bulk Upload Employee Successfully Processed')]")))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9c5093
+	0x9c50d4
+	0x7bb490
+	0x8058da
+	0x805b7b
+	0x847b42
+	0x828204
+	0x845341
+	0x827f56
+	0x7f96c9
+	0x7fa484
+	0xc17e34
+	0xc130c9
+	0xc30add
+	0x9ddb38
+	0x9e58ad
+	0x9cd848
+	0x9cda12
+	0x9b75fa
+	0x76055d49
+	0x76ffd5db
+	0x76ffd561
+
+[2026-02-10 13:24:13] ERROR: Element not found or interaction failed: TimeoutException()
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\QR\QR.py", line 60, in QR
+    GenerateQR_new = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/main/div[3]/div[1]/div/div[2]/a[1]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

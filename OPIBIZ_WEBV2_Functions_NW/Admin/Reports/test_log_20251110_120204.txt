@@ -1,0 +1,25 @@
+[2025-11-10 12:02:04] Automation has started... - PASSED
+[2025-11-10 12:02:04] Login Credentials: - PASSED
+[2025-11-10 12:02:05] Login completed with user: B.R004.OBiz.branchopstaff - PASSED
+[2025-11-10 12:02:05] Selecting branch and terminal... - PASSED
+[2025-11-10 12:02:16] Selected HQ branch option - PASSED
+[2025-11-10 12:02:31] Clicked branch confirmation button - PASSED
+[2025-11-10 12:02:37] Branch and terminal selection successful - PASSED
+[2025-11-10 12:02:37] Starting Home test... - PASSED
+[2025-11-10 12:03:17] Home test completed successfully - PASSED
+[2025-11-10 12:03:18] Starting Orders test... - PASSED
+[2025-11-10 12:05:58] Orders test completed successfully - PASSED
+[2025-11-10 12:05:58] Starting Manage Orders test... - PASSED
+[2025-11-10 12:09:44] Manage Orders test completed successfully - PASSED
+[2025-11-10 12:09:44] Starting Bookings test... - PASSED
+[2025-11-10 12:11:47] Bookings test completed successfully - PASSED
+[2025-11-10 12:11:47] Starting Tables setup... - PASSED
+[2025-11-10 12:13:07] Tables setup completed - PASSED
+[2025-11-10 12:13:07] Starting Menu setup... - PASSED
+[2025-11-10 12:16:59] Menu setup completed - PASSED
+[2025-11-10 12:16:59] Starting Printer setup... - PASSED
+[2025-11-10 12:20:30] Printer setup completed - PASSED
+[2025-11-10 12:20:31] Starting Invoice setup... - PASSED
+[2025-11-10 12:22:44] Invoice setup completed - PASSED
+[2025-11-10 12:22:44] Starting logout... - PASSED
+[2025-11-10 12:22:45] Logout successful - PASSED

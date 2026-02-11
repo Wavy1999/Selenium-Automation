@@ -1,0 +1,47 @@
+[2025-11-10 10:48:28] Go to Orders Section - PASSED
+[2025-11-10 10:48:38] Go to Manage Orders - PASSED
+[2025-11-10 10:48:52] Clicking Date/Time to sort and retrieving most recent order... - PASSED
+[2025-11-10 10:49:03] Retrieved most recent order: BNW-SRV-114351602-539 - PASSED
+[2025-11-10 10:49:13] Searching for Order Number: BNW-SRV-114351602-539 in Manage Orders - PASSED
+[2025-11-10 10:57:47] Go to Orders Section - PASSED
+[2025-11-10 10:57:58] Go to Manage Orders - PASSED
+[2025-11-10 10:58:11] Clicking Date/Time to sort and retrieving most recent order... - PASSED
+[2025-11-10 10:58:22] Retrieved most recent order: BNW-SRV-105529236-276 - PASSED
+[2025-11-10 10:58:32] Searching for Order Number: BNW-SRV-105529236-276 in Manage Orders - PASSED
+[2025-11-10 11:07:51] Go to Orders Section - PASSED
+[2025-11-10 11:08:02] Go to Manage Orders - PASSED
+[2025-11-10 11:15:35] Go to Orders Section - PASSED
+[2025-11-10 11:15:45] Go to Manage Orders - PASSED
+[2025-11-10 11:25:31] Go to Orders Section - PASSED
+[2025-11-10 11:25:41] Go to Manage Orders - PASSED
+[2025-11-10 11:25:55] Clicking Date/Time to sort and retrieving most recent order... - PASSED
+[2025-11-10 11:26:06] Could not retrieve order number - PASSED
+[2025-11-10 11:26:06] No order number available - skipping order view - PASSED
+[2025-11-10 11:26:06] Manage Orders test completed successfully - PASSED
+[2025-11-10 11:44:43] Go to Orders Section - PASSED
+[2025-11-10 12:00:07] Go to Orders Section - PASSED
+[2025-11-10 12:00:17] Go to Manage Orders - PASSED
+[2025-11-10 12:05:58] Go to Orders Section - PASSED
+[2025-11-10 12:06:09] Go to Manage Orders - PASSED
+[2025-11-10 12:06:21] Clicking Date/Time to sort and retrieving most recent order... - PASSED
+[2025-11-10 12:06:32] Retrieved most recent order: BNW-SRV-120426095-009 - PASSED
+[2025-11-10 12:06:43] Searching for Order Number: BNW-SRV-120426095-009 in Manage Orders - PASSED
+[2025-11-10 12:07:43]  Error clicking button (attempt 1): Message: 
+ - FAILED
+[2025-11-10 12:08:43]  Error clicking button (attempt 2): Message: 
+ - FAILED
+[2025-11-10 12:09:44]  Error clicking button (attempt 3): Message: 
+ - FAILED
+[2025-11-10 12:09:44] Manage Orders test completed successfully - PASSED
+[2025-11-10 13:30:08] Go to Orders Section - PASSED
+[2025-11-10 13:30:18] Go to Manage Orders - PASSED
+[2025-11-10 13:30:29] Clicking Date/Time to sort and retrieving most recent order... - PASSED
+[2025-11-10 13:30:40] Retrieved most recent order: BNW-SRV-012621427-663 - PASSED
+[2025-11-10 13:30:42] Searching for Order Number: BNW-SRV-012621427-663 in Manage Orders - PASSED
+[2025-11-10 13:30:45] Found 1 rows after search - PASSED
+[2025-11-10 13:30:45] ✓ Found button using: xpath: //button[@data-orderno='BNW-SRV-012621427-663'] - PASSED
+[2025-11-10 13:30:47] ✓ Clicked View Orders button (attempt 1) - PASSED
+[2025-11-10 13:30:50] ✓ Modal opened successfully - PASSED
+[2025-11-10 13:30:50] ✓ Order details captured for BNW-SRV-012621427-663 - PASSED
+[2025-11-10 13:30:52] ✓ Closed modal for order BNW-SRV-012621427-663 - PASSED
+[2025-11-10 13:30:52] Manage Orders test completed successfully - PASSED

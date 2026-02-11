@@ -1,0 +1,180 @@
+[2025-11-10 10:47:11] QA-SCDWEB-PB41-S1: Ongoing orders count: 765 - PASSED
+[2025-11-10 10:47:13] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 10:47:15] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:15] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 10:47:16] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 10:47:16] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 10:47:19] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 10:47:22] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 10:47:22] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 10:47:22] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 10:47:22] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 10:54:06] QA-SCDWEB-PB41-S1: Ongoing orders count: 763 - PASSED
+[2025-11-10 10:54:08] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:10] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:11] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:11] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:11] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 10:54:11] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 10:54:11] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 10:54:14] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 10:54:17] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 10:54:17] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 10:54:17] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 10:54:17] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 11:03:49] QA-SCDWEB-PB41-S1: Ongoing orders count: 00 - PASSED
+[2025-11-10 11:03:51] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:54] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:55] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:55] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:55] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 11:03:55] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 11:03:55] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 11:03:58] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 11:04:01] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 11:04:01] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 11:04:01] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 11:04:01] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 11:11:48] QA-SCDWEB-PB41-S1: Ongoing orders count: 763 - PASSED
+[2025-11-10 11:11:50] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:52] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:53] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:53] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:53] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 11:11:53] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 11:11:53] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 11:11:56] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 11:11:58] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 11:11:58] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 11:11:58] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 11:11:58] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 11:21:54] QA-SCDWEB-PB41-S1: Ongoing orders count: 00 - PASSED
+[2025-11-10 11:21:56] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 11:21:58] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 11:21:59] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 11:22:00] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 11:22:02] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 11:22:05] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 11:22:05] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 11:22:05] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 11:22:05] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 11:33:51] QA-SCDWEB-PB41-S1: Ongoing orders count: 763 - PASSED
+[2025-11-10 11:33:53] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:55] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:56] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:56] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:56] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 11:33:56] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 11:33:56] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 11:33:59] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 11:34:01] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 11:34:01] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 11:34:01] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 11:34:01] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 11:48:25] QA-SCDWEB-PB41-S1: Ongoing orders count: 00 - PASSED
+[2025-11-10 11:48:28] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:30] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:31] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:31] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:31] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 11:48:31] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 11:48:31] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 11:48:34] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 11:48:37] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 11:48:37] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 11:48:37] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 11:48:37] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 12:03:04] QA-SCDWEB-PB41-S1: Ongoing orders count: 763 - PASSED
+[2025-11-10 12:03:06] QA-SCDWEB-PB41-S4:Display daily appointment summary: 0 - PASSED
+[2025-11-10 12:03:08] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:08] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:08] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 12:03:09] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 12:03:09] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 12:03:12] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 12:03:15] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 12:03:15] Detailed Appointment Table - Row 1: No appointments for today. - PASSED
+[2025-11-10 12:03:15] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 12:03:15] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 13:12:07] QA-SCDWEB-PB41-S1: Ongoing orders count: 763 - PASSED
+[2025-11-10 13:12:09] QA-SCDWEB-PB41-S4:Display daily appointment summary: 1 - PASSED
+[2025-11-10 13:12:11] Latest Orders Table - Row 1: 1 | 3/17/2025 11:51:17 AM | BNW-ORD-115117790-648 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 2: 2 | 3/17/2025 10:54:06 AM | BNW-ORD-105406785-316 | null | ACTIVE | UNPAID | ₱2.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 3: 3 | 3/14/2025 5:36:37 PM | BNW-SRV-053637942-007 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 4: 4 | 3/14/2025 4:37:23 PM | BNW-SRV-043723894-855 | TABLE 1 | ACTIVE | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 5: 5 | 3/14/2025 3:50:26 PM | BNW-ORD-035026371-742 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 6: 6 | 3/14/2025 10:24:06 AM | BNW-SRV-102406554-301 | TABLE 2 | NEW | UNPAID | ₱101.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 7: 7 | 3/14/2025 10:20:49 AM | BNW-ORD-102049019-341 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 8: 8 | 3/14/2025 10:18:53 AM | BNW-ORD-101853306-975 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 9: 9 | 3/14/2025 10:15:47 AM | BNW-ORD-101547768-946 | null | ACTIVE | UNPAID | ₱1.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Latest Orders Table - Row 10: 10 | 3/14/2025 10:14:58 AM | BNW-SRV-101458625-713 | null | NEW | UNPAID | ₱300.00 | ₱0.00 - PASSED
+[2025-11-10 13:12:12] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 13:12:12] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 13:12:15] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 13:12:18] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 13:12:18] Detailed Appointment Table - Row 1: 11/10/2025 11:30:00 AM | 4 | Test Customer | RES TABLE 1 4 PAX CAPACITY | BOOKED - PASSED
+[2025-11-10 13:12:18] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 13:12:18] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED
+[2025-11-10 13:17:22] QA-SCDWEB-PB41-S1: Ongoing orders count: 00 - PASSED
+[2025-11-10 13:17:24] QA-SCDWEB-PB41-S4:Display daily appointment summary: 1 - PASSED
+[2025-11-10 13:17:27] Table has 0 valid rows (Latest Orders Table) - PASSED
+[2025-11-10 13:17:27] QA-SCDWEB-PB41-S9: Display last 10 orders - PASSED
+[2025-11-10 13:17:30] QA-SCDWEB-PB41-S9: Clicked Add Booking - PASSED
+[2025-11-10 13:17:33] QA-SCDWEB-PB41-S10: Display detailed appointments table - PASSED
+[2025-11-10 13:17:33] Detailed Appointment Table - Row 1: 11/10/2025 11:30:00 AM | 4 | Test Customer | RES TABLE 1 4 PAX CAPACITY | BOOKED - PASSED
+[2025-11-10 13:17:33] Table has 1 valid rows (Detailed Appointment Table) - PASSED
+[2025-11-10 13:17:33] QA-SCDWEB-PB41-S12: Display detailed appointments table - PASSED

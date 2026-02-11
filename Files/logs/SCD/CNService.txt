@@ -1,0 +1,13 @@
+[2026-02-10 13:12:11] Entered Service Name: Software Maintenance - PASSED
+[2026-02-10 13:12:13] Entered SKU: SM0100 - PASSED
+[2026-02-10 13:12:14] Entered Units of Measure: Yearly - PASSED
+[2026-02-10 13:12:15] Entered Service Description: Ongoing software updates and bug fixes - PASSED
+[2026-02-10 13:12:20] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-02-10 13:12:20] Entered Unit Price: 1000.0 - PASSED
+[2026-02-10 13:12:21] Entered Service Tags: ('software,maintenance',) - PASSED
+[2026-02-10 13:12:22] Entered Service Value: ('1000.0',) - PASSED
+[2026-02-10 13:12:23] Entered Service Sub-Category: Support - PASSED
+[2026-02-10 13:12:24] upload_image_service: uploaded D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\10.jpg - PASSED
+[2026-02-10 13:12:24] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\10.jpg - PASSED
+[2026-02-10 13:12:26] Clicked Save Service - PASSED
+[2026-02-10 13:12:28] Confirmed Service Creation - PASSED

@@ -1,0 +1,36 @@
+[2025-12-02 17:13:30] Page ready - starting booking process - PASSED
+[2025-12-02 17:13:32] Direct navigation to: http://vm-app-dev01:9001/ServiceCenter/BookingAndAppointments - PASSED
+[2025-12-02 17:13:35] Successfully navigated via direct URL - PASSED
+[2025-12-02 17:13:35] Clicked 'Day View' button - PASSED
+[2025-12-02 17:13:38] Clicked 'Week View' button - PASSED
+[2025-12-02 17:13:42] Clicked 'Month View' button - PASSED
+[2025-12-02 17:13:45] Click Year View Section - PASSED
+[2025-12-02 17:13:49] Click Legend Booked - PASSED
+[2025-12-02 17:13:51] Click Legend Cancelled - PASSED
+[2025-12-02 17:13:53] Click Legend Completed - PASSED
+[2025-12-02 17:13:56] Click Legend Show All - PASSED
+[2025-12-02 17:13:58] Clicked 'Day View' button - PASSED
+[2025-12-02 17:14:03] Searching for today's date: 2025-12-02 - PASSED
+[2025-12-02 17:14:05] Found today's date cell: 2025-12-02 - PASSED
+[2025-12-02 17:14:05] Found fc-daygrid-day-frame element - PASSED
+[2025-12-02 17:14:08] Clicked day frame with regular click - PASSED
+[2025-12-02 17:14:11] Appointment form (addNewAppointmentForm) is now visible - PASSED
+[2025-12-02 17:14:11] Appointment form is interactive and ready for input - PASSED
+[2025-12-02 17:14:14] Entered Appointment Name: Test Customer - PASSED
+[2025-12-02 17:14:19] Selected Customer Name: True - PASSED
+[2025-12-02 17:14:25] Entered Address: Test Address - PASSED
+[2025-12-02 17:14:29] Selected branch: HQ - PASSED
+[2025-12-02 17:14:29] Looking for time input: input[data-start-time] (by=css) - PASSED
+[2025-12-02 17:14:29] ✓ Found time input element - PASSED
+[2025-12-02 17:14:29] Converted '06:21 PM' to '18:21' - PASSED
+[2025-12-02 17:14:29] ✓ Set time '06:21 PM' via JavaScript - PASSED
+[2025-12-02 17:14:30] Set Start Time:True - PASSED
+[2025-12-02 17:14:33] Looking for time input: input[data-end-time] (by=css) - PASSED
+[2025-12-02 17:14:33] ✓ Found time input element - PASSED
+[2025-12-02 17:14:33] Converted '10:21 PM' to '22:21' - PASSED
+[2025-12-02 17:14:33] ✓ Set time '10:21 PM' via JavaScript - PASSED
+[2025-12-02 17:14:34] Set End Time:True - PASSED
+[2025-12-02 17:14:43] Entered Notes: Customer requested a window seat. - PASSED
+[2025-12-02 17:14:46] Clicked 'Add Appointment' button - PASSED
+[2025-12-02 17:14:51] Clicked 'Confirm Booking' button - PASSED
+[2025-12-02 17:14:54] Appointment booking process completed successfully - PASSED

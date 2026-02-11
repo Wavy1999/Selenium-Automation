@@ -1,0 +1,12 @@
+[2025-11-04 13:41:10] Clicked Seller Center - PASSED
+[2025-11-04 13:41:31] Clicked sub-option in side menu - PASSED
+[2025-11-04 13:41:36] Check if Metrics exists - PASSED
+[2025-11-04 13:41:41] Check if Orders for Processing exists - PASSED
+[2025-11-04 13:41:46] Check if Unpaid Orders exists - PASSED
+[2025-11-04 13:41:51] Check if Total Completed Sales exists - PASSED
+[2025-11-04 13:41:56] Check if Cash Collection Balance exists - PASSED
+[2025-11-04 13:42:01] Check if Last 10 Orders exists - PASSED
+[2025-11-04 13:42:06] Input in Search Order - PASSED
+[2025-11-04 13:42:11] Clicked Go Button - PASSED
+[2025-11-04 13:42:26] Check if Order Number exists - PASSED
+[2025-11-04 13:42:31] Clicked View All Last 10 Orders - PASSED

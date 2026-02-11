@@ -1,0 +1,3 @@
+[2025-12-02 17:00:37] Clicked Seller Center - PASSED
+[2025-12-02 17:00:42] Clicked Create Order - PASSED
+[2025-12-02 17:00:52] Create Order page loaded - PASSED

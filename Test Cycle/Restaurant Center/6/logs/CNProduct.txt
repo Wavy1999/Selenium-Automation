@@ -1,0 +1,20 @@
+[2025-11-10 09:45:29] Clicked Product Management - PASSED
+[2025-11-10 09:45:43] Clicked Create New Product - PASSED
+[2025-11-10 09:45:48] Create New Product page loaded successfully - PASSED
+[2025-11-10 09:45:53] Entered Product Name: PulseOne - PASSED
+[2025-11-10 09:45:57] Entered SKU: PLS-8008 - PASSED
+[2025-11-10 09:45:59] Entered Units of Measure: pc - PASSED
+[2025-11-10 09:46:08] Entered Menu Description: Fitness smartwatch with heart-rate monitor - PASSED
+[2025-11-10 09:46:11] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-11-10 09:46:12] Entered Stock Quantity: 100 - PASSED
+[2025-11-10 09:46:14] Selected Predefined Tags: BRAND - PASSED
+[2025-11-10 09:46:18] Entered Menu Value: 5499 - PASSED
+[2025-11-10 09:46:21] Entered Unit Price: 5499 - PASSED
+[2025-11-10 09:46:23] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-10 09:46:26] Selected Product Category: Electronics and Accessories - PASSED
+[2025-11-10 09:46:28] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2025-11-10 09:46:33] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2025-11-10 09:46:36] Clicked Save Button - PASSED
+[2025-11-10 09:46:36] Added New Product  - PASSED
+[2025-11-10 09:46:41] Clicked Confirm OK - PASSED
+[2025-11-10 09:46:57] Clicked Confirm Success - PASSED

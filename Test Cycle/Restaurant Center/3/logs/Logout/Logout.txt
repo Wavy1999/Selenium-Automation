@@ -1,0 +1,4 @@
+[2025-10-30 15:37:59] Clicked Logout on navbar - PASSED
+[2025-10-30 15:37:59] Confirm Logout - PASSED
+[2025-10-30 16:59:51] Clicked Logout on navbar - PASSED
+[2025-10-30 16:59:51] Confirm Logout - PASSED

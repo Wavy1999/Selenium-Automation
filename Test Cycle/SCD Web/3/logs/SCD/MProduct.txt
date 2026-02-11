@@ -1,0 +1,63 @@
+[2025-12-03 16:24:59] Clicked Create New Product - PASSED
+[2025-12-03 16:25:01] Searching for product: NanoTech - PASSED
+[2025-12-03 16:25:03] Searched for product: NanoTech - PASSED
+[2025-12-03 16:25:09] Selected first product checkbox - PASSED
+[2025-12-03 16:25:27] Clicked first Edit button - PASSED
+[2025-12-03 16:25:29] Entered Menu Value: 6584 - PASSED
+[2025-12-03 16:25:34] Clicked Save Button - PASSED
+[2025-12-03 16:25:34] Added New Product  - PASSED
+[2025-12-03 16:25:39] Clicked Confirm OK - PASSED
+[2025-12-03 16:25:51] Clicked Manage Product button - PASSED
+[2025-12-03 16:25:53] Searched for product: NanoTech - PASSED
+[2025-12-03 16:25:58] Selected first product checkbox - PASSED
+[2025-12-03 16:26:17] Clicked first View button in Manage Product table - PASSED
+[2025-12-03 16:26:17] Clicked Back button - PASSED
+[2025-12-03 16:26:17] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\untitledcaesdfadsfasdfadsf.jpg - PASSED
+[2025-12-03 16:26:17] Uploaded photo - PASSED
+[2025-12-03 16:26:17] Upload Images Successfully appeared - PASSED
+[2025-12-03 16:26:27] Clicked Upload Again to close the modal - PASSED
+[2025-12-03 16:26:30] Searched for product: NanoTech - PASSED
+[2025-12-03 16:26:33] Selected first product checkbox - PASSED
+[2025-12-03 16:26:33] Clicked first Adjust Price icon - PASSED
+[2025-12-03 16:26:34] Selected Option 1: Run a Special Promotion - PASSED
+[2025-12-03 16:26:34]  Adjust Price modal displayed successfully. - PASSED
+[2025-12-03 16:26:35] Entered Promo Price: 6584 - PASSED
+[2025-12-03 16:26:36] 📅 Clicked date in calendar: December 4, 2025 - PASSED
+[2025-12-03 16:26:36]  Set 'PriceAdjustments[0].EffectiveFr' to 12/04/2025 16:26:35 - PASSED
+[2025-12-03 16:26:37] Set Start Date for Promotion - PASSED
+[2025-12-03 16:26:53]  Could not interact with calendar: Message: 
+ - PASSED
+[2025-12-03 16:26:53]  Set 'PriceAdjustments[0].EffectiveTo' to 12/05/2025 16:26:37 - PASSED
+[2025-12-03 16:26:53] Set End Date for Promotion - PASSED
+[2025-12-03 16:26:54]  Set Post Promo Price: 2299.0 - PASSED
+[2025-12-03 16:26:54] Set Post Promo Price - PASSED
+[2025-12-03 16:26:57]  Clicked 'Save Price Adjustment' button - PASSED
+[2025-12-03 16:26:57]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-03 16:27:00]  Clicked 'OK' on success message  - PASSED
+[2025-12-03 16:27:05]  Confirmation  closed successfully - PASSED
+[2025-12-03 16:27:05] Clicked Back to Options button - PASSED
+[2025-12-03 16:27:05]  Promo options are now visible again - PASSED
+[2025-12-03 16:27:07] Selected Option 2: Adjust Unit Price - PASSED
+[2025-12-03 16:27:14] Entered New Unit Price: 6584 - PASSED
+[2025-12-03 16:27:14] Set Future Start Date for Price Adjustment - PASSED
+[2025-12-03 16:27:15]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2025-12-03 16:27:15]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-03 16:27:18]  Clicked 'OK' on success message  - PASSED
+[2025-12-03 16:27:20] Closed Price Management modal - PASSED
+[2025-12-03 16:27:32] Searched for product: NanoTech - PASSED
+[2025-12-03 16:27:37] Selected first product checkbox - PASSED
+[2025-12-03 16:27:37] Clicked Create Bulk Feature button - PASSED
+[2025-12-03 16:27:40] Client selection successful - PASSED
+[2025-12-03 16:27:41] Address selection successful - PASSED
+[2025-12-03 16:27:52] Order Adjustment loaded successfully - PASSED
+[2025-12-03 16:27:52] Entered Shipping Amount: 150 - PASSED
+[2025-12-03 16:27:55] Filled order row with adjustment, shipping, and tax details - PASSED
+[2025-12-03 16:27:57] Clicked Finalize Bulk Feature button - PASSED
+[2025-12-03 16:28:09] Table is diplay - PASSED
+[2025-12-03 16:28:09] Clicked Export Button - PASSED
+[2025-12-03 16:28:11] Stored original window handle - PASSED
+[2025-12-03 16:28:12] Clicked Payment Link Button - PASSED
+[2025-12-03 16:28:17] New window opened for payment link - PASSED
+[2025-12-03 16:28:17] Switched to new payment window - PASSED
+[2025-12-03 16:28:22] Closed new payment window after 5 seconds - PASSED
+[2025-12-03 16:28:22] Switched back to original window - PASSED

@@ -1,0 +1,160 @@
+{
+  "test_suite_info": {
+    "name": "Restaurant Business Automation Suite",
+    "version": "2.0.0",
+    "description": "Complete restaurant testing with smoke, E2E, and regression support",
+    "last_updated": "2025-11-03"
+  },
+  "test_types": {
+    "smoke": {
+      "description": "Quick critical path tests (5-10 min)",
+      "purpose": "Verify core functionality is working",
+      "when_to_run": "Before every deployment, after each build"
+    },
+    "e2e": {
+      "description": "Complete end-to-end user workflows (20-30 min)",
+      "purpose": "Validate complete business processes",
+      "when_to_run": "Daily or before major releases"
+    },
+    "regression": {
+      "description": "Comprehensive testing of all features (1-2 hours)",
+      "purpose": "Ensure no existing functionality is broken",
+      "when_to_run": "Weekly or before major releases"
+    }
+  },
+  "global_settings": {
+    "run_login": true,
+    "run_branch_selection": true,
+    "run_logout": true,
+    "continue_on_failure": true,
+    "capture_screenshots_on_failure": true
+  },
+  "modules": {
+    "restaurant_center": {
+      "enabled": true,
+      "description": "Restaurant Center - Complete workflow testing",
+      "tests": {
+        "Home": {
+          "enabled": true,
+          "priority": 1,
+          "timeout": 30,
+          "test_types": ["smoke", "e2e", "regression"],
+          "tags": ["critical", "restaurant", "dashboard"],
+          "description": "Restaurant home dashboard - Entry point"
+        },
+        "Orders": {
+          "enabled": true,
+          "priority": 2,
+          "timeout": 30,
+          "test_types": ["smoke", "e2e", "regression"],
+          "tags": ["critical", "restaurant", "orders"],
+          "description": "Restaurant orders page"
+        },
+        "manage_orders": {
+          "enabled": true,
+          "priority": 3,
+          "timeout": 30,
+          "test_types": ["smoke", "e2e", "regression"],
+          "tags": ["critical", "restaurant", "orders", "workflow"],
+          "description": "Manage orders workflow"
+        },
+        "Bookings": {
+          "enabled": false,
+          "priority": 4,
+          "timeout": 30,
+          "test_types": ["e2e", "regression"],
+          "tags": ["restaurant", "bookings", "workflow"],
+          "description": "Booking management"
+        },
+        "Tables": {
+          "enabled": true,
+          "priority": 5,
+          "timeout": 30,
+          "test_types": ["regression"],
+          "tags": ["restaurant", "setup", "configuration"],
+          "description": "Table setup and management"
+        },
+        "Menu": {
+          "enabled": true,
+          "priority": 6,
+          "timeout": 30,
+          "test_types": ["e2e", "regression"],
+          "tags": ["restaurant", "menu", "catalog"],
+          "description": "Menu management"
+        },
+        "Printer_Settings": {
+          "enabled": true,
+          "priority": 7,
+          "timeout": 30,
+          "test_types": ["regression"],
+          "tags": ["restaurant", "settings", "hardware"],
+          "description": "Printer configuration and settings"
+        },
+        "Invoice_Settings": {
+          "enabled": true,
+          "priority": 8,
+          "timeout": 50,
+          "test_types": ["regression"],
+          "tags": ["restaurant", "billing", "settings"],
+          "description": "Invoice settings and configuration"
+        }
+      }
+    }
+  },
+  "test_suites": {
+    "smoke": {
+      "description": "🚀 SMOKE TEST - Quick critical path validation (5-10 min)",
+      "purpose": "Verify core functionality before deployment",
+      "test_type": "smoke",
+      "estimated_duration": "5-10 minutes"
+    },
+    "e2e_restaurant": {
+      "description": "🏪 E2E Restaurant - Complete restaurant workflows (15-20 min)",
+      "purpose": "Validate end-to-end restaurant business processes",
+      "test_type": "e2e",
+      "modules_to_enable": [
+        "restaurant_center.Home",
+        "restaurant_center.Orders",
+        "restaurant_center.manage_orders",
+        "restaurant_center.Menu"
+      ],
+      "estimated_duration": "15-20 minutes"
+    },
+    "regression_restaurant": {
+      "description": "🔍 Regression Restaurant - All restaurant features (30-40 min)",
+      "purpose": "Complete regression testing of restaurant module",
+      "test_type": "regression",
+      "category": "restaurant_center",
+      "estimated_duration": "30-40 minutes"
+    },
+    "quick_smoke": {
+      "description": "⚡ Quick Smoke - Minimal critical checks (3-5 min)",
+      "purpose": "Ultra-fast sanity check",
+      "modules_to_enable": [
+        "restaurant_center.Home",
+        "restaurant_center.Orders"
+      ],
+      "estimated_duration": "3-5 minutes"
+    },
+    "restaurant_full": {
+      "description": "🏪 Restaurant Full - All restaurant tests (30-40 min)",
+      "purpose": "Complete restaurant module testing",
+      "modules_to_enable": [
+        "restaurant_center.Home",
+        "restaurant_center.Orders",
+        "restaurant_center.manage_orders",
+        "restaurant_center.Tables",
+        "restaurant_center.Menu",
+        "restaurant_center.Printer_Settings",
+        "restaurant_center.Invoice_Settings"
+      ],
+      "estimated_duration": "30-40 minutes"
+    },
+    "full_regression": {
+      "description": "🎯 Full Regression - Complete system testing (1-2 hours)",
+      "purpose": "Comprehensive testing of all modules",
+      "enable_all": true,
+      "estimated_duration": "1-2 hours"
+    }
+  }
+}

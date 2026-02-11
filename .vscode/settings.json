@@ -1,0 +1,19 @@
+{
+    "python.analysis.extraPaths": [
+        "./OPIBIZ_WEB/OPIBIZ_WEB_Functions",
+        "./OPIBIZ_WEBV2/OPIBIZ_WEBV2_Functions_NW",
+        "./OPIBIZ_WEBV2/OPIBIZ_WEBV2_Functions_NW/Employee",
+        "./AMPS/AMPS",
+        "./My_Profile",
+        "./Cash_Management"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./testing",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}

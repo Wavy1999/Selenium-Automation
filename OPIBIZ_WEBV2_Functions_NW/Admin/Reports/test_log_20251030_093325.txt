@@ -1,0 +1,63 @@
+[2025-10-30 09:33:25] 🔐 Starting login process... - PASSED
+[2025-10-30 09:33:26] 🏢 Selecting branch and terminal... - PASSED
+[2025-10-30 09:33:41] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe68704]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED
+[2025-10-30 09:33:49] Attempt 2 to select random branch option failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x102fe43+66515]
+	GetHandleVerifier [0x0x102fe84+66580]
+	(No symbol) [0x0xe1dc48]
+	(No symbol) [0x0xe0d429]
+	(No symbol) [0x0xe0d3a6]
+	(No symbol) [0x0xe0bc5f]
+	(No symbol) [0x0xe0c937]
+	(No symbol) [0x0xe229b7]
+	(No symbol) [0x0xe2315b]
+	(No symbol) [0x0xe269d4]
+	(No symbol) [0x0xe26a68]
+	(No symbol) [0x0xe67f94]
+	(No symbol) [0x0xe68aab]
+	(No symbol) [0x0xeaf482]
+	(No symbol) [0x0xe8b214]
+	(No symbol) [0x0xeacba7]
+	(No symbol) [0x0xe8afc6]
+	(No symbol) [0x0xe5c2ca]
+	(No symbol) [0x0xe5d154]
+	GetHandleVerifier [0x0x1287353+2521315]
+	GetHandleVerifier [0x0x12822d3+2500707]
+	GetHandleVerifier [0x0x1057c94+229924]
+	GetHandleVerifier [0x0x10481f8+165768]
+	GetHandleVerifier [0x0x104ecad+193085]
+	GetHandleVerifier [0x0x1038158+100072]
+	GetHandleVerifier [0x0x10382f0+100480]
+	GetHandleVerifier [0x0x10225aa+11066]
+	BaseThreadInitThunk [0x0x76305d49+25]
+	RtlInitializeExceptionChain [0x0x7714d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7714d661+561]
+ - FAILED

@@ -1,0 +1,27 @@
+[2025-10-30 14:09:49] Go to Menu Tab - PASSED
+[2025-10-30 14:09:57] Search Menu:Beef Katsudon - PASSED
+[2025-10-30 14:09:57]  Selected 'ACTIVE' menu status. - PASSED
+[2025-10-30 14:10:12] Search Menu:Chocolate Ice cream - PASSED
+[2025-10-30 14:10:12]  Selected 'INACTIVE' menu status. - PASSED
+[2025-10-30 14:10:33] Clicked view menu - PASSED
+[2025-10-30 14:10:43] Back to Manage Menu - PASSED
+[2025-10-30 14:11:03] Clicked Update Menu - PASSED
+[2025-10-30 14:11:05] Entered Unit Price: 500 - PASSED
+[2025-10-30 14:11:07] Save Menu Item - PASSED
+[2025-10-30 14:11:28] Update Item Successfully - PASSED
+[2025-10-30 14:11:58] Modal appeared after update menu - PASSED
+[2025-10-30 14:11:58] Clicked Add New Menu - PASSED
+[2025-10-30 14:12:13] Entered Menu Name: Grilled Chicken Sandwich - PASSED
+[2025-10-30 14:12:17] Entered SKU: F000001 - PASSED
+[2025-10-30 14:12:21] Entered Units of Measure: Piece - PASSED
+[2025-10-30 14:12:35] Entered Menu Description: Tender grilled chicken with lettuce, tomato, and mayo on a toasted bun - PASSED
+[2025-10-30 14:12:38] Entered Unit Price: 8.5 - PASSED
+[2025-10-30 14:12:43] Entered Menu Value: RESTAURANT - PASSED
+[2025-10-30 14:12:47] Entered Menu Tags: Grilled - PASSED
+[2025-10-30 14:12:49] Selected Menu Category: Food - PASSED
+[2025-10-30 14:12:51] Selected Menu Sub-Category: Appetizers - PASSED
+[2025-10-30 14:12:57] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Restaurant\10.jpg - PASSED
+[2025-10-30 14:13:01] Added New Menu  - PASSED
+[2025-10-30 14:13:26] Clicked Confirm Success - PASSED
+[2025-10-30 14:13:26] QA-SCDWEB-PB46-S1:Add new menu successfully  - PASSED
+[2025-10-30 14:13:31] Back to Manage Menu - PASSED

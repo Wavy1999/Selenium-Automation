@@ -1,0 +1,33 @@
+[2025-12-03 16:41:37] Clicked Business Hub menu - PASSED
+[2025-12-03 16:41:40] Clicked Cash Management menu - PASSED
+[2025-12-03 16:41:42] Current Balance: Current Balance: ₱0.00 - PASSED
+[2025-12-03 16:41:44] Available Balance: Available Balance: ₱0.00 - PASSED
+[2025-12-03 16:41:46] Settlement Balance: ₱9,999,999.00 - PASSED
+[2025-12-03 16:41:49] Clicked Settle Available Balance button - PASSED
+[2025-12-03 16:41:51] Clicked Back button - PASSED
+[2025-12-03 16:41:54] Clicked Transfer Funds button - PASSED
+[2025-12-03 16:41:56] Clicked To Another Bank button - PASSED
+[2025-12-03 16:41:59] Back to Cash Management - PASSED
+[2025-12-03 16:42:01] Clicked Merchant Account History tab - PASSED
+[2025-12-03 16:42:03] Merchant Account History - Row 1: Failed to load data - FAILED
+[2025-12-03 16:42:03] Table has 1 valid rows (Merchant Account History) - PASSED
+[2025-12-03 16:42:03] Clicked Payment Collections tab - PASSED
+[2025-12-03 16:42:05] Payment Collections - Row 1: VPHP001 | BNW-SRV-110842669-215 | RECEIVED | 13.44 | PHP | 12/3/2025 11:11:55 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:05] Payment Collections - Row 2: VPHP001 | BNW-ORD-105412542-422 | RECEIVED | 2.00 | PHP | 12/3/2025 10:56:45 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:05] Payment Collections - Row 3: VPHP001 | BNW-SRV-043341209-067 | RECEIVED | 13.44 | PHP | 12/3/2025 4:36:51 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:05] Payment Collections - Row 4: VPHP001 | BNW-ORD-041958417-517 | RECEIVED | 2.00 | PHP | 12/3/2025 4:22:31 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 5: VPHP001 | BNW-SRV-034634892-213 | RECEIVED | 13.44 | PHP | 12/3/2025 3:49:46 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 6: VPHP001 | BNW-ORD-033240635-003 | RECEIVED | 5.00 | PHP | 12/3/2025 3:35:15 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 7: VPHP001 | BNW-SRV-021703621-738 | RECEIVED | 13.44 | PHP | 12/3/2025 2:20:16 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 8: VPHP001 | BNW-ORD-020317799-468 | RECEIVED | 2.00 | PHP | 12/3/2025 2:06:06 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 9: VPHP001 | BNW-SRV-013716667-579 | RECEIVED | 13.44 | PHP | 12/3/2025 1:40:27 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Payment Collections - Row 10: VPHP001 | BNW-ORD-012323564-464 | RECEIVED | 10.00 | PHP | 12/3/2025 1:25:59 AM | OMNIPAY INC | CASH | CASH | 0 | NA - PASSED
+[2025-12-03 16:42:06] Table has 10 valid rows (Payment Collections) - PASSED
+[2025-12-03 16:42:06] Clicked Fund Transfers tab - PASSED
+[2025-12-03 16:42:08] Fund Transfer - Row 1: Failed to load data - FAILED
+[2025-12-03 16:42:08] Table has 1 valid rows (Fund Transfer) - PASSED
+[2025-12-03 16:42:10] Clicked Payment Collections tab again - PASSED
+[2025-12-03 16:42:12] Using Collection Date Filter - PASSED
+[2025-12-03 16:42:12] Applied last 7 days filter: 11/26/2025 - 12/03/2025 - PASSED
+[2025-12-03 16:42:16] Clicked Generate QR button - PASSED
+[2025-12-03 16:42:19] Generate QR container is visible - PASSED

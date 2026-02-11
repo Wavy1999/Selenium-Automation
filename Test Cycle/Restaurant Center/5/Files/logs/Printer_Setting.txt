@@ -1,0 +1,35 @@
+[2025-11-03 10:58:36] Clicked Restaurant Center - PASSED
+[2025-11-03 10:58:36] Restaurant Home Dashboard - PASSED
+[2025-11-03 10:58:36] Go to Setup Restaurant Section - PASSED
+[2025-11-03 10:58:47] Go to Printer Tab - PASSED
+[2025-11-03 10:58:59] Clicked Kitchen Printer - PASSED
+[2025-11-03 10:59:04] Entered Kitchen Printer URL - PASSED
+[2025-11-03 10:59:04] Clicked Save Printer Settings - PASSED
+[2025-11-03 10:59:14] Printer Settings Saved - PASSED
+[2025-11-03 10:59:21] QA-SCDWEB-PB47-S7: Save printer endpoint successfully - PASSED
+[2025-11-03 10:59:21] Go Back to Setup Restaurant Section - PASSED
+[2025-11-03 10:59:32] Go back to Printer Tab - PASSED
+[2025-11-03 10:59:38] Entered Kitchen Printer URL - PASSED
+[2025-11-03 10:59:48] QA-SCDWEB-PB47-S10: Test print success - PASSED
+[2025-11-03 10:59:49] Sent Test Kitchen Print - PASSED
+[2025-11-03 10:59:59] QA-SCDWEB-PB47-S12: Distinct messages per printer type - PASSED
+[2025-11-03 10:59:59] Kitchen Print Successful - PASSED
+[2025-11-03 11:00:08] Entered Kitchen Printer URL - PASSED
+[2025-11-03 11:00:18] Sent Test Kitchen Print - PASSED
+[2025-11-03 11:00:39] QA-SCDWEB-PB47-S11: Test print failure - PASSED
+[2025-11-03 11:00:39] Kitchen Print Failure - PASSED
+[2025-11-03 11:00:44] Cleared Kitchen Printer URL field - PASSED
+[2025-11-03 11:00:44] QA-SCDWEB-PB47-S9:Leave printer field blank  - PASSED
+[2025-11-03 11:00:54] Clicked Save Printer Settings - PASSED
+[2025-11-03 11:01:04] Printer Settings Saved - PASSED
+[2025-11-03 11:01:11] QA-SCDWEB-PB47-S7: Save printer endpoint successfully - PASSED
+[2025-11-03 11:01:11] Go Back to Setup Restaurant Section - PASSED
+[2025-11-03 11:01:21] Go back to Printer Tab - PASSED
+[2025-11-03 11:01:24] Clicked Bar Printer - PASSED
+[2025-11-03 11:01:28] Entered Bar Printer URL - PASSED
+[2025-11-03 11:01:28] Clicked Bar Printer2 - PASSED
+[2025-11-03 11:01:32] Entered Bar Printer2 URL - PASSED
+[2025-11-03 11:01:43] Clicked Save Printer Settings - PASSED
+[2025-11-03 11:01:53] QA-SCDWEB-PB47-S8:Allow multiple printers of same type  - PASSED
+[2025-11-03 11:01:53] Printer Settings Saved - PASSED
+[2025-11-03 11:02:00] QA-SCDWEB-PB47-S7: Save printer endpoint successfully - PASSED

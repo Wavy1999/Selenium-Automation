@@ -1,0 +1,13 @@
+[2026-02-10 13:20:34] Client Details Page - PASSED
+[2026-02-10 13:20:37] Selected prefix from Excel: MR - PASSED
+[2026-02-10 13:20:38] Client type dropdown is present - PASSED
+[2026-02-10 13:20:40] Selected Prefix from Excel: MR - PASSED
+[2026-02-10 13:20:42] Entered first name: Brian - PASSED
+[2026-02-10 13:20:44] Entered last name: Chen - PASSED
+[2026-02-10 13:20:49] Entered company name: Chen & Co. Consulting - PASSED
+[2026-02-10 13:20:53] Entered mobile number: 639182345679 - PASSED
+[2026-02-10 13:20:57] Entered email address: brianchen@chenco.com - PASSED
+[2026-02-10 13:21:01] Clicked save new client button - PASSED
+[2026-02-10 13:21:03] Clicked confirmation button after saving client - PASSED
+[2026-02-10 13:21:05] Clicked Success button after saving client - PASSED
+[2026-02-10 13:21:05] Client list displayed and scrolled into view - PASSED

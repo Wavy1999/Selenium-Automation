@@ -1,0 +1,63 @@
+[2025-12-02 17:08:01] Clicked Create New Product - PASSED
+[2025-12-02 17:08:03] Searching for product: NovaSense - PASSED
+[2025-12-02 17:08:06] Searched for product: NovaSense - PASSED
+[2025-12-02 17:08:11] Selected first product checkbox - PASSED
+[2025-12-02 17:08:28] Clicked first Edit button - PASSED
+[2025-12-02 17:08:31] Entered Menu Value: 2636 - PASSED
+[2025-12-02 17:08:35] Clicked Save Button - PASSED
+[2025-12-02 17:08:36] Added New Product  - PASSED
+[2025-12-02 17:08:41] Clicked Confirm OK - PASSED
+[2025-12-02 17:08:53] Clicked Manage Product button - PASSED
+[2025-12-02 17:08:56] Searched for product: NovaSense - PASSED
+[2025-12-02 17:09:01] Selected first product checkbox - PASSED
+[2025-12-02 17:09:18] Clicked first View button in Manage Product table - PASSED
+[2025-12-02 17:09:18] Clicked Back button - PASSED
+[2025-12-02 17:09:18] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\s-l1200.jpg - PASSED
+[2025-12-02 17:09:19] Uploaded photo - PASSED
+[2025-12-02 17:09:19] Upload Images Successfully appeared - PASSED
+[2025-12-02 17:09:28] Clicked Upload Again to close the modal - PASSED
+[2025-12-02 17:09:31] Searched for product: NovaSense - PASSED
+[2025-12-02 17:09:34] Selected first product checkbox - PASSED
+[2025-12-02 17:09:34] Clicked first Adjust Price icon - PASSED
+[2025-12-02 17:09:35] Selected Option 1: Run a Special Promotion - PASSED
+[2025-12-02 17:09:35]  Adjust Price modal displayed successfully. - PASSED
+[2025-12-02 17:09:37] Entered Promo Price: 2636 - PASSED
+[2025-12-02 17:09:37] 📅 Clicked date in calendar: December 3, 2025 - PASSED
+[2025-12-02 17:09:37]  Set 'PriceAdjustments[0].EffectiveFr' to 12/03/2025 17:09:37 - PASSED
+[2025-12-02 17:09:38] Set Start Date for Promotion - PASSED
+[2025-12-02 17:09:53]  Could not interact with calendar: Message: 
+ - PASSED
+[2025-12-02 17:09:53]  Set 'PriceAdjustments[0].EffectiveTo' to 12/04/2025 17:09:38 - PASSED
+[2025-12-02 17:09:54] Set End Date for Promotion - PASSED
+[2025-12-02 17:09:55]  Set Post Promo Price: 2299.0 - PASSED
+[2025-12-02 17:09:55] Set Post Promo Price - PASSED
+[2025-12-02 17:09:58]  Clicked 'Save Price Adjustment' button - PASSED
+[2025-12-02 17:09:58]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-02 17:10:01]  Clicked 'OK' on success message  - PASSED
+[2025-12-02 17:10:06]  Confirmation  closed successfully - PASSED
+[2025-12-02 17:10:06] Clicked Back to Options button - PASSED
+[2025-12-02 17:10:06]  Promo options are now visible again - PASSED
+[2025-12-02 17:10:08] Selected Option 2: Adjust Unit Price - PASSED
+[2025-12-02 17:10:15] Entered New Unit Price: 2636 - PASSED
+[2025-12-02 17:10:15] Set Future Start Date for Price Adjustment - PASSED
+[2025-12-02 17:10:16]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2025-12-02 17:10:16]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-02 17:10:18]  Clicked 'OK' on success message  - PASSED
+[2025-12-02 17:10:20] Closed Price Management modal - PASSED
+[2025-12-02 17:10:33] Searched for product: NovaSense - PASSED
+[2025-12-02 17:10:38] Selected first product checkbox - PASSED
+[2025-12-02 17:10:38] Clicked Create Bulk Feature button - PASSED
+[2025-12-02 17:10:41] Client selection successful - PASSED
+[2025-12-02 17:10:43] Address selection successful - PASSED
+[2025-12-02 17:10:53] Order Adjustment loaded successfully - PASSED
+[2025-12-02 17:10:53] Entered Shipping Amount: 150 - PASSED
+[2025-12-02 17:10:56] Filled order row with adjustment, shipping, and tax details - PASSED
+[2025-12-02 17:10:58] Clicked Finalize Bulk Feature button - PASSED
+[2025-12-02 17:11:10] Table is diplay - PASSED
+[2025-12-02 17:11:11] Clicked Export Button - PASSED
+[2025-12-02 17:11:13] Stored original window handle - PASSED
+[2025-12-02 17:11:13] Clicked Payment Link Button - PASSED
+[2025-12-02 17:11:18] New window opened for payment link - PASSED
+[2025-12-02 17:11:18] Switched to new payment window - PASSED
+[2025-12-02 17:11:23] Closed new payment window after 5 seconds - PASSED
+[2025-12-02 17:11:23] Switched back to original window - PASSED

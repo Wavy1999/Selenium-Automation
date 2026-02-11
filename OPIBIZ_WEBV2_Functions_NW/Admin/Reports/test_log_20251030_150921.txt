@@ -1,0 +1,25 @@
+[2025-10-30 15:09:21] Automation has started... - PASSED
+[2025-10-30 15:09:21] Login Credentials: - PASSED
+[2025-10-30 15:09:23] Login completed with user: maryjhoan.farol - PASSED
+[2025-10-30 15:09:23] 🏢 Selecting branch and terminal... - PASSED
+[2025-10-30 15:09:34] Selected HQ branch option - PASSED
+[2025-10-30 15:09:49] Clicked branch confirmation button - PASSED
+[2025-10-30 15:09:56] Branch and terminal selection successful - PASSED
+[2025-10-30 15:09:56] 🏠 Starting Home test... - PASSED
+[2025-10-30 15:10:25] Home test completed successfully - PASSED
+[2025-10-30 15:10:26] 🛒 Starting Orders test... - PASSED
+[2025-10-30 15:24:00] Orders test completed successfully - PASSED
+[2025-10-30 15:24:01] 🛒 Starting Manage Orders test... - PASSED
+[2025-10-30 15:24:32] Manage Orders test completed successfully - PASSED
+[2025-10-30 15:24:32] 📅 Starting Bookings test... - PASSED
+[2025-10-30 15:26:39] Bookings test completed successfully - PASSED
+[2025-10-30 15:26:39] 🍽️ Starting Tables setup... - PASSED
+[2025-10-30 15:28:02] Tables setup completed - PASSED
+[2025-10-30 15:28:03] 🍽️ Starting Menu setup... - PASSED
+[2025-10-30 15:32:04] Menu setup completed - PASSED
+[2025-10-30 15:32:04] 🍽️ Starting Printer setup... - PASSED
+[2025-10-30 15:35:40] Printer setup completed - PASSED
+[2025-10-30 15:35:40] 🍽️ Starting Invoice setup... - PASSED
+[2025-10-30 15:37:58] Invoice setup completed - PASSED
+[2025-10-30 15:37:59] 🚪 Starting logout... - PASSED
+[2025-10-30 15:38:03] Logout successful - PASSED

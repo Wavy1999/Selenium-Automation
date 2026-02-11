@@ -1,0 +1,34 @@
+[2025-12-03 16:43:37] Refreshing employee list to get latest data - PASSED
+[2025-12-03 16:43:41] Retrieved employee email from log: usopp@strawhatpirates.com - PASSED
+[2025-12-03 16:43:41] Waiting 5 seconds for database synchronization... - PASSED
+[2025-12-03 16:43:46] Container 'employee-list' is now visible - PASSED
+[2025-12-03 16:43:49] Employee table loaded - PASSED
+[2025-12-03 16:43:49] Search attempt 1/3 for email: usopp@strawhatpirates.com - PASSED
+[2025-12-03 16:43:56] Found 1 row(s) in table - PASSED
+[2025-12-03 16:43:57] Found 1 row(s) after search filter - PASSED
+[2025-12-03 16:43:57] Returning first row as target employee - PASSED
+[2025-12-03 16:43:57] Employee found on attempt 1 - PASSED
+[2025-12-03 16:43:57] Selected employee checkbox - PASSED
+[2025-12-03 16:43:58] Clicked View link for employee - PASSED
+[2025-12-03 16:44:00] Clicked Back to return to employee list - PASSED
+[2025-12-03 16:44:02] Search attempt 1/3 for email: usopp@strawhatpirates.com - PASSED
+[2025-12-03 16:44:10] Found 1 row(s) in table - PASSED
+[2025-12-03 16:44:10] Found 1 row(s) after search filter - PASSED
+[2025-12-03 16:44:11] Returning first row as target employee - PASSED
+[2025-12-03 16:44:11] Employee found on attempt 1 - PASSED
+[2025-12-03 16:44:11] Selected employee checkbox - PASSED
+[2025-12-03 16:44:11] Clicked Edit link for employee - PASSED
+[2025-12-03 16:44:14] Entered dependencies: 10 - PASSED
+[2025-12-03 16:44:14] Clicked Update Employee button - PASSED
+[2025-12-03 16:44:17] Confirmed employee update - PASSED
+[2025-12-03 16:44:18] Employee update successful - PASSED
+[2025-12-03 16:44:18] Returned to employee list - PASSED
+[2025-12-03 16:44:18] Search attempt 1/3 for email: usopp@strawhatpirates.com - PASSED
+[2025-12-03 16:44:27] Found 1 row(s) in table - PASSED
+[2025-12-03 16:44:27] Found 1 row(s) after search filter - PASSED
+[2025-12-03 16:44:27] Returning first row as target employee - PASSED
+[2025-12-03 16:44:27] Employee found on attempt 1 - PASSED
+[2025-12-03 16:44:27] Selected employee checkbox - PASSED
+[2025-12-03 16:44:27] Clicked Deactivate employee link - PASSED
+[2025-12-03 16:44:29] Confirmed employee deactivation - PASSED
+[2025-12-03 16:44:31] Employee deactivation successful - PASSED

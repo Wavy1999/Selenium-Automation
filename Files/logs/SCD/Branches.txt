@@ -1,0 +1,2 @@
+[2026-02-10 13:17:12] Direct navigation to: http://beta-opibizscd.paybps.ovpn/ShopManagement - PASSED
+[2026-02-10 13:17:14] Branches container visible - PASSED

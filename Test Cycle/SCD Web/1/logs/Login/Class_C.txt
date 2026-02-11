@@ -1,0 +1,456 @@
+[2025-11-07 14:03:14] ERROR: Setup failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Files\chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 111, in setup
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+[2025-11-07 14:07:19] ERROR: Setup failed: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 118, in setup
+    self.driver.get(self.base_url)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+[2025-11-07 14:09:02] Setup completed successfully - PASSED
+[2025-11-07 14:09:02] ERROR: Login failed: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\tests.xlsx'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 147, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\tests.xlsx'
+[2025-11-07 14:09:06] Browser closed - PASSED
+[2025-11-07 14:11:24] Setup completed successfully - PASSED
+[2025-11-07 14:11:24] ERROR: Login failed: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 147, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+[2025-11-07 14:11:28] Browser closed - PASSED
+[2025-11-07 14:12:45] Setup completed successfully - PASSED
+[2025-11-07 14:12:45] ERROR: Login failed: 'str' object is not callable
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 140, in login
+    excel_path = login_credentials_path(base_files_path, 'Testdata', 'login_credentials.xlsx')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+[2025-11-07 14:12:50] Browser closed - PASSED
+[2025-11-07 14:17:18] Setup completed successfully - PASSED
+[2025-11-07 14:17:18] ERROR: Login failed: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 154, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+[2025-11-07 14:17:22] Browser closed - PASSED
+[2025-11-07 14:24:04] Setup completed successfully - PASSED
+[2025-11-07 14:24:04] ERROR: Login failed: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 164, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Files\\Testdata\\login_credentials.xlsx'
+[2025-11-07 14:24:09] Browser closed - PASSED
+[2025-11-07 14:28:37] Setup completed successfully - PASSED
+[2025-11-07 14:28:37] ERROR: Login failed: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Admin\\..\\Files\\Testdata\\login_credentials.xlsx'
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 165, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Bastion\\SQA_QualityEnterprise\\SoftwareTesting\\Projects\\Common\\Automation\\OPI\\OPIBIZ_WEBV2_Functions_NW\\Admin\\..\\Files\\Testdata\\login_credentials.xlsx'
+[2025-11-07 14:28:41] Browser closed - PASSED
+[2025-11-07 14:33:01] Setup completed successfully - PASSED
+[2025-11-07 14:33:01] ERROR: Login failed: Worksheet named 'Class_C' not found
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 165, in login
+    username, password = login_class_c(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 94, in login_class_c
+    data = pd.read_excel(excel_path, sheet_name='Class_C')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 508, in read_excel
+    data = io.parse(
+           ^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1616, in parse
+    return self._reader.parse(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 773, in parse
+    sheet = self.get_sheet_by_name(asheetname)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 582, in get_sheet_by_name
+    self.raise_if_bad_sheet_by_name(name)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 624, in raise_if_bad_sheet_by_name
+    raise ValueError(f"Worksheet named '{name}' not found")
+ValueError: Worksheet named 'Class_C' not found
+[2025-11-07 14:33:06] Browser closed - PASSED
+[2025-11-07 14:35:03] Setup completed successfully - PASSED
+[2025-11-07 14:35:03] Enter username [Class_C] - PASSED
+[2025-11-07 14:35:03] Enter password [Class_C] - PASSED
+[2025-11-07 14:35:04] Click submit [Class_C] - PASSED
+[2025-11-07 14:35:04] Login successful with class_c - PASSED
+[2025-11-07 14:35:17] Selected HQ branch option - PASSED
+[2025-11-07 14:35:33] Clicked branch confirmation button - PASSED
+[2025-11-07 14:35:36] Branch selection completed - PASSED
+[2025-11-07 14:35:46] Inventory Management - PASSED (10.64s) - PASSED
+[2025-11-07 14:36:02] Logout completed - PASSED
+[2025-11-07 14:36:02] Automation completed in 1m 3s - PASSED
+[2025-11-07 14:36:06] Browser closed - PASSED
+[2025-11-07 14:49:09] Setup completed successfully - PASSED
+[2025-11-07 14:49:09] Enter username [Class_C] - PASSED
+[2025-11-07 14:49:10] Enter password [Class_C] - PASSED
+[2025-11-07 14:49:10] Click submit [Class_C] - PASSED
+[2025-11-07 14:49:10] Login successful with class_c - PASSED
+[2025-11-07 14:49:22] Selected HQ branch option - PASSED
+[2025-11-07 14:49:37] Clicked branch confirmation button - PASSED
+[2025-11-07 14:49:40] Branch selection completed - PASSED
+[2025-11-07 14:49:51] Inventory Management - PASSED (10.41s) - PASSED
+[2025-11-07 14:49:51] Logout completed - PASSED
+[2025-11-07 14:49:51] Automation completed in 0m 48s - PASSED
+[2025-11-07 14:49:56] Browser closed - PASSED
+[2025-11-07 15:28:01] Setup completed successfully - PASSED
+[2025-11-07 15:28:01] Enter username [Class_C] - PASSED
+[2025-11-07 15:28:01] Enter password [Class_C] - PASSED
+[2025-11-07 15:28:02] Click submit [Class_C] - PASSED
+[2025-11-07 15:28:02] Login successful with class_c - PASSED
+[2025-11-07 15:28:14] Selected HQ branch option - PASSED
+[2025-11-07 15:28:29] Clicked branch confirmation button - PASSED
+[2025-11-07 15:28:32] Branch selection completed - PASSED
+[2025-11-07 15:29:11] Inventory Management - PASSED (39.13s) - PASSED
+[2025-11-07 15:29:12] Logout completed - PASSED
+[2025-11-07 15:29:12] Automation completed in 1m 24s - PASSED
+[2025-11-07 15:29:16] Browser closed - PASSED
+[2025-11-07 15:40:47] Setup completed successfully - PASSED
+[2025-11-07 15:40:47] Enter username [Class_C] - PASSED
+[2025-11-07 15:40:47] Enter password [Class_C] - PASSED
+[2025-11-07 15:40:48] Click submit [Class_C] - PASSED
+[2025-11-07 15:40:48] Login successful with class_c - PASSED
+[2025-11-07 15:40:59] Selected HQ branch option - PASSED
+[2025-11-07 15:41:15] Clicked branch confirmation button - PASSED
+[2025-11-07 15:41:18] Branch selection completed - PASSED
+[2025-11-07 15:41:47] Inventory Management - PASSED (28.71s) - PASSED
+[2025-11-07 15:41:47] Logout completed - PASSED
+[2025-11-07 15:41:47] Automation completed in 1m 10s - PASSED
+[2025-11-07 15:41:51] Browser closed - PASSED
+[2025-11-07 15:44:37] Setup completed successfully - PASSED
+[2025-11-07 15:44:38] Enter username [Class_C] - PASSED
+[2025-11-07 15:44:38] Enter password [Class_C] - PASSED
+[2025-11-07 15:44:38] Click submit [Class_C] - PASSED
+[2025-11-07 15:44:38] Login successful with class_c - PASSED
+[2025-11-07 15:44:51] Selected HQ branch option - PASSED
+[2025-11-07 15:45:08] Clicked branch confirmation button - PASSED
+[2025-11-07 15:45:11] Branch selection completed - PASSED
+[2025-11-07 15:45:56] Inventory Management - PASSED (45.25s) - PASSED
+[2025-11-07 15:45:56] Logout completed - PASSED
+[2025-11-07 15:45:56] Automation completed in 1m 24s - PASSED
+[2025-11-07 15:46:01] Browser closed - PASSED
+[2025-11-07 15:48:27] Setup completed successfully - PASSED
+[2025-11-07 15:48:27] Enter username [Class_C] - PASSED
+[2025-11-07 15:48:27] Enter password [Class_C] - PASSED
+[2025-11-07 15:48:28] Click submit [Class_C] - PASSED
+[2025-11-07 15:48:28] Login successful with class_c - PASSED
+[2025-11-07 15:48:39] Selected HQ branch option - PASSED
+[2025-11-07 15:48:55] Clicked branch confirmation button - PASSED
+[2025-11-07 15:48:58] Branch selection completed - PASSED
+[2025-11-07 15:49:48] Inventory Management - PASSED (50.63s) - PASSED
+[2025-11-07 15:49:49] Logout completed - PASSED
+[2025-11-07 15:49:49] Automation completed in 1m 26s - PASSED
+[2025-11-07 15:49:53] Browser closed - PASSED
+[2025-11-07 15:51:39] Setup completed successfully - PASSED
+[2025-11-07 15:51:40] Enter username [Class_C] - PASSED
+[2025-11-07 15:51:40] Enter password [Class_C] - PASSED
+[2025-11-07 15:51:40] Click submit [Class_C] - PASSED
+[2025-11-07 15:51:40] Login successful with class_c - PASSED
+[2025-11-07 15:51:52] Selected HQ branch option - PASSED
+[2025-11-07 15:52:13] Clicked branch confirmation button - PASSED
+[2025-11-07 15:52:16] Branch selection completed - PASSED
+[2025-11-07 15:53:02] Inventory Management - PASSED (45.75s) - PASSED
+[2025-11-07 15:53:03] Logout completed - PASSED
+[2025-11-07 15:53:03] Automation completed in 1m 27s - PASSED
+[2025-11-07 15:53:07] Browser closed - PASSED
+[2025-11-07 15:56:58] Setup completed successfully - PASSED
+[2025-11-07 15:56:58] Enter username [Class_C] - PASSED
+[2025-11-07 15:56:59] Enter password [Class_C] - PASSED
+[2025-11-07 15:56:59] Click submit [Class_C] - PASSED
+[2025-11-07 15:56:59] Login successful with class_c - PASSED
+[2025-11-07 15:57:11] Selected HQ branch option - PASSED
+[2025-11-07 15:57:26] Clicked branch confirmation button - PASSED
+[2025-11-07 15:57:29] Branch selection completed - PASSED
+[2025-11-07 15:58:11] Inventory Management - PASSED (42.04s) - PASSED
+[2025-11-07 15:58:12] Logout completed - PASSED
+[2025-11-07 15:58:12] Automation completed in 1m 18s - PASSED
+[2025-11-07 15:58:16] Browser closed - PASSED
+[2025-11-07 16:01:48] Setup completed successfully - PASSED
+[2025-11-07 16:01:48] Enter username [Class_C] - PASSED
+[2025-11-07 16:01:48] Enter password [Class_C] - PASSED
+[2025-11-07 16:01:49] Click submit [Class_C] - PASSED
+[2025-11-07 16:01:49] Login successful with class_c - PASSED
+[2025-11-07 16:02:01] Selected HQ branch option - PASSED
+[2025-11-07 16:02:16] Clicked branch confirmation button - PASSED
+[2025-11-07 16:02:19] Branch selection completed - PASSED
+[2025-11-07 16:03:06] Inventory Management - PASSED (46.90s) - PASSED
+[2025-11-07 16:03:07] Logout completed - PASSED
+[2025-11-07 16:03:07] Automation completed in 1m 22s - PASSED
+[2025-11-07 16:03:11] Browser closed - PASSED
+[2025-11-07 16:07:57] Setup completed successfully - PASSED
+[2025-11-07 16:07:57] Enter username [Class_C] - PASSED
+[2025-11-07 16:07:58] Enter password [Class_C] - PASSED
+[2025-11-07 16:07:58] Click submit [Class_C] - PASSED
+[2025-11-07 16:07:58] Login successful with class_c - PASSED
+[2025-11-07 16:08:10] Selected HQ branch option - PASSED
+[2025-11-07 16:08:25] Clicked branch confirmation button - PASSED
+[2025-11-07 16:08:28] Branch selection completed - PASSED
+[2025-11-07 16:09:43] Inventory Management - PASSED (75.22s) - PASSED
+[2025-11-07 16:09:44] Logout completed - PASSED
+[2025-11-07 16:09:44] Automation completed in 1m 51s - PASSED
+[2025-11-07 16:09:48] Browser closed - PASSED
+[2025-11-07 16:13:10] Setup completed successfully - PASSED
+[2025-11-07 16:13:10] Enter username [Class_C] - PASSED
+[2025-11-07 16:13:10] Enter password [Class_C] - PASSED
+[2025-11-07 16:13:10] Click submit [Class_C] - PASSED
+[2025-11-07 16:13:10] Login successful with class_c - PASSED
+[2025-11-07 16:13:22] Selected HQ branch option - PASSED
+[2025-11-07 16:13:37] Clicked branch confirmation button - PASSED
+[2025-11-07 16:13:40] Branch selection completed - PASSED
+[2025-11-07 16:14:35] Inventory Management - PASSED (54.82s) - PASSED
+[2025-11-07 16:14:36] Logout completed - PASSED
+[2025-11-07 16:14:36] Automation completed in 1m 33s - PASSED
+[2025-11-07 16:14:40] Browser closed - PASSED
+[2025-11-07 16:15:38] Setup completed successfully - PASSED
+[2025-11-07 16:15:39] Enter username [Class_C] - PASSED
+[2025-11-07 16:15:39] Enter password [Class_C] - PASSED
+[2025-11-07 16:15:39] Click submit [Class_C] - PASSED
+[2025-11-07 16:15:39] Login successful with class_c - PASSED
+[2025-11-07 16:15:51] Selected HQ branch option - PASSED
+[2025-11-07 16:16:06] Clicked branch confirmation button - PASSED
+[2025-11-07 16:16:09] Branch selection completed - PASSED
+[2025-11-07 16:16:48] Inventory Management - PASSED (39.25s) - PASSED
+[2025-11-07 16:16:49] Logout completed - PASSED
+[2025-11-07 16:16:49] Automation completed in 1m 17s - PASSED
+[2025-11-07 16:16:53] Browser closed - PASSED
+[2025-11-07 16:24:03] Setup completed successfully - PASSED
+[2025-11-07 16:24:03] Enter username [Class_C] - PASSED
+[2025-11-07 16:24:03] Enter password [Class_C] - PASSED
+[2025-11-07 16:24:03] Click submit [Class_C] - PASSED
+[2025-11-07 16:24:03] Login successful with class_c - PASSED
+[2025-11-07 16:24:17] Selected HQ branch option - PASSED
+[2025-11-07 16:24:32] Clicked branch confirmation button - PASSED
+[2025-11-07 16:24:35] Branch selection completed - PASSED
+[2025-11-07 16:25:18] Inventory Management - PASSED (42.59s) - PASSED
+[2025-11-07 16:25:18] Logout completed - PASSED
+[2025-11-07 16:25:18] Automation completed in 2m 25s - PASSED
+[2025-11-07 16:25:23] Browser closed - PASSED
+[2025-11-07 16:26:44] Setup completed successfully - PASSED
+[2025-11-07 16:26:44] Enter username [Class_C] - PASSED
+[2025-11-07 16:26:44] Enter password [Class_C] - PASSED
+[2025-11-07 16:26:44] Click submit [Class_C] - PASSED
+[2025-11-07 16:26:44] Login successful with class_c - PASSED
+[2025-11-07 16:26:56] Selected HQ branch option - PASSED
+[2025-11-07 16:27:12] Clicked branch confirmation button - PASSED
+[2025-11-07 16:27:15] Branch selection completed - PASSED
+[2025-11-07 16:27:56] Inventory Management - PASSED (41.08s) - PASSED
+[2025-11-07 16:27:56] Logout completed - PASSED
+[2025-11-07 16:27:56] Automation completed in 1m 16s - PASSED
+[2025-11-07 16:28:01] Browser closed - PASSED
+[2025-11-07 16:29:43] Setup completed successfully - PASSED
+[2025-11-07 16:29:43] Enter username [Class_C] - PASSED
+[2025-11-07 16:29:43] Enter password [Class_C] - PASSED
+[2025-11-07 16:29:44] Click submit [Class_C] - PASSED
+[2025-11-07 16:29:44] Login successful with class_c - PASSED
+[2025-11-07 16:29:56] Selected HQ branch option - PASSED
+[2025-11-07 16:30:11] Clicked branch confirmation button - PASSED
+[2025-11-07 16:30:14] Branch selection completed - PASSED
+[2025-11-07 16:30:56] Inventory Management - PASSED (41.85s) - PASSED
+[2025-11-07 16:30:57] Logout completed - PASSED
+[2025-11-07 16:30:57] Automation completed in 1m 18s - PASSED
+[2025-11-07 16:31:01] Browser closed - PASSED
+[2025-11-07 16:32:38] Setup completed successfully - PASSED
+[2025-11-07 16:32:39] Enter username [Class_C] - PASSED
+[2025-11-07 16:32:39] Enter password [Class_C] - PASSED
+[2025-11-07 16:32:39] Click submit [Class_C] - PASSED
+[2025-11-07 16:32:39] Login successful with class_c - PASSED
+[2025-11-07 16:32:51] Selected HQ branch option - PASSED
+[2025-11-07 16:33:06] Clicked branch confirmation button - PASSED
+[2025-11-07 16:33:09] Branch selection completed - PASSED
+[2025-11-07 16:33:50] Inventory Management - PASSED (41.26s) - PASSED
+[2025-11-07 16:33:51] Logout completed - PASSED
+[2025-11-07 16:33:51] Automation completed in 1m 24s - PASSED
+[2025-11-07 16:33:55] Browser closed - PASSED
+[2025-11-07 16:39:23] Setup completed successfully - PASSED
+[2025-11-07 16:39:23] Enter username [Class_C] - PASSED
+[2025-11-07 16:39:23] Enter password [Class_C] - PASSED
+[2025-11-07 16:39:23] Click submit [Class_C] - PASSED
+[2025-11-07 16:39:23] Login successful with class_c - PASSED
+[2025-11-07 16:39:36] Selected HQ branch option - PASSED
+[2025-11-07 16:39:51] Clicked branch confirmation button - PASSED
+[2025-11-07 16:39:54] Branch selection completed - PASSED
+[2025-11-07 16:40:34] Inventory Management - PASSED (39.87s) - PASSED
+[2025-11-07 16:40:34] Logout completed - PASSED
+[2025-11-07 16:40:34] Automation completed in 1m 17s - PASSED
+[2025-11-07 16:40:39] Browser closed - PASSED
+[2025-11-07 16:43:57] Setup completed successfully - PASSED
+[2025-11-07 16:43:57] Enter username [Class_C] - PASSED
+[2025-11-07 16:43:57] Enter password [Class_C] - PASSED
+[2025-11-07 16:43:58] Click submit [Class_C] - PASSED
+[2025-11-07 16:43:58] Login successful with class_c - PASSED
+[2025-11-07 16:44:10] Selected HQ branch option - PASSED
+[2025-11-07 16:44:25] Clicked branch confirmation button - PASSED
+[2025-11-07 16:44:28] Branch selection completed - PASSED
+[2025-11-07 16:45:09] Inventory Management - PASSED (41.48s) - PASSED
+[2025-11-07 16:45:10] Logout completed - PASSED
+[2025-11-07 16:45:10] Automation completed in 1m 20s - PASSED
+[2025-11-07 16:45:14] Browser closed - PASSED
+[2025-11-07 16:47:15] Setup completed successfully - PASSED
+[2025-11-07 16:47:15] Enter username [Class_C] - PASSED
+[2025-11-07 16:47:16] Enter password [Class_C] - PASSED
+[2025-11-07 16:47:16] Click submit [Class_C] - PASSED
+[2025-11-07 16:47:16] Login successful with class_c - PASSED
+[2025-11-07 16:47:28] Selected HQ branch option - PASSED
+[2025-11-07 16:47:43] Clicked branch confirmation button - PASSED
+[2025-11-07 16:47:46] Branch selection completed - PASSED
+[2025-11-07 16:48:29] Inventory Management - PASSED (42.92s) - PASSED
+[2025-11-07 16:48:29] Logout completed - PASSED
+[2025-11-07 16:48:29] Automation completed in 1m 19s - PASSED
+[2025-11-07 16:48:34] Browser closed - PASSED
+[2025-11-07 16:49:56] Setup completed successfully - PASSED
+[2025-11-07 16:49:56] Enter username [Class_C] - PASSED
+[2025-11-07 16:49:57] Enter password [Class_C] - PASSED
+[2025-11-07 16:49:57] Click submit [Class_C] - PASSED
+[2025-11-07 16:49:57] Login successful with class_c - PASSED
+[2025-11-07 16:50:09] Selected HQ branch option - PASSED
+[2025-11-07 16:50:25] Clicked branch confirmation button - PASSED
+[2025-11-07 16:50:28] Branch selection completed - PASSED
+[2025-11-07 16:51:09] Inventory Management - PASSED (41.40s) - PASSED
+[2025-11-07 16:51:10] Logout completed - PASSED
+[2025-11-07 16:51:10] Automation completed in 1m 17s - PASSED
+[2025-11-07 16:51:14] Browser closed - PASSED
+[2025-11-07 16:56:16] Setup completed successfully - PASSED
+[2025-11-07 16:56:16] Enter username [Class_C] - PASSED
+[2025-11-07 16:56:16] Enter password [Class_C] - PASSED
+[2025-11-07 16:56:16] Click submit [Class_C] - PASSED
+[2025-11-07 16:56:16] Login successful with class_c - PASSED
+[2025-11-07 16:56:21] Attempt 1 to select random branch option failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="branchSelect"]"}
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf58d3
+	0xbf5914
+	0xa0e76d
+	0xa5a09d
+	0xa5a47b
+	0xaa1802
+	0xa7c9b4
+	0xa9eea6
+	0xa7c766
+	0xa4dac0
+	0xa4ede4
+	0xe77974
+	0xe72bea
+	0xc1e5c4
+	0xc0dd38
+	0xc14d9d
+	0xbfdee8
+	0xbfe0ac
+	0xbe7d2a
+	0x76305d49
+	0x7714d6db
+	0x7714d661
+ - FAILED
+[2025-11-07 16:56:33] Selected HQ branch option - PASSED
+[2025-11-07 16:56:48] Clicked branch confirmation button - PASSED
+[2025-11-07 16:56:51] Branch selection completed - PASSED
+[2025-11-07 16:57:48] Inventory Management - PASSED (56.60s) - PASSED
+[2025-11-07 16:57:48] Logout completed - PASSED
+[2025-11-07 16:57:48] Automation completed in 1m 56s - PASSED
+[2025-11-07 16:57:53] Browser closed - PASSED

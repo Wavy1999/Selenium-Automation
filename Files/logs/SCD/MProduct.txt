@@ -1,0 +1,57 @@
+[2026-02-10 12:59:12] Clicked Create New Product - PASSED
+[2026-02-10 12:59:14] Searching for product: NovaFlow - PASSED
+[2026-02-10 12:59:17] Searched for product: NovaFlow - PASSED
+[2026-02-10 12:59:22] Selected first product checkbox - PASSED
+[2026-02-10 12:59:40] Clicked first Edit button - PASSED
+[2026-02-10 12:59:43] Entered Menu Value: 2699 - PASSED
+[2026-02-10 12:59:47] Clicked Save Button - PASSED
+[2026-02-10 12:59:48] Added New Product  - PASSED
+[2026-02-10 12:59:53] Clicked Confirm OK - PASSED
+[2026-02-10 13:00:07] Clicked Manage Product button - PASSED
+[2026-02-10 13:00:10] Searched for product: NovaFlow - PASSED
+[2026-02-10 13:00:15] Selected first product checkbox - PASSED
+[2026-02-10 13:00:33] Clicked first View button in Manage Product table - PASSED
+[2026-02-10 13:00:33] Clicked Back button - PASSED
+[2026-02-10 13:00:33] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\Lumi-Tech-Executive-Gift-Set_FeaturedImage-1.jpg - PASSED
+[2026-02-10 13:00:34] Uploaded photo - PASSED
+[2026-02-10 13:00:34] Upload Images Successfully appeared - PASSED
+[2026-02-10 13:00:46] Clicked Upload Again to close the modal - PASSED
+[2026-02-10 13:00:49] Searched for product: NovaFlow - PASSED
+[2026-02-10 13:00:52] Selected first product checkbox - PASSED
+[2026-02-10 13:00:52] Clicked first Adjust Price icon - PASSED
+[2026-02-10 13:00:53] Selected Option 1: Run a Special Promotion - PASSED
+[2026-02-10 13:00:53]  Adjust Price modal displayed successfully. - PASSED
+[2026-02-10 13:00:55] Entered Promo Price: 2699 - PASSED
+[2026-02-10 13:00:56] 📅 Clicked date in calendar: February 11, 2026 - PASSED
+[2026-02-10 13:00:56]  Set 'PriceAdjustments[0].EffectiveFr' to 02/11/2026 13:00:55 - PASSED
+[2026-02-10 13:00:56] Set Start Date for Promotion - PASSED
+[2026-02-10 13:01:12]  Could not interact with calendar: Message: 
+ - PASSED
+[2026-02-10 13:01:12]  Set 'PriceAdjustments[0].EffectiveTo' to 02/12/2026 13:00:56 - PASSED
+[2026-02-10 13:01:13] Set End Date for Promotion - PASSED
+[2026-02-10 13:01:13]  Set Post Promo Price: 2299.0 - PASSED
+[2026-02-10 13:01:13] Set Post Promo Price - PASSED
+[2026-02-10 13:01:16]  Clicked 'Save Price Adjustment' button - PASSED
+[2026-02-10 13:01:16]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-10 13:01:19]  Clicked 'OK' on success message  - PASSED
+[2026-02-10 13:01:24]  Confirmation  closed successfully - PASSED
+[2026-02-10 13:01:25] Clicked Back to Options button - PASSED
+[2026-02-10 13:01:25]  Promo options are now visible again - PASSED
+[2026-02-10 13:01:27] Selected Option 2: Adjust Unit Price - PASSED
+[2026-02-10 13:01:34] Entered New Unit Price: 2699 - PASSED
+[2026-02-10 13:01:34] Set Future Start Date for Price Adjustment - PASSED
+[2026-02-10 13:01:35]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2026-02-10 13:01:35]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-10 13:01:37]  Clicked 'OK' on success message  - PASSED
+[2026-02-10 13:01:39] Closed Price Management modal - PASSED
+[2026-02-10 13:01:52] Searched for product: NovaFlow - PASSED
+[2026-02-10 13:01:57] Selected first product checkbox - PASSED
+[2026-02-10 13:01:57] Clicked Create Bulk Feature button - PASSED
+[2026-02-10 13:02:00] Client selection successful - PASSED
+[2026-02-10 13:02:02] Address selection successful - PASSED
+[2026-02-10 13:02:13] Order Adjustment loaded successfully - PASSED
+[2026-02-10 13:02:13] Entered Shipping Amount: 150 - PASSED
+[2026-02-10 13:02:15] Filled order row with adjustment, shipping, and tax details - PASSED
+[2026-02-10 13:02:18] Clicked Finalize Bulk Feature button - PASSED
+[2026-02-10 13:02:40]  Failed to select 'Bulk Feature: Message: 
+ - FAILED

@@ -1,0 +1,40 @@
+[2025-10-30 15:24:39] Clicked Restaurant Center - PASSED
+[2025-10-30 15:24:39] Restaurant Home Dashboard - PASSED
+[2025-10-30 15:24:39] Go to Booking Section - PASSED
+[2025-10-30 15:24:43] Click Day View - PASSED
+[2025-10-30 15:24:46] Click Week View Section - PASSED
+[2025-10-30 15:24:49] Click Month View Section - PASSED
+[2025-10-30 15:24:53] Click Year View Section - PASSED
+[2025-10-30 15:24:57] Click Legend Booked - PASSED
+[2025-10-30 15:24:59] Click Legend Cancelled - PASSED
+[2025-10-30 15:25:02] Click Legend Completed - PASSED
+[2025-10-30 15:25:04] Click Legend Show All - PASSED
+[2025-10-30 15:25:07] Return to Day View for booking - PASSED
+[2025-10-30 15:25:10] Retrieved 43 days from the booking calendar - PASSED
+[2025-10-30 15:25:10] Searching for today's date: 2025-10-30 - PASSED
+[2025-10-30 15:25:43] Clicked on today's date: 2025-10-30 - PASSED
+[2025-10-30 15:25:45] Clicked the pop-up/modal trigger button - PASSED
+[2025-10-30 15:25:47] Restaurant appointment modal opened - PASSED
+[2025-10-30 15:25:52] Entered Customer Name: Test Customer - PASSED
+[2025-10-30 15:26:13] Selected Table #: TABLE 1 4 PAX CAPACITY - PASSED
+[2025-10-30 15:26:15] Entered No. of Pax: 4 - PASSED
+[2025-10-30 15:26:24] Entered Notes: Customer requested a window seat. - PASSED
+[2025-10-30 15:26:26] Clicked Submit appointment button - PASSED
+[2025-10-30 15:26:28] Clicked Confirm appointment button - PASSED
+[2025-10-30 15:26:38] Fantastic! Your appointment has been successfully created. - PASSED
+[2025-10-30 15:26:38] Appointment booking process completed successfully - PASSED
+[2025-10-30 16:47:13] Clicked Restaurant Center - PASSED
+[2025-10-30 16:47:13] Restaurant Home Dashboard - PASSED
+[2025-10-30 16:47:13] Go to Booking Section - PASSED
+[2025-10-30 16:47:17] Click Day View - PASSED
+[2025-10-30 16:47:20] Click Week View Section - PASSED
+[2025-10-30 16:47:23] Click Month View Section - PASSED
+[2025-10-30 16:47:27] Click Year View Section - PASSED
+[2025-10-30 16:47:30] Click Legend Booked - PASSED
+[2025-10-30 16:47:33] Click Legend Cancelled - PASSED
+[2025-10-30 16:47:35] Click Legend Completed - PASSED
+[2025-10-30 16:47:37] Click Legend Show All - PASSED
+[2025-10-30 16:47:40] Return to Day View for booking - PASSED
+[2025-10-30 16:47:43] Retrieved 43 days from the booking calendar - PASSED
+[2025-10-30 16:47:43] Searching for today's date: 2025-10-30 - PASSED
+[2025-10-30 16:47:44] Clicked on today's date: 2025-10-30 - PASSED

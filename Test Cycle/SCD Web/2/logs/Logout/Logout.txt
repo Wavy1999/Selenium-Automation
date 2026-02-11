@@ -1,0 +1,65 @@
+[2025-12-02 17:32:58] Clicked Logout on navbar - PASSED
+[2025-12-02 17:33:28] ERROR: Logout confirmation button not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 31, in Logout
+    confirm_logout = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c4103
+	0x7c4144
+	0x5ce71d
+	0x61a03d
+	0x61a41b
+	0x6617f2
+	0x63c954
+	0x65ee17
+	0x63c706
+	0x60da30
+	0x60ed54
+	0xa357b4
+	0xa3098a
+	0x7ec392
+	0x7dc4c8
+	0x7e324d
+	0x7cc478
+	0x7cc63c
+	0x7b67ca
+	0x75925d49
+	0x77a7d6db
+	0x77a7d661
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 31, in Logout
+    confirm_logout = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c4103
+	0x7c4144
+	0x5ce71d
+	0x61a03d
+	0x61a41b
+	0x6617f2
+	0x63c954
+	0x65ee17
+	0x63c706
+	0x60da30
+	0x60ed54
+	0xa357b4
+	0xa3098a
+	0x7ec392
+	0x7dc4c8
+	0x7e324d
+	0x7cc478
+	0x7cc63c
+	0x7b67ca
+	0x75925d49
+	0x77a7d6db
+	0x77a7d661
+

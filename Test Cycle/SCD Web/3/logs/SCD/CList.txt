@@ -1,0 +1,37 @@
+[2025-12-03 16:46:47] Retrieved client email: carlalopez@horizonlog.com - PASSED
+[2025-12-03 16:47:00] Searched for client: carlalopez@horizonlog.com - PASSED
+[2025-12-03 16:47:00] Selected client checkbox - PASSED
+[2025-12-03 16:47:03] Clicked 'View Orders' button - PASSED
+[2025-12-03 16:47:05] Clicked Back to Client List - PASSED
+[2025-12-03 16:47:15] Re-searched client for address: carlalopez@horizonlog.com - PASSED
+[2025-12-03 16:47:15] Selected client checkbox for address - PASSED
+[2025-12-03 16:47:15] Clicked 'View Address' - PASSED
+[2025-12-03 16:47:18] Modal visible for adding address - PASSED
+[2025-12-03 16:47:20] Entered HOUSE / FLOOR / UNIT NO: 2nd Floor - PASSED
+[2025-12-03 16:47:27] Entered BLOCK / BLDG / STREET: Building 5, IT Park Cebu - PASSED
+[2025-12-03 16:47:29] ================================================== - PASSED
+[2025-12-03 16:47:29] Starting COUNTRY selection - PASSED
+[2025-12-03 16:47:36]  COUNTRY completed: Philippines - PASSED
+[2025-12-03 16:47:36] ================================================== - PASSED
+[2025-12-03 16:47:36] Starting PROVINCE selection - PASSED
+[2025-12-03 16:47:43]  PROVINCE completed: Cebu - PASSED
+[2025-12-03 16:47:44] ================================================== - PASSED
+[2025-12-03 16:47:44] Starting CITY selection - PASSED
+[2025-12-03 16:47:51]  CITY completed: Cebu City - PASSED
+[2025-12-03 16:47:51] ================================================== - PASSED
+[2025-12-03 16:47:51] Starting BARANGAY selection - PASSED
+[2025-12-03 16:47:53]  BARANGAY completed: OTHERS - PASSED
+[2025-12-03 16:47:53] ================================================== - PASSED
+[2025-12-03 16:47:53]  ALL ADDRESS FIELDS COMPLETED SUCCESSFULLY ✓✓✓ - PASSED
+[2025-12-03 16:47:53]  All address fields completed successfully! - PASSED
+[2025-12-03 16:47:58] Entered POSTAL CODE: 6000 - PASSED
+[2025-12-03 16:48:00] Clicked 'Save Address' - PASSED
+[2025-12-03 16:48:02] Clicked 'Close' button - PASSED
+[2025-12-03 16:48:10] Re-searched client for editing: carlalopez@horizonlog.com - PASSED
+[2025-12-03 16:48:10] Selected client checkbox for editing - PASSED
+[2025-12-03 16:48:11] Clicked 'Edit Client' - PASSED
+[2025-12-03 16:48:14] Selected prefix from Excel: MRS - PASSED
+[2025-12-03 16:48:18] Updated mobile number: 639182345678 - PASSED
+[2025-12-03 16:48:19] Clicked save new client button - PASSED
+[2025-12-03 16:49:12] Client edit confirmed - PASSED
+[2025-12-03 16:49:14] Client list displayed after edit - PASSED

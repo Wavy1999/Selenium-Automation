@@ -1,0 +1,18 @@
+[2025-12-02 17:12:06] Clicked Seller Center - PASSED
+[2025-12-02 17:12:21] Clicked Inventory Management - PASSED
+[2025-12-02 17:12:21] Clicked Add Inventory button - PASSED
+[2025-12-02 17:12:21] Add Inventory modal displayed - PASSED
+[2025-12-02 17:12:22] Searching for product: NovaSense - PASSED
+[2025-12-02 17:12:52] Selected Product: NovaSense - PASSED
+[2025-12-02 17:12:52] Entered Quantity: 50 - PASSED
+[2025-12-02 17:12:54] Entered Reference Number: REF12345 - PASSED
+[2025-12-02 17:12:56] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-02 17:12:59] Entered Remarks - PASSED
+[2025-12-02 17:13:01] Clicked Add button to submit inventory addition - PASSED
+Clicked 'Update Quantity' in modal
+[2025-12-02 17:13:12] Clicked Update Quantity - PASSED
+[2025-12-02 17:13:19] Entered Reason: Retrieved Item(s) - PASSED
+[2025-12-02 17:13:22] Entered Remarks - PASSED
+[2025-12-02 17:13:24] Clicked Confirmation - PASSED
+[2025-12-02 17:13:26] Clicked Ok - PASSED
+[2025-12-02 17:13:27] Clicked Inventory button - PASSED

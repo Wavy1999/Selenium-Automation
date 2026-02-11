@@ -1,0 +1,46 @@
+[2026-02-10 12:41:36] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v144.0.7559.133, Tester: Christian - PASSED
+[2026-02-10 12:41:38] Login successful with s1 - PASSED
+[2026-02-10 12:41:57] Branch selection completed - PASSED
+[2026-02-10 12:44:31] Main Dashboard - PASSED (Duration: 153.40s) - PASSED
+[2026-02-10 12:46:04] Seller Center Dashboard - PASSED (Duration: 93.21s) - PASSED
+[2026-02-10 12:46:19] Create Order View Only - PASSED (Duration: 15.41s) - PASSED
+[2026-02-10 12:46:32] Automation interrupted by user - PASSED
+[2026-02-10 12:46:50] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v144.0.7559.133, Tester: Christian - PASSED
+[2026-02-10 12:46:51] Login successful with s1 - PASSED
+[2026-02-10 12:47:14] Branch selection completed - PASSED
+[2026-02-10 12:49:55] Main Dashboard - PASSED (Duration: 160.47s) - PASSED
+[2026-02-10 12:51:30] Seller Center Dashboard - PASSED (Duration: 94.61s) - PASSED
+[2026-02-10 12:51:35] Create Order View Only - PASSED (Duration: 5.89s) - PASSED
+[2026-02-10 12:54:51] Create Single Order - PASSED (Duration: 196.06s) - PASSED
+[2026-02-10 12:57:23] Manage Order - PASSED (Duration: 151.65s) - PASSED
+[2026-02-10 12:57:43] Generate QR - PASSED (Duration: 19.40s) - PASSED
+[2026-02-10 12:59:01] Create New Product - PASSED (Duration: 78.63s) - PASSED
+[2026-02-10 13:02:40] Manage Product - PASSED (Duration: 218.87s) - PASSED
+[2026-02-10 13:03:17] Create New Product - Bulk - PASSED (Duration: 36.47s) - PASSED
+[2026-02-10 13:03:49] Inventory Management - PASSED (Duration: 32.03s) - PASSED
+[2026-02-10 13:05:22] Booking and Appointments - PASSED (Duration: 93.28s) - PASSED
+[2026-02-10 13:06:04] Bulk Appointment - PASSED (Duration: 41.93s) - PASSED
+[2026-02-10 13:06:11] Create Service Order View Only - PASSED (Duration: 7.55s) - PASSED
+[2026-02-10 13:09:57] Create Service Order - PASSED (Duration: 225.56s) - PASSED
+[2026-02-10 13:12:09] Manage Service Order - PASSED (Duration: 132.20s) - PASSED
+[2026-02-10 13:12:28] Create New Service - PASSED (Duration: 18.76s) - PASSED
+[2026-02-10 13:16:06] Manage Service - PASSED (Duration: 218.23s) - PASSED
+[2026-02-10 13:16:20] Create Service Bulk - PASSED (Duration: 13.82s) - PASSED
+[2026-02-10 13:17:12] Cash Management - PASSED (Duration: 51.62s) - PASSED
+[2026-02-10 13:17:15] Branches - PASSED (Duration: 3.08s) - PASSED
+[2026-02-10 13:17:56] Warehouse - PASSED (Duration: 41.08s) - PASSED
+[2026-02-10 13:18:28] Warehouse-Bulk - PASSED (Duration: 32.02s) - PASSED
+[2026-02-10 13:19:04] Added New Employee - PASSED (Duration: 36.09s) - PASSED
+[2026-02-10 13:19:57] Employee List - PASSED (Duration: 52.89s) - PASSED
+[2026-02-10 13:20:33] Employee Bulk - PASSED (Duration: 36.10s) - PASSED
+[2026-02-10 13:21:07] Add New Client - PASSED (Duration: 34.52s) - PASSED
+[2026-02-10 13:22:52] Client List - PASSED (Duration: 104.32s) - PASSED
+[2026-02-10 13:23:14] Client Bulk - PASSED (Duration: 22.60s) - PASSED
+[2026-02-10 13:23:17] To Another Bank - PASSED (Duration: 2.29s) - PASSED
+[2026-02-10 13:23:24] My Profile - PASSED (Duration: 7.04s) - PASSED
+[2026-02-10 13:23:39] Audit Logs - PASSED (Duration: 14.92s) - PASSED
+[2026-02-10 13:24:13] Generate QR - PASSED (Duration: 34.70s) - PASSED
+[2026-02-10 13:24:17] Logout completed - PASSED
+[2026-02-10 13:24:17] Test Summary - Tester: Christian, Browser: Chrome v144.0.7559.133, Total: 32, Passed: 32, Failed: 0, Skipped: 0 - FAILED
+[2026-02-10 13:24:17] All automation completed in 37m 36s - PASSED
+[2026-02-10 13:24:22] Browser closed and session ended - PASSED

@@ -1,0 +1,64 @@
+[2026-01-26 09:11:12] Setup completed - Version: 1.2.2.R0001B, Browser: Chrome v143.0.7499.194, Tester: Christian - PASSED
+[2026-01-26 09:11:12] Starting login test... - PASSED
+[2026-01-26 09:11:14] Login successful with s1 - PASSED
+[2026-01-26 09:11:14] Starting branch selection... - PASSED
+[2026-01-26 09:12:09] Branch selection completed - PASSED
+[2026-01-26 09:12:13] Starting Main Dashboard test... - PASSED
+[2026-01-26 09:15:13] Main Dashboard - PASSED (Duration: 180.08s) - PASSED
+[2026-01-26 09:15:14] Starting Seller Dashboard test... - PASSED
+[2026-01-26 09:16:54] Seller Dashboard - PASSED (Duration: 100.09s) - PASSED
+[2026-01-26 09:16:54] Starting Create Order View Only test... - PASSED
+[2026-01-26 09:17:15] Create Order View Only - PASSED (Duration: 20.66s) - PASSED
+[2026-01-26 09:17:15] Starting Create Single Order test... - PASSED
+[2026-01-26 09:20:43] Create Single Order - PASSED (Duration: 207.15s) - PASSED
+[2026-01-26 09:20:43] Starting Manage Order test... - PASSED
+[2026-01-26 09:22:53] Manage Order - PASSED (Duration: 130.17s) - PASSED
+[2026-01-26 09:22:54] Starting Generate QR test... - PASSED
+[2026-01-26 09:23:13] Generate QR - PASSED (Duration: 19.07s) - PASSED
+[2026-01-26 09:23:14] Starting Create New Product test... - PASSED
+[2026-01-26 09:24:30] Create New Product - PASSED (Duration: 75.95s) - PASSED
+[2026-01-26 09:24:30] Starting Manage Product test... - PASSED
+[2026-01-26 09:25:43] Starting Create New Product - Bulk test... - PASSED
+[2026-01-26 09:26:33] Create New Product - Bulk - PASSED (Duration: 49.65s) - PASSED
+[2026-01-26 09:26:33] Starting Inventory Management test... - PASSED
+[2026-01-26 09:27:48] Inventory Management - PASSED (Duration: 75.04s) - PASSED
+[2026-01-26 09:27:49] Starting Booking and Appointments test... - PASSED
+[2026-01-26 09:29:17] Booking and Appointments - PASSED (Duration: 88.65s) - PASSED
+[2026-01-26 09:29:18] Starting Create Service Order test... - PASSED
+[2026-01-26 09:29:23] Create Service Order - PASSED (Duration: 5.59s) - PASSED
+[2026-01-26 09:29:24] Starting Create Service Order View Only test... - PASSED
+[2026-01-26 09:33:11] Create Service Order View Only - PASSED (Duration: 226.80s) - PASSED
+[2026-01-26 09:33:11] Starting Manage Service Order test... - PASSED
+[2026-01-26 09:35:16] Manage Service Order - PASSED (Duration: 125.05s) - PASSED
+[2026-01-26 09:35:17] Starting Create New Service test... - PASSED
+[2026-01-26 09:35:35] Create New Service - PASSED (Duration: 18.12s) - PASSED
+[2026-01-26 09:35:36] Starting Manage Service test... - PASSED
+[2026-01-26 09:39:06] Manage Service - PASSED (Duration: 210.24s) - PASSED
+[2026-01-26 09:39:06] Starting Create Service Bulk test... - PASSED
+[2026-01-26 09:39:20] Create Service Bulk - PASSED (Duration: 13.81s) - PASSED
+[2026-01-26 09:39:21] Starting Cash Management test... - PASSED
+[2026-01-26 09:40:11] Cash Management - PASSED (Duration: 50.87s) - PASSED
+[2026-01-26 09:40:12] Starting Branches test... - PASSED
+[2026-01-26 09:40:23] Branches - PASSED (Duration: 10.57s) - PASSED
+[2026-01-26 09:40:23] Starting Warehouse test... - PASSED
+[2026-01-26 09:41:04] Warehouse - PASSED (Duration: 41.31s) - PASSED
+[2026-01-26 09:41:05] Starting Add New Employee test... - PASSED
+[2026-01-26 09:41:47] Add New Employee - PASSED (Duration: 42.06s) - PASSED
+[2026-01-26 09:41:47] Starting Employee List test... - PASSED
+[2026-01-26 09:42:40] Employee List - PASSED (Duration: 52.32s) - PASSED
+[2026-01-26 09:42:40] Starting Add New Client test... - PASSED
+[2026-01-26 09:43:31] Add New Client - PASSED (Duration: 51.18s) - PASSED
+[2026-01-26 09:43:32] Starting Client List test... - PASSED
+[2026-01-26 09:45:14] Client List - PASSED (Duration: 101.85s) - PASSED
+[2026-01-26 09:45:14] Starting To Another OmniPay Account test... - PASSED
+[2026-01-26 09:45:49] Starting To Another Bank test... - PASSED
+[2026-01-26 09:45:52] To Another Bank - PASSED (Duration: 3.60s) - PASSED
+[2026-01-26 09:45:53] Starting Request Telegraphic Transfer test... - PASSED
+[2026-01-26 09:45:56] Request Telegraphic Transfer - PASSED (Duration: 3.65s) - PASSED
+[2026-01-26 09:45:57] Starting My Profile test... - PASSED
+[2026-01-26 09:46:11] My Profile - PASSED (Duration: 14.16s) - PASSED
+[2026-01-26 09:46:11] Starting Audit Logs test... - PASSED
+[2026-01-26 09:46:27] Audit Logs - PASSED (Duration: 15.20s) - PASSED
+[2026-01-26 09:46:27] Starting logout... - PASSED
+[2026-01-26 09:46:31] Logout completed - PASSED
+[2026-01-26 09:46:37] Browser closed and session ended - PASSED

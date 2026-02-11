@@ -1,0 +1,13 @@
+[2025-12-03 16:37:34] Entered Service Name: Database Management - PASSED
+[2025-12-03 16:37:36] Entered SKU: DB0090 - PASSED
+[2025-12-03 16:37:37] Entered Units of Measure: Monthly - PASSED
+[2025-12-03 16:37:38] Entered Service Description: Database setup, optimization, and maintenance - PASSED
+[2025-12-03 16:37:42] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-03 16:37:43] Entered Unit Price: 600.0 - PASSED
+[2025-12-03 16:37:44] Entered Service Tags: ('database,management',) - PASSED
+[2025-12-03 16:37:45] Entered Service Value: ('600.0',) - PASSED
+[2025-12-03 16:37:46] Entered Service Sub-Category: Database - PASSED
+[2025-12-03 16:37:47] upload_image_service: uploaded D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\3.jpg - PASSED
+[2025-12-03 16:37:47] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\3.jpg - PASSED
+[2025-12-03 16:37:48] Clicked Save Service - PASSED
+[2025-12-03 16:37:50] Confirmed Service Creation - PASSED

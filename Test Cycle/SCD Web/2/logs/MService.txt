@@ -1,0 +1,63 @@
+[2025-12-02 17:21:28] Clicked Manage Services - PASSED
+[2025-12-02 17:21:31] Searching for service: Website Development - PASSED
+[2025-12-02 17:21:38] Searched for service: Website Development - PASSED
+[2025-12-02 17:21:38] Selected service checkbox - PASSED
+[2025-12-02 17:21:43] Clicked View Service - PASSED
+[2025-12-02 17:21:49] Clicked Manage Product button - PASSED
+[2025-12-02 17:21:54] Clicked Update Service - PASSED
+[2025-12-02 17:21:57] Selected Location by typing & Enter: MAIN WAREHOUSE - PASSED
+[2025-12-02 17:21:59] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2025-12-02 17:22:00] Clicked Save Button - PASSED
+[2025-12-02 17:22:00] Clicked Confirm OK - PASSED
+[2025-12-02 17:22:22] Clicked Manage Service button - PASSED
+[2025-12-02 17:22:26] Searched for product: Website Development - PASSED
+[2025-12-02 17:22:30] Selected service checkbox2 - PASSED
+[2025-12-02 17:22:30] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Service Media\Mobile App Development.jpg - PASSED
+[2025-12-02 17:22:30] Uploaded photo - PASSED
+[2025-12-02 17:22:30] Upload Images Successfully appeared - PASSED
+[2025-12-02 17:22:38] Clicked Upload Again to close the modal - PASSED
+[2025-12-02 17:22:47] Searched for product: Website Development - PASSED
+[2025-12-02 17:22:50] Selected service checkbox3 - PASSED
+[2025-12-02 17:22:50] Clicked first Adjust Price icon - PASSED
+[2025-12-02 17:22:51] Selected Option 1: Run a Special Promotion - PASSED
+[2025-12-02 17:22:51]  Adjust Price modal displayed successfully. - PASSED
+[2025-12-02 17:22:58] Entered Promo Price: 6197 - PASSED
+[2025-12-02 17:22:58] 📅 Clicked date in calendar: December 3, 2025 - PASSED
+[2025-12-02 17:22:58]  Set 'PriceAdjustments[0].EffectiveFr' to 12/03/2025 17:22:58 - PASSED
+[2025-12-02 17:22:59] Set Start Date for Promotion - PASSED
+[2025-12-02 17:23:15]  Could not interact with calendar: Message: 
+ - PASSED
+[2025-12-02 17:23:15]  Set 'PriceAdjustments[0].EffectiveTo' to 12/04/2025 17:22:59 - PASSED
+[2025-12-02 17:23:15] Set End Date for Promotion - PASSED
+[2025-12-02 17:23:16]  Set Post Promo Price: 2299.0 - PASSED
+[2025-12-02 17:23:16] Set Post Promo Price - PASSED
+[2025-12-02 17:23:17]  Clicked 'Save Price Adjustment' button - PASSED
+[2025-12-02 17:23:17]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-02 17:23:20]  Clicked 'OK' on success message  - PASSED
+[2025-12-02 17:23:25]  Confirmation  closed successfully - PASSED
+[2025-12-02 17:23:25] Clicked Back to Options button - PASSED
+[2025-12-02 17:23:26]  Promo options are now visible again - PASSED
+[2025-12-02 17:23:28] Selected Option 2: Adjust Unit Price - PASSED
+[2025-12-02 17:23:35] Entered New Unit Price: 6197 - PASSED
+[2025-12-02 17:23:35] Set Future Start Date for Price Adjustment - PASSED
+[2025-12-02 17:23:35]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2025-12-02 17:23:35]  Clicked 'Yes' on confirmation  - PASSED
+[2025-12-02 17:23:38]  Clicked 'OK' on success message  - PASSED
+[2025-12-02 17:23:40] Closed Price Management modal - PASSED
+[2025-12-02 17:23:55] Searched for service: Website Development - PASSED
+[2025-12-02 17:23:58] Selected service checkbox4 - PASSED
+[2025-12-02 17:23:58] Clicked Create Bulk Feature button - PASSED
+[2025-12-02 17:24:01] Client selection successful - PASSED
+[2025-12-02 17:24:03] Address selection successful - PASSED
+[2025-12-02 17:24:13] Order Adjustment loaded successfully - PASSED
+[2025-12-02 17:24:13] Entered Shipping Amount: 150 - PASSED
+[2025-12-02 17:24:16] Filled order row with adjustment, shipping, and tax details - PASSED
+[2025-12-02 17:24:18] Clicked Finalize Bulk Feature button - PASSED
+[2025-12-02 17:24:30] Table is diplay - PASSED
+[2025-12-02 17:24:31] Clicked Export Button - PASSED
+[2025-12-02 17:24:33] Stored original window handle - PASSED
+[2025-12-02 17:24:33] Clicked Payment Link Button - PASSED
+[2025-12-02 17:24:38] New window opened for payment link - PASSED
+[2025-12-02 17:24:38] Switched to new payment window - PASSED
+[2025-12-02 17:24:43] Closed new payment window after 5 seconds - PASSED
+[2025-12-02 17:24:43] Switched back to original window - PASSED

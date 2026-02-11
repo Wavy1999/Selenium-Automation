@@ -1,0 +1,18 @@
+[2025-10-27 14:02:21] Clicked Restaurant Center - PASSED
+[2025-10-27 14:02:21] Restaurant Home Dashboard - PASSED
+[2025-10-27 14:02:21] Go to Booking Section - PASSED
+[2025-10-27 14:02:24] Click Day View - PASSED
+[2025-10-27 14:02:27] Click Week View Section - PASSED
+[2025-10-27 14:02:31] Click Month View Section - PASSED
+[2025-10-27 14:02:34] Click Year View Section - PASSED
+[2025-10-27 14:02:38] Click Legend Booked - PASSED
+[2025-10-27 14:02:40] Click Legend Cancelled - PASSED
+[2025-10-27 14:02:42] Click Legend Completed - PASSED
+[2025-10-27 14:02:45] Click Legend Show All - PASSED
+[2025-10-27 14:02:47] Return to Day View for booking - PASSED
+[2025-10-27 14:02:50] Retrieved 43 days from the booking calendar - PASSED
+[2025-10-27 14:02:50] Searching for today's date: 2025-10-27 - PASSED
+[2025-10-27 14:03:03] Clicked on today's date: 2025-10-27 - PASSED
+[2025-10-27 14:03:05] Clicked the pop-up/modal trigger button - PASSED
+[2025-10-27 14:03:07] Restaurant appointment modal opened - PASSED
+[2025-10-27 14:03:12] Entered Customer Name: Test Customer - PASSED

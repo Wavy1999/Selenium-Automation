@@ -1,0 +1,14 @@
+[2025-10-30 14:40:39] Clicked Restaurant Center - PASSED
+[2025-10-30 14:40:39] Restaurant Home Dashboard - PASSED
+[2025-10-30 14:40:39] Go to Booking Section - PASSED
+[2025-10-30 14:40:42] Click Day View - PASSED
+[2025-10-30 14:40:46] Click Week View Section - PASSED
+[2025-10-30 14:40:49] Click Month View Section - PASSED
+[2025-10-30 14:40:53] Click Year View Section - PASSED
+[2025-10-30 14:40:56] Click Legend Booked - PASSED
+[2025-10-30 14:40:58] Click Legend Cancelled - PASSED
+[2025-10-30 14:41:01] Click Legend Completed - PASSED
+[2025-10-30 14:41:03] Click Legend Show All - PASSED
+[2025-10-30 14:41:05] Return to Day View for booking - PASSED
+[2025-10-30 14:41:08] Retrieved 43 days from the booking calendar - PASSED
+[2025-10-30 14:41:08] Searching for today's date: 2025-10-30 - PASSED

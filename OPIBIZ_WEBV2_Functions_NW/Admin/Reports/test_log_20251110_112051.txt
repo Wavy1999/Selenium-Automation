@@ -1,0 +1,14 @@
+[2025-11-10 11:20:51] Automation has started... - PASSED
+[2025-11-10 11:20:51] Login Credentials: - PASSED
+[2025-11-10 11:20:52] Login completed with user: B.R004.OBiz.branchopstaff - PASSED
+[2025-11-10 11:20:53] Selecting branch and terminal... - PASSED
+[2025-11-10 11:21:04] Selected HQ branch option - PASSED
+[2025-11-10 11:21:20] Clicked branch confirmation button - PASSED
+[2025-11-10 11:21:26] Branch and terminal selection successful - PASSED
+[2025-11-10 11:21:26] Starting Home test... - PASSED
+[2025-11-10 11:22:07] Home test completed successfully - PASSED
+[2025-11-10 11:22:08] Starting Orders test... - PASSED
+[2025-11-10 11:25:30] Orders test completed successfully - PASSED
+[2025-11-10 11:25:31] Starting Manage Orders test... - PASSED
+[2025-11-10 11:26:06] Manage Orders test completed successfully - PASSED
+[2025-11-10 11:26:06] Starting Bookings test... - PASSED
