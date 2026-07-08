@@ -116,3 +116,7 @@ Stacktrace:
 [2026-07-08 14:01:49] Clicked Generate QR - PASSED
 [2026-07-08 14:01:54] Generate QR Page loaded successfully - PASSED
 [2026-07-08 14:01:54] Clicked Custom QR - PASSED
+[2026-07-08 14:31:02] Clicked 'Order Management' breadcrumb - PASSED
+[2026-07-08 14:31:05] Clicked Generate QR - PASSED
+[2026-07-08 14:31:10] Generate QR Page loaded successfully - PASSED
+[2026-07-08 14:31:10] Clicked Custom QR - PASSED

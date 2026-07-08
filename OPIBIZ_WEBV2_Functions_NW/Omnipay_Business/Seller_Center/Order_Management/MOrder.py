@@ -97,9 +97,32 @@ def MOrder(driver, wait):
         # =========================
         # Search and Filter Section
         # =========================
-        search_field = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, "searchTable")))
-        search_field.clear()
-        human_like_typing(search_field,"UNPAID")
+        # NOTE: presence_of_element_located only guarantees the element exists
+        # in the DOM — it does NOT guarantee it's visible/rendered/interactable.
+        # Right after the table finishes loading, the input can still be
+        # mid-render (e.g. behind a fading overlay, zero height, or not yet
+        # laid out), which raises "invalid element state: not interactable".
+        # Waiting for visibility + scrolling it into view first, with a JS
+        # fallback, makes this robust against that timing gap.
+        search_field = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "searchTable")))
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", search_field)
+        WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, "searchTable")))
+        time.sleep(1)
+
+        try:
+            search_field.clear()
+            human_like_typing(search_field, "UNPAID")
+        except Exception as interact_err:
+            # Fallback: element still not natively interactable — set the
+            # value directly via JS and fire the events the page listens for.
+            log_action(f"Native typing failed ({interact_err}); falling back to JS input for searchTable", log_file_path=log_file_path)
+            driver.execute_script(
+                "arguments[0].value = arguments[1];"
+                "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
+                "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+                search_field, "UNPAID"
+            )
+
         time.sleep(20)
 
         WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, "#manageOrderTable tbody tr")))

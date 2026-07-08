@@ -103,3 +103,24 @@
 [2026-07-08 14:03:15] Added New Product  - PASSED
 [2026-07-08 14:03:20] Clicked Confirm OK - PASSED
 [2026-07-08 14:03:20] Clicked Confirm Success - PASSED
+[2026-07-08 14:31:21] Clicked Seller Center - PASSED
+[2026-07-08 14:31:21] Clicked Product Management - PASSED
+[2026-07-08 14:31:38] Clicked Create New Product - PASSED
+[2026-07-08 14:31:44] Create New Product page loaded successfully - PASSED
+[2026-07-08 14:31:49] Entered Product Name: OmniSpark - PASSED
+[2026-07-08 14:31:53] Entered SKU: TRB-1013 - PASSED
+[2026-07-08 14:31:55] Entered Units of Measure: pc - PASSED
+[2026-07-08 14:32:04] Entered Menu Description: Portable monitor with USB-C connectivity - PASSED
+[2026-07-08 14:32:06] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-07-08 14:32:07] Entered Stock Quantity: 100 - PASSED
+[2026-07-08 14:32:09] Selected Predefined Tags: BRAND - PASSED
+[2026-07-08 14:32:13] Entered Menu Value: 8448 - PASSED
+[2026-07-08 14:32:16] Entered Unit Price: 8448 - PASSED
+[2026-07-08 14:32:18] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 14:32:20] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 14:32:22] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-07-08 14:32:28] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2026-07-08 14:32:31] Clicked Save Button - PASSED
+[2026-07-08 14:32:31] Added New Product  - PASSED
+[2026-07-08 14:32:36] Clicked Confirm OK - PASSED
+[2026-07-08 14:32:36] Clicked Confirm Success - PASSED

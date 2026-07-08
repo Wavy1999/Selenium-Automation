@@ -4536,3 +4536,51 @@ Stacktrace:
 [2026-07-08 13:55:47] Create Order page loaded - PASSED
 [2026-07-08 13:55:50] Clicked Back to Seller Dashboard from Create Order page - PASSED
 [2026-07-08 13:55:52] === Seller Dashboard Test Completed Successfully === - PASSED
+[2026-07-08 14:25:36] Clicked Seller Center - PASSED
+[2026-07-08 14:25:37] Clicked Seller Center Dashboard - PASSED
+[2026-07-08 14:25:47] Seller Dashboard loaded successfully - PASSED
+[2026-07-08 14:25:47] Invoiced Amount panel found - PASSED
+[2026-07-08 14:25:57] Orders for Processing: 180 - PASSED
+[2026-07-08 14:25:57] Unpaid Orders: 516 - PASSED
+[2026-07-08 14:25:57] Total Completed Sales: ₱ 0.00 - PASSED
+[2026-07-08 14:25:57] Cash Collection Balance: Current Balance: ¥5,500.00 - PASSED
+[2026-07-08 14:25:58] Clicked Settle Available Balance button - PASSED
+[2026-07-08 14:25:58] Settle Available Balance modal opened - PASSED
+[2026-07-08 14:26:08] Clicked Back to Seller Dashboard button - PASSED
+[2026-07-08 14:26:12] Clicked View All Orders button - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 1: 1 | 7/8/2026 1:58:07 PM | BNW-ORD-015807947-451 | ACTIVE | PARTIAL | Guest | ₱13,867.84 | ₱13.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 2: 2 | 7/8/2026 11:39:39 AM | BNW-ORD-113939293-262 | ACTIVE | PARTIAL | Guest | ₱2,920.96 | ₱2.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 3: 3 | 6/30/2026 5:03:48 PM | BNW-ORD-050348274-875 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 4: 4 | 6/30/2026 4:55:59 PM | BNW-ORD-045559843-469 | ACTIVE | UNPAID | Guest | ₱13,867.84 | ₱0.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 5: 5 | 6/26/2026 2:09:40 PM | BNW-ORD-020940521-971 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱1.00 | ₱0.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 6: 6 | 6/8/2026 3:45:12 PM | BNW-ORD-034512315-041 | ACTIVE | PAID | MR LORENZ JEREMY TAN | ₱287.84 | ₱287.84 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 7: 7 | 6/3/2026 1:37:20 PM | BNW-ORD-013720592-621 | NEW | UNPAID | DR JOHNS SANTOS | ₱168.00 | ₱0.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 8: 8 | 6/2/2026 8:07:10 PM | BNW-ORD-080710714-234 | ACTIVE | UNPAID | DR JOHNS SANTOS | ₱250.00 | ₱0.00 - PASSED
+[2026-07-08 14:26:15] Latest Orders Table - Row 9: 9 | 6/2/2026 7:46:56 PM | BNW-ORD-074656796-074 | ACTIVE | PAID | Guest | ₱350.00 | ₱350.00 - PASSED
+[2026-07-08 14:26:16] Latest Orders Table - Row 10: 10 | 6/2/2026 7:35:56 PM | BNW-ORD-073556914-387 | SHIPPED | PAID | DR JOHNS SANTOS | ₱350.00 | ₱350.00 - PASSED
+[2026-07-08 14:26:16] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2026-07-08 14:26:16] Latest Orders Table displayed successfully - PASSED
+[2026-07-08 14:26:16] Clicked Back to Seller Dashboard from Orders Table - PASSED
+[2026-07-08 14:26:16] Clicked Eye Icon to view Order Details - PASSED
+[2026-07-08 14:26:27] Clicked View All Payments button - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 1: 1 | 7/8/2026 2:01:06 PM | BNW-ORD-015807947-451 | ACTIVE | PARTIAL | Guest | ₱13.00 - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 2: 2 | 7/8/2026 1:37:04 PM | BNW-SRV-013352526-767 | ACTIVE | PAID | RES 1 RTM TESTING 1 2 | ₱28,490.00 - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 3: 3 | 7/8/2026 11:42:52 AM | BNW-ORD-113939293-262 | ACTIVE | PARTIAL | Guest | ₱2.00 - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 4: 4 | 7/7/2026 3:37:46 PM | BNW-SRV-030007694-085 | COMPLETED | PAID | RES 1 RTM TESTING 1 2 | ₱5,000.00 - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 5: 5 | 7/7/2026 3:27:26 PM | BNW-SRV-030007694-085 | COMPLETED | PAID | RES 1 RTM TESTING 1 2 | ₱1,000.00 - PASSED
+[2026-07-08 14:26:30] Latest Payment Table - Row 6: 6 | 7/7/2026 3:25:13 PM | BNW-SRV-030007694-085 | COMPLETED | PAID | RES 1 RTM TESTING 1 2 | ₱969.40 - PASSED
+[2026-07-08 14:26:31] Latest Payment Table - Row 7: 7 | 7/7/2026 1:20:32 PM | BNW-SRV-011839327-059 | ACTIVE | PARTIAL | RES Table 02 4 | ₱53,870.00 - PASSED
+[2026-07-08 14:26:31] Latest Payment Table - Row 8: 8 | 7/7/2026 11:48:30 AM | BNW-SRV-100127227-159 | ACTIVE | OVERPAID | RES Table 01 4 | ₱5.00 - PASSED
+[2026-07-08 14:26:31] Latest Payment Table - Row 9: 9 | 7/7/2026 11:23:45 AM | BNW-SRV-100127227-159 | ACTIVE | OVERPAID | RES Table 01 4 | ₱62,599.00 - PASSED
+[2026-07-08 14:26:31] Latest Payment Table - Row 10: 10 | 7/3/2026 2:44:03 PM | BNW-SRV-103918100-983 | ACTIVE | PAID | RES QA-RcptPrint-01 8 | ₱1,998,952.94 - PASSED
+[2026-07-08 14:26:31] Table has 10 valid rows (Latest Payment Table) - PASSED
+[2026-07-08 14:26:31] Latest Payments Table displayed successfully - PASSED
+[2026-07-08 14:26:31] Clicked Back to Seller Dashboard from Payments Table - PASSED
+[2026-07-08 14:26:31] Clicked Eye Icon to view Payment Details - PASSED
+[2026-07-08 14:26:42] Clicked Generate QR button - PASSED
+[2026-07-08 14:26:43] Generate QR page loaded - PASSED
+[2026-07-08 14:26:53] Clicked Back to Seller Dashboard from Generate QR page - PASSED
+[2026-07-08 14:27:02] Clicked Create Order button - PASSED
+[2026-07-08 14:27:02] Create Order page loaded - PASSED
+[2026-07-08 14:27:05] Clicked Back to Seller Dashboard from Create Order page - PASSED
+[2026-07-08 14:27:07] === Seller Dashboard Test Completed Successfully === - PASSED

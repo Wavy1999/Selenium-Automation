@@ -292,3 +292,52 @@
 [2026-07-08 13:54:20] Inventory History - Row 4: 4 | ADJUSTMENT | 11/28/2025 4:46:38 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
 [2026-07-08 13:54:20] Inventory History - Row 5: 5 | ADJUSTMENT | 11/26/2025 1:54:55 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
 [2026-07-08 13:54:20] Table has 5 valid rows (Inventory History) - PASSED
+[2026-07-08 14:22:59] Main Dashboard loaded successfully - PASSED
+[2026-07-08 14:23:30] New orders/Service Orders count: 523 - PASSED
+[2026-07-08 14:23:30] Orders/Service Orders for Processing count: 318 - PASSED
+[2026-07-08 14:23:30] Current Balance: ¥5,500.00 - PASSED
+[2026-07-08 14:23:40] Clicked Settle Available Balance - PASSED
+[2026-07-08 14:23:40] Back to Main Dashboard - PASSED
+[2026-07-08 14:23:41] Clicked Generate QR - PASSED
+[2026-07-08 14:23:51] Back to Main Dashboard - PASSED
+[2026-07-08 14:23:51] Latest Orders Table - Row 1: 1 | 7/8/2026 1:58:07 PM | BNW-ORD-015807947-451 | ACTIVE | PARTIAL | Guest | ₱13,867.84 | ₱13.00 - PASSED
+[2026-07-08 14:23:51] Latest Orders Table - Row 2: 2 | 7/8/2026 11:39:39 AM | BNW-ORD-113939293-262 | ACTIVE | PARTIAL | Guest | ₱2,920.96 | ₱2.00 - PASSED
+[2026-07-08 14:23:51] Latest Orders Table - Row 3: 3 | 6/30/2026 5:03:48 PM | BNW-ORD-050348274-875 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱2,742.88 | ₱0.00 - PASSED
+[2026-07-08 14:23:51] Latest Orders Table - Row 4: 4 | 6/30/2026 4:55:59 PM | BNW-ORD-045559843-469 | ACTIVE | UNPAID | Guest | ₱13,867.84 | ₱0.00 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 5: 5 | 6/26/2026 2:09:40 PM | BNW-ORD-020940521-971 | ACTIVE | UNPAID | MR EDWARD CULLEN | ₱1.00 | ₱0.00 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 6: 6 | 6/8/2026 3:45:12 PM | BNW-ORD-034512315-041 | ACTIVE | PAID | MR LORENZ JEREMY TAN | ₱287.84 | ₱287.84 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 7: 7 | 6/3/2026 1:37:20 PM | BNW-ORD-013720592-621 | NEW | UNPAID | DR JOHNS SANTOS | ₱168.00 | ₱0.00 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 8: 8 | 6/2/2026 8:07:10 PM | BNW-ORD-080710714-234 | ACTIVE | UNPAID | DR JOHNS SANTOS | ₱250.00 | ₱0.00 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 9: 9 | 6/2/2026 7:46:56 PM | BNW-ORD-074656796-074 | ACTIVE | PAID | Guest | ₱350.00 | ₱350.00 - PASSED
+[2026-07-08 14:23:52] Latest Orders Table - Row 10: 10 | 6/2/2026 7:35:56 PM | BNW-ORD-073556914-387 | SHIPPED | PAID | DR JOHNS SANTOS | ₱350.00 | ₱350.00 - PASSED
+[2026-07-08 14:23:52] Table has 10 valid rows (Latest Orders Table) - PASSED
+[2026-07-08 14:23:52] Latest Orders Table displayed successfully - PASSED
+[2026-07-08 14:23:58] Clicked Create Order - PASSED
+[2026-07-08 14:24:09] Back to Main Dashboard - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 1: 1 | 7/8/2026 1:33:52 PM | BNW-SRV-013352526-767 | ACTIVE | PAID | RES 1 RTM TESTING 1 2 | ₱28,490.00 | ₱28,490.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 2: 2 | 7/8/2026 12:19:38 PM | BNW-SRV-121938322-411 | ACTIVE | UNPAID | RES Table 18 4 | ₱116,144.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 3: 3 | 7/8/2026 12:19:09 PM | BNW-SRV-121909342-517 | NEW | UNPAID | RES Table 05 4 PAX | ₱79,520.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 4: 4 | 7/8/2026 12:05:03 PM | BNW-SRV-120503887-080 | ACTIVE | UNPAID | RES Table 04 6 | ₱410,368.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 5: 5 | 7/8/2026 12:04:39 PM | BNW-SRV-120439390-533 | ACTIVE | UNPAID | RES Table 03 4 | ₱739,760.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 6: 6 | 7/8/2026 11:44:40 AM | BNW-SRV-114440929-829 | CANCELLED | UNPAID | RES Table 04 6 | ₱1,197,584.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:09] Latest Service Orders Table - Row 7: 7 | 7/8/2026 10:10:48 AM | BNW-SRV-101048752-528 | CANCELLED | UNPAID | RES Table 03 4 | ₱513,552.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:10] Latest Service Orders Table - Row 8: 8 | 7/8/2026 9:29:26 AM | BNW-SRV-092926075-590 | CANCELLED | UNPAID | RES 1 RTM TESTING 1 2 | ₱35,000.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:10] Latest Service Orders Table - Row 9: 9 | 7/7/2026 3:00:07 PM | BNW-SRV-030007694-085 | COMPLETED | PAID | RES 1 RTM TESTING 1 2 | ₱6,969.40 | ₱6,969.40 - PASSED
+[2026-07-08 14:24:10] Latest Service Orders Table - Row 10: 10 | 7/7/2026 1:29:39 PM | BNW-SRV-012939619-674 | NEW | UNPAID | RES QARcptPrint03 4 | ₱412,000.00 | ₱0.00 - PASSED
+[2026-07-08 14:24:10] Table has 10 valid rows (Latest Service Orders Table) - PASSED
+[2026-07-08 14:24:10] Latest Service Orders Table displayed successfully - PASSED
+[2026-07-08 14:24:16] Clicked Create Order - PASSED
+[2026-07-08 14:24:26] Back to Main Dashboard - PASSED
+[2026-07-08 14:24:28] Clicked Create Booking - PASSED
+[2026-07-08 14:24:38] Back to Main Dashboard - PASSED
+[2026-07-08 14:24:38] Inventory section viewed successfully - PASSED
+[2026-07-08 14:24:41] Clicked Add New Product - PASSED
+[2026-07-08 14:24:52] Back to Main Dashboard - PASSED
+[2026-07-08 14:25:25] Clicked Inventory Update - PASSED
+[2026-07-08 14:25:35] Back to Main Dashboard - PASSED
+[2026-07-08 14:25:35] Inventory History - Row 1: 1 | ADJUSTMENT | 9/9/2025 4:31:01 PM | OUT | 0 | ML | RETRIEVED ITEM( | N/A | test | completed - PASSED
+[2026-07-08 14:25:36] Inventory History - Row 2: 2 | RESTOCK REAL-TI | 6/23/2025 6:10:20 PM | IN | 2 | ML | RECEIVED SUPPLY | 123 | remarksqe | completed - PASSED
+[2026-07-08 14:25:36] Inventory History - Row 3: 3 | ADJUSTMENT | 11/20/2025 2:53:45 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-07-08 14:25:36] Inventory History - Row 4: 4 | ADJUSTMENT | 11/28/2025 4:46:38 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-07-08 14:25:36] Inventory History - Row 5: 5 | ADJUSTMENT | 11/26/2025 1:54:55 PM | IN | 50 | PC | RETRIEVED ITEM( | N/A | Adding inventory for testing purposes. | completed - PASSED
+[2026-07-08 14:25:36] Table has 5 valid rows (Inventory History) - PASSED

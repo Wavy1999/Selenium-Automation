@@ -280,3 +280,35 @@ Would you like to continue? - PASSED
 [2026-07-08 14:01:12] Navigated to Manage Order - PASSED
 [2026-07-08 14:01:35] Clicked Create New Order - PASSED
 [2026-07-08 14:01:45] Navigated to Manage Order - PASSED
+[2026-07-08 14:30:36] Clicked Manage Order - PASSED
+[2026-07-08 14:30:41] 'Manage Orders' element is visible - PASSED
+[2026-07-08 14:31:01] Searching for service: Syntrix - PASSED
+[2026-07-08 14:31:01] An error occurred: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x8f1465]
+	chromedriver!(No symbol) [0x8f34ca]
+	chromedriver!(No symbol) [0x8f3558]
+	chromedriver!(No symbol) [0x92cfb2]
+	chromedriver!(No symbol) [0x9560cc]
+	chromedriver!(No symbol) [0x92a624]
+	chromedriver!(No symbol) [0x956294]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
