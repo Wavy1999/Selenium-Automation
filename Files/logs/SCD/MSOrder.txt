@@ -138,3 +138,27 @@ Stacktrace:
 	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
 	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
  - FAILED
+[2026-07-08 13:47:13] An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea53e]
+	chromedriver!(No symbol) [0x9283e7]
+	chromedriver!(No symbol) [0x955f86]
+	chromedriver!(No symbol) [0x951192]
+	chromedriver!(No symbol) [0x950b71]
+	chromedriver!(No symbol) [0x8bdb2e]
+	chromedriver!(No symbol) [0x8be0ce]
+	chromedriver!(No symbol) [0x8be5ad]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!(No symbol) [0x8bd6a6]
+	chromedriver!(No symbol) [0x8bcd02]
+	chromedriver!GetHandleVerifier [0xedbe1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED

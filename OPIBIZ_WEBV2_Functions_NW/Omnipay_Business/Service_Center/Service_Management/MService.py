@@ -33,6 +33,9 @@ from Utility import (        # Custom utility functions for logging, cleanup, ty
 from path_config import SCD_MODULE_PATHS  # Configuration constants / paths used across modules
 
 def MService(driver, wait):
+
+    wait = WebDriverWait(driver, 30)
+
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['MService']['log']
     screenshots_folder = SCD_MODULE_PATHS['MService']['screenshots']
@@ -57,12 +60,12 @@ def MService(driver, wait):
         # driver.save_screenshot(os.path.join(screenshots_folder, "Service_Management.png"))
 
         # Manage Services
-        manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+        manage_services = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
         driver.execute_script("arguments[0].scrollIntoView();", manage_services)
         time.sleep(1)
         driver.execute_script("arguments[0].click();", manage_services)
         log_action("Clicked Manage Services", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(3)
         driver.save_screenshot(os.path.join(screenshots_folder, "Manage_Services.png"))
 
@@ -101,7 +104,7 @@ def MService(driver, wait):
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", view_btn)
             driver.execute_script("arguments[0].click();", view_btn)
             log_action("Clicked View Service", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             time.sleep(5)
             driver.save_screenshot(os.path.join(screenshots_folder, "Service_View.png"))
         except Exception as e:
@@ -110,10 +113,10 @@ def MService(driver, wait):
 
         # --- BACK TO MANAGE PRODUCTS ---
         try:
-            back_btn = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.bck-btn")))
+            back_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.bck-btn")))
             driver.execute_script("arguments[0].click();", back_btn)
             log_action("Clicked Manage Product button", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         except Exception as e:
             log_error(f"Failed to navigate back to Manage Products: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)
             raise
@@ -124,7 +127,7 @@ def MService(driver, wait):
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", update_btn)
             driver.execute_script("arguments[0].click();", update_btn)
             log_action("Clicked Update Service", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             driver.save_screenshot(os.path.join(screenshots_folder, "Service_Update_Page.png"))
         except Exception as e:
             log_error(f"Failed to click Update Service: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)

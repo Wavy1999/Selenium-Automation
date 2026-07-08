@@ -31,6 +31,8 @@ from Utility import (                     # Custom helper functions for automati
 
 def WHouse(driver, wait):
    
+    wait = WebDriverWait(driver, 30)  # Ensure wait is defined for this function
+
    # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['WHouse']['log']
     screenshots_folder = SCD_MODULE_PATHS['WHouse']['screenshots']
@@ -46,10 +48,10 @@ def WHouse(driver, wait):
         log_action(f"Navigated directly to Warehouse: {url}", log_file_path=log_file_path)
 
         # Add Warehouses
-        Add_Warehouse = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ShopManagement/AddWarehouse') and contains(@class, 'btn-primary')]")))
+        Add_Warehouse = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ShopManagement/AddWarehouse') and contains(@class, 'btn-primary')]")))
         driver.execute_script("arguments[0].click();", Add_Warehouse)
         log_action("Clicked Add New Warehouse button", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)
         driver.save_screenshot(os.path.join(screenshots_folder, "Add_New_Warehouse.png"))
       
@@ -122,21 +124,21 @@ def WHouse(driver, wait):
         uploaded_img_path = upload_image_warehouse(driver)
         log_action(f"Uploaded image: {uploaded_img_path}", log_file_path=log_file_path)
         
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)
         driver.save_screenshot(os.path.join(screenshots_folder, "Fill_Warehouse.png"))
 
         # Add New Warehouse Button
-        Add_New_Warehouse_Button = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-add-new-warehouse and contains(normalize-space(text()), 'Add New Warehouse')]")))
+        Add_New_Warehouse_Button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@data-add-new-warehouse and contains(normalize-space(text()), 'Add New Warehouse')]")))
         driver.execute_script("arguments[0].scrollIntoView({ block: 'center', inline: 'center' });", Add_New_Warehouse_Button)
         time.sleep(0.5)
         driver.execute_script("arguments[0].click();", Add_New_Warehouse_Button)
         log_action("Clicked Add New Warehouse button", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)
         driver.save_screenshot(os.path.join(screenshots_folder, "Add_New_Warehouse_Button.png"))
 
-        Confirm_Button = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and normalize-space(text())='Confirm']")))
+        Confirm_Button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and normalize-space(text())='Confirm']")))
         driver.execute_script("arguments[0].click();", Confirm_Button)
         log_action("Clicked SweetAlert Confirm button", log_file_path=log_file_path)
         time.sleep(1)

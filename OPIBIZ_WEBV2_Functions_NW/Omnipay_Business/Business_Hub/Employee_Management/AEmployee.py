@@ -26,6 +26,8 @@ from env_config import BASE_URL           # Centralized base URL (from .env)
 
 
 def NEmployee(driver, wait):
+
+    wait = WebDriverWait(driver, 30)
     
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['NEmployee']['log']
@@ -59,20 +61,20 @@ def NEmployee(driver, wait):
         target_url = f"{BASE_URL}/EmployeeManagement/AddNewEmployee"
 
         driver.get(target_url)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script("return document.readyState") == "complete")
+        wait.until(lambda d: d.execute_script("return document.readyState") == "complete")
         time.sleep(2)
         driver.save_screenshot(os.path.join(screenshots_folder, "Employee_Management_Menu.png"))
 
         # # Add New Employee
-        # add_new_employee = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/EmployeeManagement/AddNewEmployee' and .//span[text()='Add New Employee']]")))
+        # add_new_employee = wait.until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/EmployeeManagement/AddNewEmployee' and .//span[text()='Add New Employee']]")))
         # driver.execute_script("arguments[0].click();", add_new_employee)
         # log_action("Clicked Add New Employee fly-out", log_file_path=log_file_path)
-        # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        # wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         # time.sleep(3)
         # driver.save_screenshot(os.path.join(screenshots_folder, "Add_New_Employee_Page.png"))
 
         container_locator = (By.CSS_SELECTOR, ".ob__container.add-employee")
-        WebDriverWait(driver, 30).until(EC.visibility_of_element_located(container_locator))
+        wait.until(EC.visibility_of_element_located(container_locator))
 
         log_action("Container add employee is now visible", log_file_path=log_file_path)
         time.sleep(3) 
@@ -167,19 +169,19 @@ def NEmployee(driver, wait):
         uploaded_image = upload_image_by_name(driver, full_name)
         log_action(f"Uploaded image: {upload_image_by_name}", log_file_path=log_file_path)
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(3)
         driver.save_screenshot(os.path.join(screenshots_folder, "Employee Details.png"))
 
         # Save New Employee 
-        save_employee_btn = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.ID, 'saveNewEmployee')))
+        save_employee_btn = wait.until(EC.element_to_be_clickable((By.ID, 'saveNewEmployee')))
         driver.execute_script("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", save_employee_btn)
         time.sleep(1)
         driver.execute_script("arguments[0].click()", save_employee_btn)
         log_action("Save New Employee button:", log_file_path=log_file_path)
 
         # Confirmation Button 
-        confirm_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.swal2-confirm.swal2-styled")))
+        confirm_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.swal2-confirm.swal2-styled")))
         driver.execute_script("arguments[0].click()", confirm_btn)
         log_action("Confirmation, are you sure want to create new employee:", log_file_path=log_file_path)       
 

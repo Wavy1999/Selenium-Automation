@@ -82,3 +82,24 @@
 [2026-07-08 12:00:16] Added New Product  - PASSED
 [2026-07-08 12:00:21] Clicked Confirm OK - PASSED
 [2026-07-08 12:00:21] Clicked Confirm Success - PASSED
+[2026-07-08 14:02:04] Clicked Seller Center - PASSED
+[2026-07-08 14:02:05] Clicked Product Management - PASSED
+[2026-07-08 14:02:21] Clicked Create New Product - PASSED
+[2026-07-08 14:02:27] Create New Product page loaded successfully - PASSED
+[2026-07-08 14:02:32] Entered Product Name: UltraTech - PASSED
+[2026-07-08 14:02:36] Entered SKU: PRT-1093 - PASSED
+[2026-07-08 14:02:38] Entered Units of Measure: pc - PASSED
+[2026-07-08 14:02:47] Entered Menu Description: Wireless gaming headset with surround sound - PASSED
+[2026-07-08 14:02:49] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-07-08 14:02:51] Entered Stock Quantity: 100 - PASSED
+[2026-07-08 14:02:53] Selected Predefined Tags: BRAND - PASSED
+[2026-07-08 14:02:56] Entered Menu Value: 3483 - PASSED
+[2026-07-08 14:03:00] Entered Unit Price: 3483 - PASSED
+[2026-07-08 14:03:02] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 14:03:04] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 14:03:06] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-07-08 14:03:12] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (2).jpg - PASSED
+[2026-07-08 14:03:15] Clicked Save Button - PASSED
+[2026-07-08 14:03:15] Added New Product  - PASSED
+[2026-07-08 14:03:20] Clicked Confirm OK - PASSED
+[2026-07-08 14:03:20] Clicked Confirm Success - PASSED

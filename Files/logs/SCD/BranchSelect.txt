@@ -14452,3 +14452,109 @@ Stacktrace:
 [2026-07-08 11:52:34] Selected HQ branch option - PASSED
 [2026-07-08 11:52:39] Selected terminal option: 16080001 - PASSED
 [2026-07-08 11:52:39] Clicked branch confirmation button - PASSED
+[2026-07-08 13:42:08] Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 13:42:29] Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 13:42:35] Selected HQ branch option - PASSED
+[2026-07-08 13:42:36] Selected terminal option: 16080001 - PASSED
+[2026-07-08 13:42:36] Clicked branch confirmation button - PASSED
+[2026-07-08 13:51:08] Attempt 1 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 13:51:28] Attempt 2 failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 13:51:33] Selected HQ branch option - PASSED
+[2026-07-08 13:51:34] Selected terminal option: 16080001 - PASSED
+[2026-07-08 13:51:34] Clicked branch confirmation button - PASSED

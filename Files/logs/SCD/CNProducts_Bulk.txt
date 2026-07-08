@@ -14,3 +14,7 @@
 [2026-07-08 12:01:06] Selected Warehouse: Main Warehouse - PASSED
 [2026-07-08 12:01:06] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
 [2026-07-08 12:01:06] Uploaded Excel file for Bulk Product Upload - PASSED
+[2026-07-08 14:04:06] Create New Product(Bulk) page loaded successfully: http://172.16.40.154:9000/ProductManagement/BatchProduct - PASSED
+[2026-07-08 14:04:09] Selected Warehouse: Main Warehouse - PASSED
+[2026-07-08 14:04:09] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2026-07-08 14:04:09] Uploaded Excel file for Bulk Product Upload - PASSED

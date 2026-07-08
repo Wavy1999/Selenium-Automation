@@ -219,3 +219,64 @@ Stacktrace:
 	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
 	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
  - FAILED
+[2026-07-08 13:47:13] An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea53e]
+	chromedriver!(No symbol) [0x9283e7]
+	chromedriver!(No symbol) [0x955f86]
+	chromedriver!(No symbol) [0x951192]
+	chromedriver!(No symbol) [0x950b71]
+	chromedriver!(No symbol) [0x8bdb2e]
+	chromedriver!(No symbol) [0x8be0ce]
+	chromedriver!(No symbol) [0x8be5ad]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!(No symbol) [0x8bd6a6]
+	chromedriver!(No symbol) [0x8bcd02]
+	chromedriver!GetHandleVerifier [0xedbe1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 13:59:19] Clicked Manage Order - PASSED
+[2026-07-08 13:59:24] 'Manage Orders' element is visible - PASSED
+[2026-07-08 13:59:45] Searching for service: NeuroLink - PASSED
+[2026-07-08 14:00:07] Searched for service: UNPAID - PASSED
+[2026-07-08 14:00:07] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-07-08 14:00:07] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-07-08 14:00:07] Applied Date Range filter - PASSED
+[2026-07-08 14:00:07] Checked first order row - PASSED
+[2026-07-08 14:00:08] Viewed Order Profile - PASSED
+[2026-07-08 14:00:08] Opened Update Contact & Shipping - PASSED
+[2026-07-08 14:00:13] Modal loaded - PASSED
+[2026-07-08 14:00:14] Updated mobileNumber: +63 912 345 6789 - PASSED
+[2026-07-08 14:00:16] Updated HouseNumber: Unit 305 - PASSED
+[2026-07-08 14:00:18] Updated Street: 32 Alcoy St., Bagong Pag-asa - PASSED
+[2026-07-08 14:00:20] Updated PostCode: 1105 - PASSED
+[2026-07-08 14:00:22] Selected CountryCode: PHILIPPINES - PASSED
+[2026-07-08 14:00:25] Selected Province: ABRA - PASSED
+[2026-07-08 14:00:27] Selected City: BUCAY - PASSED
+[2026-07-08 14:00:29] Selected Barangay: CALAO - PASSED
+[2026-07-08 14:00:31] Clicked Save Changes - PASSED
+[2026-07-08 14:00:33] Confirmed Changes - PASSED
+[2026-07-08 14:00:34] Clicked OK - PASSED
+[2026-07-08 14:00:34] Navigated to Manage Order page - PASSED
+[2026-07-08 14:00:54] Manage Order page loaded - PASSED
+[2026-07-08 14:01:00] Clicked Receive Payment - PASSED
+[2026-07-08 14:01:03] Payment table found - PASSED
+[2026-07-08 14:01:03] Extracted price: ₱13 - PASSED
+[2026-07-08 14:01:03] Entered payment amount: 13 - PASSED
+[2026-07-08 14:01:03] Clicked Submit Payment - PASSED
+[2026-07-08 14:01:03] Payment completed successfully - PASSED
+[2026-07-08 14:01:03] Payment confirmation modal appeared - PASSED
+[2026-07-08 14:01:06] Payment Confirmation Text: You're about to receive a payment of ₱13 for Order No. BNW-ORD-015807947-451 via CASH.
+Would you like to continue? - PASSED
+[2026-07-08 14:01:06] Clicked Yes on confirmation modal - PASSED
+[2026-07-08 14:01:12] Navigated to Manage Order - PASSED
+[2026-07-08 14:01:35] Clicked Create New Order - PASSED
+[2026-07-08 14:01:45] Navigated to Manage Order - PASSED

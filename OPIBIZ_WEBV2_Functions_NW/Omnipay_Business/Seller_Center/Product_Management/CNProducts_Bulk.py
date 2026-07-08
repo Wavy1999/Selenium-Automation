@@ -26,6 +26,8 @@ from Utility import (                     # Custom utility functions for automat
 
 def Bulk(driver, wait):
     
+    wait = WebDriverWait(driver, 30)
+
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['CNProducts_Bulk']['log']
     screenshots_folder = SCD_MODULE_PATHS['CNProducts_Bulk']['screenshots']
@@ -56,36 +58,36 @@ def Bulk(driver, wait):
             # Base URL now comes from env_config (.env). Change it there, not here.
             url = f"{BASE_URL}/ProductManagement/BatchProduct"
             driver.get(url)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             time.sleep(5)
             driver.save_screenshot(os.path.join(screenshots_folder, "Create Bulk Product.png"))
 
-            warehouse_dropdown = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "warehouseID")))
+            warehouse_dropdown = wait.until(EC.visibility_of_element_located((By.ID, "warehouseID")))
             log_action(f"Create New Product(Bulk) page loaded successfully: {url}", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # Select Warehouse
             wait.until_not(EC.presence_of_element_located((By.CSS_SELECTOR, ".loading, .spinner, .overlay, .modal-backdrop.show")))
             select_warehouse (driver, wait, "warehouseID", "MAIN WAREHOUSE")
             log_action("Selected Warehouse: Main Warehouse", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # File path
             excel_path = r"d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx"
             log_action(f"Excel File Path: {excel_path}", log_file_path=log_file_path)
 
-            file_input = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.filepond--browser")))
+            file_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.filepond--browser")))
             file_input.send_keys(excel_path)
             log_action("Uploaded Excel file for Bulk Product Upload", log_file_path=log_file_path)
             time.sleep(5)
             driver.save_screenshot(os.path.join(screenshots_folder, "Bulk Product Upload.png"))
 
-            upload_button = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-upload-batch]")))
+            upload_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-upload-batch]")))
             driver.execute_script("arguments[0].click();", upload_button)
             log_action("Clicked Upload button for Bulk Product Upload", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
            
-            success_section = WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, "//div[@class='success']//h1[contains(text(), 'Batch Product Successfully Processed!')]")))
+            success_section = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@class='success']//h1[contains(text(), 'Batch Product Successfully Processed!')]")))
             log_action("Bulk Product Upload processed successfully", log_file_path=log_file_path)
 
             driver.save_screenshot(os.path.join(screenshots_folder, "Bulk Product Upload Success.png"))

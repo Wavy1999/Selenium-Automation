@@ -125,3 +125,6 @@ Traceback (most recent call last):
     raise TimeoutException(message, screen, stacktrace)
 selenium.common.exceptions.TimeoutException: Message: 
 
+[2026-07-08 13:55:52] Clicked Seller Center - PASSED
+[2026-07-08 13:55:58] Clicked Create Order - PASSED
+[2026-07-08 13:55:58] Create Order page loaded - PASSED

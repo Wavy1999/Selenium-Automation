@@ -31,6 +31,9 @@ from path_config import SCD_MODULE_PATHS  # Import the configuration paths
 
 
 def SCDBookings(driver, wait):
+
+    wait = WebDriverWait(driver, 30)  # Ensure wait is defined for this function
+
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['SCDBooking']['log']
     screenshots_folder = SCD_MODULE_PATHS['SCDBooking']['screenshots']
@@ -43,7 +46,7 @@ def SCDBookings(driver, wait):
 
      # Ensure page is stable after previous module
         print("Waiting for page stability...")
-        WebDriverWait(driver, 30).until(
+        wait.until(
             lambda d: d.execute_script('return document.readyState') == 'complete'
         )
         time.sleep(3)  # Extra wait for any residual animations
@@ -62,7 +65,7 @@ def SCDBookings(driver, wait):
             log_action(f"Direct navigation to: {booking_url}", log_file_path=log_file_path)
             
             # Wait for page to load
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             time.sleep(3)
             
             # Verify we're on the right page
@@ -79,7 +82,7 @@ def SCDBookings(driver, wait):
          
             
             # Find Service Center
-            service_center_link = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[@data-bs-title='Service Center']")))
+            service_center_link = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-bs-title='Service Center']")))
             
             # Scroll and click multiple times if needed
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", service_center_link)
@@ -114,7 +117,7 @@ def SCDBookings(driver, wait):
             driver.save_screenshot(os.path.join(screenshots_folder, "Forced_Menu_Open.png"))
             
             # Now find and click the Booking link
-            booking_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//a[@href='/ServiceCenter/BookingAndAppointments']")) )
+            booking_link = wait.until(EC.presence_of_element_located((By.XPATH, "//a[@href='/ServiceCenter/BookingAndAppointments']")) )
             
             # Make it visible if it's not
             driver.execute_script("""
@@ -195,7 +198,7 @@ def SCDBookings(driver, wait):
         WebDriverWait(driver, 30).until(lambda d: d.execute_script("return document.readyState") == "complete")
         # Get today's date in ISO format
         today = date.today().isoformat()
-        print(f"🔍 Looking for FullCalendar cell with data-date={today}")
+        print(f" Looking for FullCalendar cell with data-date={today}")
         log_action(f"Searching for today's date: {today}", log_file_path=log_file_path)
 
         # FullCalendar-specific click handler
@@ -210,7 +213,7 @@ def SCDBookings(driver, wait):
             
             # Find today's cell using FullCalendar classes and data-date
             day_cell_selector = f"td.fc-daygrid-day[data-date='{today}']"
-            day_cell = WebDriverWait(driver, 10).until(
+            day_cell = wait.until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, day_cell_selector))
             )
             
@@ -236,28 +239,27 @@ def SCDBookings(driver, wait):
             
             # Method 1: Try regular click first
             try:
-                print("🖱️ Attempting regular click on day frame...")
+                print(" Attempting regular click on day frame...")
                 WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, day_cell_selector)))
                 day_frame.click()
-                log_action("Clicked day frame with regular click", log_file_path=log_file_path)
-                print("✅ Regular click successful")
+                log_action("Clicked day frame", log_file_path=log_file_path)
+                
             except ElementClickInterceptedException:
                 # Method 2: Use JavaScript click as fallback
                 print("🖱️ Regular click intercepted, trying JavaScript click...")
                 driver.execute_script("arguments[0].click();", day_frame)
                 log_action("Clicked day frame with JavaScript click", log_file_path=log_file_path)
-                print("✅ JavaScript click successful")
-            
+                            
             time.sleep(3)
             
             # Take screenshot after click
             driver.save_screenshot(os.path.join(screenshots_folder, 'After_Day_Click.png'))
             
             # Wait for modal to appear
-            print("⏳ Waiting for modal to appear...")
-            appointment_form = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.ID, "addNewAppointmentForm")))
+            print(" Waiting for modal to appear...")
+            appointment_form = wait.until(EC.visibility_of_element_located((By.ID, "addNewAppointmentForm")))
             log_action("Appointment form (addNewAppointmentForm) is now visible", log_file_path=log_file_path)
-            print("✅ Modal is now visible")
+            print(" Modal is now visible")
             
         except TimeoutException:
             error_msg = f"Could not find FullCalendar cell or day frame for date: {today}"
@@ -265,15 +267,15 @@ def SCDBookings(driver, wait):
             driver.save_screenshot(os.path.join(screenshots_folder, 'Day_Cell_Not_Found.png'))
 
 
-        WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.NAME, "AppointmentName")))
+        wait.until(EC.element_to_be_clickable((By.NAME, "AppointmentName")))
         log_action("Appointment form is interactive and ready for input", log_file_path=log_file_path)
-        print("✅ Form is ready for input")
+        print(" Form is ready for input")
 
         # ----- Fill Appointment Form -----
 
         # Appointment name
         try:
-            appointment_name = WebDriverWait(driver, 10).until(
+            appointment_name = wait.until(
                 EC.presence_of_element_located((By.NAME, "AppointmentName"))
             )
             appointment_name.clear()
@@ -340,7 +342,7 @@ def SCDBookings(driver, wait):
             print("💾 Debug files saved")
             
             # DON'T raise - continue anyway
-            print("⚠️ Continuing without branch selection...")
+            print(" Continuing without branch selection...")
 
         # Start Time
         try:
@@ -420,7 +422,7 @@ def SCDBookings(driver, wait):
 
     except Exception as e:
         error_msg = f"Unexpected error: {str(e)}"
-        print(f"❌ {error_msg}")
+        print(f" {error_msg}")
         print(traceback.format_exc())
         driver.save_screenshot(os.path.join(screenshots_folder, 'Unexpected_Error.png'))
         log_error(f"Unexpected error in Bookings: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path)

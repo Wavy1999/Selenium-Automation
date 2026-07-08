@@ -36,6 +36,8 @@ from Utility import (                     # Custom helper functions for automati
 )
 
 def MProduct(driver, wait):
+
+    wait = WebDriverWait(driver, 20)  # Explicit wait for elements to be present/clickable
     
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['MProduct']['log']
@@ -54,19 +56,19 @@ def MProduct(driver, wait):
             # log_action("Clicked Seller Center", log_file_path=log_file_path)
             # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-            # Product_Management =  WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@data-bs-title='Product Management' and @data-bs-toggle='tooltip' and .//span[text()='Product Management']]")))
+            # Product_Management =  wait.until(EC.element_to_be_clickable((By.XPATH,"//a[@data-bs-title='Product Management' and @data-bs-toggle='tooltip' and .//span[text()='Product Management']]")))
             # driver.execute_script("arguments[0].click();", Product_Management)
             # log_action("Clicked Product Management", log_file_path=log_file_path)
-            # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            # wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             # time.sleep(5)
             # driver.save_screenshot(os.path.join(screenshots_folder, "Product_Management.png"))
 
-            Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+            Manage_Product = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
             driver.execute_script("window.scrollTo(0, 0);",Manage_Product)
             time.sleep(0.5)
             driver.execute_script("arguments[0].click();", Manage_Product)
             log_action("Clicked Create New Product", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             time.sleep(2)
             driver.save_screenshot(os.path.join(screenshots_folder, "Manage Product.png"))
 
@@ -102,7 +104,7 @@ def MProduct(driver, wait):
             edit_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "(//a[contains(@href, '/ProductManagement/NewProduct') and contains(@href, 'type=edit')])[1]")))
             driver.execute_script("arguments[0].click();", edit_button)
             log_action("Clicked first Edit button", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             update_data = product_data()
 
@@ -115,7 +117,7 @@ def MProduct(driver, wait):
             driver.save_screenshot(os.path.join(screenshots_folder, ' Product_Value_Edited.png'))
 
             # Submit
-            save_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, 'saveProduct')))
+            save_btn = wait.until(EC.element_to_be_clickable((By.ID, 'saveProduct')))
             driver.execute_script("arguments[0].scrollIntoView({block: 'end'});", save_btn)
             time.sleep(2)
             driver.execute_script("arguments[0].click()", save_btn)
@@ -125,20 +127,20 @@ def MProduct(driver, wait):
             time.sleep(5)
 
             # Confirmation 
-            confirm_btn =  WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and contains(text(), 'OK')]")))
+            confirm_btn =  wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and contains(text(), 'OK')]")))
             driver.execute_script("arguments[0].click();", confirm_btn)
             log_action("Clicked Confirm OK", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             
             driver.save_screenshot(os.path.join(screenshots_folder, ' Product_Updated.png'))
 
             # Success
-            back_to_manage_product = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct')]")))
+            back_to_manage_product = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct')]")))
             driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});", back_to_manage_product)
             time.sleep(1)
             driver.execute_script("arguments[0].click();", back_to_manage_product)
             log_action("Clicked Manage Product button", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # Search box
             search_box_2 = wait.until(EC.visibility_of_element_located((By.ID, "searchTable")))
@@ -159,16 +161,16 @@ def MProduct(driver, wait):
                 raise
 
             # View Product
-            view_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/NewProduct') and contains(@href, 'type=view')]")))
+            view_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/NewProduct') and contains(@href, 'type=view')]")))
             driver.execute_script("arguments[0].click();", view_button)
             log_action("Clicked first View button in Manage Product table", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
             driver.save_screenshot(os.path.join(screenshots_folder, ' Product_View.png'))
 
-            back_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//p[contains(text(), 'Back')]")))
+            back_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//p[contains(text(), 'Back')]")))
             driver.execute_script("arguments[0].click();", back_button)
             log_action("Clicked Back button", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # Upload photo
             image_folder = r"D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product"
@@ -198,16 +200,16 @@ def MProduct(driver, wait):
             driver.find_element(By.ID, "uploadAllBtn").click()
             log_action("Uploaded photo", log_file_path=log_file_path)
 
-            swal_popup = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "div.swal2-popup.swal2-show")))
+            swal_popup = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "div.swal2-popup.swal2-show")))
             log_action("Upload Images Successfully appeared", log_file_path=log_file_path)
             driver.save_screenshot(os.path.join(screenshots_folder, ' Image_Uploaded.png'))
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # Upload again to close the modal
-            upload_again_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@class,'btn') and text()='Upload again']")))
+            upload_again_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@class,'btn') and text()='Upload again']")))
             driver.execute_script("arguments[0].click();", upload_again_btn)
             log_action("Clicked Upload Again to close the modal", log_file_path=log_file_path)
-            WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')  
+            wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')  
 
             try:
 
@@ -229,18 +231,18 @@ def MProduct(driver, wait):
                     raise
 
                 # Price Adjustment
-                price_icon = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "img.img-price-icon[alt='adjust price icon']")))
+                price_icon = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "img.img-price-icon[alt='adjust price icon']")))
                 driver.execute_script("arguments[0].click();", price_icon)
                 log_action("Clicked first Adjust Price icon", log_file_path=log_file_path)
 
                 # Wait until the radio input is clickable
-                promo_option_1 = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label.radio-card[for='temporaryPromoRadio'], label.radio-card")))
+                promo_option_1 = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label.radio-card[for='temporaryPromoRadio'], label.radio-card")))
                 driver.execute_script("arguments[0].click();", promo_option_1)
                 log_action("Selected Option 1: Run a Special Promotion", log_file_path=log_file_path)
-                WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-                modal_body = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "div.modal-body.pb-4")))
-                WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "//p[@data-modal-productid and contains(text(), 'BNW-PRD-')]")))
+                modal_body = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "div.modal-body.pb-4")))
+                wait.until(EC.visibility_of_element_located((By.XPATH, "//p[@data-modal-productid and contains(text(), 'BNW-PRD-')]")))
                 log_action(" Adjust Price modal displayed successfully.", log_file_path=log_file_path)
                 driver.save_screenshot(os.path.join(screenshots_folder, "AdjustPrice_Modal_Visible.png"))
 
@@ -293,10 +295,10 @@ def MProduct(driver, wait):
                 log_action(" Promo options are now visible again", log_file_path=log_file_path)
                 time.sleep(2)
 
-                promo_option_2 =WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//h6[text()='Option 2: Adjust Unit Price']/ancestor::label")))
+                promo_option_2 =wait.until(EC.element_to_be_clickable((By.XPATH, "//h6[text()='Option 2: Adjust Unit Price']/ancestor::label")))
                 driver.execute_script("arguments[0].click();", promo_option_2)
                 log_action("Selected Option 2: Adjust Unit Price", log_file_path=log_file_path)
-                WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
                 time.sleep(5)
 
                 modal_body = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".modal-body.pb-4")))
@@ -329,7 +331,7 @@ def MProduct(driver, wait):
                 driver.save_screenshot(os.path.join(screenshots_folder, "Option2_PriceSaved.png"))
                 time.sleep(2)
 
-                close_btn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-close")))
+                close_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-close")))
                 driver.execute_script("arguments[0].click();", close_btn)
                 log_action("Closed Price Management modal", log_file_path=log_file_path)
 
@@ -360,10 +362,11 @@ def MProduct(driver, wait):
                     raise
 
                 # Create BUlk Feature
-                bulk_feature_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "createBulkOrderButton")))
+                bulk_feature_button = wait.until(EC.element_to_be_clickable((By.ID, "createBulkOrderButton")))
                 driver.execute_script("arguments[0].click();", bulk_feature_button)
                 log_action("Clicked Create Bulk Feature button", log_file_path=log_file_path)
-                wait = WebDriverWait(driver, 10)
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                time.sleep(5)
 
                 # Search Client List
          
@@ -380,18 +383,18 @@ def MProduct(driver, wait):
 
 
                 # Submit Bulk Feature
-                submit_bulk_feature = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "submit-bulk-order-button")))
+                submit_bulk_feature = wait.until(EC.element_to_be_clickable((By.ID, "submit-bulk-order-button")))
                 driver.execute_script("arguments[0].click();", submit_bulk_feature)
                
-                WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
                 time.sleep(5)
                 driver.save_screenshot(os.path.join(screenshots_folder, "Bulk Product.png"))
 
-                table = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.ID, "orderAdjustmentTable")))
-                WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#orderAdjustmentTable tbody tr")))
+                table = wait.until(EC.visibility_of_element_located((By.ID, "orderAdjustmentTable")))
+                wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#orderAdjustmentTable tbody tr")))
                 log_action("Order Adjustment loaded successfully", log_file_path=log_file_path)
 
-                shipping_input = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "input.shipping-input[data-client-id='0']")))
+                shipping_input = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "input.shipping-input[data-client-id='0']")))
                 shipping_input.clear()
                 shipping_input.send_keys("150") 
                 log_action("Entered Shipping Amount: 150", log_file_path=log_file_path)
@@ -402,11 +405,11 @@ def MProduct(driver, wait):
                 driver.save_screenshot(os.path.join(screenshots_folder, ' Bulk_Feature_Filled.png'))
                 time.sleep(2)
 
-                finalize_bulk_order = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, "finalize-bulk-order-button")))
+                finalize_bulk_order = wait.until(EC.element_to_be_clickable((By.ID, "finalize-bulk-order-button")))
                 driver.execute_script("arguments[0].click();", finalize_bulk_order)
                 log_action("Clicked Finalize Bulk Feature button", log_file_path=log_file_path)
                 time.sleep(10)
-                WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
                 time.sleep(2)
 
                 service_table = wait.until(EC.visibility_of_element_located((By.ID, "priceManagementModal")))
@@ -426,12 +429,12 @@ def MProduct(driver, wait):
                 payment_link = wait.until(EC.element_to_be_clickable((By.ID, "payment-button-0")))
                 driver.execute_script("arguments[0].click()", payment_link)
                 log_action("Clicked Payment Link Button", log_file_path=log_file_path)
-                WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
                 time.sleep(5)
                 driver.save_screenshot(os.path.join(screenshots_folder, 'Payment_Windows.png'))
 
                 # Wait for the new window/tab to appear
-                WebDriverWait(driver, 30).until(lambda d: len(d.window_handles) > 1)
+                wait.until(lambda d: len(d.window_handles) > 1)
                 log_action("New window opened for payment link", log_file_path=log_file_path)
 
                 # Switch to the new window

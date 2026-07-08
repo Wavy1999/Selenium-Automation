@@ -21,6 +21,8 @@ from Utility import (                     # Custom utility functions for automat
 )
 
 def OMQR(driver, wait):
+
+    wait = WebDriverWait(driver, 30)
     
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['OMQR']['log']
@@ -51,27 +53,27 @@ def OMQR(driver, wait):
         # log_action("Clicked Order Management", log_file_path=log_file_path)
         # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-        breadcrumb = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "li.ob__breadcrumb-link")))
+        breadcrumb = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "li.ob__breadcrumb-link")))
         driver.execute_script("arguments[0].click();", breadcrumb)
         log_action("Clicked 'Order Management' breadcrumb", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(3)
         driver.save_screenshot(os.path.join(screenshots_folder, "QR.png"))
         
-        QR = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[@href='/GenerateQR']")))
+        QR = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@href='/GenerateQR']")))
         driver.execute_script("arguments[0].click();", QR)
         log_action("Clicked Generate QR", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(5)
         driver.save_screenshot(os.path.join(screenshots_folder, "Generate_QR_Page.png"))
         log_action("Generate QR Page loaded successfully", log_file_path=log_file_path)
 
        # Custom QR
-        custom_qr = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.ID, "customQRCheckbox")))
+        custom_qr = wait.until(EC.element_to_be_clickable((By.ID, "customQRCheckbox")))
         driver.execute_script("arguments[0].click()", custom_qr)
         log_action("Clicked Custom QR", log_file_path=log_file_path)
         time.sleep(5)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(5)
         driver.save_screenshot(os.path.join(screenshots_folder, "Custom_QR_Option_Selected.png"))
 

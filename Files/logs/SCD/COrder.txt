@@ -145,3 +145,52 @@
 [2026-07-08 11:40:25] Check Grand Total - PASSED
 [2026-07-08 11:40:35] Submit Service Order - PASSED
 [2026-07-08 11:40:51] Service Order Submitted Successfully - PASSED
+[2026-07-08 13:55:59] Clicked Order Management - PASSED
+[2026-07-08 13:56:04] Clicked Create Single Order - PASSED
+[2026-07-08 13:56:15] Clicked Yes,leave page to proceed in Create Single Order - PASSED
+[2026-07-08 13:56:15] Create Order page loaded - PASSED
+[2026-07-08 13:56:15] Click Search Button - PASSED
+[2026-07-08 13:56:16] Search specific client - PASSED
+[2026-07-08 13:56:18] Closse search - PASSED
+[2026-07-08 13:56:20] Click Checkout as guest option - PASSED
+[2026-07-08 13:56:24] Entered first name: Roronoa - PASSED
+[2026-07-08 13:56:28] Entered middle name: Test - PASSED
+[2026-07-08 13:56:31] Entered last name: Zoro - PASSED
+[2026-07-08 13:56:36] Entered Company Name: Straw Hat Inc. - PASSED
+[2026-07-08 13:56:42] Entered mobile number: +63 922 234 5678 - PASSED
+[2026-07-08 13:56:48] Entered email: zoro@strawhatpirates.com - PASSED
+[2026-07-08 13:56:53] Entered House/Floor/Unit No.: 4556 Ayala - PASSED
+[2026-07-08 13:56:58] Entered Block/Building/Street: Legaspi Village - PASSED
+[2026-07-08 13:57:00] Selected Country: PHILIPPINES - PASSED
+[2026-07-08 13:57:02] Selected Province: BATAAN - PASSED
+[2026-07-08 13:57:05] Selected City/Municipality: ABUCAY - PASSED
+[2026-07-08 13:57:07] Selected Barangay: BANGKAL - PASSED
+[2026-07-08 13:57:12] Entered Postal Code: 4026 - PASSED
+[2026-07-08 13:57:17] Entered Order Notes: Booze - PASSED
+[2026-07-08 13:57:19] Clicked to select item in purchase order - PASSED
+[2026-07-08 13:57:21] Selected Product: NeuroLink - PASSED
+[2026-07-08 13:57:33] Clicked on product dropdown item: NeuroLink - PASSED
+[2026-07-08 13:57:44] Product confirmed: NeuroLink - PASSED
+[2026-07-08 13:57:49] Confirmed selected product - PASSED
+[2026-07-08 13:57:59] Entered product quantity - PASSED
+[2026-07-08 13:58:01] Due Date is datetime object: 05/05/2026 - PASSED
+[2026-07-08 13:58:02] Clicked date field to activate datepicker - PASSED
+[2026-07-08 13:58:03] ✓ Entered Due Date via JavaScript: 05/05/2026 - PASSED
+[2026-07-08 13:58:05] ✓ Verified date in field: 07/08/2026 - PASSED
+[2026-07-08 13:58:08] Click Add Item - PASSED
+[2026-07-08 13:58:18] Remove Item field loaded - PASSED
+[2026-07-08 13:58:39] Removed empty row: item='', qty='' - PASSED
+[2026-07-08 13:58:51] Click Apply Price Adjustment - PASSED
+[2026-07-08 13:58:51] Inputted Amount - PASSED
+[2026-07-08 13:58:51] Selected: Increase Subtotal - PASSED
+[2026-07-08 13:58:51] Click Apply - PASSED
+[2026-07-08 13:58:51] Click Apply Shipping Fee - PASSED
+[2026-07-08 13:58:52] Inputted Amount - PASSED
+[2026-07-08 13:58:52] Click Apply - PASSED
+[2026-07-08 13:58:52] Clicked Apply Tax - PASSED
+[2026-07-08 13:58:52] Selected Tax Type: VAT - PASSED
+[2026-07-08 13:58:52] Inputted Amount - PASSED
+[2026-07-08 13:58:52] Click Apply - PASSED
+[2026-07-08 13:58:52] Check Grand Total - PASSED
+[2026-07-08 13:59:03] Submit Service Order - PASSED
+[2026-07-08 13:59:14] Service Order Submitted Successfully - PASSED

@@ -139,3 +139,122 @@ Traceback (most recent call last):
     raise TimeoutException(message, screen, stacktrace)
 selenium.common.exceptions.TimeoutException: Message: 
 
+[2026-07-08 14:04:00] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-07-08 14:04:00] ERROR: Manage Product - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 372, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaea543+103f3]
+	chromedriver!GetHandleVerifier [0xaea584+10434]
+	chromedriver!(No symbol) [0x8ea700]
+	chromedriver!(No symbol) [0x933bab]
+	chromedriver!(No symbol) [0x933dcb]
+	chromedriver!(No symbol) [0x975b32]
+	chromedriver!(No symbol) [0x956114]
+	chromedriver!(No symbol) [0x97339a]
+	chromedriver!(No symbol) [0x955e66]
+	chromedriver!(No symbol) [0x929159]
+	chromedriver!(No symbol) [0x929f24]
+	chromedriver!GetHandleVerifier [0xd74bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd70119+295fc9]
+	chromedriver!GetHandleVerifier [0xd9103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xb037f6+296a6]
+	chromedriver!GetHandleVerifier [0xb0a91d+307cd]
+	chromedriver!GetHandleVerifier [0xaf2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaf2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xadc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+

@@ -29,6 +29,8 @@ from Utility import (                     # Custom utility functions for automat
 )
 
 def CNProduct(driver, wait):
+
+    wait = WebDriverWait(driver, 30)
     
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['CNProduct']['log']
@@ -44,23 +46,23 @@ def CNProduct(driver, wait):
         Seller_Center = wait.until(EC.element_to_be_clickable((By.XPATH,  "//a[@data-bs-title='Seller Center' and @data-bs-toggle='tooltip' and .//span[text()='Seller Center']]")))
         driver.execute_script("arguments[0].click()", Seller_Center)
         log_action("Clicked Seller Center", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-        Product_Management =  WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[@data-bs-title='Product Management' and @data-bs-toggle='tooltip' and .//span[text()='Product Management']]")))
+        Product_Management =  wait.until(EC.element_to_be_clickable((By.XPATH,"//a[@data-bs-title='Product Management' and @data-bs-toggle='tooltip' and .//span[text()='Product Management']]")))
         driver.execute_script("arguments[0].click();", Product_Management)
         log_action("Clicked Product Management", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(5)
         driver.save_screenshot(os.path.join(screenshots_folder, "Product_Management.png"))
 
-        Create_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/NewProduct') and .//span[contains(text(), 'Create New Product')]]")))
+        Create_new_product = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ProductManagement/NewProduct') and .//span[contains(text(), 'Create New Product')]]")))
         driver.execute_script("arguments[0].click();", Create_new_product)
         log_action("Clicked Create New Product", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(5)
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_New_Product_Page.png"))
 
-        main_content = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "mainContent")))
+        main_content = wait.until(EC.visibility_of_element_located((By.ID, "mainContent")))
         log_action("Create New Product page loaded successfully", log_file_path=log_file_path)
         time.sleep(3)
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_New_Product_Content.png"))
@@ -143,11 +145,11 @@ def CNProduct(driver, wait):
         uploaded_img_path = upload_image_product(driver)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);",uploaded_img_path)
         log_action(f"Uploaded image: {uploaded_img_path}", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)                                       
                                                   
         # Submit
-        save_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, 'saveProduct')))
+        save_btn = wait.until(EC.element_to_be_clickable((By.ID, 'saveProduct')))
         time.sleep(0.5)
         driver.execute_script("arguments[0].click()", save_btn)
         log_action("Clicked Save Button", log_file_path=log_file_path)
@@ -156,10 +158,10 @@ def CNProduct(driver, wait):
         time.sleep(5)
 
         # Confirmation 
-        confirm_btn =  WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and contains(text(), 'OK')]")))
+        confirm_btn =  wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and contains(text(), 'OK')]")))
         driver.execute_script("arguments[0].click();", confirm_btn)
         log_action("Clicked Confirm OK", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # Success
         driver.save_screenshot(os.path.join(screenshots_folder, ' success.png'))

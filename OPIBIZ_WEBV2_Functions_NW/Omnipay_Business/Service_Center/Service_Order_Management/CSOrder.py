@@ -33,6 +33,8 @@ from path_config import SCD_MODULE_PATHS
 
 def CSOrder(driver, wait):
    
+    wait = WebDriverWait(driver, 30)
+
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['CSOrder']['log']
     screenshots_folder = SCD_MODULE_PATHS['CSOrder']['screenshots']
@@ -52,23 +54,23 @@ def CSOrder(driver, wait):
         Service_Order_Management = wait.until(EC.visibility_of_element_located((By.XPATH, "//li[contains(@class,'ob__breadcrumb-link') and contains(., 'Service Order Management')]")))
         driver.execute_script("arguments[0].click()", Service_Order_Management)
         log_action("Clicked Service_Order_Management", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)
 
-        create_service_order  = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/OrderCreation?type=service#' ""and @data-bs-title='Create Acknowledgement Receipt' ""and @data-bs-toggle='tooltip' ""and .//span[text()='Create Service Order']]")))
+        create_service_order  = wait.until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/OrderCreation?type=service#' ""and @data-bs-title='Create Acknowledgement Receipt' ""and @data-bs-toggle='tooltip' ""and .//span[text()='Create Service Order']]")))
         driver.execute_script("arguments[0].click();", create_service_order)
         log_action("Clicked Create Service Center", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Create Service Center.png"))
         time.sleep(2)
 
         # Leave the page
-        leave_page = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div/div[6]/button[1]")))
+        leave_page = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div/div[6]/button[1]")))
         driver.execute_script("arguments[0].click();", leave_page)
         log_action("Clicked Yes,leave page to proceed in Create Single Order", log_file_path=log_file_path)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-        WebDriverWait(driver,10).until(EC.presence_of_element_located((By.CLASS_NAME, "card-body")))
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "card-body")))
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_Single_Order_Page.png"))
         log_action("Create Order page loaded", log_file_path=log_file_path)
 
@@ -78,14 +80,14 @@ def CSOrder(driver, wait):
         log_action("Click Search Button", log_file_path=log_file_path)
 
         # SEARCH CLIENT
-        search_client = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.ID, "clientSearchInput")))
+        search_client = wait.until(EC.element_to_be_clickable((By.ID, "clientSearchInput")))
         search_client.clear()
         search_client.send_keys("JOHN SANTOS")
         log_action("Search specific client", log_file_path=log_file_path)
         time.sleep(2)
         
         # CLOSE SEARCH
-        close_search = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="clientListModal"]/div/div/div[3]/button[1]')))
+        close_search = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="clientListModal"]/div/div/div[3]/button[1]')))
         driver.execute_script("arguments[0].click()", close_search)
         log_action("Closse search", log_file_path=log_file_path)
         time.sleep(2)
@@ -195,13 +197,13 @@ def CSOrder(driver, wait):
         log_action(f"Entered Order Notes: {client['Order Notes']}", log_file_path=log_file_path)
         time.sleep(2)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Client_Details_Filled.png"))
 
         #-----Client's Service Request -----#
 
         # SERVICE CATALOG
-        services = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.NAME, 'PurchaseServices[0].Item')))
+        services = wait.until(EC.element_to_be_clickable((By.NAME, 'PurchaseServices[0].Item')))
         driver.execute_script("arguments[0].click()", services)
         log_action("Clicked to select item in purchase order", log_file_path=log_file_path)
 
@@ -213,11 +215,11 @@ def CSOrder(driver, wait):
         log_file_path=log_file_path
         )
         time.sleep(10)
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
        
 
         # SELECT SERVICE CONFIRMATION
-        modal = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.modal.show')))
+        modal = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.modal.show')))
         confirm_button =  modal.find_element(By.CSS_SELECTOR, 'button[data-action="confirm"]')
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", confirm_button)
         time.sleep(0.2)
@@ -225,7 +227,7 @@ def CSOrder(driver, wait):
         log_action("Confirmed selected service", log_file_path=log_file_path)
         time.sleep(10)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Services_Confirmed.png"))
         
         # PRODUCT QUANTITY
@@ -278,7 +280,7 @@ def CSOrder(driver, wait):
         if formatted_due_date:
             try:
                 # Wait for and find the date field
-                date_field = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "dueDate")))
+                date_field = wait.until(EC.presence_of_element_located((By.ID, "dueDate")))
                 
                 # Scroll to make it visible
                 driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", date_field)
