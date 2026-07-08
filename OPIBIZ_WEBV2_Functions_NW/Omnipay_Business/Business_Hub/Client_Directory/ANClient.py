@@ -86,7 +86,7 @@ def ANClient(driver, wait):
         option_values = [o.get_attribute("value") for o in select.options]
         if client["Prefix"] not in option_values:
             raise ValueError(f"Prefix '{client['Prefix']}' from Excel not found in dropdown options")
-        select.select_by_value(client["Prefix"])
+        select.select_by_value(client["Prefix"]) # type: ignore
         log_action(f"Selected Prefix from Excel: {client['Prefix']}", log_file_path=log_file_path)
 
         # Fill form fields

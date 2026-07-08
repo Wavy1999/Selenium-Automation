@@ -12,6 +12,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
+
+from env_config import BASE_URL 
+
 # Local / project‑specific imports
 from path_config import SCD_MODULE_PATHS
 from Utility import (
@@ -35,7 +38,7 @@ def CNService(driver, wait):
   
     try:
       
-        url = "http://vm-app-dev01:9001/ProductManagement/NewService?type=add"
+        url =   f"{BASE_URL}/ProductManagement/NewService?type=add"
         # url = "http://beta-opibizscd.paybps.ovpn/ProductManagement/NewService?type=add"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')

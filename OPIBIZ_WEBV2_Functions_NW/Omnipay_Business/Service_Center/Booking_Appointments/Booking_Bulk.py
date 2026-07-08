@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from env_config import BASE_URL 
+
 from Utility import (
     log_action,
     log_error,
@@ -33,7 +35,7 @@ def SCDBooking_Bulk(driver, wait):
     try:
        
         # url = "http://beta-opibizscd.paybps.ovpn/ServiceCenter/BatchUploadBookingAppointments"
-        url = "http://vm-app-dev01:9001/ServiceCenter/BatchUploadBookingAppointments"
+        url = f"{BASE_URL}/BatchUploadBookingAppointments"
         driver.get(url)
         wait.until(lambda d: d.execute_script("return document.readyState") == "complete")
         driver.save_screenshot(os.path.join(screenshots_folder, "Navigate_Bulk_Booking.png"))
