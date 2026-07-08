@@ -26,7 +26,8 @@ def CSOrder_View(driver, wait):
         
         # create_service_order  = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,"//a[@href='/OrderCreation?type=service#' ""and @data-bs-title='Create Acknowledgement Receipt' ""and @data-bs-toggle='tooltip' ""and .//span[text()='Create Service Order']]")))
         # driver.execute_script("arguments[0].click();", create_service_order)
-        url  = "http://beta-opibizscd.paybps.ovpn/OrderCreation?type=service#"
+        # url  = "http://beta-opibizscd.paybps.ovpn/OrderCreation?type=service#"
+        url  = "http://vm-app-dev01:9001/OrderCreation?type=service#"
         driver.get(url)
         log_action("Clicked Create Service Center", log_file_path=log_file_path)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')

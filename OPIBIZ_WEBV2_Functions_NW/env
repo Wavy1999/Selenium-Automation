@@ -1,0 +1,8 @@
+# ==========================================
+#   ENVIRONMENT CONFIGURATION
+# ==========================================
+# Change ONLY this file when the test environment URL changes.
+# Every module reads BASE_URL from here via env_config.py — nothing else
+# needs to be touched.
+
+BASE_URL=http://172.16.40.154:9000

@@ -1,6 +1,16 @@
-[2026-02-10 13:02:47] Create New Product(Bulk) page loaded successfully - PASSED
-[2026-02-10 13:02:49] Selected Warehouse: Main Warehouse - PASSED
-[2026-02-10 13:02:49] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
-[2026-02-10 13:02:49] Uploaded Excel file for Bulk Product Upload - PASSED
-[2026-02-10 13:03:16] Clicked Upload button for Bulk Product Upload - PASSED
-[2026-02-10 13:03:16] Bulk Product Upload processed successfully - PASSED
+[2026-02-26 15:40:02] Create New Product(Bulk) page loaded successfully - PASSED
+[2026-02-26 15:40:04] Selected Warehouse: Main Warehouse - PASSED
+[2026-02-26 15:40:04] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2026-02-26 15:40:04] Uploaded Excel file for Bulk Product Upload - PASSED
+[2026-02-26 15:40:24] Clicked Upload button for Bulk Product Upload - PASSED
+[2026-02-26 15:40:24] Bulk Product Upload processed successfully - PASSED
+[2026-07-08 11:45:40] Create New Product(Bulk) page loaded successfully: http://172.16.40.154:9000/ProductManagement/BatchProduct - PASSED
+[2026-07-08 11:45:42] Selected Warehouse: Main Warehouse - PASSED
+[2026-07-08 11:45:42] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2026-07-08 11:45:42] Uploaded Excel file for Bulk Product Upload - PASSED
+[2026-07-08 11:46:08] Clicked Upload button for Bulk Product Upload - PASSED
+[2026-07-08 11:46:08] Bulk Product Upload processed successfully - PASSED
+[2026-07-08 12:01:04] Create New Product(Bulk) page loaded successfully: http://172.16.40.154:9000/ProductManagement/BatchProduct - PASSED
+[2026-07-08 12:01:06] Selected Warehouse: Main Warehouse - PASSED
+[2026-07-08 12:01:06] Excel File Path: d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Testdata\Product_Batch_Upload.xlsx - PASSED
+[2026-07-08 12:01:06] Uploaded Excel file for Bulk Product Upload - PASSED

@@ -1,63 +1,63 @@
-[2026-02-10 13:12:49] Clicked Manage Services - PASSED
-[2026-02-10 13:12:52] Searching for service: Software Maintenance - PASSED
-[2026-02-10 13:12:58] Searched for service: Software Maintenance - PASSED
-[2026-02-10 13:12:58] Selected service checkbox - PASSED
-[2026-02-10 13:13:03] Clicked View Service - PASSED
-[2026-02-10 13:13:09] Clicked Manage Product button - PASSED
-[2026-02-10 13:13:14] Clicked Update Service - PASSED
-[2026-02-10 13:13:17] Selected Location by typing & Enter: MAIN WAREHOUSE - PASSED
-[2026-02-10 13:13:19] Selected Warehouse: MAIN WAREHOUSE - PASSED
-[2026-02-10 13:13:19] Clicked Save Button - PASSED
-[2026-02-10 13:13:20] Clicked Confirm OK - PASSED
-[2026-02-10 13:13:43] Clicked Manage Service button - PASSED
-[2026-02-10 13:13:48] Searched for product: Software Maintenance - PASSED
-[2026-02-10 13:13:51] Selected service checkbox2 - PASSED
-[2026-02-10 13:13:51] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Service Media\Data Analysis.jpg - PASSED
-[2026-02-10 13:13:51] Uploaded photo - PASSED
-[2026-02-10 13:13:51] Upload Images Successfully appeared - PASSED
-[2026-02-10 13:13:59] Clicked Upload Again to close the modal - PASSED
-[2026-02-10 13:14:08] Searched for product: Software Maintenance - PASSED
-[2026-02-10 13:14:12] Selected service checkbox3 - PASSED
-[2026-02-10 13:14:12] Clicked first Adjust Price icon - PASSED
-[2026-02-10 13:14:12] Selected Option 1: Run a Special Promotion - PASSED
-[2026-02-10 13:14:13]  Adjust Price modal displayed successfully. - PASSED
-[2026-02-10 13:14:19] Entered Promo Price: 5562 - PASSED
-[2026-02-10 13:14:20] 📅 Clicked date in calendar: February 11, 2026 - PASSED
-[2026-02-10 13:14:20]  Set 'PriceAdjustments[0].EffectiveFr' to 02/11/2026 13:14:19 - PASSED
-[2026-02-10 13:14:21] Set Start Date for Promotion - PASSED
-[2026-02-10 13:14:36]  Could not interact with calendar: Message: 
+[2026-02-26 15:51:23] Clicked Manage Services - PASSED
+[2026-02-26 15:51:26] Searching for service: Cloud Hosting - PASSED
+[2026-02-26 15:51:31] Searched for service: Cloud Hosting - PASSED
+[2026-02-26 15:51:31] Selected service checkbox - PASSED
+[2026-02-26 15:51:36] Clicked View Service - PASSED
+[2026-02-26 15:51:41] Clicked Manage Product button - PASSED
+[2026-02-26 15:51:46] Clicked Update Service - PASSED
+[2026-02-26 15:51:49] Selected Location by typing & Enter: MAIN WAREHOUSE - PASSED
+[2026-02-26 15:51:51] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-02-26 15:51:52] Clicked Save Button - PASSED
+[2026-02-26 15:51:52] Clicked Confirm OK - PASSED
+[2026-02-26 15:52:18] Clicked Manage Service button - PASSED
+[2026-02-26 15:52:20] Searched for product: Cloud Hosting - PASSED
+[2026-02-26 15:52:24] Selected service checkbox2 - PASSED
+[2026-02-26 15:52:24] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Service Media\Website Development.jpg - PASSED
+[2026-02-26 15:52:24] Uploaded photo - PASSED
+[2026-02-26 15:52:24] Upload Images Successfully appeared - PASSED
+[2026-02-26 15:52:31] Clicked Upload Again to close the modal - PASSED
+[2026-02-26 15:52:39] Searched for product: Cloud Hosting - PASSED
+[2026-02-26 15:52:43] Selected service checkbox3 - PASSED
+[2026-02-26 15:52:43] Clicked first Adjust Price icon - PASSED
+[2026-02-26 15:52:43] Selected Option 1: Run a Special Promotion - PASSED
+[2026-02-26 15:52:43]  Adjust Price modal displayed successfully. - PASSED
+[2026-02-26 15:52:50] Entered Promo Price: 4390 - PASSED
+[2026-02-26 15:52:51] 📅 Clicked date in calendar: February 27, 2026 - PASSED
+[2026-02-26 15:52:51]  Set 'PriceAdjustments[0].EffectiveFr' to 02/27/2026 15:52:50 - PASSED
+[2026-02-26 15:52:52] Set Start Date for Promotion - PASSED
+[2026-02-26 15:53:07]  Could not interact with calendar: Message: 
  - PASSED
-[2026-02-10 13:14:36]  Set 'PriceAdjustments[0].EffectiveTo' to 02/12/2026 13:14:21 - PASSED
-[2026-02-10 13:14:37] Set End Date for Promotion - PASSED
-[2026-02-10 13:14:37]  Set Post Promo Price: 2299.0 - PASSED
-[2026-02-10 13:14:37] Set Post Promo Price - PASSED
-[2026-02-10 13:14:38]  Clicked 'Save Price Adjustment' button - PASSED
-[2026-02-10 13:14:39]  Clicked 'Yes' on confirmation  - PASSED
-[2026-02-10 13:14:42]  Clicked 'OK' on success message  - PASSED
-[2026-02-10 13:14:47]  Confirmation  closed successfully - PASSED
-[2026-02-10 13:14:47] Clicked Back to Options button - PASSED
-[2026-02-10 13:14:47]  Promo options are now visible again - PASSED
-[2026-02-10 13:14:49] Selected Option 2: Adjust Unit Price - PASSED
-[2026-02-10 13:14:56] Entered New Unit Price: 5562 - PASSED
-[2026-02-10 13:14:56] Set Future Start Date for Price Adjustment - PASSED
-[2026-02-10 13:14:57]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
-[2026-02-10 13:14:57]  Clicked 'Yes' on confirmation  - PASSED
-[2026-02-10 13:14:59]  Clicked 'OK' on success message  - PASSED
-[2026-02-10 13:15:02] Closed Price Management modal - PASSED
-[2026-02-10 13:15:17] Searched for service: Software Maintenance - PASSED
-[2026-02-10 13:15:21] Selected service checkbox4 - PASSED
-[2026-02-10 13:15:21] Clicked Create Bulk Feature button - PASSED
-[2026-02-10 13:15:23] Client selection successful - PASSED
-[2026-02-10 13:15:25] Address selection successful - PASSED
-[2026-02-10 13:15:36] Order Adjustment loaded successfully - PASSED
-[2026-02-10 13:15:36] Entered Shipping Amount: 150 - PASSED
-[2026-02-10 13:15:39] Filled order row with adjustment, shipping, and tax details - PASSED
-[2026-02-10 13:15:41] Clicked Finalize Bulk Feature button - PASSED
-[2026-02-10 13:15:53] Table is diplay - PASSED
-[2026-02-10 13:15:54] Clicked Export Button - PASSED
-[2026-02-10 13:15:56] Stored original window handle - PASSED
-[2026-02-10 13:15:56] Clicked Payment Link Button - PASSED
-[2026-02-10 13:16:01] New window opened for payment link - PASSED
-[2026-02-10 13:16:01] Switched to new payment window - PASSED
-[2026-02-10 13:16:06] Closed new payment window after 5 seconds - PASSED
-[2026-02-10 13:16:06] Switched back to original window - PASSED
+[2026-02-26 15:53:07]  Set 'PriceAdjustments[0].EffectiveTo' to 02/28/2026 15:52:52 - PASSED
+[2026-02-26 15:53:08] Set End Date for Promotion - PASSED
+[2026-02-26 15:53:09]  Set Post Promo Price: 2299.0 - PASSED
+[2026-02-26 15:53:09] Set Post Promo Price - PASSED
+[2026-02-26 15:53:09]  Clicked 'Save Price Adjustment' button - PASSED
+[2026-02-26 15:53:10]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-26 15:53:13]  Clicked 'OK' on success message  - PASSED
+[2026-02-26 15:53:18]  Confirmation  closed successfully - PASSED
+[2026-02-26 15:53:18] Clicked Back to Options button - PASSED
+[2026-02-26 15:53:18]  Promo options are now visible again - PASSED
+[2026-02-26 15:53:20] Selected Option 2: Adjust Unit Price - PASSED
+[2026-02-26 15:53:27] Entered New Unit Price: 4390 - PASSED
+[2026-02-26 15:53:27] Set Future Start Date for Price Adjustment - PASSED
+[2026-02-26 15:53:28]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2026-02-26 15:53:28]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-26 15:53:30]  Clicked 'OK' on success message  - PASSED
+[2026-02-26 15:53:32] Closed Price Management modal - PASSED
+[2026-02-26 15:53:46] Searched for service: Cloud Hosting - PASSED
+[2026-02-26 15:53:50] Selected service checkbox4 - PASSED
+[2026-02-26 15:53:50] Clicked Create Bulk Feature button - PASSED
+[2026-02-26 15:53:52] Client selection successful - PASSED
+[2026-02-26 15:53:54] Address selection successful - PASSED
+[2026-02-26 15:54:05] Order Adjustment loaded successfully - PASSED
+[2026-02-26 15:54:05] Entered Shipping Amount: 150 - PASSED
+[2026-02-26 15:54:07] Filled order row with adjustment, shipping, and tax details - PASSED
+[2026-02-26 15:54:09] Clicked Finalize Bulk Feature button - PASSED
+[2026-02-26 15:54:21] Table is diplay - PASSED
+[2026-02-26 15:54:27] Clicked Export Button - PASSED
+[2026-02-26 15:54:29] Stored original window handle - PASSED
+[2026-02-26 15:54:29] Clicked Payment Link Button - PASSED
+[2026-02-26 15:54:34] New window opened for payment link - PASSED
+[2026-02-26 15:54:34] Switched to new payment window - PASSED
+[2026-02-26 15:54:39] Closed new payment window after 5 seconds - PASSED
+[2026-02-26 15:54:39] Switched back to original window - PASSED

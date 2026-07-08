@@ -31,6 +31,8 @@ from Utility import (                     # Custom helper functions for automati
 
 def COrder(driver, wait):
    
+    wait = WebDriverWait(driver, 30)
+
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['COrder']['log']
     screenshots_folder = SCD_MODULE_PATHS['COrder']['screenshots']
@@ -41,26 +43,26 @@ def COrder(driver, wait):
     try:
        
         # Click Create Order
-        Order_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[.//span[contains(text(), 'Order Management')]]")))
+        Order_Management = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[.//span[contains(text(), 'Order Management')]]")))
         driver.execute_script("arguments[0].click()", Order_Management)
         log_action("Clicked Order Management", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(5)
         driver.save_screenshot(os.path.join(screenshots_folder, "Order_Management_Page_Flyout.png"))
         
         # Create Single Order
-        Create_Single_Order = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/header/div/div/div[2]/ul/li[1]/a/div/img")))
+        Create_Single_Order = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/header/div/div/div[2]/ul/li[1]/a/div/img")))
         driver.execute_script("arguments[0].click()", Create_Single_Order)
         log_action("Clicked Create Single Order", log_file_path=log_file_path)
         time.sleep(5)
 
         # Leave the page
-        leave_page = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div/div[6]/button[1]")))
+        leave_page = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div/div[6]/button[1]")))
         driver.execute_script("arguments[0].click();", leave_page)
         log_action("Clicked Yes,leave page to proceed in Create Single Order", log_file_path=log_file_path)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-        WebDriverWait(driver,10).until(EC.presence_of_element_located((By.CLASS_NAME, "card-body")))
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "card-body")))
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_Single_Order_Page.png"))
         log_action("Create Order page loaded", log_file_path=log_file_path)
 
@@ -71,14 +73,14 @@ def COrder(driver, wait):
         log_action("Click Search Button", log_file_path=log_file_path)
 
         # SEARCH CLIENT
-        search_client = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.ID, "clientSearchInput")))
+        search_client = wait.until(EC.element_to_be_clickable((By.ID, "clientSearchInput")))
         search_client.clear()
         search_client.send_keys("JOHN SANTOS")
         log_action("Search specific client", log_file_path=log_file_path)
         time.sleep(2)
         
         # CLOSE SEARCH
-        close_search = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="clientListModal"]/div/div/div[3]/button[1]')))
+        close_search = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="clientListModal"]/div/div/div[3]/button[1]')))
         driver.execute_script("arguments[0].click()", close_search)
         log_action("Closse search", log_file_path=log_file_path)
         time.sleep(2)
@@ -188,13 +190,13 @@ def COrder(driver, wait):
         log_action(f"Entered Order Notes: {client['Order Notes']}", log_file_path=log_file_path)
         time.sleep(2)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Client_Details_Filled.png"))
 
         #-----Client's Product Request -----#
 
         # PRODUCT CATALOG
-        product = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.NAME, 'PurchaseOrders[0].Item')))
+        product = wait.until(EC.element_to_be_clickable((By.NAME, 'PurchaseOrders[0].Item')))
         driver.execute_script("arguments[0].click()", product)
         log_action("Clicked to select item in purchase order", log_file_path=log_file_path)
 
@@ -206,17 +208,17 @@ def COrder(driver, wait):
         log_file_path=log_file_path
         )
         time.sleep(5)
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # SELECT PRODUCT CONFIRMATION
-        confirm_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-action="confirm"]')))
+        confirm_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-action="confirm"]')))
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", confirm_button)
         time.sleep(0.2)
         driver.execute_script("arguments[0].click();", confirm_button)
         log_action("Confirmed selected product", log_file_path=log_file_path)
         time.sleep(10)
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Product_Confirmed.png"))
         
         # PRODUCT QUANTITY
@@ -268,7 +270,7 @@ def COrder(driver, wait):
         if formatted_due_date:
             try:
                 # Wait for and find the date field
-                date_field = WebDriverWait(driver, 10).until(
+                date_field = wait.until(
                     EC.presence_of_element_located((By.ID, "dueDate"))
                 )
                 
@@ -330,15 +332,15 @@ def COrder(driver, wait):
         # SCROLL TO BOTTOM
         scroll_bottom = driver.find_element(By.CSS_SELECTOR, "div.card-body")
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);",scroll_bottom)
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # ADD ITEM 
-        add_item_btn =WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@onclick=\"addNewItem('#orderItems', event)\"]")))
+        add_item_btn =wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@onclick=\"addNewItem('#orderItems', event)\"]")))
         driver.execute_script("arguments[0].click();", add_item_btn)
         log_action("Click Add Item", log_file_path=log_file_path)
 
         time.sleep(10)
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.remove-btn-container")))
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.remove-btn-container")))
         log_action("Remove Item field loaded", log_file_path=log_file_path)
         driver.save_screenshot(os.path.join(screenshots_folder, "Add_Item_Field_Prompt.png"))
         time.sleep(20)
@@ -495,22 +497,22 @@ def COrder(driver, wait):
             for idx, btn in enumerate(add_item_buttons[1:], start=2):
                 try:
                     driver.execute_script("arguments[0].remove();", btn)
-                    print(f"  ✓ Removed extra 'Add Item' button #{idx}")
+                    print(f" Removed extra 'Add Item' button #{idx}")
                 except Exception as e:
-                    print(f"  ✗ Failed to remove button #{idx}: {e}")
+                    print(f"  Failed to remove button #{idx}: {e}")
             
-            print(f"✓ Kept 1 'Add Item' button")
+            print(f" Kept 1 'Add Item' button")
         elif len(add_item_buttons) == 1:
-            print("✓ Only 1 'Add Item' button - perfect!")
+            print(" Only 1 'Add Item' button - perfect!")
         else:
-            print("⚠ No 'Add Item' buttons found")
+            print(" No 'Add Item' buttons found")
 
         print("\n" + "="*50)
         print("Finished processing purchase order items")
         print("="*50)
         
 
-        WebDriverWait(driver,30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, "Product_Added.png"))
 
@@ -524,75 +526,75 @@ def COrder(driver, wait):
         amount.clear()
         amount.send_keys("5")
         log_action("Inputted Amount", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # ADJUSTMENT TYPE
         select_adjustment_type(driver, "increase")
         log_action("Selected: Increase Subtotal", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # APPLY ADJUSTMENT BUTTON
-        apply_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and text()='Apply']")))
+        apply_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and text()='Apply']")))
         driver.execute_script("arguments[0].click();", apply_btn)
         log_action("Click Apply", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # APPLY SHIPPING FEE
-        shipping_fee_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Apply Shipping Fee')]")))
+        shipping_fee_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Apply Shipping Fee')]")))
         driver.execute_script("arguments[0].click()", shipping_fee_btn)
         log_action("Click Apply Shipping Fee", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # ENTER SHIPPING FEE AMOUNT
         shipping_fee_amount = wait.until(EC.presence_of_element_located((By.ID, "shippingFeeAdjustment")))
         shipping_fee_amount.send_keys("5")
         log_action("Inputted Amount", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # APPLY SHIPPING FEE BUTTON
-        apply_shipping_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and text()='Apply']")))
+        apply_shipping_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'swal2-confirm') and text()='Apply']")))
         driver.execute_script("arguments[0].click()", apply_shipping_btn)
         log_action("Click Apply", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # APPLY TAX    
-        apply_tax_btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[@onclick='showTaxAdjustment()']")))
+        apply_tax_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@onclick='showTaxAdjustment()']")))
         driver.execute_script("arguments[0].click();", apply_tax_btn)
         log_action("Clicked Apply Tax", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # TAX TYPE
-        tax_select = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "taxSelect")))
+        tax_select = wait.until(EC.presence_of_element_located((By.ID, "taxSelect")))
         selected_tax = select_tax_type(driver, tax_type="VAT", log_file_path=log_file_path) 
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         
         # TAX PERCENTAGE
         tax_percent = wait.until(EC.presence_of_element_located((By.ID, "taxAdjustment")))
         tax_percent.send_keys("12")
         log_action("Inputted Amount", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
     
         # APPLY TAX PERCENTAGE
         apply_tax_percent_btn = driver.find_element(By.CSS_SELECTOR, "button.swal2-confirm")
         driver.execute_script("arguments[0].click()", apply_tax_percent_btn)
         log_action("Click Apply", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
         # GRAND TOTAL
         grand_total = wait.until(EC.presence_of_element_located((By.ID, "Total")))
         log_action(f"Check Grand Total{grand_total.text}", log_file_path=log_file_path)
-        WebDriverWait(driver,10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, "Payment_Details.png"))
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
        
         # SUBMIT SERVICE ORDER
-        submit_order = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.ID, "submitOrder")))
+        submit_order = wait.until(EC.element_to_be_clickable((By.ID, "submitOrder")))
         driver.execute_script("arguments[0].click();", submit_order)
         log_action("Submit Service Order",log_file_path=log_file_path)
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, "After_Submit_Service_Order.png"))
         log_action("Service Order Submitted Successfully", log_file_path=log_file_path)

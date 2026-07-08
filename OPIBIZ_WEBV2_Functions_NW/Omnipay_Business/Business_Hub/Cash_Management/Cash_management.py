@@ -61,10 +61,10 @@ def CashManagement(driver, wait):
         log_action(f"Current Balance: {current_balance}", log_file_path=log_file_path)
         time.sleep(2)
 
-        available_balance_el = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'availableBalance')))
-        available_balance = clean_text(available_balance_el.text)
-        log_action(f"Available Balance: {available_balance}", log_file_path=log_file_path)
-        time.sleep(2)
+        # available_balance_el = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'availableBalance')))
+        # available_balance = clean_text(available_balance_el.text)
+        # log_action(f"Available Balance: {available_balance}", log_file_path=log_file_path)
+        # time.sleep(2)
 
         # --- Settlement Account Balance --- #
         settlement_acc_bal = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'settlementBalance')))

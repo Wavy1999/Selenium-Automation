@@ -1,5 +1,25 @@
-[2026-02-10 13:23:39] Clicked 'Generate QR' menu - PASSED
-[2026-02-10 13:23:43] Input Order Notes - PASSED
-[2026-02-10 13:23:48] Input Amount - PASSED
-[2026-02-10 13:23:53] Clicked Generate QR Button - PASSED
-[2026-02-10 13:24:03] QR code is now visible - PASSED
+[2026-02-26 16:01:52] Clicked 'Generate QR' menu - PASSED
+[2026-02-26 16:01:55] Input Order Notes - PASSED
+[2026-02-26 16:02:00] Input Amount - PASSED
+[2026-02-26 16:02:06] Clicked Generate QR Button - PASSED
+[2026-02-26 16:02:16] QR code is now visible - PASSED
+[2026-06-30 17:19:58] Clicked 'Generate QR' menu - PASSED
+[2026-06-30 17:20:01] Input Order Notes - PASSED
+[2026-06-30 17:20:06] Input Amount - PASSED
+[2026-06-30 17:20:11] Clicked Generate QR Button - PASSED
+[2026-06-30 17:20:21] QR code is now visible - PASSED
+[2026-06-30 17:20:22] Clicked Generate new QR code - PASSED
+[2026-06-30 17:20:27] Clicked Custom QR - PASSED
+[2026-06-30 17:20:32] Input Client Name - PASSED
+[2026-06-30 17:20:37] Clicked Select Product - PASSED
+[2026-06-30 17:20:42] Selected item bag - PASSED
+[2026-06-30 17:20:42] Select item to order - PASSED
+[2026-06-30 17:20:57] Input Quantity - PASSED
+[2026-06-30 17:21:02] Clicked Confirm - PASSED
+[2026-06-30 17:21:18] Select item to order - PASSED
+[2026-06-30 17:21:33] Input Quantity - PASSED
+[2026-06-30 17:21:38] Clicked element //*[@id="productForm"]/div[3]/div[2]/button - PASSED
+[2026-06-30 17:21:38] Clicked confirm - PASSED
+[2026-06-30 17:21:43] Clicked element //*[@id="selectedProductsTable"]/tbody/tr/td[5]/a - PASSED
+[2026-06-30 17:21:43] Clicked Remove - PASSED
+[2026-06-30 17:22:03] Clicked Clear Selection - PASSED

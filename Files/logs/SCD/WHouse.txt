@@ -1,17 +1,34 @@
-[2026-02-10 13:17:16] Navigated directly to Warehouse - PASSED
-[2026-02-10 13:17:17] Clicked Add New Warehouse button - PASSED
-[2026-02-10 13:17:22] Entered Warehouse Name: Warehouse_8 - PASSED
-[2026-02-10 13:17:24] Entered Contact Person: Contact_8 - PASSED
-[2026-02-10 13:17:26] Entered Contact No.: 9868700918 - PASSED
-[2026-02-10 13:17:29] Entered Location Name: Location_8 - PASSED
-[2026-02-10 13:17:31] Entered House/Floor/Unit No.: Unit 35 - PASSED
-[2026-02-10 13:17:34] Entered Street: Blk 16 St 38 - PASSED
-[2026-02-10 13:17:34] Selected Country: Philippines - PASSED
-[2026-02-10 13:17:36] Selected Province: Cebu - PASSED
-[2026-02-10 13:17:39] Selected City/Municipality: Mandaue - PASSED
-[2026-02-10 13:17:41] Selected Barangay: Tipolo - PASSED
-[2026-02-10 13:17:44] Entered Postal Code: 8059 - PASSED
-[2026-02-10 13:17:47] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\3.jpg - PASSED
-[2026-02-10 13:17:49] Clicked Add New Warehouse button - PASSED
-[2026-02-10 13:17:52] Clicked SweetAlert Confirm button - PASSED
-[2026-02-10 13:17:55] Warehouse has been createed sucessfully - PASSED
+[2026-02-26 15:55:48] Navigated directly to Warehouse - PASSED
+[2026-02-26 15:55:48] Clicked Add New Warehouse button - PASSED
+[2026-02-26 15:55:53] Entered Warehouse Name: Warehouse_4 - PASSED
+[2026-02-26 15:55:55] Entered Contact Person: Contact_4 - PASSED
+[2026-02-26 15:55:58] Entered Contact No.: 9257134724 - PASSED
+[2026-02-26 15:56:00] Entered Location Name: Location_4 - PASSED
+[2026-02-26 15:56:02] Entered House/Floor/Unit No.: Unit 38 - PASSED
+[2026-02-26 15:56:04] Entered Street: Blk 19 St 35 - PASSED
+[2026-02-26 15:56:05] Selected Country: Philippines - PASSED
+[2026-02-26 15:56:07] Selected Province: Cebu - PASSED
+[2026-02-26 15:56:09] Selected City/Municipality: Mandaue - PASSED
+[2026-02-26 15:56:11] Selected Barangay: Subangdaku - PASSED
+[2026-02-26 15:56:15] Entered Postal Code: 6503 - PASSED
+[2026-02-26 15:56:17] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\4.jpg - PASSED
+[2026-02-26 15:56:20] Clicked Add New Warehouse button - PASSED
+[2026-02-26 15:56:22] Clicked SweetAlert Confirm button - PASSED
+[2026-02-26 15:56:24] Warehouse has been createed sucessfully - PASSED
+[2026-06-30 17:12:24] Navigated directly to Warehouse - PASSED
+[2026-06-30 17:12:38] Clicked Add New Warehouse button - PASSED
+[2026-06-30 17:12:43] Entered Warehouse Name: Warehouse_6 - PASSED
+[2026-06-30 17:12:45] Entered Contact Person: Contact_6 - PASSED
+[2026-06-30 17:12:47] Entered Contact No.: 9334527557 - PASSED
+[2026-06-30 17:12:50] Entered Location Name: Location_6 - PASSED
+[2026-06-30 17:12:52] Entered House/Floor/Unit No.: Unit 50 - PASSED
+[2026-06-30 17:12:55] Entered Street: Blk 11 St 41 - PASSED
+[2026-06-30 17:12:55] Selected Country: Philippines - PASSED
+[2026-06-30 17:12:57] Selected Province: Cebu - PASSED
+[2026-06-30 17:12:59] Selected City/Municipality: Cebu City - PASSED
+[2026-06-30 17:13:01] Selected Barangay: Guadalupe - PASSED
+[2026-06-30 17:13:05] Entered Postal Code: 7523 - PASSED
+[2026-06-30 17:13:07] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Warehouse\9.jpg - PASSED
+[2026-06-30 17:13:10] Clicked Add New Warehouse button - PASSED
+[2026-06-30 17:13:12] Clicked SweetAlert Confirm button - PASSED
+[2026-06-30 17:13:14] Warehouse has been createed sucessfully - PASSED

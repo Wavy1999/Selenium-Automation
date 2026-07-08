@@ -1,57 +1,141 @@
-[2026-02-10 12:59:12] Clicked Create New Product - PASSED
-[2026-02-10 12:59:14] Searching for product: NovaFlow - PASSED
-[2026-02-10 12:59:17] Searched for product: NovaFlow - PASSED
-[2026-02-10 12:59:22] Selected first product checkbox - PASSED
-[2026-02-10 12:59:40] Clicked first Edit button - PASSED
-[2026-02-10 12:59:43] Entered Menu Value: 2699 - PASSED
-[2026-02-10 12:59:47] Clicked Save Button - PASSED
-[2026-02-10 12:59:48] Added New Product  - PASSED
-[2026-02-10 12:59:53] Clicked Confirm OK - PASSED
-[2026-02-10 13:00:07] Clicked Manage Product button - PASSED
-[2026-02-10 13:00:10] Searched for product: NovaFlow - PASSED
-[2026-02-10 13:00:15] Selected first product checkbox - PASSED
-[2026-02-10 13:00:33] Clicked first View button in Manage Product table - PASSED
-[2026-02-10 13:00:33] Clicked Back button - PASSED
-[2026-02-10 13:00:33] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\Lumi-Tech-Executive-Gift-Set_FeaturedImage-1.jpg - PASSED
-[2026-02-10 13:00:34] Uploaded photo - PASSED
-[2026-02-10 13:00:34] Upload Images Successfully appeared - PASSED
-[2026-02-10 13:00:46] Clicked Upload Again to close the modal - PASSED
-[2026-02-10 13:00:49] Searched for product: NovaFlow - PASSED
-[2026-02-10 13:00:52] Selected first product checkbox - PASSED
-[2026-02-10 13:00:52] Clicked first Adjust Price icon - PASSED
-[2026-02-10 13:00:53] Selected Option 1: Run a Special Promotion - PASSED
-[2026-02-10 13:00:53]  Adjust Price modal displayed successfully. - PASSED
-[2026-02-10 13:00:55] Entered Promo Price: 2699 - PASSED
-[2026-02-10 13:00:56] 📅 Clicked date in calendar: February 11, 2026 - PASSED
-[2026-02-10 13:00:56]  Set 'PriceAdjustments[0].EffectiveFr' to 02/11/2026 13:00:55 - PASSED
-[2026-02-10 13:00:56] Set Start Date for Promotion - PASSED
-[2026-02-10 13:01:12]  Could not interact with calendar: Message: 
+[2026-02-26 15:36:36] Clicked Create New Product - PASSED
+[2026-02-26 15:36:38] Searching for product: VeloCore - PASSED
+[2026-02-26 15:36:41] Searched for product: VeloCore - PASSED
+[2026-02-26 15:36:46] Selected first product checkbox - PASSED
+[2026-02-26 15:37:04] Clicked first Edit button - PASSED
+[2026-02-26 15:37:07] Entered Menu Value: 3839 - PASSED
+[2026-02-26 15:37:11] Clicked Save Button - PASSED
+[2026-02-26 15:37:12] Added New Product  - PASSED
+[2026-02-26 15:37:17] Clicked Confirm OK - PASSED
+[2026-02-26 15:37:29] Clicked Manage Product button - PASSED
+[2026-02-26 15:37:32] Searched for product: VeloCore - PASSED
+[2026-02-26 15:37:37] Selected first product checkbox - PASSED
+[2026-02-26 15:37:54] Clicked first View button in Manage Product table - PASSED
+[2026-02-26 15:37:54] Clicked Back button - PASSED
+[2026-02-26 15:37:54] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2026-02-26 15:37:54] Uploaded photo - PASSED
+[2026-02-26 15:37:54] Upload Images Successfully appeared - PASSED
+[2026-02-26 15:38:04] Clicked Upload Again to close the modal - PASSED
+[2026-02-26 15:38:06] Searched for product: VeloCore - PASSED
+[2026-02-26 15:38:09] Selected first product checkbox - PASSED
+[2026-02-26 15:38:09] Clicked first Adjust Price icon - PASSED
+[2026-02-26 15:38:10] Selected Option 1: Run a Special Promotion - PASSED
+[2026-02-26 15:38:10]  Adjust Price modal displayed successfully. - PASSED
+[2026-02-26 15:38:12] Entered Promo Price: 3839 - PASSED
+[2026-02-26 15:38:12] 📅 Clicked date in calendar: February 27, 2026 - PASSED
+[2026-02-26 15:38:12]  Set 'PriceAdjustments[0].EffectiveFr' to 02/27/2026 15:38:12 - PASSED
+[2026-02-26 15:38:13] Set Start Date for Promotion - PASSED
+[2026-02-26 15:38:29]  Could not interact with calendar: Message: 
  - PASSED
-[2026-02-10 13:01:12]  Set 'PriceAdjustments[0].EffectiveTo' to 02/12/2026 13:00:56 - PASSED
-[2026-02-10 13:01:13] Set End Date for Promotion - PASSED
-[2026-02-10 13:01:13]  Set Post Promo Price: 2299.0 - PASSED
-[2026-02-10 13:01:13] Set Post Promo Price - PASSED
-[2026-02-10 13:01:16]  Clicked 'Save Price Adjustment' button - PASSED
-[2026-02-10 13:01:16]  Clicked 'Yes' on confirmation  - PASSED
-[2026-02-10 13:01:19]  Clicked 'OK' on success message  - PASSED
-[2026-02-10 13:01:24]  Confirmation  closed successfully - PASSED
-[2026-02-10 13:01:25] Clicked Back to Options button - PASSED
-[2026-02-10 13:01:25]  Promo options are now visible again - PASSED
-[2026-02-10 13:01:27] Selected Option 2: Adjust Unit Price - PASSED
-[2026-02-10 13:01:34] Entered New Unit Price: 2699 - PASSED
-[2026-02-10 13:01:34] Set Future Start Date for Price Adjustment - PASSED
-[2026-02-10 13:01:35]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
-[2026-02-10 13:01:35]  Clicked 'Yes' on confirmation  - PASSED
-[2026-02-10 13:01:37]  Clicked 'OK' on success message  - PASSED
-[2026-02-10 13:01:39] Closed Price Management modal - PASSED
-[2026-02-10 13:01:52] Searched for product: NovaFlow - PASSED
-[2026-02-10 13:01:57] Selected first product checkbox - PASSED
-[2026-02-10 13:01:57] Clicked Create Bulk Feature button - PASSED
-[2026-02-10 13:02:00] Client selection successful - PASSED
-[2026-02-10 13:02:02] Address selection successful - PASSED
-[2026-02-10 13:02:13] Order Adjustment loaded successfully - PASSED
-[2026-02-10 13:02:13] Entered Shipping Amount: 150 - PASSED
-[2026-02-10 13:02:15] Filled order row with adjustment, shipping, and tax details - PASSED
-[2026-02-10 13:02:18] Clicked Finalize Bulk Feature button - PASSED
-[2026-02-10 13:02:40]  Failed to select 'Bulk Feature: Message: 
+[2026-02-26 15:38:29]  Set 'PriceAdjustments[0].EffectiveTo' to 02/28/2026 15:38:13 - PASSED
+[2026-02-26 15:38:29] Set End Date for Promotion - PASSED
+[2026-02-26 15:38:30]  Set Post Promo Price: 2299.0 - PASSED
+[2026-02-26 15:38:30] Set Post Promo Price - PASSED
+[2026-02-26 15:38:33]  Clicked 'Save Price Adjustment' button - PASSED
+[2026-02-26 15:38:33]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-26 15:38:36]  Clicked 'OK' on success message  - PASSED
+[2026-02-26 15:38:41]  Confirmation  closed successfully - PASSED
+[2026-02-26 15:38:41] Clicked Back to Options button - PASSED
+[2026-02-26 15:38:42]  Promo options are now visible again - PASSED
+[2026-02-26 15:38:44] Selected Option 2: Adjust Unit Price - PASSED
+[2026-02-26 15:38:50] Entered New Unit Price: 3839 - PASSED
+[2026-02-26 15:38:51] Set Future Start Date for Price Adjustment - PASSED
+[2026-02-26 15:38:51]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2026-02-26 15:38:51]  Clicked 'Yes' on confirmation  - PASSED
+[2026-02-26 15:38:53]  Clicked 'OK' on success message  - PASSED
+[2026-02-26 15:38:56] Closed Price Management modal - PASSED
+[2026-02-26 15:39:08] Searched for product: VeloCore - PASSED
+[2026-02-26 15:39:13] Selected first product checkbox - PASSED
+[2026-02-26 15:39:13] Clicked Create Bulk Feature button - PASSED
+[2026-02-26 15:39:16] Client selection successful - PASSED
+[2026-02-26 15:39:17] Address selection successful - PASSED
+[2026-02-26 15:39:28] Order Adjustment loaded successfully - PASSED
+[2026-02-26 15:39:28] Entered Shipping Amount: 150 - PASSED
+[2026-02-26 15:39:31] Filled order row with adjustment, shipping, and tax details - PASSED
+[2026-02-26 15:39:33] Clicked Finalize Bulk Feature button - PASSED
+[2026-02-26 15:39:55]  Failed to select 'Bulk Feature: Message: 
  - FAILED
+[2026-06-30 17:01:13] Clicked Create New Product - PASSED
+[2026-06-30 17:01:15] Searching for product: NanoFlex - PASSED
+[2026-06-30 17:01:18] Searched for product: NanoFlex - PASSED
+[2026-06-30 17:01:23] Selected first product checkbox - PASSED
+[2026-06-30 17:01:34] Clicked first Edit button - PASSED
+[2026-06-30 17:01:35] Entered Menu Value: 2345 - PASSED
+[2026-06-30 17:01:39] Clicked Save Button - PASSED
+[2026-06-30 17:01:40] Added New Product  - PASSED
+[2026-06-30 17:01:45] Clicked Confirm OK - PASSED
+[2026-06-30 17:02:01] Clicked Manage Product button - PASSED
+[2026-06-30 17:02:03] Searched for product: NanoFlex - PASSED
+[2026-06-30 17:02:09] Selected first product checkbox - PASSED
+[2026-06-30 17:02:22] Clicked first View button in Manage Product table - PASSED
+[2026-06-30 17:02:22] Clicked Back button - PASSED
+[2026-06-30 17:02:22] Selected random image for upload: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (1).jpg - PASSED
+[2026-06-30 17:02:23] Uploaded photo - PASSED
+[2026-06-30 17:02:23] Upload Images Successfully appeared - PASSED
+[2026-06-30 17:02:33] Clicked Upload Again to close the modal - PASSED
+[2026-06-30 17:02:36] Searched for product: NanoFlex - PASSED
+[2026-06-30 17:02:39] Selected first product checkbox - PASSED
+[2026-06-30 17:02:39] Clicked first Adjust Price icon - PASSED
+[2026-06-30 17:02:40] Selected Option 1: Run a Special Promotion - PASSED
+[2026-06-30 17:02:40]  Adjust Price modal displayed successfully. - PASSED
+[2026-06-30 17:02:41] Entered Promo Price: 2345 - PASSED
+[2026-06-30 17:02:42] 📅 Clicked date in calendar: July 1, 2026 - PASSED
+[2026-06-30 17:02:42]  Set 'PriceAdjustments[0].EffectiveFr' to 07/01/2026 17:02:41 - PASSED
+[2026-06-30 17:02:43] Set Start Date for Promotion - PASSED
+[2026-06-30 17:02:59]  Could not interact with calendar: Message: 
+ - PASSED
+[2026-06-30 17:02:59]  Set 'PriceAdjustments[0].EffectiveTo' to 07/02/2026 17:02:43 - PASSED
+[2026-06-30 17:02:59] Set End Date for Promotion - PASSED
+[2026-06-30 17:03:00]  Set Post Promo Price: 2299.0 - PASSED
+[2026-06-30 17:03:00] Set Post Promo Price - PASSED
+[2026-06-30 17:03:03]  Clicked 'Save Price Adjustment' button - PASSED
+[2026-06-30 17:03:03]  Clicked 'Yes' on confirmation  - PASSED
+[2026-06-30 17:03:06]  Clicked 'OK' on success message  - PASSED
+[2026-06-30 17:03:11]  Confirmation  closed successfully - PASSED
+[2026-06-30 17:03:11] Clicked Back to Options button - PASSED
+[2026-06-30 17:03:12]  Promo options are now visible again - PASSED
+[2026-06-30 17:03:14] Selected Option 2: Adjust Unit Price - PASSED
+[2026-06-30 17:03:20] Entered New Unit Price: 2345 - PASSED
+[2026-06-30 17:03:21] Set Future Start Date for Price Adjustment - PASSED
+[2026-06-30 17:03:21]  Clicked 'Save Price Adjustment' button for Option 2 - PASSED
+[2026-06-30 17:03:21]  Clicked 'Yes' on confirmation  - PASSED
+[2026-06-30 17:03:23]  Clicked 'OK' on success message  - PASSED
+[2026-06-30 17:03:26] Closed Price Management modal - PASSED
+[2026-06-30 17:03:38] Searched for product: NanoFlex - PASSED
+[2026-06-30 17:03:44] Selected first product checkbox - PASSED
+[2026-06-30 17:03:44] Clicked Create Bulk Feature button - PASSED
+[2026-06-30 17:03:46] Client selection successful - PASSED
+[2026-06-30 17:03:48] Address selection successful - PASSED
+[2026-06-30 17:03:58] Order Adjustment loaded successfully - PASSED
+[2026-06-30 17:03:59] Entered Shipping Amount: 150 - PASSED
+[2026-06-30 17:04:01] Filled order row with adjustment, shipping, and tax details - PASSED
+[2026-06-30 17:04:03] Clicked Finalize Bulk Feature button - PASSED
+[2026-06-30 17:04:25]  Failed to select 'Bulk Feature: Message: 
+ - FAILED
+[2026-07-08 11:45:33] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-07-08 11:45:33] ERROR: Manage Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 373, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

@@ -164,8 +164,8 @@ def _navigate_to_bulk_client(driver, wait, log_file_path, screenshots_folder):
     try:
        
         
-        # url = "http://vm-app-dev01:9001/ClientDirectory/BatchClient"
-        url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory/BatchClient"
+        url = "http://vm-app-dev01:9001/ClientDirectory/BatchClient"
+        # url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory/BatchClient"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)

@@ -18,6 +18,8 @@ from path_config import SCD_MODULE_PATHS
 
 
 def Bulk_Whouse(driver, wait):
+
+    wait = WebDriverWait(driver, 30)  # Ensure wait is defined for this function
     
     # -------------------
     # Setup paths
@@ -50,9 +52,7 @@ def Bulk_Whouse(driver, wait):
         log_action(f"Excel File Path: {excel_path}", log_file_path)
 
         # Upload file
-        file_input = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='file']"))
-        )
+        file_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='file']")))
         file_input.send_keys(excel_path)
         log_action("File added to FilePond", log_file_path)
         
@@ -60,9 +60,7 @@ def Bulk_Whouse(driver, wait):
         time.sleep(1)
 
         # Click upload button
-        upload_btn = wait.until(
-            EC.element_to_be_clickable((By.ID, "uploadButton"))
-        )
+        upload_btn = wait.until(EC.element_to_be_clickable((By.ID, "uploadButton")))
         driver.execute_script("arguments[0].click();", upload_btn)
         log_action("Clicked Upload button", log_file_path)
         driver.save_screenshot(os.path.join(screenshots_folder, "After_Click_Upload.png"))
@@ -161,8 +159,4 @@ def _navigate_to_bulk_upload(driver, wait, log_file_path, screenshots_folder):
     except TimeoutException as e:
         log_error(f"Navigation timeout: {str(e)}", log_file_path)
         driver.save_screenshot(os.path.join(screenshots_folder, "Navigation_Error.png"))
-        return False
-    except Exception as e:
-        log_error(f"Navigation error: {str(e)}", log_file_path)
-        driver.save_screenshot(os.path.join(screenshots_folder, "Navigation_Exception.png"))
         return False

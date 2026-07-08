@@ -16,7 +16,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 import psutil
 import screeninfo
 
-
 # Add paths to custom modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'OPIBIZ_WEBV2_Functions_NW')))
@@ -24,8 +23,11 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'O
 # Path configuration
 from path_config import LOGIN_PATHS
 
+# ---- Centralized environment config (BASE_URL comes from .env) ----
+from env_config import BASE_URL
+
 # Login
-from Login.Login import login_class_c, login_admin, login_s2
+from Login.Login import login_class_c, login_admin, login_s2,login_class_beta
 from Branch.Branch_Terminal import branch_selection
 from Logout.Logout import Logout
 
@@ -76,14 +78,17 @@ from Omnipay_Business.QR.QR import QR
 # ==========================================
 #           VERSION INFORMATION
 # ==========================================
-VERSION = "1.2.2.R0003B"
-BUILD_DATE = "2026-2-06"
+VERSION = "1.3.4.R0001P"
+BUILD_DATE = "2026-07-08"
 
 
 #---- Main automation class for SCD Web testing ----#
 class SCDWebAutomation: 
-    def __init__(self, base_url: str = "http://beta-opibizscd.paybps.ovpn/", use_second_monitor: bool = False, monitor_offset: int = 1920, tester_name: str = "QA Tester", browser: str = "Chrome"):
-        self.base_url = base_url
+    def __init__(self, base_url: str = None, use_second_monitor: bool = False, monitor_offset: int = 1920, tester_name: str = "QA Tester", browser: str = "Chrome"): # type: ignore
+        # If no base_url is explicitly passed in, fall back to the value
+        # defined in the .env file (via env_config.BASE_URL). This means
+        # changing environments only requires editing the .env file.
+        self.base_url = base_url or BASE_URL
         self.driver = None
         self.wait = None
         self.log_file_path = None
@@ -211,6 +216,7 @@ class SCDWebAutomation:
             else:
                 self.driver.maximize_window()
             
+            
             # Navigate to base URL
             print(f"🌐 Navigating to: {self.base_url}")
             self.driver.get(self.base_url)
@@ -242,7 +248,7 @@ class SCDWebAutomation:
             print(f"⚠️ Failed to capture screenshot: {str(e)}")
     
     #---- Perform login based on type ----#
-    def login(self, login_type: str = "s1") -> Tuple[Optional[str], Optional[str]]:
+    def login(self, login_type: str = "login_class_c") -> Tuple[Optional[str], Optional[str]]:
         try:
             print("-" * 70)
             print("🔐 LOGIN PHASE".center(70))
@@ -253,6 +259,9 @@ class SCDWebAutomation:
                 "admin": {"key": "Admin", "func": login_admin},
                 "s1": {"key": "Class_C", "func": login_class_c},
                 "s2": {"key": "S2", "func": login_s2},
+                "class": {"key": "Class_C", "func": login_class_c},
+                "class_beta": {"key": "Class_Beta", "func": login_class_beta},
+
             }
 
             if login_type not in login_map:
@@ -363,7 +372,7 @@ class SCDWebAutomation:
                 func(self.driver, self.wait)
                 
                 # Wait for page to fully load
-                WebDriverWait(self.driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+                WebDriverWait(self.driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete') # type: ignore
                 elapsed_time = time.time() - start_time
                 
                 # Log success
@@ -434,7 +443,7 @@ class SCDWebAutomation:
         print(f"  📈 Total Tests  : {total_tests}")
         print(f"  ✅ Passed       : {passed} ({(passed/total_tests*100) if total_tests > 0 else 0:.1f}%)")
         print(f"  ❌ Failed       : {failed} ({(failed/total_tests*100) if total_tests > 0 else 0:.1f}%)")
-        print(f"  ⏭️  Skipped      : {skipped} ({(skipped/total_tests*100) if total_tests > 0 else 0:.1f}%)")
+        print(f"  ⏭️ Skipped      : {skipped} ({(skipped/total_tests*100) if total_tests > 0 else 0:.1f}%)")
         
         if self.test_results['passed']:
             print("\n  ✅ Passed Tests:")
@@ -460,16 +469,16 @@ class SCDWebAutomation:
     #---- Clean up resources ----#
     def cleanup(self) -> None:
         try:
-            print("\n🧹 Cleaning up...")
+            print("\n Cleaning up...")
             time.sleep(3)
             
             # First try to quit driver gracefully
             if self.driver:
                 try:
                     self.driver.quit()
-                    print("✅ Browser closed successfully")
+                    print(" Browser closed successfully")
                 except Exception as e:
-                    print(f"⚠️ Driver quit warning: {str(e)}")
+                    print(f" Driver quit warning: {str(e)}")
             
             # Force kill any remaining browser processes using tracked PIDs
             if self.browser_pids:
@@ -490,10 +499,10 @@ class SCDWebAutomation:
                 log_action("Browser closed and session ended", log_file_path=self.log_file_path)
             
         except Exception as e:
-            print(f"⚠️ Cleanup warning: {str(e)}")
+            print(f" Cleanup warning: {str(e)}")
     
     #---- Main execution flow ----#
-    def run(self, login_type: str = "s1") -> bool:
+    def run(self, login_type: str = "class") -> bool:
         try:
             start_time = time.time()
             
@@ -529,13 +538,13 @@ class SCDWebAutomation:
             return True
             
         except KeyboardInterrupt:
-            print("\n\n⚠️ Automation interrupted by user")
+            print("\n\n Automation interrupted by user")
             if self.log_file_path:
                 log_action("Automation interrupted by user", log_file_path=self.log_file_path)
             return False
             
         except Exception as e:
-            print(f"\n❌ Critical error in automation: {str(e)}")
+            print(f"\n Critical error in automation: {str(e)}")
             if self.log_file_path:
                 log_error(f"Critical error: {str(e)}", log_file_path=self.log_file_path)
             traceback.print_exc()
@@ -552,7 +561,10 @@ def main():
     # ==========================================
     
     # Environment configuration
-    BASE_URL = "http://beta-opibizscd.paybps.ovpn/ "
+    # BASE_URL now comes from env_config.py, which reads it from the .env
+    # file. To point at a new environment, edit .env only:
+    #     BASE_URL=http://172.16.40.154:9000
+    ENV_BASE_URL = BASE_URL
     LOGIN_TYPE = "s1"  # Options: "admin", "s1", "s2"
     
     # Tester configuration
@@ -570,7 +582,7 @@ def main():
     
     # Create and run automation
     automation = SCDWebAutomation(
-        base_url=BASE_URL,
+        base_url=ENV_BASE_URL,
         use_second_monitor=USE_SECOND_MONITOR,
         monitor_offset=MONITOR_OFFSET,
         tester_name=TESTER_NAME,

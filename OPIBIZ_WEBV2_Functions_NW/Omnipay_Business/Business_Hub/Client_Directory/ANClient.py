@@ -60,8 +60,8 @@ def ANClient(driver, wait):
         # time.sleep(2)
         # driver.save_screenshot(os.path.join(screenshots_folder, "Add_New_Client_Page.png"))
 
-        # url = "http://vm-app-dev01:9001/ClientDirectory/NewClient"
-        url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory/NewClient"
+        url = "http://vm-app-dev01:9001/ClientDirectory/NewClient"
+        # url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory/NewClient"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Add New Client.png"))

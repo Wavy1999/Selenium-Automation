@@ -64,8 +64,8 @@ def CList(driver, wait):
         time.sleep(2)
 
 
-        # url = "http://vm-app-dev01:9001/ClientDirectory"
-        url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory"
+        url = "http://vm-app-dev01:9001/ClientDirectory"
+        # url = "http://beta-opibizscd.paybps.ovpn/ClientDirectory"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)

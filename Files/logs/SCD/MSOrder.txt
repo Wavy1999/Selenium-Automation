@@ -1,41 +1,140 @@
-[2026-02-10 13:10:00] Clicked Manage Service Order - PASSED
-[2026-02-10 13:10:15] Manage Order page visible - PASSED
-[2026-02-10 13:10:15] Searching for service: Aromatherapy - PASSED
-[2026-02-10 13:10:16] Searched: Unpaid - PASSED
-[2026-02-10 13:10:18] Selected 'All Orders' from Payment Status filter - PASSED
-[2026-02-10 13:10:18] Selected 'All Orders' from Service Order Status filter - PASSED
-[2026-02-10 13:10:19] Applied Date Range filter: 02/03/2026 - 02/10/2026 - PASSED
-[2026-02-10 13:10:24] Checked first order row - PASSED
-[2026-02-10 13:10:25] Viewed Order Profile - PASSED
-[2026-02-10 13:10:31] Opened Update Contact & Shipping - PASSED
-[2026-02-10 13:10:36] Modal loaded - PASSED
-[2026-02-10 13:10:36] Updated mobileNumber: +63 922 234 5678 - PASSED
-[2026-02-10 13:10:38] Updated HouseNumber: 4556 Ayala - PASSED
-[2026-02-10 13:10:40] Updated Street: Legaspi Village - PASSED
-[2026-02-10 13:10:42] Updated PostCode: 1226 - PASSED
-[2026-02-10 13:10:45] Selected CountryCode: PHILIPPINES - PASSED
-[2026-02-10 13:10:47] Selected Province: BATAAN - PASSED
-[2026-02-10 13:10:49] Selected City: ABUCAY - PASSED
-[2026-02-10 13:10:52] Selected Barangay: BANGKAL - PASSED
-[2026-02-10 13:10:54] Clicked Save Changes - PASSED
-[2026-02-10 13:10:56] Confirmed Changes - PASSED
-[2026-02-10 13:10:57] Clicked OK - PASSED
-[2026-02-10 13:10:57] Navigated to Manage Service Order page - PASSED
-[2026-02-10 13:11:08] Searched: Unpaid - PASSED
-[2026-02-10 13:11:10] Selected 'All Orders' from Payment Status filter - PASSED
-[2026-02-10 13:11:10] Selected 'All Orders' from Service Order Status filter - PASSED
-[2026-02-10 13:11:10] Applied Date Range filter: 02/03/2026 - 02/10/2026 - PASSED
-[2026-02-10 13:11:15] Checked first order row - PASSED
-[2026-02-10 13:11:20] Clicked Receive Payment - PASSED
-[2026-02-10 13:11:23] Payment table found - PASSED
-[2026-02-10 13:11:23] Extracted price: ₱13.44 - PASSED
-[2026-02-10 13:11:23] Entered payment amount: 13.44 - PASSED
-[2026-02-10 13:11:24] Clicked Submit Payment - PASSED
-[2026-02-10 13:11:24] Payment completed successfully - PASSED
-[2026-02-10 13:11:24] Payment confirmation modal appeared - PASSED
-[2026-02-10 13:11:27] Payment Confirmation Text: You're about to receive a payment of ₱13.44 for Order No. BNW-SRV-010811109-307 via CASH.
+[2026-02-26 15:47:50] Clicked Manage Service Order - PASSED
+[2026-02-26 15:48:05] Manage Order page visible - PASSED
+[2026-02-26 15:48:05] Searching for service: Aromatherapy - PASSED
+[2026-02-26 15:48:06] Searched: Unpaid - PASSED
+[2026-02-26 15:48:08] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-02-26 15:48:08] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-02-26 15:48:08] Applied Date Range filter: 02/19/2026 - 02/26/2026 - PASSED
+[2026-02-26 15:48:14] Checked first order row - PASSED
+[2026-02-26 15:48:14] Viewed Order Profile - PASSED
+[2026-02-26 15:48:19] Opened Update Contact & Shipping - PASSED
+[2026-02-26 15:48:25] Modal loaded - PASSED
+[2026-02-26 15:48:25] Updated mobileNumber: +63 922 234 5678 - PASSED
+[2026-02-26 15:48:27] Updated HouseNumber: 4556 Ayala - PASSED
+[2026-02-26 15:48:29] Updated Street: Legaspi Village - PASSED
+[2026-02-26 15:48:31] Updated PostCode: 1226 - PASSED
+[2026-02-26 15:48:34] Selected CountryCode: PHILIPPINES - PASSED
+[2026-02-26 15:48:36] Selected Province: BATAAN - PASSED
+[2026-02-26 15:48:38] Selected City: ABUCAY - PASSED
+[2026-02-26 15:48:40] Selected Barangay: BANGKAL - PASSED
+[2026-02-26 15:48:43] Clicked Save Changes - PASSED
+[2026-02-26 15:49:24] Confirmed Changes - PASSED
+[2026-02-26 15:49:25] Clicked OK - PASSED
+[2026-02-26 15:49:25] Navigated to Manage Service Order page - PASSED
+[2026-02-26 15:49:36] Searched: Unpaid - PASSED
+[2026-02-26 15:49:38] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-02-26 15:49:38] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-02-26 15:49:39] Applied Date Range filter: 02/19/2026 - 02/26/2026 - PASSED
+[2026-02-26 15:49:44] Checked first order row - PASSED
+[2026-02-26 15:49:46] Clicked Receive Payment - PASSED
+[2026-02-26 15:49:49] Payment table found - PASSED
+[2026-02-26 15:49:49] Extracted price: ₱13.44 - PASSED
+[2026-02-26 15:49:50] Entered payment amount: 13.44 - PASSED
+[2026-02-26 15:49:50] Clicked Submit Payment - PASSED
+[2026-02-26 15:49:50] Payment completed successfully - PASSED
+[2026-02-26 15:49:50] Payment confirmation modal appeared - PASSED
+[2026-02-26 15:49:53] Payment Confirmation Text: You're about to receive a payment of ₱13.44 for Order No. BNW-SRV-034601196-467 via CASH.
 Would you like to continue? - PASSED
-[2026-02-10 13:11:27] Clicked Yes on confirmation modal - PASSED
-[2026-02-10 13:11:33] Navigated to Manage Service Order - PASSED
-[2026-02-10 13:11:48] Clicked Create New Service Order - PASSED
-[2026-02-10 13:11:59] Navigated to Manage Service Order - PASSED
+[2026-02-26 15:49:53] Clicked Yes on confirmation modal - PASSED
+[2026-02-26 15:49:59] Navigated to Manage Service Order - PASSED
+[2026-02-26 15:50:24] Clicked Create New Service Order - PASSED
+[2026-02-26 15:50:35] Navigated to Manage Service Order - PASSED
+[2026-04-07 20:29:45] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xbecdf3+10b03]
+	chromedriver!GetHandleVerifier [0xbecf24+10c34]
+	chromedriver!(No symbol) [0x9d2120]
+	chromedriver!(No symbol) [0x9b0c53]
+	chromedriver!(No symbol) [0xa4431b]
+	chromedriver!(No symbol) [0xa5a309]
+	chromedriver!(No symbol) [0xa3d8a6]
+	chromedriver!(No symbol) [0xa10229]
+	chromedriver!(No symbol) [0xa10fe4]
+	chromedriver!GetHandleVerifier [0xe548b9+2785c9]
+	chromedriver!GetHandleVerifier [0xe4feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xe6e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xc05cc8+299d8]
+	chromedriver!GetHandleVerifier [0xc0d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xbf58c8+195d8]
+	chromedriver!GetHandleVerifier [0xbf5a92+197a2]
+	chromedriver!GetHandleVerifier [0xbdee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:35:26] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf2120]
+	chromedriver!(No symbol) [0xad0c53]
+	chromedriver!(No symbol) [0xb6431b]
+	chromedriver!(No symbol) [0xb7a309]
+	chromedriver!(No symbol) [0xb5d8a6]
+	chromedriver!(No symbol) [0xb30229]
+	chromedriver!(No symbol) [0xb30fe4]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xd158c8+195d8]
+	chromedriver!GetHandleVerifier [0xd15a92+197a2]
+	chromedriver!GetHandleVerifier [0xcfee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:39:09] An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf1f5e]
+	chromedriver!(No symbol) [0xb2f4b7]
+	chromedriver!(No symbol) [0xb5d9c6]
+	chromedriver!(No symbol) [0xb58e42]
+	chromedriver!(No symbol) [0xb58462]
+	chromedriver!(No symbol) [0xac534e]
+	chromedriver!(No symbol) [0xac58ee]
+	chromedriver!(No symbol) [0xac5dcd]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!(No symbol) [0xac4ee9]
+	chromedriver!(No symbol) [0xac4530]
+	chromedriver!GetHandleVerifier [0x10c2e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-06-30 17:10:24] Timeout error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED

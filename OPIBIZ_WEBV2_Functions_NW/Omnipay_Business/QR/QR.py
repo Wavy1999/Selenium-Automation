@@ -48,7 +48,7 @@ def QR(driver, wait):
         log_action("Input Amount", log_file_path=log_file_path)
         time.sleep(5)
 
-        GenerateQR_btn = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="generateQRForm"]/div/div/div[6]/button')))
+        GenerateQR_btn = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn.btn-primary.ob-button")))
         driver.execute_script("arguments[0].click()", GenerateQR_btn)
         log_action("Clicked Generate QR Button", log_file_path=log_file_path)
         time.sleep(10)

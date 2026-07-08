@@ -53,7 +53,8 @@ def CService_Bulk(driver, wait):
         # time.sleep(5)
         # driver.save_screenshot(os.path.join(screenshots_folder, "Create Bulk Product.png"))
     
-        url = "http://beta-opibizscd.paybps.ovpn/ServiceCenter/BatchService"
+        url = "http://vm-app-dev01:9001/ServiceCenter/BatchService"
+        # url = "http://beta-opibizscd.paybps.ovpn/ServiceCenter/BatchService"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(2)

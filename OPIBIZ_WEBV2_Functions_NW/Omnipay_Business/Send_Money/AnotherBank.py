@@ -15,6 +15,7 @@ from Utility import (
     clear_folder,
 )
 from path_config import SCD_MODULE_PATHS
+from env_config import BASE_URL  # Centralized base URL (from .env)
 
 
 def AnotherBank(driver, wait):
@@ -27,7 +28,8 @@ def AnotherBank(driver, wait):
     clear_folder(screenshots_folder=screenshots_folder)
 
     try:
-        url = "http://beta-opibizscd.paybps.ovpn/EcoPay/TransferToOmnipay?tab=bank"
+        # Base URL now comes from env_config (.env). Change it there, not here.
+        url = f"{BASE_URL}/EcoPay/TransferToOmnipay?tab=bank"
         driver.get(url)
         log_action(f"Navigated to {url}", log_file_path=log_file_path)
 

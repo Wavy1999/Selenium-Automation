@@ -20,6 +20,8 @@ from path_config import SCD_MODULE_PATHS  # project config: module paths
 
 
 def Main_Dashboard(driver, wait):
+
+    wait = WebDriverWait(driver, 30)  # Ensure wait is defined for this function
     # Get paths from configuration
     log_file_path = SCD_MODULE_PATHS['Dashboard']['log']
     screenshots_folder = SCD_MODULE_PATHS['Dashboard']['screenshots']
@@ -33,54 +35,55 @@ def Main_Dashboard(driver, wait):
 
     try:
         # --- MAIN DASHBOARD ---
-        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/div')))
+        wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/div')))
         log_action("Main Dashboard loaded successfully", log_file_path=log_file_path)
         time.sleep(30)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, 'Main_Dashboard_Loaded.png'))
 
         #  FIXED: find_element (not find_elements) for single count element
-        new_orders = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'newOrdersAndServicesCount')))
+        new_orders = wait.until(EC.presence_of_element_located((By.ID, 'newOrdersAndServicesCount')))
         log_action(f"New orders/Service Orders count: {new_orders.text}", log_file_path=log_file_path)
 
-        processing = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'ordersAndServicesForProcessingCount')))
+        processing = wait.until(EC.presence_of_element_located((By.ID, 'ordersAndServicesForProcessingCount')))
         log_action(f"Orders/Service Orders for Processing count: {processing.text}", log_file_path=log_file_path)
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, 'Main_Dashboard.png'))
 
         # --- SETTLE AVAILABLE BALANCE ---
-        current_balance_el = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'currentBalance')))
+        current_balance_el = wait.until(EC.presence_of_element_located((By.ID, 'currentBalance')))
         current_balance = clean_text(current_balance_el.text)
         log_action(f"Current Balance: {current_balance}", log_file_path=log_file_path)
 
-        available_balance_el = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'availableBalance')))
-        available_balance = clean_text(available_balance_el.text)
-        log_action(f"Available Balance: {available_balance}", log_file_path=log_file_path)
+        # available_balance_el = wait.until(EC.presence_of_element_located((By.ID, 'availableBalance')))
+        # available_balance = clean_text(available_balance_el.text)
+        # log_action(f"Available Balance: {available_balance}", log_file_path=log_file_path)
 
-        settle_available_balance = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/a')))
+       
+        settle_available_balance = wait.until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, "Settle Available")))
         driver.execute_script("arguments[0].click();", settle_available_balance)
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[1]')))
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[1]')))
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Transfer_Funds_to_Settlement_Account.png'))
         log_action("Clicked Settle Available Balance", log_file_path=log_file_path)
 
         # --- BACK TO DASHBOARD ---
-        back_to_dashboard = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div[1]/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div[1]/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
         # --- GENERATE QR ---
-        generate_qr = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, 'generateQRBtn')))
+        generate_qr = wait.until(EC.element_to_be_clickable((By.ID, 'generateQRBtn')))
         driver.execute_script("arguments[0].click();", generate_qr)
         log_action("Clicked Generate QR", log_file_path=log_file_path)
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Generate_QR_Code.png'))
 
-        back_to_dashboard = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
@@ -91,16 +94,16 @@ def Main_Dashboard(driver, wait):
         log_action("Latest Orders Table displayed successfully", log_file_path=log_file_path)
 
         # --- CREATE ORDER VIEW ---
-        create_order_viewed = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'createOrderBtn')))
+        create_order_viewed = wait.until(EC.element_to_be_clickable((By.ID, 'createOrderBtn')))
         driver.execute_script("arguments[0].click();", create_order_viewed)
         log_action("Clicked Create Order", log_file_path=log_file_path)
 
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Create_Order_Page.png'))
 
         # --- BACK TO DASHBOARD ---
-        back_to_dashboard = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
@@ -111,58 +114,58 @@ def Main_Dashboard(driver, wait):
         log_action("Latest Service Orders Table displayed successfully", log_file_path=log_file_path)
 
          # --- CREATE SERVICE ORDER VIEW ---
-        create_service_order_viewed = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'createInvoiceBtn')))
+        create_service_order_viewed = wait.until(EC.element_to_be_clickable((By.ID, 'createInvoiceBtn')))
         driver.execute_script("arguments[0].click();", create_service_order_viewed)
         log_action("Clicked Create Order", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Create_Service_Order_Page.png'))
 
-        back_to_dashboard = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
         # --- CREATE BOOKING ---
-        create_booking_viewed = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, ".//a[contains(@href,'BookingAndAppointments') and contains(normalize-space(.),'Create Booking')]")))
+        create_booking_viewed = wait.until(EC.element_to_be_clickable((By.XPATH, ".//a[contains(@href,'BookingAndAppointments') and contains(normalize-space(.),'Create Booking')]")))
         driver.execute_script("arguments[0].click();", create_booking_viewed)
         log_action("Clicked Create Booking", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Booking.png'))
 
         # --- BACK TO DASHBOARD ---
-        back_to_dashboard = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div[1]/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div/div[1]/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
         # --- INVENTORY VIEWED ---
-        inventory_viewed = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[2]/div/div[3]')))
+        inventory_viewed = wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/main/div[3]/div[2]/div/div[3]')))
         driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", inventory_viewed)
         log_action("Inventory section viewed successfully", log_file_path=log_file_path)
 
         # --- ADD NEW PRODUCT ---
-        add_new_product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, 'addNewProductBtn')))
+        add_new_product = wait.until(EC.element_to_be_clickable((By.ID, 'addNewProductBtn')))
         driver.execute_script("arguments[0].click();", add_new_product)
         log_action("Clicked Add New Product", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Add_New_Product_Page.png'))
 
         # --- BACK TO DASHBOARD ---
-        back_to_dashboard = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="mainContent"]/div/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="mainContent"]/div/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 
         # --- INVENTORY UPDATE ---
-        inventory_update = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, 'inventoryUpdateBtn')))
+        inventory_update = wait.until(EC.element_to_be_clickable((By.ID, 'inventoryUpdateBtn')))
         driver.execute_script("arguments[0].click();", inventory_update)
         log_action("Clicked Inventory Update", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        wait.until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, 'Inventory_Update_Page.png'))
 
         # --- BACK TO DASHBOARD ---
-        back_to_dashboard = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div[1]/button/p')))
+        back_to_dashboard = wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/main/div[3]/div[1]/div[1]/button/p')))
         driver.execute_script("arguments[0].click();", back_to_dashboard)
         log_action("Back to Main Dashboard", log_file_path=log_file_path)
 

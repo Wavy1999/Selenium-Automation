@@ -16,6 +16,7 @@ from Utility import (
     clear_folder,
 )
 from path_config import SCD_MODULE_PATHS
+from env_config import BASE_URL  # Centralized base URL (from .env)
 
 def OmniPayAcc(driver,wait):
 
@@ -44,7 +45,8 @@ def OmniPayAcc(driver,wait):
         # time.sleep(3)
         # driver.save_screenshot(os.path.join(screenshots_folder, "To_Omnipay.png"))
         
-        url = "http://vm-app-dev01:9001/EcoPay/TransferToOmnipay"
+        # Base URL now comes from env_config (.env). Change it there, not here.
+        url = f"{BASE_URL}/EcoPay/TransferToOmnipay"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         time.sleep(3)

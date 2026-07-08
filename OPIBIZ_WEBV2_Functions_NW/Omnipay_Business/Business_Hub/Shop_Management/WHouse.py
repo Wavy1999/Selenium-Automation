@@ -16,6 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Local / project-specific imports
 # ---------------------------
 from path_config import SCD_MODULE_PATHS  # Project-specific constants for module paths
+from env_config import BASE_URL           # Centralized base URL (from .env)
 from Utility import (                     # Custom helper functions for automation
     log_action,                           # Log successful actions for debugging/auditing
     log_error,                             # Log exceptions/errors for diagnostics
@@ -38,36 +39,11 @@ def WHouse(driver, wait):
     clear_folder(screenshots_folder=screenshots_folder)
     driver.refresh()
     try:
-        
-        # Business Hub
-        # Uncomment this per module
-        # Business_Hub = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[@data-bs-title='Business Hub' and .//span[text()='Business Hub']]")))
-        # driver.execute_script("arguments[0].click();", Business_Hub)
-        # log_action("Clicked Business Hub menu", log_file_path=log_file_path)
-        # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-        # time.sleep(3)
-        # driver.save_screenshot(os.path.join(screenshots_folder, "Business_Hub_Menu.png"))
 
-        # Shop Management
-        # Shop_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[@data-bs-title='Shop Management' and .//span[text()='Shop Management']]")))
-        # Shop_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "/html/body/main/div[3]/div[1]/div[1]/div/ul/li[2]")))
-        # driver.execute_script("arguments[0].click();", Shop_Management)
-        # log_action("Clicked Shop Management menu", log_file_path=log_file_path)
-        # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-        # time.sleep(3)
-        # driver.save_screenshot(os.path.join(screenshots_folder, "Shop_Management_Menu.png"))
-
-        # # Select Warehouses
-        # Warehouses_Submenu = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "/html/body/header/div/div/div[2]/ul/li[2]/a/div/img")))
-        # driver.execute_script("arguments[0].click();", Warehouses_Submenu)
-        # log_action("Clicked Warehouses submenu", log_file_path=log_file_path)
-        # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-        # time.sleep(3)
-        # driver.save_screenshot(os.path.join(screenshots_folder, "Warehouses_Submenu.png"))
-
-        base_url = "http://beta-opibizscd.paybps.ovpn/ShopManagement/Warehouse "  # Use your actual base URL
-        driver.get(base_url)
-        log_action("Navigated directly to Warehouse", log_file_path=log_file_path)
+        # Base URL now comes from env_config (.env). Change it there, not here.
+        url = f"{BASE_URL}/ShopManagement/Warehouse"
+        driver.get(url)
+        log_action(f"Navigated directly to Warehouse: {url}", log_file_path=log_file_path)
 
         # Add Warehouses
         Add_Warehouse = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/ShopManagement/AddWarehouse') and contains(@class, 'btn-primary')]")))
@@ -172,9 +148,6 @@ def WHouse(driver, wait):
         driver.save_screenshot(os.path.join(screenshots_folder, "Success.png"))
 
         # Coming soon Bulk Warehouse
-
-
-
 
     except Exception as e:
         error_message = f"Element not found or interaction failed: {traceback.format_exc()}"

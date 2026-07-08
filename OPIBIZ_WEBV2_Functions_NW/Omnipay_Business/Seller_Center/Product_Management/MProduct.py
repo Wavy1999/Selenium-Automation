@@ -93,7 +93,7 @@ def MProduct(driver, wait):
                 driver.execute_script("arguments[0].click();", checkbox)
                 time.sleep(2)
                 log_action("Selected first product checkbox", log_file_path=log_file_path)
-            except Exception:
+            except Exception as e:
                 driver.execute_script("arguments[0].click();", checkbox)
                 log_error(f"Failed to click checkbox4: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)
                 raise
@@ -153,7 +153,7 @@ def MProduct(driver, wait):
                 driver.execute_script("arguments[0].click();", checkbox_2)
                 time.sleep(2)
                 log_action("Selected first product checkbox", log_file_path=log_file_path)
-            except Exception:
+            except Exception as e:
                 driver.execute_script("arguments[0].click();", checkbox_2)
                 log_error(f"Failed to click checkbox4: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)
                 raise
@@ -223,7 +223,7 @@ def MProduct(driver, wait):
                 try:
                     driver.execute_script("arguments[0].click();", checkbox_3)
                     log_action("Selected first product checkbox", log_file_path=log_file_path)
-                except Exception:
+                except Exception as e:
                     driver.execute_script("arguments[0].click();", checkbox_3)
                     log_error(f"Failed to click checkbox4: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)
                     raise
@@ -354,7 +354,7 @@ def MProduct(driver, wait):
                     driver.execute_script("arguments[0].click();", checkbox_4)
                     time.sleep(2)
                     log_action("Selected first product checkbox", log_file_path=log_file_path)
-                except Exception:
+                except Exception as e:
                     driver.execute_script("arguments[0].click();", checkbox_4)
                     log_error(f"Failed to click checkbox4: {str(e)}\n{traceback.format_exc()}", log_file_path=log_file_path, driver=driver)
                     raise

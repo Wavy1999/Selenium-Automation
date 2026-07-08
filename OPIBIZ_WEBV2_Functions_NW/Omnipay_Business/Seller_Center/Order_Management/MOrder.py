@@ -20,6 +20,7 @@ from selenium.common.exceptions import TimeoutException
 # Local / project-specific imports
 # ---------------------------
 from path_config import SCD_MODULE_PATHS  # Project-specific constants for module paths
+from env_config import BASE_URL           # Centralized base URL (from .env)
 from Utility import (                     # Custom utility functions for automation
     log_action,                           # Log successful actions for debugging/auditing
     update_profile_data,                  # Update profile-related data in the UI
@@ -40,6 +41,10 @@ def MOrder(driver, wait):
 
     # driver.refresh()
     # log_action("For better running",log_file_path=log_file_path)
+
+    # Manage Order URL is built once from BASE_URL (.env) and reused
+    # everywhere in this module instead of being hardcoded repeatedly.
+    manage_order_url = f"{BASE_URL}/ManageOrder#"
 
     try:
         # =========================
@@ -205,9 +210,7 @@ def MOrder(driver, wait):
         # =========================
         # Manage Orders and Receive Payment
         # =========================
-        # manage_orders_url = "http://vm-app-dev01:9001/ManageOrder#" hotel
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder"
-        driver.get(manage_orders_url)
+        driver.get(manage_order_url)
         log_action("Navigated to Manage Order page", log_file_path=log_file_path)
 
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
@@ -295,9 +298,7 @@ def MOrder(driver, wait):
         # =========================
         # Create New Order
         # =========================
-        # manage_orders_url = "http://vm-app-dev01:9001/ManageOrder#"
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder"
-        driver.get(manage_orders_url)
+        driver.get(manage_order_url)
         log_action("Navigated to Manage Order", log_file_path=log_file_path)
 
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
@@ -311,9 +312,7 @@ def MOrder(driver, wait):
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_New_Order_Page.png"))
 
-        # manage_orders_url = "http://vm-app-dev01:9001/ManageOrder#"
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder"
-        driver.get(manage_orders_url)
+        driver.get(manage_order_url)
         log_action("Navigated to Manage Order", log_file_path=log_file_path)
 
     except TimeoutException as e:

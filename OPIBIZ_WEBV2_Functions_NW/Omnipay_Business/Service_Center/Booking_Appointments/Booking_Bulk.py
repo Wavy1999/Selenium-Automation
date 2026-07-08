@@ -22,6 +22,9 @@ def SCDBooking_Bulk(driver, wait):
     # -------------------
     # Setup paths
     # -------------------
+
+    wait = WebDriverWait(driver, 30)
+
     log_file_path = SCD_MODULE_PATHS["SCDBooking_Bulk"]["log"]
     screenshots_folder = SCD_MODULE_PATHS["SCDBooking_Bulk"]["screenshots"]
 
@@ -29,39 +32,8 @@ def SCDBooking_Bulk(driver, wait):
 
     try:
        
-        # # -------------------
-        # # Navigate to Booking and Appointments
-        # # -------------------
-        # bookings_btn = WebDriverWait(driver, 30).until(
-        #     EC.element_to_be_clickable(
-        #         (
-        #             By.XPATH,
-        #             "//a[@data-bs-title='Booking and Appointments' "
-        #             "and @data-bs-toggle='tooltip' "
-        #             "and .//span[text()='Booking and Appointments']]",
-        #         )
-        #     )
-        # )
-        # driver.execute_script("arguments[0].click()", bookings_btn)
-        # log_action("Clicked Booking and Appointments", log_file_path)
-        # wait.until(lambda d: d.execute_script("return document.readyState") == "complete")
-
-        # # -------------------
-        # # Navigate to Bulk Upload Appointments
-        # # -------------------
-        # bulk_booking_btn = wait.until(
-        #     EC.element_to_be_clickable(
-        #         (By.CSS_SELECTOR, "a[href='/ServiceCenter/BatchUploadBookingAppointments']")
-        #     )
-        # )
-        # driver.execute_script("arguments[0].click()", bulk_booking_btn)
-        # log_action("Clicked Bulk Upload Appointments", log_file_path)
-
-        # URL Direct Navigation
-
-
-
-        url = "http://beta-opibizscd.paybps.ovpn/ServiceCenter/BatchUploadBookingAppointments"
+        # url = "http://beta-opibizscd.paybps.ovpn/ServiceCenter/BatchUploadBookingAppointments"
+        url = "http://vm-app-dev01:9001/ServiceCenter/BatchUploadBookingAppointments"
         driver.get(url)
         wait.until(lambda d: d.execute_script("return document.readyState") == "complete")
         driver.save_screenshot(os.path.join(screenshots_folder, "Navigate_Bulk_Booking.png"))
@@ -77,8 +49,8 @@ def SCDBooking_Bulk(driver, wait):
         file_input.send_keys(excel_path)
         log_action("Uploaded Excel file for Bulk Booking Upload", log_file_path)
 
-        WebDriverWait(driver, 25).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, ".filepond--item-processing")))
-        WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".filepond--item")))
+        wait.until(EC.invisibility_of_element_located((By.CSS_SELECTOR, ".filepond--item-processing")))
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".filepond--item")))
         log_action("File upload processing completed", log_file_path)
 
         # -------------------
@@ -119,7 +91,7 @@ def SCDBooking_Bulk(driver, wait):
         return True
 
     except Exception as e:
-        print(f"❌ Unexpected error: {str(e)}")
+        print(f" Unexpected error: {str(e)}")
         print(traceback.format_exc())
 
         driver.save_screenshot(os.path.join(screenshots_folder, "Unexpected_Error.png"))

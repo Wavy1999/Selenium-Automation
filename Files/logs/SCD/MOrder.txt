@@ -1,37 +1,221 @@
-[2026-02-10 12:54:57] Clicked Manage Order - PASSED
-[2026-02-10 12:55:03] 'Manage Orders' element is visible - PASSED
-[2026-02-10 12:55:23] Searching for service: Syntrix - PASSED
-[2026-02-10 12:55:46] Searched for service: UNPAID - PASSED
-[2026-02-10 12:55:46] Selected 'All Orders' from Payment Status filter - PASSED
-[2026-02-10 12:55:46] Selected 'All Orders' from Service Order Status filter - PASSED
-[2026-02-10 12:55:47] Applied Date Range filter - PASSED
-[2026-02-10 12:55:47] Checked first order row - PASSED
-[2026-02-10 12:55:48] Viewed Order Profile - PASSED
-[2026-02-10 12:55:48] Opened Update Contact & Shipping - PASSED
-[2026-02-10 12:55:53] Modal loaded - PASSED
-[2026-02-10 12:55:53] Updated mobileNumber: +63 933 345 6789 - PASSED
-[2026-02-10 12:55:56] Updated HouseNumber: Hidalgo - PASSED
-[2026-02-10 12:55:58] Updated Street: Quiapo Village - PASSED
-[2026-02-10 12:56:00] Updated PostCode: 1001 - PASSED
-[2026-02-10 12:56:02] Selected CountryCode: PHILIPPINES - PASSED
-[2026-02-10 12:56:05] Selected Province: BATANGAS - PASSED
-[2026-02-10 12:56:07] Selected City: TANAUAN - PASSED
-[2026-02-10 12:56:09] Selected Barangay: BALELE - PASSED
-[2026-02-10 12:56:11] Clicked Save Changes - PASSED
-[2026-02-10 12:56:14] Confirmed Changes - PASSED
-[2026-02-10 12:56:14] Clicked OK - PASSED
-[2026-02-10 12:56:14] Navigated to Manage Order page - PASSED
-[2026-02-10 12:56:36] Manage Order page loaded - PASSED
-[2026-02-10 12:56:40] Clicked Receive Payment - PASSED
-[2026-02-10 12:56:43] Payment table found - PASSED
-[2026-02-10 12:56:43] Extracted price: ₱4 - PASSED
-[2026-02-10 12:56:44] Entered payment amount: 4 - PASSED
-[2026-02-10 12:56:44] Clicked Submit Payment - PASSED
-[2026-02-10 12:56:44] Payment completed successfully - PASSED
-[2026-02-10 12:56:44] Payment confirmation modal appeared - PASSED
-[2026-02-10 12:56:47] Payment Confirmation Text: You're about to receive a payment of ₱4 for Order No. BNW-ORD-125345990-774 via CASH.
+[2026-02-26 15:32:22] Clicked Manage Order - PASSED
+[2026-02-26 15:32:27] 'Manage Orders' element is visible - PASSED
+[2026-02-26 15:32:47] Searching for service: Voltura - PASSED
+[2026-02-26 15:33:09] Searched for service: UNPAID - PASSED
+[2026-02-26 15:33:09] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-02-26 15:33:09] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-02-26 15:33:10] Applied Date Range filter - PASSED
+[2026-02-26 15:33:10] Checked first order row - PASSED
+[2026-02-26 15:33:10] Viewed Order Profile - PASSED
+[2026-02-26 15:33:11] Opened Update Contact & Shipping - PASSED
+[2026-02-26 15:33:16] Modal loaded - PASSED
+[2026-02-26 15:33:16] Updated mobileNumber: +63 922 234 5678 - PASSED
+[2026-02-26 15:33:18] Updated HouseNumber: 4556 Ayala - PASSED
+[2026-02-26 15:33:20] Updated Street: Legaspi Village - PASSED
+[2026-02-26 15:33:23] Updated PostCode: 1226 - PASSED
+[2026-02-26 15:33:25] Selected CountryCode: PHILIPPINES - PASSED
+[2026-02-26 15:33:27] Selected Province: BATAAN - PASSED
+[2026-02-26 15:33:30] Selected City: ABUCAY - PASSED
+[2026-02-26 15:33:32] Selected Barangay: BANGKAL - PASSED
+[2026-02-26 15:33:34] Clicked Save Changes - PASSED
+[2026-02-26 15:33:36] Confirmed Changes - PASSED
+[2026-02-26 15:33:36] Clicked OK - PASSED
+[2026-02-26 15:33:37] Navigated to Manage Order page - PASSED
+[2026-02-26 15:33:57] Manage Order page loaded - PASSED
+[2026-02-26 15:34:03] Clicked Receive Payment - PASSED
+[2026-02-26 15:34:06] Payment table found - PASSED
+[2026-02-26 15:34:06] Extracted price: ₱2 - PASSED
+[2026-02-26 15:34:06] Entered payment amount: 2 - PASSED
+[2026-02-26 15:34:06] Clicked Submit Payment - PASSED
+[2026-02-26 15:34:06] Payment completed successfully - PASSED
+[2026-02-26 15:34:06] Payment confirmation modal appeared - PASSED
+[2026-02-26 15:34:09] Payment Confirmation Text: You're about to receive a payment of ₱2 for Order No. BNW-ORD-033108166-896 via CASH.
 Would you like to continue? - PASSED
-[2026-02-10 12:56:47] Clicked Yes on confirmation modal - PASSED
-[2026-02-10 12:56:53] Navigated to Manage Order - PASSED
-[2026-02-10 12:57:12] Clicked Create New Order - PASSED
-[2026-02-10 12:57:23] Navigated to Manage Order - PASSED
+[2026-02-26 15:34:09] Clicked Yes on confirmation modal - PASSED
+[2026-02-26 15:34:15] Navigated to Manage Order - PASSED
+[2026-02-26 15:34:34] Clicked Create New Order - PASSED
+[2026-02-26 15:34:45] Navigated to Manage Order - PASSED
+[2026-04-07 20:29:45] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xbecdf3+10b03]
+	chromedriver!GetHandleVerifier [0xbecf24+10c34]
+	chromedriver!(No symbol) [0x9d2120]
+	chromedriver!(No symbol) [0x9b0c53]
+	chromedriver!(No symbol) [0xa4431b]
+	chromedriver!(No symbol) [0xa5a309]
+	chromedriver!(No symbol) [0xa3d8a6]
+	chromedriver!(No symbol) [0xa10229]
+	chromedriver!(No symbol) [0xa10fe4]
+	chromedriver!GetHandleVerifier [0xe548b9+2785c9]
+	chromedriver!GetHandleVerifier [0xe4feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xe6e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xc05cc8+299d8]
+	chromedriver!GetHandleVerifier [0xc0d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xbf58c8+195d8]
+	chromedriver!GetHandleVerifier [0xbf5a92+197a2]
+	chromedriver!GetHandleVerifier [0xbdee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:35:26] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf2120]
+	chromedriver!(No symbol) [0xad0c53]
+	chromedriver!(No symbol) [0xb6431b]
+	chromedriver!(No symbol) [0xb7a309]
+	chromedriver!(No symbol) [0xb5d8a6]
+	chromedriver!(No symbol) [0xb30229]
+	chromedriver!(No symbol) [0xb30fe4]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xd158c8+195d8]
+	chromedriver!GetHandleVerifier [0xd15a92+197a2]
+	chromedriver!GetHandleVerifier [0xcfee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:39:09] An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf1f5e]
+	chromedriver!(No symbol) [0xb2f4b7]
+	chromedriver!(No symbol) [0xb5d9c6]
+	chromedriver!(No symbol) [0xb58e42]
+	chromedriver!(No symbol) [0xb58462]
+	chromedriver!(No symbol) [0xac534e]
+	chromedriver!(No symbol) [0xac58ee]
+	chromedriver!(No symbol) [0xac5dcd]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!(No symbol) [0xac4ee9]
+	chromedriver!(No symbol) [0xac4530]
+	chromedriver!GetHandleVerifier [0x10c2e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-06-30 16:57:18] Clicked Manage Order - PASSED
+[2026-06-30 16:57:24] 'Manage Orders' element is visible - PASSED
+[2026-06-30 16:57:44] Searching for service: NeuroLink - PASSED
+[2026-06-30 16:58:07] Searched for service: UNPAID - PASSED
+[2026-06-30 16:58:07] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-06-30 16:58:07] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-06-30 16:58:07] Applied Date Range filter - PASSED
+[2026-06-30 16:58:07] Checked first order row - PASSED
+[2026-06-30 16:58:08] Viewed Order Profile - PASSED
+[2026-06-30 16:58:08] Opened Update Contact & Shipping - PASSED
+[2026-06-30 16:58:13] Modal loaded - PASSED
+[2026-06-30 16:58:14] Updated mobileNumber: +63 922 234 5678 - PASSED
+[2026-06-30 16:58:16] Updated HouseNumber: 4556 Ayala - PASSED
+[2026-06-30 16:58:18] Updated Street: Legaspi Village - PASSED
+[2026-06-30 16:58:20] Updated PostCode: 1226 - PASSED
+[2026-06-30 16:58:22] Selected CountryCode: PHILIPPINES - PASSED
+[2026-06-30 16:58:25] Selected Province: BATAAN - PASSED
+[2026-06-30 16:58:27] Selected City: ABUCAY - PASSED
+[2026-06-30 16:58:29] Selected Barangay: BANGKAL - PASSED
+[2026-06-30 16:58:31] Clicked Save Changes - PASSED
+[2026-06-30 16:58:34] Confirmed Changes - PASSED
+[2026-06-30 16:58:34] Clicked OK - PASSED
+[2026-06-30 16:58:57] Navigated to Manage Order page - PASSED
+[2026-06-30 16:59:27] Timeout error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED
+[2026-07-08 11:40:57] Clicked Manage Order - PASSED
+[2026-07-08 11:41:02] 'Manage Orders' element is visible - PASSED
+[2026-07-08 11:41:22] Searching for service: Voltura - PASSED
+[2026-07-08 11:41:46] Searched for service: UNPAID - PASSED
+[2026-07-08 11:41:46] Selected 'All Orders' from Payment Status filter - PASSED
+[2026-07-08 11:41:46] Selected 'All Orders' from Service Order Status filter - PASSED
+[2026-07-08 11:41:47] Applied Date Range filter - PASSED
+[2026-07-08 11:41:47] Checked first order row - PASSED
+[2026-07-08 11:41:48] Viewed Order Profile - PASSED
+[2026-07-08 11:41:48] Opened Update Contact & Shipping - PASSED
+[2026-07-08 11:41:53] Modal loaded - PASSED
+[2026-07-08 11:41:53] Updated mobileNumber: +63 922 234 5678 - PASSED
+[2026-07-08 11:41:55] Updated HouseNumber: 4556 Ayala - PASSED
+[2026-07-08 11:41:58] Updated Street: Legaspi Village - PASSED
+[2026-07-08 11:42:00] Updated PostCode: 1226 - PASSED
+[2026-07-08 11:42:02] Selected CountryCode: PHILIPPINES - PASSED
+[2026-07-08 11:42:05] Selected Province: BATAAN - PASSED
+[2026-07-08 11:42:07] Selected City: ABUCAY - PASSED
+[2026-07-08 11:42:09] Selected Barangay: BANGKAL - PASSED
+[2026-07-08 11:42:12] Clicked Save Changes - PASSED
+[2026-07-08 11:42:14] Confirmed Changes - PASSED
+[2026-07-08 11:42:14] Clicked OK - PASSED
+[2026-07-08 11:42:15] Navigated to Manage Order page - PASSED
+[2026-07-08 11:42:35] Manage Order page loaded - PASSED
+[2026-07-08 11:42:45] Clicked Receive Payment - PASSED
+[2026-07-08 11:42:48] Payment table found - PASSED
+[2026-07-08 11:42:48] Extracted price: ₱2 - PASSED
+[2026-07-08 11:42:48] Entered payment amount: 2 - PASSED
+[2026-07-08 11:42:48] Clicked Submit Payment - PASSED
+[2026-07-08 11:42:49] Payment completed successfully - PASSED
+[2026-07-08 11:42:49] Payment confirmation modal appeared - PASSED
+[2026-07-08 11:42:52] Payment Confirmation Text: You're about to receive a payment of ₱2 for Order No. BNW-ORD-113939293-262 via CASH.
+Would you like to continue? - PASSED
+[2026-07-08 11:42:52] Clicked Yes on confirmation modal - PASSED
+[2026-07-08 11:42:58] Navigated to Manage Order - PASSED
+[2026-07-08 11:43:22] Clicked Create New Order - PASSED
+[2026-07-08 11:43:32] Navigated to Manage Order - PASSED
+[2026-07-08 11:58:46] Timeout error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	chromedriver!GetHandleVerifier [0x10fa584+10434]
+	chromedriver!(No symbol) [0xefa700]
+	chromedriver!(No symbol) [0xf43bab]
+	chromedriver!(No symbol) [0xf43dcb]
+	chromedriver!(No symbol) [0xf85b32]
+	chromedriver!(No symbol) [0xf66114]
+	chromedriver!(No symbol) [0xf8339a]
+	chromedriver!(No symbol) [0xf65e66]
+	chromedriver!(No symbol) [0xf39159]
+	chromedriver!(No symbol) [0xf39f24]
+	chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+ - FAILED

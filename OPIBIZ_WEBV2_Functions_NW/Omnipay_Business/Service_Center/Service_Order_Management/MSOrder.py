@@ -185,7 +185,8 @@ def MSOrder(driver, wait):
         # =========================
         # Manage Orders and Receive Payment
         # =========================
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        # manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        manage_orders_url = "http://vm-app-dev01:9001/ManageOrder?type=service"
         driver.get(manage_orders_url)
         log_action("Navigated to Manage Service Order page", log_file_path=log_file_path)
         time.sleep(10)
@@ -277,7 +278,8 @@ def MSOrder(driver, wait):
         # =========================
         # Create New Order
         # =========================
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        # manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        manage_orders_url = "http://vm-app-dev01:9001/ManageOrder?type=service"
         driver.get(manage_orders_url)
         log_action("Navigated to Manage Service Order", log_file_path=log_file_path)
         time.sleep(10)
@@ -290,7 +292,8 @@ def MSOrder(driver, wait):
         time.sleep(10)
         driver.save_screenshot(os.path.join(screenshots_folder, "Create_New_Order_Page.png"))
 
-        manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        # manage_orders_url = "http://beta-opibizscd.paybps.ovpn/ManageOrder?type=service"
+        manage_orders_url = "http://vm-app-dev01:9001/ManageOrder?type=service"
         driver.get(manage_orders_url)
         log_action("Navigated to Manage Service Order", log_file_path=log_file_path)
         time.sleep(10)

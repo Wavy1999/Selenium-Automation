@@ -24,6 +24,8 @@ from Utility import (                     # Custom helper functions for automati
 
 def COrderview(driver, wait):
 
+    wait = WebDriverWait(driver, 30)
+
     log_file_path = SCD_MODULE_PATHS['COrder_View']['log']
     screenshots_folder = SCD_MODULE_PATHS['COrder_View']['screenshots']
 

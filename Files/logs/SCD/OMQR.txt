@@ -1,4 +1,90 @@
-[2026-02-10 12:57:23] Clicked 'Order Management' breadcrumb - PASSED
-[2026-02-10 12:57:27] Clicked Generate QR - PASSED
-[2026-02-10 12:57:32] Generate QR Page loaded successfully - PASSED
-[2026-02-10 12:57:32] Clicked Custom QR - PASSED
+[2026-02-26 15:34:46] Clicked 'Order Management' breadcrumb - PASSED
+[2026-02-26 15:34:49] Clicked Generate QR - PASSED
+[2026-02-26 15:34:54] Generate QR Page loaded successfully - PASSED
+[2026-02-26 15:34:54] Clicked Custom QR - PASSED
+[2026-04-07 20:29:45] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xbecdf3+10b03]
+	chromedriver!GetHandleVerifier [0xbecf24+10c34]
+	chromedriver!(No symbol) [0x9d2120]
+	chromedriver!(No symbol) [0x9b0c53]
+	chromedriver!(No symbol) [0xa4431b]
+	chromedriver!(No symbol) [0xa5a309]
+	chromedriver!(No symbol) [0xa3d8a6]
+	chromedriver!(No symbol) [0xa10229]
+	chromedriver!(No symbol) [0xa10fe4]
+	chromedriver!GetHandleVerifier [0xe548b9+2785c9]
+	chromedriver!GetHandleVerifier [0xe4feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xe6e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xc05cc8+299d8]
+	chromedriver!GetHandleVerifier [0xc0d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xbf58c8+195d8]
+	chromedriver!GetHandleVerifier [0xbf5a92+197a2]
+	chromedriver!GetHandleVerifier [0xbdee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:35:26] An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf2120]
+	chromedriver!(No symbol) [0xad0c53]
+	chromedriver!(No symbol) [0xb6431b]
+	chromedriver!(No symbol) [0xb7a309]
+	chromedriver!(No symbol) [0xb5d8a6]
+	chromedriver!(No symbol) [0xb30229]
+	chromedriver!(No symbol) [0xb30fe4]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xd158c8+195d8]
+	chromedriver!GetHandleVerifier [0xd15a92+197a2]
+	chromedriver!GetHandleVerifier [0xcfee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-04-07 20:39:09] An error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd0cdf3+10b03]
+	chromedriver!GetHandleVerifier [0xd0cf24+10c34]
+	chromedriver!(No symbol) [0xaf1f5e]
+	chromedriver!(No symbol) [0xb2f4b7]
+	chromedriver!(No symbol) [0xb5d9c6]
+	chromedriver!(No symbol) [0xb58e42]
+	chromedriver!(No symbol) [0xb58462]
+	chromedriver!(No symbol) [0xac534e]
+	chromedriver!(No symbol) [0xac58ee]
+	chromedriver!(No symbol) [0xac5dcd]
+	chromedriver!GetHandleVerifier [0xf748b9+2785c9]
+	chromedriver!GetHandleVerifier [0xf6feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xf8e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xd25cc8+299d8]
+	chromedriver!GetHandleVerifier [0xd2d9fd+3170d]
+	chromedriver!(No symbol) [0xac4ee9]
+	chromedriver!(No symbol) [0xac4530]
+	chromedriver!GetHandleVerifier [0x10c2e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x75c65d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7734d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7734d7a1+231]
+ - FAILED
+[2026-06-30 16:59:27] Clicked 'Order Management' breadcrumb - PASSED
+[2026-06-30 16:59:31] Clicked Generate QR - PASSED
+[2026-06-30 16:59:36] Generate QR Page loaded successfully - PASSED
+[2026-06-30 16:59:36] Clicked Custom QR - PASSED
+[2026-07-08 11:43:33] Clicked 'Order Management' breadcrumb - PASSED
+[2026-07-08 11:43:36] Clicked Generate QR - PASSED
+[2026-07-08 11:43:41] Generate QR Page loaded successfully - PASSED
+[2026-07-08 11:43:42] Clicked Custom QR - PASSED
+[2026-07-08 11:58:46] Clicked 'Order Management' breadcrumb - PASSED
+[2026-07-08 11:58:50] Clicked Generate QR - PASSED
+[2026-07-08 11:58:55] Generate QR Page loaded successfully - PASSED
+[2026-07-08 11:58:55] Clicked Custom QR - PASSED

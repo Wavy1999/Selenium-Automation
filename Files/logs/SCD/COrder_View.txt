@@ -1,5 +1,14 @@
-[2026-02-10 12:46:04] Clicked Seller Center - PASSED
-[2026-02-10 12:46:19] ERROR: Element not found or interaction failed:
+[2026-02-26 15:28:52] Clicked Seller Center - PASSED
+[2026-02-26 15:28:57] Clicked Create Order - PASSED
+[2026-02-26 15:28:57] Create Order page loaded - PASSED
+[2026-06-30 16:53:39] Clicked Seller Center - PASSED
+[2026-06-30 16:53:48] Clicked Create Order - PASSED
+[2026-06-30 16:53:48] Create Order page loaded - PASSED
+[2026-07-08 11:37:19] Clicked Seller Center - PASSED
+[2026-07-08 11:37:25] Clicked Create Order - PASSED
+[2026-07-08 11:37:25] Create Order page loaded - PASSED
+[2026-07-08 11:57:25] Clicked Seller Center - PASSED
+[2026-07-08 11:57:40] ERROR: Element not found or interaction failed:
 Traceback (most recent call last):
   File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Create_Order\COrder_View.py", line 50, in COrderview
     create_order = wait.until(
@@ -16,6 +25,103 @@ Traceback (most recent call last):
     raise TimeoutException(message, screen, stacktrace)
 selenium.common.exceptions.TimeoutException: Message: 
 
-[2026-02-10 12:51:30] Clicked Seller Center - PASSED
-[2026-02-10 12:51:35] Clicked Create Order - PASSED
-[2026-02-10 12:51:35] Create Order page loaded - PASSED
+[2026-07-08 11:58:11] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Order_Management\COrder.py", line 44, in COrder
+    Order_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[.//span[contains(text(), 'Order Management')]]")))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Order_Management\COrder.py", line 44, in COrder
+    Order_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[.//span[contains(text(), 'Order Management')]]")))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-07-08 11:58:46] ERROR: Manage Order - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	chromedriver!GetHandleVerifier [0x10fa584+10434]
+	chromedriver!(No symbol) [0xefa700]
+	chromedriver!(No symbol) [0xf43bab]
+	chromedriver!(No symbol) [0xf43dcb]
+	chromedriver!(No symbol) [0xf85b32]
+	chromedriver!(No symbol) [0xf66114]
+	chromedriver!(No symbol) [0xf8339a]
+	chromedriver!(No symbol) [0xf65e66]
+	chromedriver!(No symbol) [0xf39159]
+	chromedriver!(No symbol) [0xf39f24]
+	chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 373, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Order_Management\MOrder.py", line 74, in MOrder
+    Manage_Order = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a[href='/ManageOrder']")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	chromedriver!GetHandleVerifier [0x10fa584+10434]
+	chromedriver!(No symbol) [0xefa700]
+	chromedriver!(No symbol) [0xf43bab]
+	chromedriver!(No symbol) [0xf43dcb]
+	chromedriver!(No symbol) [0xf85b32]
+	chromedriver!(No symbol) [0xf66114]
+	chromedriver!(No symbol) [0xf8339a]
+	chromedriver!(No symbol) [0xf65e66]
+	chromedriver!(No symbol) [0xf39159]
+	chromedriver!(No symbol) [0xf39f24]
+	chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-07-08 12:00:57] ERROR: Critical error in Seller Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-07-08 12:00:57] ERROR: Manage Product - FAILED: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 373, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\MProduct.py", line 64, in MProduct
+    Manage_Product = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, 'navToManageProduct') and contains(., 'Manage Product')]")))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

@@ -16,6 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Local / project-specific imports
 # ---------------------------
 from path_config import SCD_MODULE_PATHS  # Project-specific constants for module paths
+from env_config import BASE_URL           # Centralized base URL (from .env)
 from Utility import (                     # Custom utility functions for automation
     log_action,                           # Log successful actions for debugging/auditing
     log_error,                             # Log exceptions/errors for diagnostics
@@ -52,13 +53,15 @@ def Bulk(driver, wait):
             # driver.execute_script("arguments[0].click();", Create_Bulk)
             # log_action("Clicked Create New Product(Bulk)", log_file_path=log_file_path)
 
-            driver.get("http://beta-opibizscd.paybps.ovpn/ProductManagement/BatchProduct")
+            # Base URL now comes from env_config (.env). Change it there, not here.
+            url = f"{BASE_URL}/ProductManagement/BatchProduct"
+            driver.get(url)
             WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
             time.sleep(5)
             driver.save_screenshot(os.path.join(screenshots_folder, "Create Bulk Product.png"))
 
             warehouse_dropdown = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "warehouseID")))
-            log_action("Create New Product(Bulk) page loaded successfully", log_file_path=log_file_path)
+            log_action(f"Create New Product(Bulk) page loaded successfully: {url}", log_file_path=log_file_path)
             WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
             # Select Warehouse

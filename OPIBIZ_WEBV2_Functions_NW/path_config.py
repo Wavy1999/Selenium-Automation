@@ -122,7 +122,7 @@ LOGIN_PATHS = {
         "screenshots": os.path.join(base_screenshot_path, "Login", role),
         "excel_path": login_credentials_path,
     }
-    for role in ["Admin", "S1", "S2", "Logistics", "SecAd", "Class_C"]
+    for role in ["Admin", "S1", "S2", "Logistics", "SecAd", "Class_C", "Class_Beta"]
 }
 
 # logout

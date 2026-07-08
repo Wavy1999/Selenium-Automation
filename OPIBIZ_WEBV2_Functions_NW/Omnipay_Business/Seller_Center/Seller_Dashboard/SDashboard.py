@@ -83,8 +83,8 @@ def SDashboard(driver, wait):
             current_bal = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'currentBalance')))
             log_action(f"Cash Collection Balance: {current_bal.text}", log_file_path=log_file_path)
 
-            available_bal = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'availableBalance')))
-            log_action(f"Available Balance: {available_bal.text}", log_file_path=log_file_path)
+            # available_balance_el = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'availableBalance')))
+            # log_action(f"Available Balance: {available_balance_el.text}", log_file_path=log_file_path)
         except TimeoutException:
             log_error("Cash Collection Balance widgets not found", log_file_path=log_file_path)
 

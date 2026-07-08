@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from path_config import SCD_MODULE_PATHS
+from env_config import BASE_URL  # Centralized base URL (from .env)
 
 from Utility import (
     log_action,
@@ -123,13 +124,12 @@ def _navigate_to_bulk_employee(driver, wait, log_file_path, screenshots_folder):
         # log_action("Clicked Add New Employee (Bulk)", log_file_path)
         # driver.save_screenshot(os.path.join(screenshots_folder, "Add_New_Employee_Bulk_Page.png"))
 
-        # URL
-        # url = "http://vm-app-dev01:9001/EmployeeManagement/BatchEmployee"
-        url = "http://beta-opibizscd.paybps.ovpn/EmployeeManagement/BatchEmployee"
+        # Base URL now comes from env_config (.env). Change it there, not here.
+        url = f"{BASE_URL}/EmployeeManagement/BatchEmployee"
         driver.get(url)
         wait.until(lambda d: d.execute_script("return document.readyState") == "complete")
         driver.save_screenshot(os.path.join(screenshots_folder, "Navigate_Bulk_Employee_Page.png"))
-        log_action("Navigated to Bulk Employee Upload page", log_file_path)
+        log_action(f"Navigated to Bulk Employee Upload page: {url}", log_file_path)
         
         # Wait for page to fully load
         time.sleep(1)

@@ -1,2 +1,4 @@
-[2026-02-10 13:23:16] Navigated to http://beta-opibizscd.paybps.ovpn/EcoPay/TransferToOmnipay?tab=bank - PASSED
-[2026-02-10 13:23:17] Another Bank page loaded successfully - PASSED
+[2026-02-26 16:01:30] Navigated to http://vm-app-dev01:9001/EcoPay/TransferToOmnipay?tab=bank - PASSED
+[2026-02-26 16:01:30] Another Bank page loaded successfully - PASSED
+[2026-06-30 17:19:29] Navigated to http://vm-app-dev01:9001/EcoPay/TransferToOmnipay?tab=bank - PASSED
+[2026-06-30 17:19:30] Another Bank page loaded successfully - PASSED

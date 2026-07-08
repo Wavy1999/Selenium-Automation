@@ -22,6 +22,7 @@ from Utility import (
     Main_Dashboard         # project-specific dashboard helper / class
 )
 from path_config import SCD_MODULE_PATHS  # config for module paths within project
+from env_config import BASE_URL           # Centralized base URL (from .env)
 
 
 def NEmployee(driver, wait):
@@ -52,9 +53,10 @@ def NEmployee(driver, wait):
         # time.sleep(3)
         # driver.save_screenshot(os.path.join(screenshots_folder, "Employee_Management_Menu.png"))
 
-        current_url = driver.current_url
-        base_url = "/".join(current_url.split("/", 3)[:3]) 
-        target_url = base_url + "/EmployeeManagement/AddNewEmployee"
+        # Build the URL from the centralized BASE_URL (.env) instead of
+        # parsing driver.current_url — this always points at the correct
+        # environment regardless of prior navigation state.
+        target_url = f"{BASE_URL}/EmployeeManagement/AddNewEmployee"
 
         driver.get(target_url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script("return document.readyState") == "complete")

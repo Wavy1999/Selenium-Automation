@@ -16,6 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Local / project-specific imports
 # ---------------------------
 from path_config import SCD_MODULE_PATHS     # Project-specific path constants
+from env_config import BASE_URL              # Centralized base URL (from .env)
 from Utility import (                        # Custom helper functions for automation
     log_action,                              # Log successful actions for auditing/debugging
     log_error,                               # Log errors/exceptions for diagnostics
@@ -40,15 +41,19 @@ def Inventory_Management(driver,wait):
 
         # === NAVIGATE TO SELLER CENTER DASHBOARD ===
         # For Debugging Purposes uncomment the line below per module
-        print("Navigating to Seller Center Dashboard...")
-        Seller_Center = wait.until(EC.element_to_be_clickable((By.XPATH,  "//a[@data-bs-title='Seller Center' and @data-bs-toggle='tooltip' and .//span[text()='Seller Center']]")))
-        driver.execute_script("arguments[0].click()", Seller_Center)
-        log_action("Clicked Seller Center", log_file_path=log_file_path)
-        WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        # print("Navigating to Seller Center Dashboard...")
+        # Seller_Center = wait.until(EC.element_to_be_clickable((By.XPATH,  "//a[@data-bs-title='Seller Center' and @data-bs-toggle='tooltip' and .//span[text()='Seller Center']]")))
+        # driver.execute_script("arguments[0].click()", Seller_Center)
+        # log_action("Clicked Seller Center", log_file_path=log_file_path)
+        # WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-        Inventory_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[contains(@href, '/SellerCenter/InventoryManagement') and .//span[contains(text(), 'Inventory Management')]]")))
-        driver.execute_script("arguments[0].click();", Inventory_Management)
-        log_action("Clicked Inventory Management", log_file_path=log_file_path)
+        # Inventory_Management = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH,"//a[contains(@href, '/SellerCenter/InventoryManagement') and .//span[contains(text(), 'Inventory Management')]]")))
+        # driver.execute_script("arguments[0].click();", Inventory_Management)
+
+        # Base URL now comes from env_config (.env). Change it there, not here.
+        url = f"{BASE_URL}/SellerCenter/InventoryManagement"
+        driver.get(url)
+        log_action(f"Navigated to Inventory Management: {url}", log_file_path=log_file_path)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Inventory_Management_Page.png"))
 
@@ -118,11 +123,14 @@ def Inventory_Management(driver,wait):
         log_action("Clicked Update Quantity", log_file_path=log_file_path)
         time.sleep(5)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
-
         inventory_modal_2 = WebDriverWait(driver,30).until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".swal2-popup.swal2-show")))
         time.sleep(2)
 
         # Reason 
+
+        movement_reason_dropdown = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "movementReason-select")))
+        log_action("Movement Reason dropdown is present", log_file_path=log_file_path)
+
         reason = select_data_by_text(log_file_path, wait, "movementReason-select", "Retrieved Item(s)",by="text")
         log_action(f"Entered Reason: {reason.text}", log_file_path=log_file_path)
         time.sleep(2)

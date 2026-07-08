@@ -94,3 +94,7 @@ def login_secad(driver, excel_path):
 
 def login_class_c(driver, excel_path):
     return login_generic(driver, excel_path, "Class_C", username_override="C.r001.OBiz.masteradmin", password_override=":UOqNEzRvS0B")
+
+
+def login_class_beta(driver, excel_path):
+    return login_generic(driver, excel_path, "Class_Beta", username_override="chance_terry", password_override="]>byz11C1O!g")

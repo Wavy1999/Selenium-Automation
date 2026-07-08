@@ -1,46 +1,1197 @@
-[2026-02-10 12:41:36] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v144.0.7559.133, Tester: Christian - PASSED
-[2026-02-10 12:41:38] Login successful with s1 - PASSED
-[2026-02-10 12:41:57] Branch selection completed - PASSED
-[2026-02-10 12:44:31] Main Dashboard - PASSED (Duration: 153.40s) - PASSED
-[2026-02-10 12:46:04] Seller Center Dashboard - PASSED (Duration: 93.21s) - PASSED
-[2026-02-10 12:46:19] Create Order View Only - PASSED (Duration: 15.41s) - PASSED
-[2026-02-10 12:46:32] Automation interrupted by user - PASSED
-[2026-02-10 12:46:50] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v144.0.7559.133, Tester: Christian - PASSED
-[2026-02-10 12:46:51] Login successful with s1 - PASSED
-[2026-02-10 12:47:14] Branch selection completed - PASSED
-[2026-02-10 12:49:55] Main Dashboard - PASSED (Duration: 160.47s) - PASSED
-[2026-02-10 12:51:30] Seller Center Dashboard - PASSED (Duration: 94.61s) - PASSED
-[2026-02-10 12:51:35] Create Order View Only - PASSED (Duration: 5.89s) - PASSED
-[2026-02-10 12:54:51] Create Single Order - PASSED (Duration: 196.06s) - PASSED
-[2026-02-10 12:57:23] Manage Order - PASSED (Duration: 151.65s) - PASSED
-[2026-02-10 12:57:43] Generate QR - PASSED (Duration: 19.40s) - PASSED
-[2026-02-10 12:59:01] Create New Product - PASSED (Duration: 78.63s) - PASSED
-[2026-02-10 13:02:40] Manage Product - PASSED (Duration: 218.87s) - PASSED
-[2026-02-10 13:03:17] Create New Product - Bulk - PASSED (Duration: 36.47s) - PASSED
-[2026-02-10 13:03:49] Inventory Management - PASSED (Duration: 32.03s) - PASSED
-[2026-02-10 13:05:22] Booking and Appointments - PASSED (Duration: 93.28s) - PASSED
-[2026-02-10 13:06:04] Bulk Appointment - PASSED (Duration: 41.93s) - PASSED
-[2026-02-10 13:06:11] Create Service Order View Only - PASSED (Duration: 7.55s) - PASSED
-[2026-02-10 13:09:57] Create Service Order - PASSED (Duration: 225.56s) - PASSED
-[2026-02-10 13:12:09] Manage Service Order - PASSED (Duration: 132.20s) - PASSED
-[2026-02-10 13:12:28] Create New Service - PASSED (Duration: 18.76s) - PASSED
-[2026-02-10 13:16:06] Manage Service - PASSED (Duration: 218.23s) - PASSED
-[2026-02-10 13:16:20] Create Service Bulk - PASSED (Duration: 13.82s) - PASSED
-[2026-02-10 13:17:12] Cash Management - PASSED (Duration: 51.62s) - PASSED
-[2026-02-10 13:17:15] Branches - PASSED (Duration: 3.08s) - PASSED
-[2026-02-10 13:17:56] Warehouse - PASSED (Duration: 41.08s) - PASSED
-[2026-02-10 13:18:28] Warehouse-Bulk - PASSED (Duration: 32.02s) - PASSED
-[2026-02-10 13:19:04] Added New Employee - PASSED (Duration: 36.09s) - PASSED
-[2026-02-10 13:19:57] Employee List - PASSED (Duration: 52.89s) - PASSED
-[2026-02-10 13:20:33] Employee Bulk - PASSED (Duration: 36.10s) - PASSED
-[2026-02-10 13:21:07] Add New Client - PASSED (Duration: 34.52s) - PASSED
-[2026-02-10 13:22:52] Client List - PASSED (Duration: 104.32s) - PASSED
-[2026-02-10 13:23:14] Client Bulk - PASSED (Duration: 22.60s) - PASSED
-[2026-02-10 13:23:17] To Another Bank - PASSED (Duration: 2.29s) - PASSED
-[2026-02-10 13:23:24] My Profile - PASSED (Duration: 7.04s) - PASSED
-[2026-02-10 13:23:39] Audit Logs - PASSED (Duration: 14.92s) - PASSED
-[2026-02-10 13:24:13] Generate QR - PASSED (Duration: 34.70s) - PASSED
-[2026-02-10 13:24:17] Logout completed - PASSED
-[2026-02-10 13:24:17] Test Summary - Tester: Christian, Browser: Chrome v144.0.7559.133, Total: 32, Passed: 32, Failed: 0, Skipped: 0 - FAILED
-[2026-02-10 13:24:17] All automation completed in 37m 36s - PASSED
-[2026-02-10 13:24:22] Browser closed and session ended - PASSED
+[2026-02-26 15:24:27] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v145.0.7632.117, Tester: Christian - PASSED
+[2026-02-26 15:24:28] Login successful with s1 - PASSED
+[2026-02-26 15:24:46] Branch selection completed - PASSED
+[2026-02-26 15:27:20] Main Dashboard - PASSED (Duration: 154.36s) - PASSED
+[2026-02-26 15:28:52] Seller Center Dashboard - PASSED (Duration: 91.71s) - PASSED
+[2026-02-26 15:28:58] Create Order View Only - PASSED (Duration: 5.87s) - PASSED
+[2026-02-26 15:32:16] Create Single Order - PASSED (Duration: 198.44s) - PASSED
+[2026-02-26 15:34:45] Manage Order - PASSED (Duration: 149.22s) - PASSED
+[2026-02-26 15:35:05] Generate QR - PASSED (Duration: 19.36s) - PASSED
+[2026-02-26 15:36:25] Create New Product - PASSED (Duration: 80.54s) - PASSED
+[2026-02-26 15:39:55] Manage Product - PASSED (Duration: 210.15s) - PASSED
+[2026-02-26 15:40:24] Create New Product - Bulk - PASSED (Duration: 28.89s) - PASSED
+[2026-02-26 15:41:45] Inventory Management - PASSED (Duration: 80.92s) - PASSED
+[2026-02-26 15:43:15] Booking and Appointments - PASSED (Duration: 90.04s) - PASSED
+[2026-02-26 15:43:55] Bulk Appointment - PASSED (Duration: 39.64s) - PASSED
+[2026-02-26 15:44:01] Create Service Order View Only - PASSED (Duration: 6.32s) - PASSED
+[2026-02-26 15:47:47] Create Service Order - PASSED (Duration: 226.23s) - PASSED
+[2026-02-26 15:50:45] Manage Service Order - PASSED (Duration: 177.41s) - PASSED
+[2026-02-26 15:51:03] Create New Service - PASSED (Duration: 17.82s) - PASSED
+[2026-02-26 15:54:39] Manage Service - PASSED (Duration: 216.63s) - PASSED
+[2026-02-26 15:54:55] Create Service Bulk - PASSED (Duration: 15.42s) - PASSED
+[2026-02-26 15:55:44] Cash Management - PASSED (Duration: 49.22s) - PASSED
+[2026-02-26 15:55:47] Branches - PASSED (Duration: 3.08s) - PASSED
+[2026-02-26 15:56:26] Warehouse - PASSED (Duration: 38.66s) - PASSED
+[2026-02-26 15:56:57] Warehouse-Bulk - PASSED (Duration: 31.66s) - PASSED
+[2026-02-26 15:57:32] Added New Employee - PASSED (Duration: 34.36s) - PASSED
+[2026-02-26 15:58:23] Employee List - PASSED (Duration: 51.45s) - PASSED
+[2026-02-26 15:58:59] Employee Bulk - PASSED (Duration: 35.70s) - PASSED
+[2026-02-26 15:59:35] Add New Client - PASSED (Duration: 36.43s) - PASSED
+[2026-02-26 16:01:07] Screenshot saved: Client_List_failed_20260226_160107.png - FAILED
+[2026-02-26 16:01:30] Client Bulk - PASSED (Duration: 22.66s) - PASSED
+[2026-02-26 16:01:30] To Another Bank - PASSED (Duration: 0.72s) - PASSED
+[2026-02-26 16:01:38] My Profile - PASSED (Duration: 7.28s) - PASSED
+[2026-02-26 16:01:52] Audit Logs - PASSED (Duration: 14.12s) - PASSED
+[2026-02-26 16:02:26] Generate QR - PASSED (Duration: 34.41s) - PASSED
+[2026-02-26 16:02:30] Logout completed - PASSED
+[2026-02-26 16:02:30] Test Summary - Tester: Christian, Browser: Chrome v145.0.7632.117, Total: 32, Passed: 31, Failed: 1, Skipped: 0 - FAILED
+[2026-02-26 16:02:30] All automation completed in 38m 9s - PASSED
+[2026-02-26 16:02:35] Browser closed and session ended - PASSED
+[2026-04-07 20:29:37] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v146.0.7680.178, Tester: Christian - PASSED
+[2026-04-07 20:29:38] Login successful with s1 - PASSED
+[2026-04-07 20:29:45] Branch selection completed - PASSED
+[2026-04-07 20:29:46] Test Summary - Tester: Christian, Browser: Chrome v146.0.7680.178, Total: 32, Passed: 0, Failed: 32, Skipped: 0 - FAILED
+[2026-04-07 20:29:46] All automation completed in 0m 19s - PASSED
+[2026-04-07 20:29:51] Browser closed and session ended - PASSED
+[2026-04-07 20:35:09] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v146.0.7680.178, Tester: Christian - PASSED
+[2026-04-07 20:35:10] Login successful with s1 - PASSED
+[2026-04-07 20:35:25] Branch selection completed - PASSED
+[2026-04-07 20:35:26] Test Summary - Tester: Christian, Browser: Chrome v146.0.7680.178, Total: 32, Passed: 0, Failed: 32, Skipped: 0 - FAILED
+[2026-04-07 20:35:26] All automation completed in 0m 23s - PASSED
+[2026-04-07 20:35:31] Browser closed and session ended - PASSED
+[2026-04-07 20:37:36] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v146.0.7680.178, Tester: Christian - PASSED
+[2026-04-07 20:37:36] ERROR: Login failed: Invalid login type: login_class_beta. Valid options: ['admin', 's1', 's2', 'class', 'class_beta']
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 263, in login
+    raise ValueError(f"Invalid login type: {login_type}. Valid options: {list(login_map.keys())}")
+ValueError: Invalid login type: login_class_beta. Valid options: ['admin', 's1', 's2', 'class', 'class_beta']
+[2026-04-07 20:37:36] Screenshot saved: login_failed_20260407_203736.png - FAILED
+[2026-04-07 20:37:42] Browser closed and session ended - PASSED
+[2026-04-07 20:38:13] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v146.0.7680.178, Tester: Christian - PASSED
+[2026-04-07 20:38:14] Login successful with class_beta - PASSED
+[2026-04-07 20:39:09] Branch selection completed - PASSED
+[2026-04-07 20:39:10] Test Summary - Tester: Christian, Browser: Chrome v146.0.7680.178, Total: 32, Passed: 0, Failed: 32, Skipped: 0 - FAILED
+[2026-04-07 20:39:10] All automation completed in 1m 2s - PASSED
+[2026-04-07 20:39:15] Browser closed and session ended - PASSED
+[2026-06-30 16:44:57] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.103, Tester: Christian - PASSED
+[2026-06-30 16:44:59] ERROR: Login failed: Message: element click intercepted: Element <button type="submit" name="submit" class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="onCaptchaSubmit">...</button> is not clickable at point (480, 413). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x60a543+103f3]
+	chromedriver!GetHandleVerifier [0x60a584+10434]
+	chromedriver!(No symbol) [0x40a700]
+	chromedriver!(No symbol) [0x459a88]
+	chromedriver!(No symbol) [0x458119]
+	chromedriver!(No symbol) [0x455f05]
+	chromedriver!(No symbol) [0x455114]
+	chromedriver!(No symbol) [0x44abe7]
+	chromedriver!(No symbol) [0x4760cc]
+	chromedriver!(No symbol) [0x44a624]
+	chromedriver!(No symbol) [0x476294]
+	chromedriver!(No symbol) [0x49339a]
+	chromedriver!(No symbol) [0x475e66]
+	chromedriver!(No symbol) [0x449159]
+	chromedriver!(No symbol) [0x449f24]
+	chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x890119+295fc9]
+	chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 278, in login
+    username, password = login_func(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 100, in login_class_beta
+    return login_generic(driver, excel_path, "Class_Beta", username_override="chance_terry", password_override="]>byz11C1O!g")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 73, in login_generic
+    perform_login(driver, username, password, config['log'], config['screenshots'], login_key)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 48, in perform_login
+    login_button.click()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type="submit" name="submit" class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="onCaptchaSubmit">...</button> is not clickable at point (480, 413). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x60a543+103f3]
+	chromedriver!GetHandleVerifier [0x60a584+10434]
+	chromedriver!(No symbol) [0x40a700]
+	chromedriver!(No symbol) [0x459a88]
+	chromedriver!(No symbol) [0x458119]
+	chromedriver!(No symbol) [0x455f05]
+	chromedriver!(No symbol) [0x455114]
+	chromedriver!(No symbol) [0x44abe7]
+	chromedriver!(No symbol) [0x4760cc]
+	chromedriver!(No symbol) [0x44a624]
+	chromedriver!(No symbol) [0x476294]
+	chromedriver!(No symbol) [0x49339a]
+	chromedriver!(No symbol) [0x475e66]
+	chromedriver!(No symbol) [0x449159]
+	chromedriver!(No symbol) [0x449f24]
+	chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x890119+295fc9]
+	chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 16:45:00] Screenshot saved: login_failed_20260630_164459.png - FAILED
+[2026-06-30 16:45:05] Browser closed and session ended - PASSED
+[2026-06-30 16:46:37] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.103, Tester: Christian - PASSED
+[2026-06-30 16:46:37] ERROR: Login failed: Invalid login type: login_class_c. Valid options: ['admin', 's1', 's2', 'class', 'class_beta']
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 263, in login
+    raise ValueError(f"Invalid login type: {login_type}. Valid options: {list(login_map.keys())}")
+ValueError: Invalid login type: login_class_c. Valid options: ['admin', 's1', 's2', 'class', 'class_beta']
+[2026-06-30 16:46:37] Screenshot saved: login_failed_20260630_164637.png - FAILED
+[2026-06-30 16:46:43] Browser closed and session ended - PASSED
+[2026-06-30 16:47:39] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.103, Tester: Christian - PASSED
+[2026-06-30 16:47:42] ERROR: Login failed: Message: element click intercepted: Element <button type="submit" name="submit" class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="onCaptchaSubmit">...</button> is not clickable at point (480, 413). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac9a88]
+	chromedriver!(No symbol) [0xac8119]
+	chromedriver!(No symbol) [0xac5f05]
+	chromedriver!(No symbol) [0xac5114]
+	chromedriver!(No symbol) [0xababe7]
+	chromedriver!(No symbol) [0xae60cc]
+	chromedriver!(No symbol) [0xaba624]
+	chromedriver!(No symbol) [0xae6294]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 278, in login
+    username, password = login_func(self.driver, excel_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 96, in login_class_c
+    return login_generic(driver, excel_path, "Class_C", username_override="C.r001.OBiz.masteradmin", password_override=":UOqNEzRvS0B")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 73, in login_generic
+    perform_login(driver, username, password, config['log'], config['screenshots'], login_key)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Login\Login.py", line 48, in perform_login
+    login_button.click()
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type="submit" name="submit" class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="onCaptchaSubmit">...</button> is not clickable at point (480, 413). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac9a88]
+	chromedriver!(No symbol) [0xac8119]
+	chromedriver!(No symbol) [0xac5f05]
+	chromedriver!(No symbol) [0xac5114]
+	chromedriver!(No symbol) [0xababe7]
+	chromedriver!(No symbol) [0xae60cc]
+	chromedriver!(No symbol) [0xaba624]
+	chromedriver!(No symbol) [0xae6294]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 16:47:42] Screenshot saved: login_failed_20260630_164742.png - FAILED
+[2026-06-30 16:47:47] Browser closed and session ended - PASSED
+[2026-06-30 16:48:16] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.103, Tester: Christian - PASSED
+[2026-06-30 16:48:17] Login successful with s1 - PASSED
+[2026-06-30 16:48:43] Branch selection completed - PASSED
+[2026-06-30 16:52:00] Main Dashboard - PASSED (Duration: 197.44s) - PASSED
+[2026-06-30 16:53:39] Seller Center Dashboard - PASSED (Duration: 98.73s) - PASSED
+[2026-06-30 16:53:48] Create Order View Only - PASSED (Duration: 9.10s) - PASSED
+[2026-06-30 16:57:13] Create Single Order - PASSED (Duration: 204.76s) - PASSED
+[2026-06-30 16:59:27] ERROR: Manage Order - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 367, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Order_Management\MOrder.py", line 214, in MOrder
+    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'manageOrderTable')))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 16:59:27] Screenshot saved: Manage_Order_failed_20260630_165927.png - FAILED
+[2026-06-30 16:59:46] Generate QR - PASSED (Duration: 19.02s) - PASSED
+[2026-06-30 17:01:01] Create New Product - PASSED (Duration: 74.56s) - PASSED
+[2026-06-30 17:04:26] Manage Product - PASSED (Duration: 204.63s) - PASSED
+[2026-06-30 17:05:33] ERROR: Critical error in Create New Product Bulk: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\CNProducts_Bulk.py", line 61, in Bulk
+    warehouse_dropdown = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "warehouseID")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\CNProducts_Bulk.py", line 61, in Bulk
+    warehouse_dropdown = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "warehouseID")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:05:34] ERROR: Create New Product - Bulk - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 367, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Seller_Center\Product_Management\CNProducts_Bulk.py", line 61, in Bulk
+    warehouse_dropdown = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, "warehouseID")))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:05:34] Screenshot saved: Create_New_Product_-_Bulk_failed_20260630_170534.png - FAILED
+[2026-06-30 17:07:47] Inventory Management - PASSED (Duration: 133.30s) - PASSED
+[2026-06-30 17:09:16] Booking and Appointments - PASSED (Duration: 89.46s) - PASSED
+[2026-06-30 17:09:33] ERROR: Unexpected error in SCDBooking_Bulk: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Booking_Appointments\Booking_Bulk.py", line 76, in SCDBooking_Bulk
+    file_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.filepond--browser")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Booking_Appointments\Booking_Bulk.py", line 76, in SCDBooking_Bulk
+    file_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.filepond--browser")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:09:33] Bulk Appointment - PASSED (Duration: 16.37s) - PASSED
+[2026-06-30 17:09:33] Create Service Order View Only - PASSED (Duration: 0.31s) - PASSED
+[2026-06-30 17:09:49] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Order_Management\CSOrder.py", line 52, in CSOrder
+    Service_Order_Management = wait.until(EC.visibility_of_element_located((By.XPATH, "//li[contains(@class,'ob__breadcrumb-link') and contains(., 'Service Order Management')]")))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Order_Management\CSOrder.py", line 52, in CSOrder
+    Service_Order_Management = wait.until(EC.visibility_of_element_located((By.XPATH, "//li[contains(@class,'ob__breadcrumb-link') and contains(., 'Service Order Management')]")))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:09:49] Create Service Order - PASSED (Duration: 15.49s) - PASSED
+[2026-06-30 17:10:24] ERROR: Manage Service Order - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 367, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Order_Management\MSOrder.py", line 78, in MSOrder
+    Manage_Service_Orders = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//a[@href='/ManageOrder?type=service']")))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:10:24] Screenshot saved: Manage_Service_Order_failed_20260630_171024.png - FAILED
+[2026-06-30 17:10:36] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\CNService.py", line 50, in CNService
+    service_name = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, "Product.ProductName")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\CNService.py", line 50, in CNService
+    service_name = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, "Product.ProductName")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:10:36] ERROR: Create New Service - FAILED: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 367, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\CNService.py", line 50, in CNService
+    service_name = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, "Product.ProductName")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:10:36] Screenshot saved: Create_New_Service_failed_20260630_171036.png - FAILED
+[2026-06-30 17:11:07] ERROR: Critical error in Service Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 60, in MService
+    manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 60, in MService
+    manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:11:07] ERROR: Manage Service - FAILED: Critical error in Service Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 60, in MService
+    manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 60, in MService
+    manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Admin\SCD_WEB_ADMIN.py", line 367, in run_scdweb_tests
+    func(self.driver, self.wait)
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 520, in MService
+    raise Exception(error_message)
+Exception: Critical error in Service Dashboard: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Service_Center\Service_Management\MService.py", line 60, in MService
+    manage_services = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[onclick='navToManageService()'].btn.btn-secondary.ob-button")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+
+[2026-06-30 17:11:07] Screenshot saved: Manage_Service_failed_20260630_171107.png - FAILED
+[2026-06-30 17:11:23] Create Service Bulk - PASSED (Duration: 15.74s) - PASSED
+[2026-06-30 17:12:13] ERROR: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Cash_Management\Cash_management.py", line 98, in CashManagement
+    To_Another_Bank = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-transfer-type='bank' and contains(normalize-space(text()), 'To Another Bank')]")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Cash_Management\Cash_management.py", line 98, in CashManagement
+    To_Another_Bank = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//button[@data-transfer-type='bank' and contains(normalize-space(text()), 'To Another Bank')]")))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:12:13] Cash Management - PASSED (Duration: 50.23s) - PASSED
+[2026-06-30 17:12:23] Branches - PASSED (Duration: 10.16s) - PASSED
+[2026-06-30 17:13:15] Warehouse - PASSED (Duration: 52.27s) - PASSED
+[2026-06-30 17:13:46] ERROR: Navigation timeout: Message: 
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Shop_Management\Bulk_WHouse.py", line 125, in _navigate_to_bulk_upload
+    shop_management = wait.until(
+                      ^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-06-30 17:13:47] Warehouse-Bulk - PASSED (Duration: 31.32s) - PASSED
+[2026-06-30 17:14:21] Added New Employee - PASSED (Duration: 34.47s) - PASSED
+[2026-06-30 17:15:12] Employee List - PASSED (Duration: 51.04s) - PASSED
+[2026-06-30 17:15:50] ERROR: Success confirmation message not found
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\Business_Hub\Employee_Management\NEmployee_Bulk.py", line 78, in Bulk_Employee
+    wait.until(EC.visibility_of_element_located((By.XPATH, "//h1[contains(text(),'Bulk Upload Employee Successfully Processed')]")))
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:15:50] Employee Bulk - PASSED (Duration: 38.22s) - PASSED
+[2026-06-30 17:16:53] Add New Client - PASSED (Duration: 62.43s) - PASSED
+[2026-06-30 17:18:37] Client List - PASSED (Duration: 104.56s) - PASSED
+[2026-06-30 17:19:28] Client Bulk - PASSED (Duration: 51.16s) - PASSED
+[2026-06-30 17:19:30] To Another Bank - PASSED (Duration: 1.13s) - PASSED
+[2026-06-30 17:19:42] My Profile - PASSED (Duration: 12.71s) - PASSED
+[2026-06-30 17:19:58] Audit Logs - PASSED (Duration: 15.28s) - PASSED
+[2026-06-30 17:21:18] ERROR: Element not found or interaction failed: TimeoutException()
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 2215, in select_item_qr
+    element = wait.until(EC.element_to_be_clickable((By.ID, element_id)))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-06-30 17:22:03] ERROR: Element not found or interaction failed: TimeoutException()
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Utility.py", line 2000, in click_element
+    element = wait.until(EC.element_to_be_clickable((by, value)))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:22:24] ERROR: Element not found or interaction failed: TimeoutException()
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Omnipay_Business\QR\QR.py", line 121, in QR
+    element = wait.until(EC.element_to_be_clickable((By.ID, "selectProducts")))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2026-06-30 17:22:24] Generate QR - PASSED (Duration: 145.99s) - PASSED
+[2026-06-30 17:22:26] ERROR: Element not found or interaction failed: Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 32, in Logout
+    Logout_btn = driver.find_element(By.CSS_SELECTOR, '[data-bs-title="Logout"]')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-bs-title="Logout"]"}
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+Traceback (most recent call last):
+  File "d:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\OPIBIZ_WEBV2_Functions_NW\Logout\Logout.py", line 32, in Logout
+    Logout_btn = driver.find_element(By.CSS_SELECTOR, '[data-bs-title="Logout"]')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-bs-title="Logout"]"}
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc7a543+103f3]
+	chromedriver!GetHandleVerifier [0xc7a584+10434]
+	chromedriver!(No symbol) [0xa7a700]
+	chromedriver!(No symbol) [0xac3bab]
+	chromedriver!(No symbol) [0xac3dcb]
+	chromedriver!(No symbol) [0xb05b32]
+	chromedriver!(No symbol) [0xae6114]
+	chromedriver!(No symbol) [0xb0339a]
+	chromedriver!(No symbol) [0xae5e66]
+	chromedriver!(No symbol) [0xab9159]
+	chromedriver!(No symbol) [0xab9f24]
+	chromedriver!GetHandleVerifier [0xf04bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xf00119+295fc9]
+	chromedriver!GetHandleVerifier [0xf2103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc937f6+296a6]
+	chromedriver!GetHandleVerifier [0xc9a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc82d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc82ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc6c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76bf5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77d7e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77d7e0b1+231]
+
+[2026-06-30 17:22:29] Logout completed - PASSED
+[2026-06-30 17:22:29] Test Summary - Tester: Christian, Browser: Chrome v149.0.7827.103, Total: 32, Passed: 27, Failed: 5, Skipped: 0 - FAILED
+[2026-06-30 17:22:29] All automation completed in 34m 19s - PASSED
+[2026-06-30 17:22:35] Browser closed and session ended - PASSED
+[2026-07-08 11:31:05] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.201, Tester: Christian - PASSED
+[2026-07-08 11:31:07] Login successful with s1 - PASSED
+[2026-07-08 11:32:03] Branch selection completed - PASSED
+[2026-07-08 11:35:39] Main Dashboard - PASSED (Duration: 216.01s) - PASSED
+[2026-07-08 11:37:19] Seller Center Dashboard - PASSED (Duration: 99.87s) - PASSED
+[2026-07-08 11:37:26] Create Order View Only - PASSED (Duration: 7.01s) - PASSED
+[2026-07-08 11:40:51] Create Single Order - PASSED (Duration: 205.57s) - PASSED
+[2026-07-08 11:43:33] Manage Order - PASSED (Duration: 161.40s) - PASSED
+[2026-07-08 11:43:52] Generate QR - PASSED (Duration: 19.03s) - PASSED
+[2026-07-08 11:45:02] Create New Product - PASSED (Duration: 70.81s) - PASSED
+[2026-07-08 11:45:33] Screenshot saved: Manage_Product_failed_20260708_114533.png - FAILED
+[2026-07-08 11:46:09] Create New Product - Bulk - PASSED (Duration: 35.18s) - PASSED
+[2026-07-08 11:46:47] Automation interrupted by user - PASSED
+[2026-07-08 11:47:06] Browser closed and session ended - PASSED
+[2026-07-08 11:49:36] Setup completed - Version: 1.2.2.R0003B, Browser: Chrome v149.0.7827.201, Tester: Christian - PASSED
+[2026-07-08 11:49:38] Login successful with s1 - PASSED
+[2026-07-08 11:49:43] Automation interrupted by user - PASSED
+[2026-07-08 11:50:03] Browser closed and session ended - PASSED
+[2026-07-08 11:51:50] Setup completed - Version: 1.3.4.R0001P, Browser: Chrome v149.0.7827.201, Tester: Christian - PASSED
+[2026-07-08 11:51:52] Login successful with s1 - PASSED
+[2026-07-08 11:52:42] Branch selection completed - PASSED
+[2026-07-08 11:55:49] Main Dashboard - PASSED (Duration: 186.62s) - PASSED
+[2026-07-08 11:57:25] Seller Center Dashboard - PASSED (Duration: 95.55s) - PASSED
+[2026-07-08 11:57:40] Create Order View Only - PASSED (Duration: 15.61s) - PASSED
+[2026-07-08 11:58:11] Create Single Order - PASSED (Duration: 30.30s) - PASSED
+[2026-07-08 11:58:46] Screenshot saved: Manage_Order_failed_20260708_115846.png - FAILED
+[2026-07-08 11:59:05] Generate QR - PASSED (Duration: 18.90s) - PASSED
+[2026-07-08 12:00:26] Create New Product - PASSED (Duration: 81.65s) - PASSED
+[2026-07-08 12:00:57] Screenshot saved: Manage_Product_failed_20260708_120057.png - FAILED
+[2026-07-08 12:01:19] Automation interrupted by user - PASSED
+[2026-07-08 12:01:39] Browser closed and session ended - PASSED

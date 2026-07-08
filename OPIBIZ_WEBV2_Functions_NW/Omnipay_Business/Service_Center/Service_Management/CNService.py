@@ -35,7 +35,8 @@ def CNService(driver, wait):
   
     try:
       
-        url = "http://beta-opibizscd.paybps.ovpn/ProductManagement/NewService?type=add"
+        url = "http://vm-app-dev01:9001/ProductManagement/NewService?type=add"
+        # url = "http://beta-opibizscd.paybps.ovpn/ProductManagement/NewService?type=add"
         driver.get(url)
         WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
         driver.save_screenshot(os.path.join(screenshots_folder, "Create New Service Page.png"))

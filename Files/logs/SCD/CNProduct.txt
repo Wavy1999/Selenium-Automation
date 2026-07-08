@@ -1,21 +1,84 @@
-[2026-02-10 12:57:43] Clicked Seller Center - PASSED
-[2026-02-10 12:57:43] Clicked Product Management - PASSED
-[2026-02-10 12:57:59] Clicked Create New Product - PASSED
-[2026-02-10 12:58:04] Create New Product page loaded successfully - PASSED
-[2026-02-10 12:58:09] Entered Product Name: NovaFlow - PASSED
-[2026-02-10 12:58:13] Entered SKU: ECH-1038 - PASSED
-[2026-02-10 12:58:15] Entered Units of Measure: pc - PASSED
-[2026-02-10 12:58:23] Entered Menu Description: Graphics tablet for digital art - PASSED
-[2026-02-10 12:58:25] Selected Warehouse: MAIN WAREHOUSE - PASSED
-[2026-02-10 12:58:26] Entered Stock Quantity: 100 - PASSED
-[2026-02-10 12:58:29] Selected Predefined Tags: BRAND - PASSED
-[2026-02-10 12:58:32] Entered Menu Value: 8701 - PASSED
-[2026-02-10 12:58:36] Entered Unit Price: 8701 - PASSED
-[2026-02-10 12:58:38] Selected Product Category: Electronics and Accessories - PASSED
-[2026-02-10 12:58:40] Selected Product Category: Electronics and Accessories - PASSED
-[2026-02-10 12:58:42] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
-[2026-02-10 12:58:48] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
-[2026-02-10 12:58:50] Clicked Save Button - PASSED
-[2026-02-10 12:58:51] Added New Product  - PASSED
-[2026-02-10 12:58:56] Clicked Confirm OK - PASSED
-[2026-02-10 12:58:56] Clicked Confirm Success - PASSED
+[2026-02-26 15:35:05] Clicked Seller Center - PASSED
+[2026-02-26 15:35:05] Clicked Product Management - PASSED
+[2026-02-26 15:35:22] Clicked Create New Product - PASSED
+[2026-02-26 15:35:27] Create New Product page loaded successfully - PASSED
+[2026-02-26 15:35:33] Entered Product Name: VeloCore - PASSED
+[2026-02-26 15:35:37] Entered SKU: NEX-1070 - PASSED
+[2026-02-26 15:35:39] Entered Units of Measure: pc - PASSED
+[2026-02-26 15:35:47] Entered Menu Description: Smart doorbell with motion detection - PASSED
+[2026-02-26 15:35:50] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-02-26 15:35:51] Entered Stock Quantity: 100 - PASSED
+[2026-02-26 15:35:53] Selected Predefined Tags: BRAND - PASSED
+[2026-02-26 15:35:57] Entered Menu Value: 6175 - PASSED
+[2026-02-26 15:36:00] Entered Unit Price: 6175 - PASSED
+[2026-02-26 15:36:02] Selected Product Category: Electronics and Accessories - PASSED
+[2026-02-26 15:36:04] Selected Product Category: Electronics and Accessories - PASSED
+[2026-02-26 15:36:06] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-02-26 15:36:12] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (1).jpg - PASSED
+[2026-02-26 15:36:15] Clicked Save Button - PASSED
+[2026-02-26 15:36:15] Added New Product  - PASSED
+[2026-02-26 15:36:20] Clicked Confirm OK - PASSED
+[2026-02-26 15:36:20] Clicked Confirm Success - PASSED
+[2026-06-30 16:59:46] Clicked Seller Center - PASSED
+[2026-06-30 16:59:47] Clicked Product Management - PASSED
+[2026-06-30 17:00:00] Clicked Create New Product - PASSED
+[2026-06-30 17:00:05] Create New Product page loaded successfully - PASSED
+[2026-06-30 17:00:10] Entered Product Name: NanoFlex - PASSED
+[2026-06-30 17:00:14] Entered SKU: AXS-1012 - PASSED
+[2026-06-30 17:00:16] Entered Units of Measure: pc - PASSED
+[2026-06-30 17:00:23] Entered Menu Description: Wireless presentation remote - PASSED
+[2026-06-30 17:00:25] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-06-30 17:00:26] Entered Stock Quantity: 100 - PASSED
+[2026-06-30 17:00:29] Selected Predefined Tags: BRAND - PASSED
+[2026-06-30 17:00:32] Entered Menu Value: 2699 - PASSED
+[2026-06-30 17:00:36] Entered Unit Price: 2699 - PASSED
+[2026-06-30 17:00:38] Selected Product Category: Electronics and Accessories - PASSED
+[2026-06-30 17:00:40] Selected Product Category: Electronics and Accessories - PASSED
+[2026-06-30 17:00:42] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-06-30 17:00:48] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (2).jpg - PASSED
+[2026-06-30 17:00:50] Clicked Save Button - PASSED
+[2026-06-30 17:00:51] Added New Product  - PASSED
+[2026-06-30 17:00:56] Clicked Confirm OK - PASSED
+[2026-06-30 17:00:56] Clicked Confirm Success - PASSED
+[2026-07-08 11:43:52] Clicked Seller Center - PASSED
+[2026-07-08 11:43:52] Clicked Product Management - PASSED
+[2026-07-08 11:44:00] Clicked Create New Product - PASSED
+[2026-07-08 11:44:05] Create New Product page loaded successfully - PASSED
+[2026-07-08 11:44:11] Entered Product Name: HexaFlex - PASSED
+[2026-07-08 11:44:15] Entered SKU: PRT-1057 - PASSED
+[2026-07-08 11:44:17] Entered Units of Measure: pc - PASSED
+[2026-07-08 11:44:24] Entered Menu Description: Webcam with 1080p HD video - PASSED
+[2026-07-08 11:44:26] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-07-08 11:44:27] Entered Stock Quantity: 100 - PASSED
+[2026-07-08 11:44:30] Selected Predefined Tags: BRAND - PASSED
+[2026-07-08 11:44:33] Entered Menu Value: 1466 - PASSED
+[2026-07-08 11:44:37] Entered Unit Price: 1466 - PASSED
+[2026-07-08 11:44:39] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 11:44:41] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 11:44:44] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-07-08 11:44:49] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (2).jpg - PASSED
+[2026-07-08 11:44:52] Clicked Save Button - PASSED
+[2026-07-08 11:44:52] Added New Product  - PASSED
+[2026-07-08 11:44:57] Clicked Confirm OK - PASSED
+[2026-07-08 11:44:57] Clicked Confirm Success - PASSED
+[2026-07-08 11:59:05] Clicked Seller Center - PASSED
+[2026-07-08 11:59:06] Clicked Product Management - PASSED
+[2026-07-08 11:59:23] Clicked Create New Product - PASSED
+[2026-07-08 11:59:29] Create New Product page loaded successfully - PASSED
+[2026-07-08 11:59:34] Entered Product Name: HexaPulse - PASSED
+[2026-07-08 11:59:38] Entered SKU: VEL-1061 - PASSED
+[2026-07-08 11:59:40] Entered Units of Measure: pc - PASSED
+[2026-07-08 11:59:48] Entered Menu Description: Smart plug with energy monitoring - PASSED
+[2026-07-08 11:59:50] Selected Warehouse: MAIN WAREHOUSE - PASSED
+[2026-07-08 11:59:52] Entered Stock Quantity: 100 - PASSED
+[2026-07-08 11:59:54] Selected Predefined Tags: BRAND - PASSED
+[2026-07-08 11:59:58] Entered Menu Value: 3205 - PASSED
+[2026-07-08 12:00:01] Entered Unit Price: 3205 - PASSED
+[2026-07-08 12:00:03] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 12:00:06] Selected Product Category: Electronics and Accessories - PASSED
+[2026-07-08 12:00:08] Selected Product SUB CATEGORY: Audio and Video Equipment - PASSED
+[2026-07-08 12:00:13] Uploaded image: D:\Bastion\SQA_QualityEnterprise\SoftwareTesting\Projects\Common\Automation\OPI\Files\Images\Product\images (3).jpg - PASSED
+[2026-07-08 12:00:16] Clicked Save Button - PASSED
+[2026-07-08 12:00:16] Added New Product  - PASSED
+[2026-07-08 12:00:21] Clicked Confirm OK - PASSED
+[2026-07-08 12:00:21] Clicked Confirm Success - PASSED

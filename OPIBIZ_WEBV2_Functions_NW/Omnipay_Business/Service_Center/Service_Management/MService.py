@@ -208,7 +208,7 @@ def MService(driver, wait):
 
             # --- CLICK CHECKBOX ---
             try:
-                checkbox2 = target_row_2.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']")
+                checkbox2 = target_row_2.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']") # type: ignore
                 driver.execute_script("arguments[0].click();", checkbox2)
                 log_action("Selected service checkbox2", log_file_path=log_file_path)
             except Exception as e:
@@ -276,7 +276,7 @@ def MService(driver, wait):
 
                 # --- CLICK CHECKBOX ---
                 try:
-                    checkbox3 = target_row_3.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']")
+                    checkbox3 = target_row_3.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']") # type: ignore
                     driver.execute_script("arguments[0].click();", checkbox3)
                     log_action("Selected service checkbox3", log_file_path=log_file_path)
                 except Exception as e:
@@ -412,7 +412,7 @@ def MService(driver, wait):
 
                 # --- CLICK CHECKBOX ---
                 try:
-                    checkbox4 = target_row_4.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']")
+                    checkbox4 = target_row_4.find_element(By.CSS_SELECTOR, "td:first-child input[type='checkbox']") # type: ignore
                     driver.execute_script("arguments[0].click();", checkbox4)
                     log_action("Selected service checkbox4", log_file_path=log_file_path)
                 except Exception as e:
